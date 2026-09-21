@@ -1,0 +1,6 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/class-material", "destination": "/study-material.html" }
+  ]
+}

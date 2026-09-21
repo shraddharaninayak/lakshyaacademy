@@ -3,6 +3,7 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
+  initCleanUrlRouter();
   initStickyHeader();
   initParallaxEngine();
   initHeroBannerSlider();
@@ -538,4 +539,45 @@ function initHeroBannerSlider() {
   }
 
   startAutoplay();
+}
+
+/* --------------------------------------------------------------------------
+   14. CLEAN URL ROUTING ENGINE (Extensionless Navigation)
+   -------------------------------------------------------------------------- */
+function initCleanUrlRouter() {
+  const currentPath = window.location.pathname;
+
+  // Clean up URL bar if pathname currently ends with .html
+  if (currentPath.endsWith('.html')) {
+    let cleanPath = currentPath.replace(/\.html$/, '');
+    if (cleanPath.endsWith('/index')) cleanPath = cleanPath.replace(/\/index$/, '/');
+    if (cleanPath === '') cleanPath = '/';
+    try {
+      window.history.replaceState(null, '', cleanPath + window.location.hash + window.location.search);
+    } catch (e) {
+      // Ignore if restricted
+    }
+  }
+
+  // Handle file:// protocol local preview fallback transparently
+  if (window.location.protocol === 'file:') {
+    document.querySelectorAll('a[href]').forEach(link => {
+      const rawHref = link.getAttribute('href');
+      if (!rawHref || rawHref.startsWith('http') || rawHref.startsWith('tel:') || rawHref.startsWith('mailto:') || rawHref.startsWith('#')) return;
+
+      link.addEventListener('click', (e) => {
+        let targetHref = link.getAttribute('href');
+        if (!targetHref) return;
+
+        e.preventDefault();
+        let targetFile = targetHref;
+        if (targetHref === '/' || targetHref === '') targetFile = 'index.html';
+        else if (!targetHref.endsWith('.html') && !targetHref.includes('.html#')) {
+          const parts = targetHref.split('#');
+          targetFile = parts[0] + '.html' + (parts[1] ? '#' + parts[1] : '');
+        }
+        window.location.href = targetFile;
+      });
+    });
+  }
 }

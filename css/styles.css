@@ -1,8 +1,8 @@
 /* ==========================================================================
-   THE LAKSHYA CAREER ACADEMY — LIONHEART EDITORIAL DESIGN SYSTEM
+   THE LAKSHYA CAREER ACADEMY — EDITORIAL DESIGN SYSTEM
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Caveat:wght@600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap');
 
 :root {
   /* Brand Colorways */
@@ -36,11 +36,16 @@
   --color-border-subtle: rgba(18, 24, 32, 0.08);
   --color-border-light: rgba(255, 255, 255, 0.15);
 
-  /* Typography Stacks */
-  --font-display: 'Playfair Display', Georgia, serif;
-  --font-serif: 'Cormorant Garamond', Garamond, serif;
-  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-heading-cap: 'Cinzel', serif;
+  /* Typography Stacks (Manrope Headings & Inter Body) */
+  --font-heading: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Aliases for full backwards compatibility across component CSS */
+  --font-display: var(--font-heading);
+  --font-serif: var(--font-body);
+  --font-sans: var(--font-body);
+  --font-heading-cap: var(--font-heading);
+  --font-script: var(--font-body);
 
   /* Transitions & Easing */
   --ease-lionheart: cubic-bezier(0.16, 1, 0.3, 1);
@@ -55,9 +60,9 @@
   --container-medium: 1040px;
   --container-small: 840px;
 
-  --header-bar-height: 40px;
+  --header-bar-height: 0px;
   --header-main-height: 80px;
-  --header-total-height: 120px;
+  --header-total-height: 80px;
 }
 
 /* Reset & Box Sizing */
@@ -76,7 +81,7 @@ html {
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: var(--font-body);
   color: var(--color-text-dark);
   background-color: var(--color-beige-warm);
   line-height: 1.65;
@@ -97,12 +102,17 @@ a {
   transition: color var(--duration-fast) var(--ease-lionheart);
 }
 
-button {
-  font-family: inherit;
+button, input, select, textarea {
+  font-family: var(--font-body);
   border: none;
   background: none;
   cursor: pointer;
   color: inherit;
+}
+
+button, .btn, .button, .nav-link, .menu-link, .menu-trigger {
+  font-family: var(--font-body);
+  font-weight: 600;
 }
 
 ul, ol {
@@ -110,7 +120,7 @@ ul, ol {
 }
 
 /* ==========================================================================
-   COLORWAY UTILITIES (Exact Lionheart Color Blocks)
+   COLORWAY UTILITIES (Exact Color Blocks)
    ========================================================================== */
 .bg-colorway-black {
   background-color: var(--color-black) !important;
@@ -160,12 +170,11 @@ ul, ol {
 }
 
 /* ==========================================================================
-   TYPOGRAPHY HIERARCHY
+   TYPOGRAPHY HIERARCHY (Manrope Headings & Inter Body)
    ========================================================================== */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: var(--font-display);
-  font-weight: 500;
+  font-family: var(--font-heading);
   line-height: 1.15;
   color: inherit;
   letter-spacing: -0.015em;
@@ -173,45 +182,51 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: clamp(2.5rem, 5.5vw, 4.25rem);
+  font-weight: 700;
   line-height: 1.08;
 }
 
 h2, .h2 {
   font-size: clamp(2rem, 4vw, 3.15rem);
+  font-weight: 700;
   line-height: 1.12;
 }
 
 h3, .h3 {
   font-size: clamp(1.6rem, 2.75vw, 2.35rem);
+  font-weight: 600;
   line-height: 1.2;
 }
 
 h4, .h4 {
   font-size: clamp(1.3rem, 2vw, 1.75rem);
+  font-weight: 600;
   line-height: 1.25;
 }
 
 h5, .h5 {
   font-size: clamp(1.15rem, 1.5vw, 1.35rem);
-  font-family: var(--font-serif);
-  font-weight: 500;
+  font-family: var(--font-heading);
+  font-weight: 600;
   line-height: 1.45;
 }
 
 h6, .h6 {
   font-size: 1rem;
-  font-family: var(--font-sans);
-  font-weight: 500;
+  font-family: var(--font-heading);
+  font-weight: 600;
   line-height: 1.6;
 }
 
-/* Script / Italic Accent Headlines */
+/* Eyebrows & Supporting Text */
 .txt-script {
-  font-family: var(--font-serif) !important;
-  font-style: italic !important;
-  font-weight: 400 !important;
+  font-family: var(--font-body) !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.82rem;
   display: block;
-  font-size: 1.25em;
   color: var(--color-gold);
 }
 
@@ -222,8 +237,8 @@ h6, .h6 {
 }
 
 .txt-uppercase-cap {
-  font-family: var(--font-heading-cap);
-  letter-spacing: 0.15em;
+  font-family: var(--font-heading);
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: 600;
@@ -234,8 +249,9 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: clamp(1.1rem, 1.4vw, 1.35rem);
-  font-family: var(--font-serif);
+  font-size: clamp(1.05rem, 1.35vw, 1.25rem);
+  font-family: var(--font-body);
+  font-weight: 500;
   line-height: 1.6;
   color: var(--color-text-muted);
 }
