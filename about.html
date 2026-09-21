@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>About Us &amp; Academic Faculty | The Lakshya Career Academy Nashik</title>
+  <meta name="description" content="Discover Lakshya Career Academy's mission, vision, and pedagogy for MPSC competitive examinations in Nashik. Led by directors Atul Nikumbh, Nishant Pawar & Pranjal Nikumbh.">
+  <link rel="icon" type="image/svg+xml" href="img/logo.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <style>
+    .director-card {
+      background: #ffffff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
+      border: 1px solid var(--color-border-subtle);
+      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+      display: flex;
+      flex-direction: column;
+    }
+    .director-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.15);
+    }
+    .director-img-wrap {
+      position: relative;
+      height: 380px;
+      overflow: hidden;
+      background: #111827;
+    }
+    .director-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .director-card:hover .director-img-wrap img {
+      transform: scale(1.05);
+    }
+    .director-badge {
+      position: absolute;
+      bottom: 1rem;
+      left: 1rem;
+      background: var(--color-primary-burgundy);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 0.35rem 0.75rem;
+      border-radius: 4px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .director-info {
+      padding: 1.75rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</head>
+<body class="about-page">
+
+  <!-- TOP HEADER BAR -->
+    <!-- ========================================================================
+       1. TOP HEADER ANNOUNCEMENT BAR
+       ======================================================================== -->
+  <div class="header__bar bg-colorway-black">
+    <div class="header__bar-inner">
+      <div class="header__bar-col header__bar-col--left">
+        <span class="txt-uppercase-cap">THE LAKSHYA CAREER ACADEMY • NASHIK • EST. 2010</span>
+      </div>
+      <div class="header__bar-col header__bar-col--right">
+        <span class="txt-uppercase-cap" style="color: var(--color-gold);">
+          <span class="pulse-indicator" style="margin-right: 6px;"></span> ADMISSIONS OPEN 2026–27
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-wrap">
+    <!-- ========================================================================
+         2. MAIN STICKY NAVIGATION HEADER
+         ======================================================================== -->
+    <header class="header">
+      <div class="header__main-inner">
+        <div class="header__logo">
+            <a href="index.html" class="logo">
+              <img src="assets/img/logo.png" alt="Lakshya Career Academy Nashik" class="logo__img">
+            </a>
+          </div>
+
+          <!-- Desktop Primary Nav Links -->
+          <nav class="header__nav" aria-label="Main Navigation">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="index.html" class="nav-link-subtle">Home</a></li>
+              <li class="nav-item"><a href="about.html" class="nav-link-subtle active">About Us</a></li>
+              <li class="nav-item"><a href="courses.html" class="nav-link-subtle">Courses</a></li>
+              <li class="nav-item has-dropdown">
+                <a href="study-material.html#class-material" class="nav-link-subtle">
+                  Class Material <span class="nav-arrow">∨</span>
+                </a>
+                <ul class="nav-dropdown">
+                  <li><a href="study-material.html#class-notes" class="dropdown-link">Class Notes</a></li>
+                  <li><a href="study-material.html#magazine" class="dropdown-link">Class Magazine</a></li>
+                  <li><a href="study-material.html#test-series" class="dropdown-link">Test Series</a></li>
+                </ul>
+              </li>
+              <li class="nav-item has-dropdown">
+                <a href="study-material.html#study-material" class="nav-link-subtle">
+                  Study Material <span class="nav-arrow">∨</span>
+                </a>
+                <ul class="nav-dropdown">
+                  <li><a href="study-material.html#school-books" class="dropdown-link">School books</a></li>
+                  <li><a href="study-material.html#ncert" class="dropdown-link">NCERT</a></li>
+                  <li><a href="study-material.html#yojna" class="dropdown-link">Yojna</a></li>
+                  <li><a href="study-material.html#kurukshetra" class="dropdown-link">Kurukshetra</a></li>
+                  <li><a href="study-material.html#lok-rajya" class="dropdown-link">Lok Rajya</a></li>
+                  <li><a href="study-material.html#pyq" class="dropdown-link">Previous Year Question Papers</a></li>
+                  <li><a href="study-material.html#syllabus" class="dropdown-link">Syllabus</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a href="success-stories.html" class="nav-link-subtle">Success Stories</a></li>
+              <li class="nav-item"><a href="gallery.html" class="nav-link-subtle">Gallery</a></li>
+              <li class="nav-item"><a href="blog.html" class="nav-link-subtle">Blog</a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link-subtle">Contact Us</a></li>
+            </ul>
+          </nav>
+
+          <!-- Header Actions -->
+          <div class="header__actions">
+            <a href="#popover-start-your-journey" class="btn btn--tiny btn--burgundy">
+              <span class="btn__txt"><span class="btn__txt-inner" data-txt="Book Strategy Session">Book Strategy Session</span></span>
+            </a>
+            <button class="menu-trigger" data-menu-target="main" aria-label="Open Directory Menu" style="margin-left: 0.5rem;">
+              <span class="menu-trigger__line"></span>
+              <span class="menu-trigger__line"></span>
+            </button>
+          </div>
+        </div>
+      
+    </header>
+
+    <!-- Navigation Drawer -->
+    <div class="main-menu__overlay"></div>
+    <nav class="main-menu" data-menu="main">
+      <div class="main-menu__inner">
+        <div class="main-menu__close-bar">
+          <span class="txt-uppercase-cap" style="color: var(--color-gold);">Academy Directory</span>
+          <button class="main-menu__close-btn" data-menu-close aria-label="Close menu">&times;</button>
+        </div>
+        <ul class="main-menu__items">
+          <li><a href="index.html" class="menu-item-link"><span>01. Home</span> <span>→</span></a></li>
+          <li><a href="about.html" class="menu-item-link" style="color: var(--color-gold);"><span>02. About Us</span> <span>→</span></a></li>
+          <li><a href="courses.html" class="menu-item-link"><span>03. Courses</span> <span>→</span></a></li>
+          <li class="main-menu__subitems">
+            <a href="course-rajyaseva.html" class="main-menu__sublink">• Rajyaseva Examination</a>
+            <a href="course-combine.html" class="main-menu__sublink">• Combine Group B (PSI/STI/ASO)</a>
+            <a href="course-psi.html" class="main-menu__sublink">• PSI Mains &amp; Physical</a>
+            <a href="course-sti.html" class="main-menu__sublink">• Sales Tax Inspector (STI)</a>
+            <a href="course-aso.html" class="main-menu__sublink">• ASO Mains Examination</a>
+            <a href="course-saralseva.html" class="main-menu__sublink">• Saralseva Direct Recruitment</a>
+            <a href="course-talathi.html" class="main-menu__sublink">• Talathi Bharti Examination</a>
+          </li>
+          <li><a href="study-material.html#class-material" class="menu-item-link"><span>04. Class Material</span> <span>→</span></a></li>
+          <li class="main-menu__subitems">
+            <a href="study-material.html#class-notes" class="main-menu__sublink">• Class Notes</a>
+            <a href="study-material.html#magazine" class="main-menu__sublink">• Class Magazine</a>
+            <a href="study-material.html#test-series" class="main-menu__sublink">• Test Series</a>
+          </li>
+          <li><a href="study-material.html#study-material" class="menu-item-link"><span>05. Study Material</span> <span>→</span></a></li>
+          <li class="main-menu__subitems">
+            <a href="study-material.html#school-books" class="main-menu__sublink">• School books</a>
+            <a href="study-material.html#ncert" class="main-menu__sublink">• NCERT</a>
+            <a href="study-material.html#yojna" class="main-menu__sublink">• Yojna</a>
+            <a href="study-material.html#kurukshetra" class="main-menu__sublink">• Kurukshetra</a>
+            <a href="study-material.html#lok-rajya" class="main-menu__sublink">• Lok Rajya</a>
+            <a href="study-material.html#pyq" class="main-menu__sublink">• Previous Year Question Papers</a>
+            <a href="study-material.html#syllabus" class="main-menu__sublink">• Syllabus</a>
+          </li>
+          <li><a href="success-stories.html" class="menu-item-link"><span>06. Success Stories</span> <span>→</span></a></li>
+          <li><a href="gallery.html" class="menu-item-link"><span>07. Gallery</span> <span>→</span></a></li>
+          <li><a href="blog.html" class="menu-item-link"><span>08. Blog &amp; Insights</span> <span>→</span></a></li>
+          <li><a href="contact.html" class="menu-item-link"><span>09. Contact Us</span> <span>→</span></a></li>
+        </ul>
+        <div style="margin-top: auto; padding-top: 2rem;">
+          <a href="#popover-start-your-journey" class="btn btn--regular btn--gold btn--full">
+            <span class="btn__txt"><span class="btn__txt-inner" data-txt="Book Strategy Session">Book Strategy Session</span></span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- FLAGSHIP HERO BANNER -->
+    <section class="section-flagship-banner">
+      <div class="flagship-banner" data-parallax>
+        <picture class="flagship-banner__img">
+          <img class="img-full" src="assets/img/gallery/updated/15.JPG" alt="About The Lakshya Career Academy">
+        </picture>
+
+        <span class="flagship-banner__header-txt">
+          <span class="pulse-indicator" style="margin-right: 6px;"></span> Since 2010 • Nashik
+        </span>
+
+        <div class="flagship-banner__content txt-colorway-light">
+          <h1 class="flagship-banner__title">
+            <span data-fit-txt>OUR STORY</span>
+          </h1>
+        </div>
+
+        <div class="flagship-banner__txt">
+          <p class="flagship-banner__txt-col">
+            The Aim &amp; Mission<br>To Increase Maharashtra's Share
+          </p>
+          <p class="flagship-banner__txt-col">
+            15-Day Mentorship<br>Direct Faculty Engagement
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         1. ABOUT LAKSHYA CAREER ACADEMY (OFFICIAL INTRODUCTION & NARRATIVE)
+         ======================================================================== -->
+    <section class="section pv-large bg-colorway-dark-beige" id="about-intro">
+      <div class="section section--large">
+        <div class="img-w-txt img-w-txt--align-left">
+          <div class="img-w-txt__img">
+            <div class="img-w-txt__primary-img">
+              <img src="assets/img/about/1.jpg" alt="Lakshya Career Academy Classroom in Nashik" style="border-radius: 4px; box-shadow: 0 15px 35px rgba(0,0,0,0.08);">
+            </div>
+            <div class="img-w-txt__secondary-img" data-parallax>
+              <img src="assets/img/gallery/updated/23.JPG" alt="Lakshya batch lecture in session" style="border-radius: 4px; box-shadow: 0 15px 35px rgba(0,0,0,0.12); border: 2px solid var(--color-gold);">
+            </div>
+          </div>
+
+          <div class="img-w-txt__txt" data-animate="fade">
+            <span class="txt-script" style="color: var(--color-burgundy); font-size: 1.5rem; display: block; margin-bottom: 0.35rem;">Institutional Heritage</span>
+            <h2 style="font-size: clamp(1.8rem, 2.5vw, 2.3rem); line-height: 1.2; margin-bottom: 1.25rem; color: var(--color-slate);">
+              About Lakshya Career Academy
+            </h2>
+            <p class="lead" style="font-size: 1.05rem; line-height: 1.7; color: var(--color-text-secondary); margin-bottom: 1rem;">
+              Welcome to <strong>Lakshya Career Academy</strong>, Nashik's premier coaching institute for recruitment exams conducted by MPSC. We are committed to helping aspirants achieve their career goals by providing them with the best guidance and resources.
+            </p>
+            <p style="color: var(--color-text-secondary); line-height: 1.7; margin-bottom: 1rem;">
+              Our coaching institute specializes in preparing students for various MPSC exams, including the Civil Services Exam (ACP/DYSP/Assistant Commissioner Sales Tax/Tahasildar/Deputy Collector/PSI/STI/ASO, etc.) Examinations. We have a team of experienced and knowledgeable faculty members who use innovative teaching methods to make learning an enjoyable and empowering experience for our students.
+            </p>
+            <p style="color: var(--color-text-secondary); line-height: 1.7; margin-bottom: 1rem;">
+              At Lakshya Career Academy, we believe in providing a supportive and inspiring learning environment to help students achieve success in their careers. Our comprehensive study material, regular mock tests, and individual attention to each student ensure that they are thoroughly prepared for their exams.
+            </p>
+            <p style="color: var(--color-text-secondary); line-height: 1.7; margin-bottom: 1rem;">
+              We take pride in our students' success and have helped numerous aspirants realize their dreams of joining the civil services. Our commitment to excellence and dedication to our students have made us one of the most trusted coaching institutes in Nashik.
+            </p>
+            <p style="color: var(--color-text-secondary); line-height: 1.7; margin-bottom: 1.5rem;">
+              Whether you are a first-time aspirant or looking to enhance your skills, Lakshya Career Academy is the right place for you. Join us and let us help you achieve your career aspirations.
+            </p>
+            <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+              <a href="#aim" class="btn btn--burgundy btn--regular">
+                <span class="btn__txt"><span class="btn__txt-inner" data-txt="Our Aim ↓">Our Aim ↓</span></span>
+              </a>
+              <a href="#mission" class="btn btn--gold btn--regular">
+                <span class="btn__txt"><span class="btn__txt-inner" data-txt="Our Mission ↓">Our Mission ↓</span></span>
+              </a>
+              <a href="#speciality" class="btn btn--outline btn--regular">
+                <span class="btn__txt"><span class="btn__txt-inner" data-txt="Our Speciality ↓">Our Speciality ↓</span></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         2. OUR SPECIALITY (MASTERING COMPETITIVE EXAMS WITH VISION, STRATEGIES & SKILLS)
+         ======================================================================== -->
+    <section class="section pv-large bg-colorway-beige" id="speciality">
+      <div id="pedagogy" style="position: relative; top: -80px; visibility: hidden;"></div>
+      <div class="section section--large">
+        <div class="txt-center content mb-medium" data-animate="fade">
+          <span class="txt-script" style="color: var(--color-burgundy); font-size: 1.5rem;">Discover Us For</span>
+          <h2 style="font-size: clamp(2rem, 2.8vw, 2.6rem); margin-bottom: 0.5rem; color: var(--color-slate);">Our Speciality</h2>
+          <p class="lead" style="color: var(--color-burgundy); font-weight: 600; font-size: 1.2rem; max-width: 850px; margin: 0 auto 1rem;">
+            Mastering Competitive Exams with Vision, Strategies and Skills
+          </p>
+          <p style="max-width: 750px; margin: 0 auto; color: var(--color-text-muted); font-size: 0.95rem;">
+            Complete integrated coaching methodology under one roof at our Pandit Colony center in Nashik.
+          </p>
+        </div>
+
+        <div class="speciality-grid">
+          
+          <div class="speciality-card">
+            <span class="speciality-card__icon">✓</span>
+            <div>
+              <h4 class="speciality-card__title">Prelims + Mains + Interview + Physical</h4>
+              <p class="speciality-card__desc">All stages of MPSC examinations covered comprehensively under one roof.</p>
+            </div>
+          </div>
+
+          <div class="speciality-card">
+            <span class="speciality-card__icon">✓</span>
+            <div>
+              <h4 class="speciality-card__title">Rigorous Mock Tests</h4>
+              <p class="speciality-card__desc">Real exam simulation with micro-level negative marking analysis and score improvement tracking.</p>
+            </div>
+          </div>
+
+          <div class="speciality-card">
+            <span class="speciality-card__icon">✓</span>
+            <div>
+              <h4 class="speciality-card__title">Separate Subject Experts</h4>
+              <p class="speciality-card__desc">Dedicated specialist faculty members for History, Polity, Economy, Geography, CSAT &amp; Law.</p>
+            </div>
+          </div>
+
+          <div class="speciality-card">
+            <span class="speciality-card__icon">✓</span>
+            <div>
+              <h4 class="speciality-card__title">Multiple Test Series</h4>
+              <p class="speciality-card__desc">Comprehensive test series for Prelims and descriptive Mains with evaluated model answers.</p>
+            </div>
+          </div>
+
+          <div class="speciality-card">
+            <span class="speciality-card__icon">✓</span>
+            <div>
+              <h4 class="speciality-card__title">Hard Copy of All Notes</h4>
+              <p class="speciality-card__desc">Complete printed study booklets, chapter-wise summaries, and revision charts provided to every student.</p>
+            </div>
+          </div>
+
+          <div class="speciality-card">
+            <span class="speciality-card__icon">✓</span>
+            <div>
+              <h4 class="speciality-card__title">Focused Current Affairs</h4>
+              <p class="speciality-card__desc">Special focus on Maharashtra state issues, national developments, policy initiatives, and budget analysis.</p>
+            </div>
+          </div>
+
+          <div class="speciality-card">
+            <span class="speciality-card__icon">✓</span>
+            <div>
+              <h4 class="speciality-card__title">Structured Essay Writing</h4>
+              <p class="speciality-card__desc">Dedicated training in descriptive essay structure, arguments, thesis drafting, and presentation skills.</p>
+            </div>
+          </div>
+
+          <div class="speciality-card">
+            <span class="speciality-card__icon">✓</span>
+            <div>
+              <h4 class="speciality-card__title">Daily Newspaper Reading Session</h4>
+              <p class="speciality-card__desc">Guided daily editorial reading of leading newspapers with key exam points and notes drafting.</p>
+            </div>
+          </div>
+
+          <div class="speciality-card">
+            <span class="speciality-card__icon">✓</span>
+            <div>
+              <h4 class="speciality-card__title">CSAT Preparation</h4>
+              <p class="speciality-card__desc">Comprehensive training in reading comprehension, analytical reasoning, and qualifying strategies.</p>
+            </div>
+          </div>
+
+          <div class="speciality-card">
+            <span class="speciality-card__icon">✓</span>
+            <div>
+              <h4 class="speciality-card__title">IQ and Maths Special Focus</h4>
+              <p class="speciality-card__desc">Specialized speed-maths and logical deduction techniques designed for high Prelims velocity.</p>
+            </div>
+          </div>
+
+          <div class="speciality-card">
+            <span class="speciality-card__icon">✓</span>
+            <div>
+              <h4 class="speciality-card__title">30 Max Students in One Batch</h4>
+              <p class="speciality-card__desc">Strict batch limitation guaranteeing personalized interaction and zero overcrowded classroom culture.</p>
+            </div>
+          </div>
+
+          <div class="speciality-card">
+            <span class="speciality-card__icon">✓</span>
+            <div>
+              <h4 class="speciality-card__title">Free Monthly Magazine</h4>
+              <p class="speciality-card__desc">Curated in-house monthly current affairs journal provided free of charge to enrolled aspirants.</p>
+            </div>
+          </div>
+
+          <div class="speciality-card">
+            <span class="speciality-card__icon">✓</span>
+            <div>
+              <h4 class="speciality-card__title">Individual Guidance Every 15 Days</h4>
+              <p class="speciality-card__desc">Fortnightly 1-on-1 personal mentorship reviews with directors auditing study plans, notes, and progress.</p>
+            </div>
+          </div>
+
+          <div class="speciality-card">
+            <span class="speciality-card__icon">✓</span>
+            <div>
+              <h4 class="speciality-card__title">Daily Written Practice of Mains Exam</h4>
+              <p class="speciality-card__desc">Rigorous daily descriptive answer writing evaluated line-by-line with actionable faculty feedback.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         3. OUR AIM (OFFICIAL CORE VISION & METHODOLOGY)
+         ======================================================================== -->
+    <section class="section pv-large bg-colorway-light-orange" id="aim">
+      <div class="section section--large">
+        
+        <div class="txt-center content mb-medium" data-animate="fade">
+          <span class="txt-script" style="color: var(--color-burgundy); font-size: 1.5rem;">Institutional Purpose</span>
+          <h2 style="font-size: clamp(2rem, 2.8vw, 2.6rem); margin-bottom: 0.5rem; color: var(--color-slate);">Our Aim</h2>
+          <p class="lead" style="color: var(--color-slate); font-weight: 500; font-size: 1.15rem; max-width: 850px; margin: 0 auto;">
+            "To Increase Maharashtra’s Share in Direct Decision Making Process"
+          </p>
+        </div>
+
+        <div class="aim-box" data-animate="fade">
+          <span class="aim-box__badge">Constitutional &amp; Administrative Vision</span>
+          <h3 class="aim-box__title">Building an Able, Trained &amp; Empathetic Administrative Class</h3>
+          <p class="aim-box__text">
+            Indian Constitution vows for a strong and prosperous India and has entrusted the Administrative services with certain special rights. To exercise and implement them skilfully an able Administrative class is needed. <strong>LAKSHYA CAREER ACADEMY, Nashik</strong> has gathered the resources to prepare the trained, able Administrators who have not forgotten their duty to the social development – It’s such people with a philanthropic bent of mind who need not despise or ignore politics but rather improve it.
+          </p>
+
+          <hr style="border: 0; border-top: 1px solid var(--color-border-subtle); margin: 2rem 0;">
+
+          <h4 class="aim-box__subheading">
+            <span>🏛️</span> How Does Lakshya Career Academy Prepare?
+          </h4>
+          <p class="aim-box__text">
+            Preparations for UPSC / MPSC require sustained efforts, a sharp focus and vast knowledge. <strong>Lakshya Career Academy broadens your horizons.</strong> The coaching at Top Academy is integrated as it takes care of all that is required to get a crack at the UPSC / MPSC examination. There is a rigorous and comprehensive teaching schedule inundated with regular tests and evaluation.
+          </p>
+          <p class="aim-box__text">
+            The salient feature of best UPSC / MPSC coaching centre has almost all the study material available in the market. The teaching sessions are interactive by top notch faculty who have a first-hand experience of the examinations. Last but most important is that <strong>Lakshya IAS Academy is fully aware of the change in the pattern and has incorporated these changes in the teaching pattern</strong>. We are not leaving any stone unturned. True to its name, Top IAS coaching centre in city or the goal is our final frontier.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. OUR MISSION (THE 3 CRITICAL STRATEGIC PILLARS)
+         ======================================================================== -->
+    <section class="section pv-large bg-colorway-white" id="mission">
+      <div class="section section--large">
+        
+        <div class="txt-center content mb-medium" data-animate="fade">
+          <span class="txt-script" style="color: var(--color-burgundy); font-size: 1.5rem;">Strategic Directive</span>
+          <h2 style="font-size: clamp(2rem, 2.8vw, 2.6rem); margin-bottom: 0.5rem; color: var(--color-slate);">Our Mission</h2>
+          <p class="lead" style="color: var(--color-burgundy); font-weight: 600; font-size: 1.15rem; max-width: 850px; margin: 0 auto;">
+            Bridging the Representation Gap &amp; Empowering Maharashtra's Youth
+          </p>
+        </div>
+
+        <div class="mission-grid">
+          
+          <!-- Mission Pillar 1 -->
+          <div class="mission-pillar" data-animate="fade">
+            <span class="mission-pillar__num">01</span>
+            <h3 class="mission-pillar__title">The Reasons: Maharashtra Lags Behind in Competitive Tests Because…</h3>
+            <p class="mission-pillar__desc">
+              Students from Maharashtra have made tremendous progress in the corporate field but their presence in Government Administration, especially at the helm, is negligible. <strong>Maharashtra contributes to 10% national population but less than 7% to its administration.</strong>
+            </p>
+            <p class="mission-pillar__desc" style="margin-top: 1rem;">
+              To add to this, young boys and girls from the state are lured by medical, engineering, and other lucrative fields. The luster of the media also attracts them. <strong>It is imperative that Maharashtra should have a definite say in the national administration and in national affairs.</strong> The UPSC and MPSC provide a vast scope and candidates should take constructive advantage of this opportunity.
+            </p>
+          </div>
+
+          <!-- Mission Pillar 2 -->
+          <div class="mission-pillar" data-animate="fade">
+            <span class="mission-pillar__num">02</span>
+            <h3 class="mission-pillar__title">Administrative Power of Maharashtra Vis-à-Vis Other States</h3>
+            <p class="mission-pillar__desc">
+              Delhi, Rajasthan, Madhya Pradesh, Bihar, Punjab, Haryana, Uttar Pradesh from North, and Karnataka, Andhra Pradesh, Tamil Nadu, Kerala from South send <strong>more than 70% of their youth</strong> for the Competitive tests to serve either state or central cadre.
+            </p>
+            <p class="mission-pillar__desc" style="margin-top: 1rem;">
+              Maharashtra should, in fact, send many more candidates and strengthen its cadre. These candidates are well versed with the local problems and hence may be the right people to govern their own state and champion development from within.
+            </p>
+          </div>
+
+          <!-- Mission Pillar 3 -->
+          <div class="mission-pillar" data-animate="fade">
+            <span class="mission-pillar__num">03</span>
+            <h3 class="mission-pillar__title">Preparing the Policy Makers &amp; Able Administrators</h3>
+            <p class="mission-pillar__desc">
+              It is an Administration that draws out developmental plans. The actual implementation of these plans spells the development and prosperity of the State or Nation. Though Maharashtra is a progressive state and a lot has been done in that direction, still it is not sufficient.
+            </p>
+            <p class="mission-pillar__desc" style="margin-top: 1rem;">
+              In that context, the people mostly conversant with the State’s problems, alone, can tackle them. <strong>The aim of Lakshya IAS Academy is to provide the best UPSC &amp; MPSC classes and take concentrated efforts to prepare these students who are conversant and able administrators by giving them appropriate guidance.</strong>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. DIRECTORS & FACULTY EDITORIAL PROFILES (ACTUAL LAKSHYA DIRECTORS)
+         ======================================================================== -->
+    <section class="section pv-large bg-colorway-beige" id="faculty">
+      <div class="section section--large">
+        <div class="txt-center content mb-medium" data-animate="fade">
+          <span class="txt-script">Academic Leadership</span>
+          <h2>Founding Directors &amp; Senior Faculty</h2>
+          <p class="lead">Experienced educators and mentors dedicated to your civil service transformation.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem;">
+          
+          <!-- Director 1: Atul Nikumbh -->
+          <div class="director-card" data-animate="fade">
+            <div class="director-img-wrap">
+              <img src="assets/img/team/teacher2.jpg" alt="Atul Nikumbh - Founder & Director">
+              <span class="director-badge">Founder &amp; Director</span>
+            </div>
+            <div class="director-info">
+              <h3 class="h4" style="color: var(--color-slate); margin-bottom: 0.25rem;">Atul Nikumbh Sir</h3>
+              <p style="color: var(--color-primary-burgundy); font-weight: 600; font-size: 0.85rem; margin-bottom: 1rem;">
+                Director • Maharashtra History &amp; Indian Polity Specialist
+              </p>
+              <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.25rem;">
+                Founder Director of The Lakshya Career Academy with over 15 years of dedicated MPSC coaching expertise. Renowned across Maharashtra for his conceptual clarity in Indian Polity, modern state history, and individual descriptive answer-writing mentorship.
+              </p>
+              <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--color-border-subtle); display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-size: 0.75rem; color: var(--color-text-muted); font-weight: 600;">15+ Years Mentoring</span>
+                <span style="font-size: 0.75rem; color: var(--color-gold); font-weight: 700;">Rajyaseva &amp; Combine</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Director 2: Nishant Pawar -->
+          <div class="director-card" data-animate="fade">
+            <div class="director-img-wrap">
+              <img src="assets/img/team/teacher3.jpg" alt="Nishant Pawar - Director & Senior Faculty">
+              <span class="director-badge" style="background: var(--color-gold); color: var(--color-slate);">Director &amp; Senior Faculty</span>
+            </div>
+            <div class="director-info">
+              <h3 class="h4" style="color: var(--color-slate); margin-bottom: 0.25rem;">Nishant Pawar Sir</h3>
+              <p style="color: var(--color-primary-burgundy); font-weight: 600; font-size: 0.85rem; margin-bottom: 1rem;">
+                Director • Indian Economy, CSAT &amp; Quantitative Aptitude
+              </p>
+              <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.25rem;">
+                Director and Senior Faculty specializing in Macroeconomics, Maharashtra Economic Survey, CSAT logical reasoning, and data interpretation. Renowned for analytical shortcut methods that maximize Prelims scoring velocity.
+              </p>
+              <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--color-border-subtle); display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-size: 0.75rem; color: var(--color-text-muted); font-weight: 600;">Economy &amp; CSAT Lead</span>
+                <span style="font-size: 0.75rem; color: var(--color-gold); font-weight: 700;">Prelims Strategy</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Director 3: Pranjal Nikumbh -->
+          <div class="director-card" data-animate="fade">
+            <div class="director-img-wrap">
+              <img src="assets/img/team/teacher1.jpg" alt="Pranjal Nikumbh - Director & Academic Coordinator">
+              <span class="director-badge" style="background: var(--color-slate); color: #fff;">Director &amp; Law Specialist</span>
+            </div>
+            <div class="director-info">
+              <h3 class="h4" style="color: var(--color-slate); margin-bottom: 0.25rem;">Pranjal Nikumbh Ma'am</h3>
+              <p style="color: var(--color-primary-burgundy); font-weight: 600; font-size: 0.85rem; margin-bottom: 1rem;">
+                Director • Law (IPC/CrPC), General Studies &amp; Student Counseling
+              </p>
+              <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.25rem;">
+                Director and Academic Coordinator. Law faculty specializing in Indian Penal Code (IPC), Code of Criminal Procedure (CrPC), Mumbai Police Act, Right to Information (RTI), Human Rights, and personal psychological counseling for aspirants.
+              </p>
+              <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--color-border-subtle); display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-size: 0.75rem; color: var(--color-text-muted); font-weight: 600;">PSI Law &amp; Counseling</span>
+                <span style="font-size: 0.75rem; color: var(--color-gold); font-weight: 700;">Academic Operations</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- INSET CONSULTATION FORM -->
+    <section class="section-form-alt bg-colorway-beige pv-large">
+      <div class="section section--large">
+        <div class="form-alt">
+          <div class="form-alt__img">
+            <div class="form-alt__img-inner">
+              <img src="Website/Gallary-Photo/4.jpg" alt="Students in discussion at Lakshya Pandit Colony campus">
+            </div>
+          </div>
+
+          <div class="form-alt__main">
+            <div class="form-alt__main-txt content">
+              <h2><span class="txt-script">Mentorship Session</span></h2>
+              <p><span class="h3">Speak Directly with Directors</span></p>
+            </div>
+            <div class="form-alt__main-txt-small">
+              <p>Book an in-person or telephonic strategic consultation with Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh at our Pandit Colony campus in Nashik.</p>
+            </div>
+
+            <form class="js-whatsapp-form">
+              <div class="form-group-minimal">
+                <input type="text" name="name" class="form-control-minimal" placeholder="Your Full Name *" required>
+              </div>
+              <div class="form-group-minimal">
+                <input type="tel" name="phone" class="form-control-minimal" placeholder="WhatsApp / Phone Number *" required>
+              </div>
+              <div class="form-group-minimal">
+                <select name="course" class="form-select-minimal" required>
+                  <option value="Rajyaseva Examination (MPSC State Services)">Rajyaseva Examination (State Civil Services)</option>
+                  <option value="MPSC Combine Group B (PSI / STI / ASO)">MPSC Combine Group B (PSI / STI / ASO)</option>
+                  <option value="PSI Mains & Physical Coaching">PSI Mains &amp; Physical Coaching</option>
+                  <option value="Sales Tax Inspector (STI) Mains">Sales Tax Inspector (STI) Mains</option>
+                  <option value="ASO Mains Examination">ASO Mains Examination</option>
+                  <option value="Saralseva Direct Recruitment">Saralseva Direct Recruitment</option>
+                  <option value="Talathi Bharti Examination">Talathi Bharti Examination</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn--burgundy btn--regular btn--full" style="margin-top: 1rem;">
+                <span class="btn__txt"><span class="btn__txt-inner" data-txt="Book Consultation on WhatsApp 💬">Book Consultation on WhatsApp 💬</span></span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         FLAGSHIP CONVERSION CTA ("Your Goal Needs a Plan.")
+         ======================================================================== -->
+    <section class="section-flagship-cta pv-large">
+      <div class="section section--large">
+        <div class="flagship-cta" data-animate="fade">
+          <span class="flagship-cta__script">Begin Your Transformation</span>
+          <h2 class="flagship-cta__title">Your Goal Needs a Plan.</h2>
+          <p class="flagship-cta__desc">
+            Join Maharashtra's most disciplined MPSC mentorship academy. Limited to 30 aspirants per batch with structured 15-day review cycles under Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh.
+          </p>
+          <div class="flagship-cta__actions">
+            <a href="#popover-start-your-journey" class="btn btn--gold btn--large">
+              <span class="btn__txt"><span class="btn__txt-inner" data-txt="Enquire Now / Book Session">Enquire Now / Book Session</span></span>
+            </a>
+            <a href="tel:+917887878001" class="btn btn--outline btn--large" style="color: #fff; border-color: rgba(255,255,255,0.3);">
+              <span class="btn__txt"><span class="btn__txt-inner" data-txt="📞 +91 7887878001">📞 +91 7887878001</span></span>
+            </a>
+            <a href="courses.html" class="btn btn--outline btn--large" style="color: var(--color-gold); border-color: var(--color-gold);">
+              <span class="btn__txt"><span class="btn__txt-inner" data-txt="Explore All 7 Programs →">Explore All 7 Programs →</span></span>
+            </a>
+          </div>
+          <div class="flagship-cta__meta">
+            <span class="flagship-cta__meta-item">📍 Pandit Colony, Sharanpur Road, Nashik</span>
+            <span class="flagship-cta__meta-item">⏱️ Mon–Sat: 8am–8pm</span>
+            <span class="flagship-cta__meta-item">🏛️ 24x7 AC Reading Hall</span>
+            <span class="flagship-cta__meta-item">🎓 Est. 2010</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+        <!-- ========================================================================
+         FOOTER WITH STRAPLINE BANNER
+         ======================================================================== -->
+    <footer class="footer">
+      <div class="footer__section--strapline">
+        <div class="footer__strapline">
+          <div class="footer__strapline-inner">
+            <span class="footer__strapline-item">ध्येयमेव जयते • THE LAKSHYA CAREER ACADEMY • NASHIK • EST. 2010 • </span>
+            <span class="footer__strapline-item">TO INCREASE MAHARASHTRA'S SHARE IN GOVERNANCE • </span>
+            <span class="footer__strapline-item">ध्येयमेव जयते • THE LAKSHYA CAREER ACADEMY • NASHIK • EST. 2010 • </span>
+            <span class="footer__strapline-item">TO INCREASE MAHARASHTRA'S SHARE IN GOVERNANCE • </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__section--main">
+        <div class="section section--large">
+          <div class="footer__grid">
+            <div class="footer__brand-col">
+              <a href="index.html" class="footer__logo">
+                <img src="assets/img/logo-white.png" alt="Lakshya Career Academy Nashik" class="footer__logo-img">
+              </a>
+              <p class="footer__tagline">
+                Nashik's dedicated coaching institute for MPSC State Services, Combine Group B, PSI Mains, STI, ASO, Saralseva and Talathi Bharti.
+              </p>
+                            <div class="footer__socials">
+                <a href="https://www.facebook.com/lakshyanashik" target="_blank" aria-label="Facebook" class="social-circle"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                <a href="https://www.instagram.com/the_lakshya_academy07/" target="_blank" aria-label="Instagram" class="social-circle"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                <a href="https://wa.me/917887878001" target="_blank" aria-label="WhatsApp" class="social-circle"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.04 14.69 2 12.04 2ZM12.05 20.16C10.57 20.16 9.12 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.8 7.37 7.5 3.67 12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.16 12.05 20.16ZM16.57 14.39C16.32 14.27 15.11 13.67 14.88 13.59C14.66 13.5 14.49 13.46 14.33 13.71C14.16 13.95 13.69 14.51 13.55 14.67C13.4 14.83 13.26 14.85 13.01 14.73C12.76 14.6 11.96 14.34 11.01 13.49C10.27 12.83 9.77 12.01 9.63 11.76C9.48 11.51 9.61 11.38 9.74 11.25C9.85 11.14 9.99 10.96 10.11 10.82C10.23 10.68 10.28 10.57 10.36 10.41C10.44 10.24 10.4 10.1 10.34 9.97C10.28 9.85 9.78 8.63 9.58 8.13C9.37 7.64 9.17 7.71 9.02 7.7C8.87 7.7 8.71 7.7 8.54 7.7C8.38 7.7 8.11 7.76 7.88 8.01C7.66 8.25 7.03 8.84 7.03 10.04C7.03 11.24 7.91 12.39 8.03 12.55C8.15 12.72 9.75 15.19 12.21 16.25C12.8 16.5 13.25 16.65 13.61 16.77C14.2 16.96 14.74 16.93 15.17 16.87C15.65 16.8 16.64 16.27 16.85 15.69C17.05 15.11 17.05 14.62 16.99 14.51C16.93 14.41 16.82 14.51 16.57 14.39Z"/></svg></a>
+              </div>
+            </div>
+
+            <div class="footer__nav-col">
+              <h4 class="footer__heading">All 7 Programs</h4>
+              <ul class="footer__links">
+                <li><a href="course-rajyaseva.html">Rajyaseva Examination</a></li>
+                <li><a href="course-combine.html">Combine Group B (PSI/STI/ASO)</a></li>
+                <li><a href="course-psi.html">PSI Mains &amp; Physical</a></li>
+                <li><a href="course-sti.html">Sales Tax Inspector (STI)</a></li>
+                <li><a href="course-aso.html">ASO Mains Examination</a></li>
+                <li><a href="course-saralseva.html">Saralseva Direct Recruitment</a></li>
+                <li><a href="course-talathi.html">Talathi Bharti Exam</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__nav-col">
+              <h4 class="footer__heading">Institutional</h4>
+              <ul class="footer__links">
+                <li><a href="about.html">About Lakshya Academy</a></li>
+                <li><a href="about.html#pedagogy">15-Day Mentorship</a></li>
+                <li><a href="about.html#faculty">Directors &amp; Faculty</a></li>
+                <li><a href="success-stories.html">Hall of Fame &amp; Results</a></li>
+                <li><a href="gallery.html">Campus Photo Gallery</a></li>
+                <li><a href="study-material.html">Study Notes &amp; Syllabi</a></li>
+                <li><a href="contact.html">Pandit Colony Location</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__nav-col">
+              <h4 class="footer__heading">Admissions Office</h4>
+              <p class="footer__contact-line">
+                <strong>Campus:</strong><br>
+                2nd Floor, Bhaskar Android, Opp. Sindhusagar Academy, Near Lane No. 4, Pandit Colony, Nashik - 422002
+              </p>
+              <p class="footer__contact-line" style="margin-top: 1rem;">
+                <strong>Telephone:</strong><br>
+                <a href="tel:+917887878001">+91 7887878001</a><br>
+                <a href="tel:+919022869315">+91 9022869315</a>
+              </p>
+              <p class="footer__contact-line" style="margin-top: 1rem;">
+                <strong>WhatsApp:</strong><br>
+                <a href="https://wa.me/917887878001" target="_blank" style="color: #25D366;">+91 7887878001</a>
+              </p>
+              <p class="footer__contact-line" style="margin-top: 1rem;">
+                <strong>Email Office:</strong><br>
+                <a href="mailto:lakshyacareeracademynashik@gmail.com">lakshyacareeracademynashik@gmail.com</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="footer__bottom">
+            <p>&copy; 2026 The Lakshya Career Academy. All Rights Reserved. Empowering Maharashtra's Civil Service Aspirants.</p>
+            <p>Designed with Lionheart High-Precision Interaction Standards.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Popover Modal -->
+    <aside class="popover" id="popover-start-your-journey">
+      <div class="popover__overlay" data-popover-target="start-your-journey"></div>
+      <div class="popover__inner">
+        <header class="popover__header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+          <h2 class="popover__header-title txt-script" style="color: var(--color-burgundy); font-size: 1.75rem;">Make an Enquiry</h2>
+          <button class="popover__header-close" style="font-size: 1.5rem; color: var(--color-text-dark); cursor: pointer;" aria-label="Close popover">&times;</button>
+        </header>
+        <div class="popover__content">
+          <p style="font-size: 0.9rem; color: var(--color-text-muted); margin-bottom: 1.5rem;">
+            Please complete the details below and an academic counselor will connect with you on WhatsApp.
+          </p>
+          <form class="js-whatsapp-form">
+            <div class="form-group-minimal">
+              <input type="text" name="name" class="form-control-minimal" placeholder="Full Name *" required>
+            </div>
+            <div class="form-group-minimal">
+              <input type="tel" name="phone" class="form-control-minimal" placeholder="WhatsApp / Phone Number *" required>
+            </div>
+            <div class="form-group-minimal">
+              <select name="course" class="form-select-minimal" required>
+                <option value="Rajyaseva Examination (MPSC State Services)">Rajyaseva Examination</option>
+                <option value="MPSC Combine Group B (PSI / STI / ASO)">MPSC Combine Group B (PSI / STI / ASO)</option>
+                <option value="PSI Mains & Physical Coaching">PSI Mains &amp; Physical Coaching</option>
+                <option value="Sales Tax Inspector (STI) Mains">Sales Tax Inspector (STI) Mains</option>
+                <option value="ASO Mains Examination">ASO Mains Examination</option>
+                <option value="Saralseva Direct Recruitment">Saralseva Direct Recruitment</option>
+                <option value="Talathi Bharti Examination">Talathi Bharti Examination</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn--burgundy btn--regular btn--full" style="margin-top: 1rem;">
+              <span class="btn__txt"><span class="btn__txt-inner" data-txt="Submit via WhatsApp 💬">Submit via WhatsApp 💬</span></span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </aside>
+
+  </div><!-- end .page-wrap -->
+
+  <!-- Floating Sticky WhatsApp Pill -->
+  <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Academy%2C%20I%20want%20to%20enquire%20about%20admissions." target="_blank" class="floating-whatsapp-pill" aria-label="Chat on WhatsApp with Admissions Counselor">
+    <svg viewBox="0 0 24 24" width="30" height="30" fill="#fff"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.04 14.69 2 12.04 2ZM12.05 20.16C10.57 20.16 9.12 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.8 7.37 7.5 3.67 12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.16 12.05 20.16ZM16.57 14.39C16.32 14.27 15.11 13.67 14.88 13.59C14.66 13.5 14.49 13.46 14.33 13.71C14.16 13.95 13.69 14.51 13.55 14.67C13.4 14.83 13.26 14.85 13.01 14.73C12.76 14.6 11.96 14.34 11.01 13.49C10.27 12.83 9.77 12.01 9.63 11.76C9.48 11.51 9.61 11.38 9.74 11.25C9.85 11.14 9.99 10.96 10.11 10.82C10.23 10.68 10.28 10.57 10.36 10.41C10.44 10.24 10.4 10.1 10.34 9.97C10.28 9.85 9.78 8.63 9.58 8.13C9.37 7.64 9.17 7.71 9.02 7.7C8.87 7.7 8.71 7.7 8.54 7.7C8.38 7.7 8.11 7.76 7.88 8.01C7.66 8.25 7.03 8.84 7.03 10.04C7.03 11.24 7.91 12.39 8.03 12.55C8.15 12.72 9.75 15.19 12.21 16.25C12.8 16.5 13.25 16.65 13.61 16.77C14.2 16.96 14.74 16.93 15.17 16.87C15.65 16.8 16.64 16.27 16.85 15.69C17.05 15.11 17.05 14.62 16.99 14.51C16.93 14.41 16.82 14.51 16.57 14.39Z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/enquiry.js"></script>
+</body>
+</html>

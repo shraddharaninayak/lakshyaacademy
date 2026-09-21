@@ -1,0 +1,351 @@
+/* ==========================================================================
+   THE LAKSHYA CAREER ACADEMY — LIONHEART EDITORIAL DESIGN SYSTEM
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Caveat:wght@600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@500;600;700;800&display=swap');
+
+:root {
+  /* Brand Colorways */
+  --color-burgundy: #8B1E1E;
+  --color-burgundy-dark: #661212;
+  --color-burgundy-light: #A32828;
+  --color-burgundy-glow: rgba(139, 30, 30, 0.12);
+
+  --color-black: #0A1118;
+  --color-slate: #0D1B2A;
+  --color-slate-card: #142233;
+  --color-slate-light: #1E2D3D;
+
+  --color-beige: #F4EFE6;
+  --color-beige-warm: #FBF9F5;
+  --color-dark-beige: #EBE3D5;
+  --color-light-orange: #F5EAE0;
+  --color-light-sand: #FAF6F0;
+
+  --color-gold: #C5A059;
+  --color-gold-hover: #D8B46E;
+  --color-gold-muted: rgba(197, 160, 89, 0.15);
+
+  --color-text-dark: #121820;
+  --color-text-muted: #5C6773;
+  --color-text-subtle: #87929E;
+  --color-text-light: #FFFFFF;
+  --color-text-light-muted: rgba(255, 255, 255, 0.75);
+
+  --color-border-dark: rgba(18, 24, 32, 0.12);
+  --color-border-subtle: rgba(18, 24, 32, 0.08);
+  --color-border-light: rgba(255, 255, 255, 0.15);
+
+  /* Typography Stacks */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-serif: 'Cormorant Garamond', Garamond, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heading-cap: 'Cinzel', serif;
+
+  /* Transitions & Easing */
+  --ease-lionheart: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-smooth: cubic-bezier(0.25, 1, 0.5, 1);
+  --duration-fast: 0.25s;
+  --duration-medium: 0.5s;
+  --duration-slow: 0.85s;
+
+  /* Layout Spacing */
+  --container-max: 1400px;
+  --container-large: 1280px;
+  --container-medium: 1040px;
+  --container-small: 840px;
+
+  --header-bar-height: 40px;
+  --header-main-height: 80px;
+  --header-total-height: 120px;
+}
+
+/* Reset & Box Sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text-dark);
+  background-color: var(--color-beige-warm);
+  line-height: 1.65;
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+}
+
+img, picture, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--duration-fast) var(--ease-lionheart);
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/* ==========================================================================
+   COLORWAY UTILITIES (Exact Lionheart Color Blocks)
+   ========================================================================== */
+.bg-colorway-black {
+  background-color: var(--color-black) !important;
+  color: var(--color-text-light) !important;
+}
+
+.bg-colorway-slate {
+  background-color: var(--color-slate) !important;
+  color: var(--color-text-light) !important;
+}
+
+.bg-colorway-burgundy {
+  background-color: var(--color-burgundy) !important;
+  color: var(--color-text-light) !important;
+}
+
+.bg-colorway-beige {
+  background-color: var(--color-beige) !important;
+  color: var(--color-text-dark) !important;
+}
+
+.bg-colorway-dark-beige {
+  background-color: var(--color-dark-beige) !important;
+  color: var(--color-text-dark) !important;
+}
+
+.bg-colorway-light-orange {
+  background-color: var(--color-light-orange) !important;
+  color: var(--color-text-dark) !important;
+}
+
+.bg-colorway-white {
+  background-color: #FFFFFF !important;
+  color: var(--color-text-dark) !important;
+}
+
+.txt-colorway-light {
+  color: var(--color-text-light) !important;
+}
+
+.txt-colorway-gold {
+  color: var(--color-gold) !important;
+}
+
+.txt-colorway-burgundy {
+  color: var(--color-burgundy) !important;
+}
+
+/* ==========================================================================
+   TYPOGRAPHY HIERARCHY
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  line-height: 1.15;
+  color: inherit;
+  letter-spacing: -0.015em;
+}
+
+h1, .h1 {
+  font-size: clamp(2.5rem, 5.5vw, 4.25rem);
+  line-height: 1.08;
+}
+
+h2, .h2 {
+  font-size: clamp(2rem, 4vw, 3.15rem);
+  line-height: 1.12;
+}
+
+h3, .h3 {
+  font-size: clamp(1.6rem, 2.75vw, 2.35rem);
+  line-height: 1.2;
+}
+
+h4, .h4 {
+  font-size: clamp(1.3rem, 2vw, 1.75rem);
+  line-height: 1.25;
+}
+
+h5, .h5 {
+  font-size: clamp(1.15rem, 1.5vw, 1.35rem);
+  font-family: var(--font-serif);
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+/* Script / Italic Accent Headlines */
+.txt-script {
+  font-family: var(--font-serif) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  display: block;
+  font-size: 1.25em;
+  color: var(--color-gold);
+}
+
+.txt-tiny {
+  font-size: 0.85rem;
+  line-height: 1.65;
+  color: var(--color-text-muted);
+}
+
+.txt-uppercase-cap {
+  font-family: var(--font-heading-cap);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.lead {
+  font-size: clamp(1.1rem, 1.4vw, 1.35rem);
+  font-family: var(--font-serif);
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+/* ==========================================================================
+   CONTAINER & SECTION PADDING SYSTEM
+   ========================================================================== */
+.section {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1.25rem, 4vw, 3.5rem);
+  padding-right: clamp(1.25rem, 4vw, 3.5rem);
+}
+
+.section--large {
+  max-width: var(--container-large);
+}
+
+.section--medium {
+  max-width: var(--container-medium);
+}
+
+.section--small {
+  max-width: var(--container-small);
+}
+
+.pv-large {
+  padding-top: clamp(4.5rem, 8vw, 8rem);
+  padding-bottom: clamp(4.5rem, 8vw, 8rem);
+}
+
+.pv-medium {
+  padding-top: clamp(3rem, 5vw, 5rem);
+  padding-bottom: clamp(3rem, 5vw, 5rem);
+}
+
+.pv-small {
+  padding-top: clamp(2rem, 3.5vw, 3.5rem);
+  padding-bottom: clamp(2rem, 3.5vw, 3.5rem);
+}
+
+.pv-tiny {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.mb-medium {
+  margin-bottom: clamp(2.5rem, 4vw, 4rem);
+}
+
+.mt-small {
+  margin-top: clamp(1.5rem, 2.5vw, 2.5rem);
+}
+
+.hide-overflow {
+  overflow: hidden;
+}
+
+.page-wrap {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* ==========================================================================
+   RESPONSIVE GRID SYSTEM (.grid, .grid-1, .grid-2, .grid-3, .grid-4)
+   ========================================================================== */
+.grid {
+  display: grid;
+  width: 100%;
+  gap: clamp(1.5rem, 2.5vw, 2.25rem);
+}
+
+.grid-1 {
+  grid-template-columns: 1fr;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1080px) {
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-4,
+  .grid-3,
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gap-tiny   { gap: 0.75rem; }
+.gap-small  { gap: 1.25rem; }
+.gap-medium { gap: 2rem; }
+.gap-large  { gap: 3rem; }

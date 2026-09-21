@@ -1,0 +1,101 @@
+/* ==========================================================================
+   THE LAKSHYA CAREER ACADEMY — LIONHEART ANIMATION ENGINE
+   Safe Progressive Enhancement (Zero Hidden Content)
+   ========================================================================== */
+
+/* Base default state is VISIBLE */
+[data-animate="fade"],
+.reveal,
+.reveal-fade-up,
+.reveal-fade-in,
+.reveal-slide-left,
+.reveal-slide-right {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1), transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+/* Stagger Delays */
+.stagger-1 { transition-delay: 0.08s !important; }
+.stagger-2 { transition-delay: 0.16s !important; }
+.stagger-3 { transition-delay: 0.24s !important; }
+.stagger-4 { transition-delay: 0.32s !important; }
+.stagger-5 { transition-delay: 0.40s !important; }
+
+/* Image Clip Path Reveal Mask */
+.img-reveal-mask {
+  overflow: hidden;
+  position: relative;
+}
+
+.img-reveal-mask img {
+  transform: scale(1);
+  transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.img-reveal-mask:hover img {
+  transform: scale(1.03);
+}
+
+/* Horizontal Line Reveal */
+.line-reveal {
+  position: relative;
+  overflow: hidden;
+}
+
+.line-reveal-inner {
+  display: block;
+  transform: translateY(0);
+  transition: transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Parallax Elements */
+[data-parallax] {
+  will-change: transform;
+}
+
+/* Pulse / Live Indicator */
+.pulse-indicator {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #22C55E;
+  position: relative;
+  vertical-align: middle;
+}
+
+.pulse-indicator::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #22C55E;
+  animation: pulseRings 2s infinite ease-out;
+}
+
+@keyframes pulseRings {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+/* Motion Accessibility & Reduced Motion Override */
+@media (prefers-reduced-motion: reduce) {
+  [data-animate],
+  .reveal,
+  .reveal-fade-up,
+  .reveal-fade-in,
+  .reveal-slide-left,
+  .reveal-slide-right,
+  .img-reveal-mask img,
+  .line-reveal-inner {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}
