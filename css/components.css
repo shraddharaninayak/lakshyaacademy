@@ -2322,14 +2322,13 @@
 
 .footer__bottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  padding-top: 2rem;
+  padding: 1.5rem 0;
   border-top: 1px solid rgba(13, 27, 42, 0.1);
   font-size: 0.82rem;
   color: rgba(13, 27, 42, 0.5);
+  text-align: center;
 }
 
 @media (max-width: 1080px) {
@@ -2346,8 +2345,6 @@
   }
   .footer__bottom {
     flex-direction: column;
-    text-align: center;
-    gap: 0.75rem;
   }
 }
 
