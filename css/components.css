@@ -232,7 +232,6 @@
   border-bottom: 1px solid var(--color-border-subtle);
   z-index: 990;
   transition: transform 0.38s cubic-bezier(0.16, 1, 0.3, 1), background-color var(--duration-fast) var(--ease-lionheart), box-shadow var(--duration-fast) var(--ease-lionheart);
-  will-change: transform;
 }
 
 .header--hidden {
@@ -2343,6 +2342,58 @@
     grid-template-columns: 1fr;
     gap: 2.25rem;
   }
+
+  /* Brand column */
+  .footer__brand-col {
+    align-items: center;
+    text-align: center;
+  }
+  .footer__logo {
+    display: block;
+    margin: 0 auto;
+  }
+  .footer__logo-img {
+    margin: 0 auto;
+  }
+  .footer__logo-sub {
+    text-align: center;
+  }
+  .footer__tagline {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 88%;
+  }
+  .footer__socials {
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+
+  /* Nav columns */
+  .footer__nav-col {
+    align-items: center;
+    text-align: center;
+  }
+  .footer__heading {
+    text-align: center;
+  }
+  .footer__heading::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .footer__links {
+    align-items: center;
+  }
+  .footer__links li a:hover {
+    transform: none;
+  }
+  .footer__contact-line {
+    text-align: center;
+  }
+  .footer__contact-whatsapp {
+    display: none;
+  }
+
   .footer__bottom {
     flex-direction: column;
   }
@@ -3703,6 +3754,41 @@
   color: var(--color-slate);
   border-color: var(--color-gold);
   transform: translateY(-50%) scale(1.08);
+}
+
+/* ==========================================================================
+   COURSE DETAIL PAGES — MOBILE RESPONSIVE
+   Applies to all 7 course pages via .section-blueprint selector.
+   !important is required to override inline style="" attributes.
+   ========================================================================== */
+@media (max-width: 768px) {
+  /* 1. Collapse outer 2fr/1fr grid to single column.
+        Inline style="grid-template-columns: 2fr 1fr" requires !important. */
+  .section-blueprint .grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+
+  /* 2. Unstick the admission aside; stack it below main content. */
+  .section-blueprint aside {
+    position: static !important;
+    top: auto !important;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* 3. Wrap inline space-between flex rows so labels/values stack instead
+        of squeezing side-by-side on narrow screens (eligibility, exam
+        stage headers, admission panel info rows). */
+  .section-blueprint [style*="justify-content: space-between"] {
+    flex-wrap: wrap !important;
+    gap: 0.4rem !important;
+  }
+
+  /* 4. Prevent any overflow caused by residual inline widths. */
+  .section-blueprint {
+    overflow-x: hidden;
+  }
 }
 
 .lightbox-prev {
