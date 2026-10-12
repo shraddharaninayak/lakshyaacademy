@@ -29,19 +29,33 @@
             <ul class="nav-list">
               <li class="nav-item"><a href="/" class="nav-link-subtle">Home</a></li>
               <li class="nav-item"><a href="about" class="nav-link-subtle">About Us</a></li>
-              <li class="nav-item"><a href="courses" class="nav-link-subtle active">Courses</a></li>
-              <li class="nav-item has-dropdown">
-                <a href="study-material#class-material" class="nav-link-subtle">
-                  Class Material <span class="nav-arrow">∨</span>
+                            <li class="nav-item has-dropdown">
+                <a href="courses" class="nav-link-subtle active">
+                  Courses <span class="nav-arrow">∨</span>
                 </a>
                 <ul class="nav-dropdown">
-                  <li><a href="study-material#class-notes" class="dropdown-link">Class Notes</a></li>
-                  <li><a href="study-material#magazine" class="dropdown-link">Class Magazine</a></li>
-                  <li><a href="study-material#test-series" class="dropdown-link">Test Series</a></li>
+                  <li><a href="course-rajyaseva" class="dropdown-link">Rajyaseva Examination</a></li>
+                  <li><a href="study-material#syllabus" class="dropdown-link">UPSC Civil Services</a></li>
+                  <li><a href="course-combine" class="dropdown-link">Combine Group B (PSI/STI/ASO)</a></li>
+                  <li><a href="course-psi" class="dropdown-link">PSI Mains &amp; Physical</a></li>
+                  <li><a href="course-sti" class="dropdown-link">Sales Tax Inspector (STI)</a></li>
+                  <li><a href="course-aso" class="dropdown-link">ASO Mains Examination</a></li>
+                  <li><a href="course-saralseva" class="dropdown-link">Saralseva Direct Recruitment</a></li>
+                  <li><a href="course-talathi" class="dropdown-link">Talathi Bharti Examination</a></li>
                 </ul>
               </li>
               <li class="nav-item has-dropdown">
-                <a href="study-material#study-material" class="nav-link-subtle">
+                <a href="class-material" class="nav-link-subtle">
+                  Class Material <span class="nav-arrow">∨</span>
+                </a>
+                <ul class="nav-dropdown">
+                  <li><a href="class-material#class-notes" class="dropdown-link">Class Notes</a></li>
+                  <li><a href="class-material#class-magazine" class="dropdown-link">Class Magazine</a></li>
+                  <li><a href="class-material#test-series" class="dropdown-link">Test Series</a></li>
+                </ul>
+              </li>
+              <li class="nav-item has-dropdown">
+                <a href="study-material" class="nav-link-subtle">
                   Study Material <span class="nav-arrow">∨</span>
                 </a>
                 <ul class="nav-dropdown">
@@ -62,7 +76,11 @@
           </nav>
 
           <!-- Header Actions -->
-          <div class="header__actions">
+                    <div class="header__actions">
+            <div class="lang-selector" role="group" aria-label="Select Language">
+              <button type="button" class="lang-pill is-active" data-lang="en" aria-label="English">EN</button>
+              <button type="button" class="lang-pill" data-lang="mr" aria-label="मराठी">मराठी</button>
+            </div>
             <a href="#popover-start-your-journey" class="btn btn--tiny btn--burgundy">
               <span class="btn__txt"><span class="btn__txt-inner" data-txt="Book Strategy Session">Book Strategy Session</span></span>
             </a>
@@ -79,9 +97,18 @@
     <div class="main-menu__overlay"></div>
     <nav class="main-menu" data-menu="main">
       <div class="main-menu__inner">
-        <div class="main-menu__close-bar">
+                <div class="main-menu__close-bar">
           <span class="txt-uppercase-cap" style="color: var(--color-gold);">Academy Directory</span>
           <button class="main-menu__close-btn" data-menu-close aria-label="Close menu">&times;</button>
+        </div>
+
+        <!-- Language Selector for Mobile Drawer -->
+        <div class="drawer-lang-selector">
+          <span class="drawer-lang-label">भाषा निवडा / Language</span>
+          <div class="lang-selector" role="group" aria-label="Select Language">
+            <button type="button" class="lang-pill is-active" data-lang="en" aria-label="English">EN</button>
+            <button type="button" class="lang-pill" data-lang="mr" aria-label="मराठी">मराठी</button>
+          </div>
         </div>
         <ul class="main-menu__items">
           <li><a href="/" class="menu-item-link"><span>01. Home</span> <span>→</span></a></li>
@@ -96,13 +123,13 @@
             <a href="course-saralseva" class="main-menu__sublink">• Saralseva Direct Recruitment</a>
             <a href="course-talathi" class="main-menu__sublink">• Talathi Bharti Examination</a>
           </li>
-          <li><a href="study-material#class-material" class="menu-item-link"><span>04. Class Material</span> <span>→</span></a></li>
+          <li><a href="class-material" class="menu-item-link"><span>04. Class Material</span> <span>→</span></a></li>
           <li class="main-menu__subitems">
-            <a href="study-material#class-notes" class="main-menu__sublink">• Class Notes</a>
-            <a href="study-material#magazine" class="main-menu__sublink">• Class Magazine</a>
-            <a href="study-material#test-series" class="main-menu__sublink">• Test Series</a>
+            <a href="class-material#class-notes" class="main-menu__sublink">• Class Notes</a>
+            <a href="class-material#class-magazine" class="main-menu__sublink">• Class Magazine</a>
+            <a href="class-material#test-series" class="main-menu__sublink">• Test Series</a>
           </li>
-          <li><a href="study-material#study-material" class="menu-item-link"><span>05. Study Material</span> <span>→</span></a></li>
+          <li><a href="study-material" class="menu-item-link"><span>05. Study Material</span> <span>→</span></a></li>
           <li class="main-menu__subitems">
             <a href="study-material#school-books" class="main-menu__sublink">• School books</a>
             <a href="study-material#ncert" class="main-menu__sublink">• NCERT</a>
@@ -117,6 +144,27 @@
           <li><a href="blog" class="menu-item-link"><span>08. Blog &amp; Insights</span> <span>→</span></a></li>
           <li><a href="contact" class="menu-item-link"><span>09. Contact Us</span> <span>→</span></a></li>
         </ul>
+        <!-- Quick Contact & WhatsApp Bar -->
+        <div class="drawer-contact-bar">
+          <span class="drawer-contact-title">Direct Helpline &amp; WhatsApp</span>
+          <div class="drawer-contact-links">
+            <a href="tel:+917887878001" class="drawer-contact-btn drawer-contact-btn--tel" aria-label="Call Admissions 7887878001">
+              📞 7887878001
+            </a>
+            <a href="tel:+917887878002" class="drawer-contact-btn drawer-contact-btn--tel" aria-label="Call Admissions 7887878002">
+              📞 7887878002
+            </a>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 0.25rem;">
+            <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp Line 1">
+              💬 WhatsApp 1
+            </a>
+            <a href="https://wa.me/917887878002?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp Line 2">
+              💬 WhatsApp 2
+            </a>
+          </div>
+        </div>
+
         <div style="margin-top: auto; padding-top: 2rem;">
           <a href="#popover-start-your-journey" class="btn btn--regular btn--gold btn--full">
             <span class="btn__txt"><span class="btn__txt-inner" data-txt="Book Strategy Session">Book Strategy Session</span></span>
@@ -183,148 +231,346 @@
           
           <!-- Main Content Column -->
           <div>
-            
-            <!-- Eligibility & Age Criteria -->
-            <div style="background: #fff; padding: 2.5rem; border-radius: 8px; border: 1px solid var(--color-border-subtle); margin-bottom: 2.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
-              <span class="txt-uppercase-cap" style="color: var(--color-gold);">Candidate Eligibility</span>
-              <h3 class="h3" style="color: var(--color-slate); margin-top: 0.5rem; margin-bottom: 1.5rem;">Age &amp; Educational Criteria</h3>
-              
-              <div style="display: flex; flex-direction: column; gap: 1rem;">
-                <div style="display: flex; justify-content: space-between; padding-bottom: 0.75rem; border-bottom: 1px solid var(--color-border-subtle);">
-                  <strong style="color: var(--color-slate);">Age Limit (Open Category):</strong>
-                  <span>19 to 38 Years</span>
-                </div>
-                <div style="display: flex; justify-content: space-between; padding-bottom: 0.75rem; border-bottom: 1px solid var(--color-border-subtle);">
-                  <strong style="color: var(--color-slate);">Age Limit (Reserved Category):</strong>
-                  <span>19 to 43 Years</span>
-                </div>
-                <div style="display: flex; justify-content: space-between; padding-bottom: 0.75rem; border-bottom: 1px solid var(--color-border-subtle);">
-                  <strong style="color: var(--color-slate);">Educational Qualification:</strong>
-                  <span style="text-align: right; max-width: 60%;">Graduation in any discipline from a recognized University (Final year students eligible)</span>
-                </div>
-                <div style="display: flex; justify-content: space-between;">
-                  <strong style="color: var(--color-slate);">Language Proficiency:</strong>
-                  <span>Fluent Marathi &amp; English</span>
-                </div>
+            <div class="course-tabs-wrapper">
+              <!-- Tab Navigation -->
+              <div class="course-tabs-nav" role="tablist" aria-label="Rajyaseva Course Information">
+                <button type="button" role="tab" class="course-tab-btn is-active" id="tab-btn-about" aria-selected="true" aria-controls="tab-pane-about" tabindex="0">About Exam</button>
+                <button type="button" role="tab" class="course-tab-btn" id="tab-btn-eligibility" aria-selected="false" aria-controls="tab-pane-eligibility" tabindex="-1">Eligibility</button>
+                <button type="button" role="tab" class="course-tab-btn" id="tab-btn-prelims" aria-selected="false" aria-controls="tab-pane-prelims" tabindex="-1">Preliminary Exam</button>
+                <button type="button" role="tab" class="course-tab-btn" id="tab-btn-mains" aria-selected="false" aria-controls="tab-pane-mains" tabindex="-1">Main Exam</button>
+                <button type="button" role="tab" class="course-tab-btn" id="tab-btn-interview" aria-selected="false" aria-controls="tab-pane-interview" tabindex="-1">Interview</button>
+                <button type="button" role="tab" class="course-tab-btn" id="tab-btn-posts" aria-selected="false" aria-controls="tab-pane-posts" tabindex="-1">Posts Offered</button>
               </div>
-            </div>
 
-            <!-- Cadres List -->
-            <div style="margin-bottom: 2.5rem;">
-              <span class="txt-uppercase-cap" style="color: var(--color-gold);">Cadre Spectrum</span>
-              <h3 class="h3" style="color: var(--color-slate); margin-top: 0.5rem; margin-bottom: 1.5rem;">Posts Covered Under Rajyaseva</h3>
+              <!-- Tab Panes -->
+              <div class="course-tabs-content">
 
-              <div class="grid grid-2" style="gap: 1.5rem;">
-                <div style="background: #fff; padding: 2rem; border-radius: 8px; border-top: 4px solid var(--color-primary-burgundy); border: 1px solid var(--color-border-subtle);">
-                  <h4 class="h5" style="color: var(--color-primary-burgundy); margin-bottom: 1rem;">Class I (Group A) Posts</h4>
-                  <ul style="font-size: 0.95rem; line-height: 1.8; color: var(--color-text-secondary); padding-left: 1.25rem;">
-                    <li>Deputy Collector (उपजिल्हाधिकारी)</li>
-                    <li>Deputy Superintendent of Police (DySP / ACP)</li>
-                    <li>Assistant Commissioner of State Tax</li>
-                    <li>Deputy Registrar of Co-operative Societies</li>
-                    <li>Superintendent of State Excise</li>
-                    <li>Maharashtra Finance &amp; Accounts Service (Group A)</li>
-                    <li>Block Development Officer (BDO - Group A)</li>
-                  </ul>
-                </div>
-
-                <div style="background: #fff; padding: 2rem; border-radius: 8px; border-top: 4px solid var(--color-gold); border: 1px solid var(--color-border-subtle);">
-                  <h4 class="h5" style="color: var(--color-slate); margin-bottom: 1rem;">Class II (Group B) Posts</h4>
-                  <ul style="font-size: 0.95rem; line-height: 1.8; color: var(--color-text-secondary); padding-left: 1.25rem;">
-                    <li>Tahasildar (तहसीलदार)</li>
-                    <li>Assistant Block Development Officer (BDO)</li>
-                    <li>Deputy Superintendent of Land Records</li>
-                    <li>Assistant Registrar of Co-operative Societies</li>
-                    <li>Deputy Superintendent of State Excise</li>
-                    <li>Assistant Regional Transport Officer (ARTO)</li>
-                    <li>Nayab Tahasildar (नायब तहसीलदार)</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <!-- 3-Tier Examination Scheme -->
-            <div style="margin-bottom: 2.5rem;">
-              <span class="txt-uppercase-cap" style="color: var(--color-gold);">Exam Blueprint</span>
-              <h3 class="h3" style="color: var(--color-slate); margin-top: 0.5rem; margin-bottom: 1.5rem;">Three-Stage Examination Scheme</h3>
-
-              <!-- Stage 1 -->
-              <div style="background: #fff; padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-primary-burgundy); margin-bottom: 1.5rem; border: 1px solid var(--color-border-subtle);">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
-                  <h4 class="h4" style="color: var(--color-slate);">Stage 1: Preliminary Examination</h4>
-                  <span style="background: var(--color-primary-burgundy); color: #fff; font-size: 0.8rem; font-weight: 700; padding: 0.25rem 0.75rem; border-radius: 4px;">400 Marks Total</span>
-                </div>
-                <p style="color: var(--color-text-secondary); font-size: 0.95rem; margin-bottom: 1.25rem;">
-                  Objective Multiple Choice format. Serves as the screening gateway for Mains qualification.
-                </p>
-                <div class="grid grid-2" style="gap: 1rem;">
-                  <div style="background: var(--color-bg-light-orange); padding: 1.25rem; border-radius: 6px;">
-                    <strong style="color: var(--color-slate); display: block; margin-bottom: 0.25rem;">Paper I: General Studies (GS)</strong>
-                    <span style="font-size: 0.85rem; color: var(--color-text-secondary);">100 Questions | 200 Marks | 2 Hours | Degree Standard</span>
+                <!-- 1. About Exam Pane (Active by default) -->
+                <div role="tabpanel" id="tab-pane-about" aria-labelledby="tab-btn-about" class="course-tab-pane is-active">
+                  <!-- Structure of Rajyaseva -->
+                  <div style="background: var(--color-bg-light-orange); border-left: 4px solid var(--color-gold); padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem;">
+                    <span class="txt-uppercase-cap" style="color: var(--color-gold);">Overview</span>
+                    <h3 class="h3" style="color: var(--color-slate); margin-top: 0.35rem; margin-bottom: 0.75rem;">Structure of the Rajyaseva Examination</h3>
+                    <p style="color: var(--color-text-secondary); font-size: 0.95rem; margin-bottom: 0.75rem; line-height: 1.6;">
+                      MPSC Rajyaseva (Maharashtra State Services Examination) is conducted to recruit top-tier administrative officers across Maharashtra. The examination consists of three progressive stages:
+                    </p>
+                    <ol style="color: var(--color-slate); font-weight: 600; font-size: 0.95rem; padding-left: 1.25rem; margin: 0; line-height: 1.8;">
+                      <li>Preliminary Examination (Screening Objective Test)</li>
+                      <li>Main Examination (Comprehensive Merit Written Evaluation)</li>
+                      <li>Interview / Personality Test (State Administrative Suitability)</li>
+                    </ol>
                   </div>
-                  <div style="background: var(--color-bg-light-orange); padding: 1.25rem; border-radius: 6px;">
-                    <strong style="color: var(--color-slate); display: block; margin-bottom: 0.25rem;">Paper II: CSAT Aptitude</strong>
-                    <span style="font-size: 0.85rem; color: var(--color-text-secondary);">80 Questions | 200 Marks | 2 Hours | Qualifying Standard (33% minimum)</span>
+
+                  <!-- How Lakshya Secures Class I Rank Roster -->
+                  <div>
+                    <span class="txt-uppercase-cap" style="color: var(--color-gold);">Pedagogy &amp; Mentorship</span>
+                    <h3 class="h3" style="color: var(--color-slate); margin-top: 0.5rem; margin-bottom: 1.5rem;">How Lakshya Secures Class I Rank Roster</h3>
+                    
+                    <div class="grid grid-2" style="gap: 1.5rem;">
+                      <div style="background: #fff; padding: 1.75rem; border-radius: 8px; border: 1px solid var(--color-border-subtle); box-shadow: 0 10px 30px rgba(0,0,0,0.02);">
+                        <strong style="color: var(--color-primary-burgundy); font-size: 1.1rem; display: block; margin-bottom: 0.5rem;">Batch Size Capped at 30</strong>
+                        <p class="txt-tiny" style="color: var(--color-text-secondary); line-height: 1.6; margin: 0;">Individual evaluation of descriptive answer copies with direct line-by-line feedback from Atul Nikumbh sir.</p>
+                      </div>
+                      <div style="background: #fff; padding: 1.75rem; border-radius: 8px; border: 1px solid var(--color-border-subtle); box-shadow: 0 10px 30px rgba(0,0,0,0.02);">
+                        <strong style="color: var(--color-primary-burgundy); font-size: 1.1rem; display: block; margin-bottom: 0.5rem;">15-Day Milestone Tracking</strong>
+                        <p class="txt-tiny" style="color: var(--color-text-secondary); line-height: 1.6; margin: 0;">Bi-weekly diagnostic test cycles and 1-on-1 counseling to eliminate conceptual weaknesses promptly.</p>
+                      </div>
+                      <div style="background: #fff; padding: 1.75rem; border-radius: 8px; border: 1px solid var(--color-border-subtle); box-shadow: 0 10px 30px rgba(0,0,0,0.02);">
+                        <strong style="color: var(--color-primary-burgundy); font-size: 1.1rem; display: block; margin-bottom: 0.5rem;">Comprehensive Notes</strong>
+                        <p class="txt-tiny" style="color: var(--color-text-secondary); line-height: 1.6; margin: 0;">Curated 20-25 page chapter digests covering all 4 GS papers and state-specific governance policies.</p>
+                      </div>
+                      <div style="background: #fff; padding: 1.75rem; border-radius: 8px; border: 1px solid var(--color-border-subtle); box-shadow: 0 10px 30px rgba(0,0,0,0.02);">
+                        <strong style="color: var(--color-primary-burgundy); font-size: 1.1rem; display: block; margin-bottom: 0.5rem;">Officer Mock Panels</strong>
+                        <p class="txt-tiny" style="color: var(--color-text-secondary); line-height: 1.6; margin: 0;">Mock interview panels conducted with senior civil servants and video-recorded body language analysis.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <!-- Stage 2 -->
-              <div style="background: #fff; padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-gold); margin-bottom: 1.5rem; border: 1px solid var(--color-border-subtle);">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
-                  <h4 class="h4" style="color: var(--color-slate);">Stage 2: Main Examination</h4>
-                  <span style="background: var(--color-gold); color: var(--color-slate); font-size: 0.8rem; font-weight: 700; padding: 0.25rem 0.75rem; border-radius: 4px;">800 Marks Total</span>
+                <!-- 2. Eligibility Pane -->
+                <div role="tabpanel" id="tab-pane-eligibility" aria-labelledby="tab-btn-eligibility" class="course-tab-pane" style="display: none;">
+                  <div style="background: #fff; padding: 2.5rem; border-radius: 8px; border: 1px solid var(--color-border-subtle); box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+                    <span class="txt-uppercase-cap" style="color: var(--color-gold);">Candidate Eligibility</span>
+                    <h3 class="h3" style="color: var(--color-slate); margin-top: 0.5rem; margin-bottom: 1.5rem;">Age &amp; Educational Criteria</h3>
+                    
+                    <div style="display: flex; flex-direction: column; gap: 1rem;">
+                      <div style="display: flex; justify-content: space-between; padding-bottom: 0.75rem; border-bottom: 1px solid var(--color-border-subtle);">
+                        <strong style="color: var(--color-slate);">Age Limit (Open Category):</strong>
+                        <span>19 to 38 Years</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding-bottom: 0.75rem; border-bottom: 1px solid var(--color-border-subtle);">
+                        <strong style="color: var(--color-slate);">Age Limit (Reserved Category):</strong>
+                        <span>19 to 43 Years</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding-bottom: 0.75rem; border-bottom: 1px solid var(--color-border-subtle);">
+                        <strong style="color: var(--color-slate);">Educational Qualification:</strong>
+                        <span style="text-align: right; max-width: 60%;">Graduation in any discipline from a recognized University (Final year students eligible)</span>
+                      </div>
+                      <div style="display: flex; justify-content: space-between;">
+                        <strong style="color: var(--color-slate);">Language Proficiency:</strong>
+                        <span>Fluent Marathi &amp; English</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <p style="color: var(--color-text-secondary); font-size: 0.95rem; margin-bottom: 1.25rem;">
-                  Comprehensive written papers covering languages and four General Studies papers.
-                </p>
-                <div style="background: var(--color-bg-light-orange); padding: 1.25rem; border-radius: 6px; font-size: 0.9rem; line-height: 1.8;">
-                  <div><strong>• Paper 1:</strong> Marathi &amp; English (Descriptive Essay, Précis, Translation) - 100 Marks</div>
-                  <div><strong>• Paper 2:</strong> Marathi &amp; English (Objective Grammar &amp; Vocabulary) - 100 Marks</div>
-                  <div><strong>• Paper 3:</strong> General Studies I (History, Geography, Agriculture) - 150 Marks</div>
-                  <div><strong>• Paper 4:</strong> General Studies II (Indian Constitution &amp; Politics) - 150 Marks</div>
-                  <div><strong>• Paper 5:</strong> General Studies III (Human Resource Development &amp; Human Rights) - 150 Marks</div>
-                  <div><strong>• Paper 6:</strong> General Studies IV (Economy, Planning, Science &amp; Tech) - 150 Marks</div>
-                </div>
-              </div>
 
-              <!-- Stage 3 -->
-              <div style="background: #fff; padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-slate); border: 1px solid var(--color-border-subtle);">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
-                  <h4 class="h4" style="color: var(--color-slate);">Stage 3: Personality Test / Interview</h4>
-                  <span style="background: var(--color-slate); color: #fff; font-size: 0.8rem; font-weight: 700; padding: 0.25rem 0.75rem; border-radius: 4px;">100 Marks Panel</span>
+                <!-- 3. Preliminary Exam Pane -->
+                <div role="tabpanel" id="tab-pane-prelims" aria-labelledby="tab-btn-prelims" class="course-tab-pane" style="display: none;">
+                  <div style="background: #fff; padding: 2.5rem; border-radius: 8px; border-left: 4px solid var(--color-primary-burgundy); border: 1px solid var(--color-border-subtle); box-shadow: 0 10px 30px rgba(0,0,0,0.02);">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; flex-wrap: wrap; gap: 0.5rem;">
+                      <div>
+                        <span class="txt-uppercase-cap" style="color: var(--color-gold);">Stage 1</span>
+                        <h3 class="h3" style="color: var(--color-slate); margin-top: 0.35rem; margin-bottom: 0;">1. Preliminary Examination</h3>
+                      </div>
+                      <span style="background: var(--color-primary-burgundy); color: #fff; font-size: 0.85rem; font-weight: 700; padding: 0.3rem 0.85rem; border-radius: 4px;">400 Marks Total</span>
+                    </div>
+                    <p style="color: var(--color-text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.6;">
+                      Objective Multiple Choice format. Serves as the screening gateway for qualifying into the Mains examination.
+                    </p>
+                    
+                    <div class="grid grid-2" style="gap: 1.25rem;">
+                      <div style="background: var(--color-bg-light-orange); padding: 1.5rem; border-radius: 6px; border: 1px solid rgba(0,0,0,0.03);">
+                        <strong style="color: var(--color-primary-burgundy); display: block; font-size: 1rem; margin-bottom: 0.5rem;">Paper 1: General Studies</strong>
+                        <ul style="font-size: 0.9rem; color: var(--color-text-secondary); padding-left: 1.2rem; margin: 0; line-height: 1.6;">
+                          <li>Total Marks: <strong>200</strong></li>
+                        </ul>
+                      </div>
+
+                      <div style="background: var(--color-bg-light-orange); padding: 1.5rem; border-radius: 6px; border: 1px solid rgba(0,0,0,0.03);">
+                        <strong style="color: var(--color-primary-burgundy); display: block; font-size: 1rem; margin-bottom: 0.5rem;">Paper 2: CSAT</strong>
+                        <ul style="font-size: 0.9rem; color: var(--color-text-secondary); padding-left: 1.2rem; margin: 0; line-height: 1.6;">
+                          <li>Total Marks: <strong>200</strong></li>
+                          <li>Minimum qualifying marks: <strong>80</strong>, as shown in the image.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <p style="color: var(--color-text-secondary); font-size: 0.95rem; line-height: 1.6;">
-                  Conducted by the MPSC Board in Mumbai to assess administrative suitability, analytical speed, moral integrity, and deep grasp over Maharashtra's socioeconomic governance landscape.
-                </p>
+
+                <!-- 4. Main Exam Pane -->
+                <div role="tabpanel" id="tab-pane-mains" aria-labelledby="tab-btn-mains" class="course-tab-pane" style="display: none;">
+                  <div style="background: #fff; padding: 2.5rem; border-radius: 8px; border-left: 4px solid var(--color-gold); border: 1px solid var(--color-border-subtle); box-shadow: 0 10px 30px rgba(0,0,0,0.02);">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; flex-wrap: wrap; gap: 0.5rem;">
+                      <div>
+                        <span class="txt-uppercase-cap" style="color: var(--color-gold);">Stage 2</span>
+                        <h3 class="h3" style="color: var(--color-slate); margin-top: 0.35rem; margin-bottom: 0;">2. Main Examination</h3>
+                      </div>
+                      <span style="background: var(--color-gold); color: var(--color-slate); font-size: 0.85rem; font-weight: 700; padding: 0.3rem 0.85rem; border-radius: 4px;">Written Examination</span>
+                    </div>
+                    <p style="color: var(--color-text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.6;">
+                      Comprehensive written descriptive papers determining the candidate's core administrative merit.
+                    </p>
+
+                    <div class="grid grid-2" style="gap: 1.25rem;">
+                      <!-- A. Qualifying Papers -->
+                      <div style="background: var(--color-bg-light-orange); padding: 1.5rem; border-radius: 6px; border: 1px solid rgba(0,0,0,0.03);">
+                        <strong style="color: var(--color-primary-burgundy); display: block; font-size: 1rem; margin-bottom: 0.5rem;">A. Qualifying Papers</strong>
+                        <ul style="font-size: 0.9rem; color: var(--color-text-secondary); padding-left: 1.2rem; margin: 0 0 0.5rem 0; line-height: 1.6;">
+                          <li>Paper 1: English</li>
+                          <li>Paper 2: Indian Language</li>
+                        </ul>
+                        <div style="font-size: 0.9rem; color: var(--color-slate); font-weight: 600;">Total: 2 × 300 = 600 marks</div>
+                      </div>
+
+                      <!-- B. Essay -->
+                      <div style="background: var(--color-bg-light-orange); padding: 1.5rem; border-radius: 6px; border: 1px solid rgba(0,0,0,0.03);">
+                        <strong style="color: var(--color-primary-burgundy); display: block; font-size: 1rem; margin-bottom: 0.5rem;">B. Essay</strong>
+                        <ul style="font-size: 0.9rem; color: var(--color-text-secondary); padding-left: 1.2rem; margin: 0; line-height: 1.6;">
+                          <li>Total Marks: <strong>250</strong></li>
+                        </ul>
+                      </div>
+
+                      <!-- C. General Studies -->
+                      <div style="background: var(--color-bg-light-orange); padding: 1.5rem; border-radius: 6px; border: 1px solid rgba(0,0,0,0.03);">
+                        <strong style="color: var(--color-primary-burgundy); display: block; font-size: 1rem; margin-bottom: 0.5rem;">C. General Studies</strong>
+                        <ul style="font-size: 0.9rem; color: var(--color-text-secondary); padding-left: 1.2rem; margin: 0 0 0.5rem 0; line-height: 1.6;">
+                          <li>Paper I</li>
+                          <li>Paper II</li>
+                          <li>Paper III</li>
+                          <li>Paper IV</li>
+                        </ul>
+                        <div style="font-size: 0.9rem; color: var(--color-slate); font-weight: 600;">Total: 4 × 250 = 1,000 marks</div>
+                      </div>
+
+                      <!-- D. Optional Subject -->
+                      <div style="background: var(--color-bg-light-orange); padding: 1.5rem; border-radius: 6px; border: 1px solid rgba(0,0,0,0.03);">
+                        <strong style="color: var(--color-primary-burgundy); display: block; font-size: 1rem; margin-bottom: 0.5rem;">D. Optional Subject</strong>
+                        <ul style="font-size: 0.9rem; color: var(--color-text-secondary); padding-left: 1.2rem; margin: 0 0 0.5rem 0; line-height: 1.6;">
+                          <li>Paper I</li>
+                          <li>Paper II</li>
+                        </ul>
+                        <div style="font-size: 0.9rem; color: var(--color-slate); font-weight: 600;">Total: 2 × 250 = 500 marks</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 5. Interview Pane -->
+                <div role="tabpanel" id="tab-pane-interview" aria-labelledby="tab-btn-interview" class="course-tab-pane" style="display: none;">
+                  <div style="background: #fff; padding: 2.5rem; border-radius: 8px; border-left: 4px solid var(--color-slate); border: 1px solid var(--color-border-subtle); margin-bottom: 1.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.02);">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+                      <div>
+                        <span class="txt-uppercase-cap" style="color: var(--color-gold);">Stage 3</span>
+                        <h3 class="h3" style="color: var(--color-slate); margin-top: 0.35rem; margin-bottom: 0;">3. Interview</h3>
+                      </div>
+                      <span style="background: var(--color-slate); color: #fff; font-size: 0.85rem; font-weight: 700; padding: 0.3rem 0.85rem; border-radius: 4px;">275 Marks Total</span>
+                    </div>
+                    <p style="color: var(--color-text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem;">
+                      The Personality Test evaluates candidate's administrative suitability, leadership qualities, critical thinking, moral integrity, and grasp over state governance.
+                    </p>
+                    <ul style="font-size: 0.95rem; color: var(--color-text-secondary); padding-left: 1.2rem; margin: 0 0 1.5rem 0; line-height: 1.8;">
+                      <li>Total Marks: <strong>275</strong></li>
+                    </ul>
+
+                    <!-- Note -->
+                    <div style="background: var(--color-bg-light-orange); border-left: 4px solid var(--color-gold); padding: 1.25rem; border-radius: 4px; font-size: 0.88rem; color: var(--color-text-muted); line-height: 1.6;">
+                      <strong>Note:</strong> This is a translation of the information visible in the provided image. The examination pattern and marks may change, so candidates should verify the current official MPSC Rajyaseva notification.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 6. Posts Offered Pane -->
+                <div role="tabpanel" id="tab-pane-posts" aria-labelledby="tab-btn-posts" class="course-tab-pane" style="display: none;">
+                  <div id="posts-offered" style="margin-bottom: 1rem;">
+                    <span class="txt-uppercase-cap" style="color: var(--color-gold);">Cadre Spectrum</span>
+                    <h3 class="h3" style="color: var(--color-slate); margin-top: 0.5rem; margin-bottom: 0.75rem;">Posts Offered in Rajyaseva</h3>
+                    <p style="color: var(--color-text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem;">
+                      MPSC Rajyaseva provides opportunities for candidates to secure various Class 1 (Group A) and Class 2 (Group B) government positions in Maharashtra.
+                    </p>
+
+                    <div class="grid grid-2" style="gap: 1.5rem; margin-bottom: 1.5rem;">
+                      
+                      <!-- Group A Posts -->
+                      <div style="background: #fff; padding: 2rem; border-radius: 8px; border-top: 4px solid var(--color-primary-burgundy); border: 1px solid var(--color-border-subtle); box-shadow: 0 10px 30px rgba(0,0,0,0.02);">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; border-bottom: 1px solid var(--color-border-subtle); padding-bottom: 0.75rem;">
+                          <h4 class="h4" style="color: var(--color-primary-burgundy); margin: 0;">Group A Posts</h4>
+                          <span style="background: var(--color-primary-burgundy); color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 4px;">Class 1</span>
+                        </div>
+                        <ol style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.55rem; font-size: 0.9rem; color: var(--color-text-secondary);">
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-primary-burgundy); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">1.</span>
+                            <span style="flex: 1; line-height: 1.6;">Deputy Collector (DCA)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-primary-burgundy); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">2.</span>
+                            <span style="flex: 1; line-height: 1.6;">Deputy Superintendent of Police / Assistant Commissioner of Police (ACP)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-primary-burgundy); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">3.</span>
+                            <span style="flex: 1; line-height: 1.6;">Assistant Commissioner of Sales Tax (ASC)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-primary-burgundy); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">4.</span>
+                            <span style="flex: 1; line-height: 1.6;">Registrar, Co-operative Societies</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-primary-burgundy); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">5.</span>
+                            <span style="flex: 1; line-height: 1.6;">Deputy Chief Executive Officer (DCE)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-primary-burgundy); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">6.</span>
+                            <span style="flex: 1; line-height: 1.6;">Assistant Director, Maharashtra Finance and Accounts Service (MFA)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-primary-burgundy); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">7.</span>
+                            <span style="flex: 1; line-height: 1.6;">Chief Officer, Municipal Corporation / Municipal Parishad (COA)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-primary-burgundy); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">8.</span>
+                            <span style="flex: 1; line-height: 1.6;">Superintendent of State Excise (SSE)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-primary-burgundy); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">9.</span>
+                            <span style="flex: 1; line-height: 1.6;">Education Officer, Maharashtra Education Service, Administration Branch (EOOB)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-primary-burgundy); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">10.</span>
+                            <span style="flex: 1; line-height: 1.6;">Tahsildar (TAH)</span>
+                          </li>
+                        </ol>
+                      </div>
+
+                      <!-- Group B Posts -->
+                      <div style="background: #fff; padding: 2rem; border-radius: 8px; border-top: 4px solid var(--color-gold); border: 1px solid var(--color-border-subtle); box-shadow: 0 10px 30px rgba(0,0,0,0.02);">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; border-bottom: 1px solid var(--color-border-subtle); padding-bottom: 0.75rem;">
+                          <h4 class="h4" style="color: var(--color-slate); margin: 0;">Group B Posts</h4>
+                          <span style="background: var(--color-gold); color: var(--color-slate); font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 4px;">Class 2</span>
+                        </div>
+                        <ol style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.55rem; font-size: 0.9rem; color: var(--color-text-secondary);">
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-slate); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">1.</span>
+                            <span style="flex: 1; line-height: 1.6;">Deputy Education Officer, Maharashtra Education Service, Administration Branch (DEB)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-slate); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">2.</span>
+                            <span style="flex: 1; line-height: 1.6;">Assistant Regional Transport Officer</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-slate); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">3.</span>
+                            <span style="flex: 1; line-height: 1.6;">Accounting Officer, Maharashtra Finance and Accounts Service</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-slate); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">4.</span>
+                            <span style="flex: 1; line-height: 1.6;">Section Officer (SOB)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-slate); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">5.</span>
+                            <span style="flex: 1; line-height: 1.6;">Block Development Officer (BDO)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-slate); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">6.</span>
+                            <span style="flex: 1; line-height: 1.6;">Assistant Block Development Officer (ABDO)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-slate); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">7.</span>
+                            <span style="flex: 1; line-height: 1.6;">Chief Officer, Municipal Corporation / Municipal Parishad</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-slate); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">8.</span>
+                            <span style="flex: 1; line-height: 1.6;">Assistant Registrar, Co-operative Societies (ARB)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-slate); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">9.</span>
+                            <span style="flex: 1; line-height: 1.6;">Deputy Superintendent, Land Records (DSL)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-slate); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">10.</span>
+                            <span style="flex: 1; line-height: 1.6;">Deputy Superintendent, State Excise (DSE)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-slate); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">11.</span>
+                            <span style="flex: 1; line-height: 1.6;">Assistant Commissioner, State Excise (ASE)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-slate); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">12.</span>
+                            <span style="flex: 1; line-height: 1.6;">Naib Tahsildar (NTB)</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-slate); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">13.</span>
+                            <span style="flex: 1; line-height: 1.6;">Assistant Director, Skill Development, Employment and Entrepreneurship, Group A</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-slate); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">14.</span>
+                            <span style="flex: 1; line-height: 1.6;">Skill Development, Employment and Entrepreneurship Guiding Officer, Group B</span>
+                          </li>
+                          <li style="display: flex; align-items: flex-start; gap: 0.6rem;">
+                            <span style="font-weight: 600; color: var(--color-slate); min-width: 1.5rem; text-align: right; flex-shrink: 0; line-height: 1.6;">15.</span>
+                            <span style="flex: 1; line-height: 1.6;">Industry Officer, Technical, Group B</span>
+                          </li>
+                        </ol>
+                      </div>
+
+                    </div>
+
+                    <!-- Cadre Note -->
+                    <div style="background: var(--color-bg-light-orange); border-left: 4px solid var(--color-gold); padding: 1.25rem; border-radius: 4px; font-size: 0.88rem; color: var(--color-text-muted); line-height: 1.6;">
+                      <strong>📌 Important Cadre Note:</strong> Post availability and eligibility requirements may vary by recruitment cycle. Candidates should refer to the latest official MPSC notification for the applicable examination.
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
-
-            <!-- The Lakshya Advantage -->
-            <div>
-              <span class="txt-uppercase-cap" style="color: var(--color-gold);">Pedagogy &amp; Mentorship</span>
-              <h3 class="h3" style="color: var(--color-slate); margin-top: 0.5rem; margin-bottom: 1.5rem;">How Lakshya Secures Class I Rank Roster</h3>
-              
-              <div class="grid grid-2" style="gap: 1.5rem;">
-                <div style="background: #fff; padding: 1.75rem; border-radius: 8px; border: 1px solid var(--color-border-subtle);">
-                  <strong style="color: var(--color-primary-burgundy); font-size: 1.1rem; display: block; margin-bottom: 0.5rem;">Batch Size Capped at 30</strong>
-                  <p class="txt-tiny" style="color: var(--color-text-secondary); line-height: 1.6;">Individual evaluation of descriptive answer copies with direct line-by-line feedback from Atul Nikumbh sir.</p>
-                </div>
-                <div style="background: #fff; padding: 1.75rem; border-radius: 8px; border: 1px solid var(--color-border-subtle);">
-                  <strong style="color: var(--color-primary-burgundy); font-size: 1.1rem; display: block; margin-bottom: 0.5rem;">15-Day Milestone Tracking</strong>
-                  <p class="txt-tiny" style="color: var(--color-text-secondary); line-height: 1.6;">Bi-weekly diagnostic test cycles and 1-on-1 counseling to eliminate conceptual weaknesses promptly.</p>
-                </div>
-                <div style="background: #fff; padding: 1.75rem; border-radius: 8px; border: 1px solid var(--color-border-subtle);">
-                  <strong style="color: var(--color-primary-burgundy); font-size: 1.1rem; display: block; margin-bottom: 0.5rem;">Comprehensive Notes</strong>
-                  <p class="txt-tiny" style="color: var(--color-text-secondary); line-height: 1.6;">Curated 20-25 page chapter digests covering all 4 GS papers and state-specific governance policies.</p>
-                </div>
-                <div style="background: #fff; padding: 1.75rem; border-radius: 8px; border: 1px solid var(--color-border-subtle);">
-                  <strong style="color: var(--color-primary-burgundy); font-size: 1.1rem; display: block; margin-bottom: 0.5rem;">Officer Mock Panels</strong>
-                  <p class="txt-tiny" style="color: var(--color-text-secondary); line-height: 1.6;">Mock interview panels conducted with senior civil servants and video-recorded body language analysis.</p>
-                </div>
-              </div>
-            </div>
-
           </div>
 
           <!-- Sticky Sidebar -->
@@ -437,6 +683,9 @@
             </a>
             <a href="tel:+917887878001" class="btn btn--outline btn--large" style="color: #0D1B2A; border-color: rgba(13,27,42,0.35);">
               <span class="btn__txt"><span class="btn__txt-inner" data-txt="📞 +91 7887878001">📞 +91 7887878001</span></span>
+            </a>
+            <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--large" style="color: #25D366; border-color: #25D366; font-weight: 700;">
+              <span class="btn__txt"><span class="btn__txt-inner" data-txt="💬 Chat on WhatsApp">💬 Chat on WhatsApp</span></span>
             </a>
             <a href="courses" class="btn btn--outline btn--large" style="color: var(--color-gold); border-color: var(--color-gold);">
               <span class="btn__txt"><span class="btn__txt-inner" data-txt="Explore All 7 Programs →">Explore All 7 Programs →</span></span>
@@ -569,25 +818,22 @@
               </ul>
             </div>
 
-            <div class="footer__nav-col">
+                        <div class="footer__nav-col">
               <h4 class="footer__heading">Admissions Office</h4>
               <p class="footer__contact-line">
                 <strong>Campus:</strong><br>
                 2nd Floor, Bhaskar Android, Opp. Sindhusagar Academy, Near Lane No. 4, Pandit Colony, Nashik, 422002
               </p>
-              <p class="footer__contact-line" style="margin-top: 1rem;">
+              <p class="footer__contact-line" style="margin-top: 0.85rem;">
                 <strong>Telephone:</strong><br>
-                <a href="tel:+917887878001">+91 7887878001</a><br>
-                <a href="tel:+919022869315">+91 9022869315</a>
+                <a href="tel:+917887878001">📞 +91 7887878001</a><br>
+                <a href="tel:+917887878002">📞 +91 7887878002</a>
               </p>
-              <p class="footer__contact-line footer__contact-whatsapp" style="margin-top: 1rem;">
-
-              </p>
-              <p class="footer__contact-line" style="margin-top: 1rem;">
+              <p class="footer__contact-line" style="margin-top: 0.85rem;">
                 <strong>Email Office:</strong><br>
                 <a href="mailto:lakshyacareeracademynashik@gmail.com">lakshyacareeracademynashik@gmail.com</a>
               </p>
-            </div>
+            </div></div>
           </div>
 
           <div class="footer__bottom">
@@ -603,6 +849,8 @@
     <svg viewBox="0 0 24 24" width="30" height="30" fill="#fff"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.04 14.69 2 12.04 2ZM12.05 20.16C10.57 20.16 9.12 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.8 7.37 7.5 3.67 12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.16 12.05 20.16ZM16.57 14.39C16.32 14.27 15.11 13.67 14.88 13.59C14.66 13.5 14.49 13.46 14.33 13.71C14.16 13.95 13.69 14.51 13.55 14.67C13.4 14.83 13.26 14.85 13.01 14.73C12.76 14.6 11.96 14.34 11.01 13.49C10.27 12.83 9.77 12.01 9.63 11.76C9.48 11.51 9.61 11.38 9.74 11.25C9.85 11.14 9.99 10.96 10.11 10.82C10.23 10.68 10.28 10.57 10.36 10.41C10.44 10.24 10.4 10.1 10.34 9.97C10.28 9.85 9.78 8.63 9.58 8.13C9.37 7.64 9.17 7.71 9.02 7.7C8.87 7.7 8.71 7.7 8.54 7.7C8.38 7.7 8.11 7.76 7.88 8.01C7.66 8.25 7.03 8.84 7.03 10.04C7.03 11.24 7.91 12.39 8.03 12.55C8.15 12.72 9.75 15.19 12.21 16.25C12.8 16.5 13.25 16.65 13.61 16.77C14.2 16.96 14.74 16.93 15.17 16.87C15.65 16.8 16.64 16.27 16.85 15.69C17.05 15.11 17.05 14.62 16.99 14.51C16.93 14.41 16.82 14.51 16.57 14.39Z"/></svg>
   </a>
 
+    <script src="js/translations.js"></script>
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
   <script src="js/enquiry.js"></script>
 </body>

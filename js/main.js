@@ -17,6 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
   initPopovers();
   initScrollReveals();
   initSmoothAnchorScroll();
+  initDirectorModals();
+  initNavbarDropdowns();
+  initCourseTabs();
 });
 
 /* --------------------------------------------------------------------------
@@ -415,16 +418,40 @@ function initScrollReveals() {
    12. SMOOTH ANCHOR SCROLLING
    -------------------------------------------------------------------------- */
 function initSmoothAnchorScroll() {
+  const scrollToTarget = (target) => {
+    const headerOffset = 100;
+    const elementPosition = target.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
+  };
+
   document.querySelectorAll('a[href^="#"]:not([href="#"]):not([href^="#popover"])').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
       const targetId = this.getAttribute('href');
       const target = document.querySelector(targetId);
       if (target) {
         e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        scrollToTarget(target);
       }
     });
   });
+
+  const handleInitialHash = () => {
+    if (window.location.hash && window.location.hash !== '#') {
+      const target = document.querySelector(window.location.hash);
+      if (target) {
+        setTimeout(() => {
+          scrollToTarget(target);
+        }, 200);
+      }
+    }
+  };
+
+  window.addEventListener('load', handleInitialHash);
+  window.addEventListener('hashchange', handleInitialHash);
 }
 
 /* --------------------------------------------------------------------------
@@ -580,4 +607,268 @@ function initCleanUrlRouter() {
       });
     });
   }
+}
+
+/* --------------------------------------------------------------------------
+   14. DIRECTOR PROFILE MODAL ENGINE
+   -------------------------------------------------------------------------- */
+function initDirectorModals() {
+  const triggers = document.querySelectorAll('[data-director-modal-trigger]');
+  const cards = document.querySelectorAll('.director-profile-card');
+  const modals = document.querySelectorAll('.director-modal');
+
+  if (!triggers.length && !cards.length) return;
+
+  const openModal = (directorId) => {
+    const targetModal = document.getElementById(`modal-director-${directorId}`);
+    if (!targetModal) return;
+    targetModal.classList.add('is-active');
+    document.body.style.overflow = 'hidden';
+
+    // Focus close button for accessibility
+    const closeBtn = targetModal.querySelector('.director-modal__close');
+    if (closeBtn) closeBtn.focus();
+  };
+
+  const closeModal = (modal) => {
+    modal.classList.remove('is-active');
+    document.body.style.overflow = '';
+  };
+
+  // Click triggers (buttons and cards)
+  triggers.forEach(trigger => {
+    trigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const id = trigger.getAttribute('data-director-modal-trigger');
+      if (id) openModal(id);
+    });
+  });
+
+  // Clicking anywhere on the card opens the profile
+  cards.forEach(card => {
+    const trigger = card.querySelector('[data-director-modal-trigger]');
+    if (!trigger) return;
+    const id = trigger.getAttribute('data-director-modal-trigger');
+
+    card.addEventListener('click', (e) => {
+      // Don't trigger twice if button itself clicked
+      if (e.target.closest('[data-director-modal-trigger]')) return;
+      if (id) openModal(id);
+    });
+
+    // Keyboard support (Enter/Space on card)
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('role', 'button');
+    card.setAttribute('aria-label', `View full profile of ${card.querySelector('.director-profile-card__name')?.textContent || 'Director'}`);
+    card.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        if (id) openModal(id);
+      }
+    });
+  });
+
+  // Close handlers
+  modals.forEach(modal => {
+    const closeBtn = modal.querySelector('.director-modal__close');
+    const overlay = modal.querySelector('.director-modal__overlay');
+
+    if (closeBtn) {
+      closeBtn.addEventListener('click', () => closeModal(modal));
+    }
+    if (overlay) {
+      overlay.addEventListener('click', () => closeModal(modal));
+    }
+  });
+
+  // ESC key handler
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      modals.forEach(modal => {
+        if (modal.classList.contains('is-active')) {
+          closeModal(modal);
+        }
+      });
+    }
+  });
+}
+
+/* --------------------------------------------------------------------------
+   15. NAVBAR DROPDOWN ACCESSIBILITY & MOBILE TAP ENGINE
+   -------------------------------------------------------------------------- */
+function initNavbarDropdowns() {
+  const dropdownItems = document.querySelectorAll('.has-dropdown');
+  if (!dropdownItems.length) return;
+
+  dropdownItems.forEach(item => {
+    const trigger = item.querySelector(':scope > .nav-link-subtle');
+    const dropdown = item.querySelector('.nav-dropdown');
+    if (!trigger || !dropdown) return;
+
+    // Accessibility attributes
+    trigger.setAttribute('aria-haspopup', 'true');
+    trigger.setAttribute('aria-expanded', 'false');
+
+    // Handle touch / mobile click
+    trigger.addEventListener('click', function(e) {
+      const isTouchOrSmall = window.matchMedia('(hover: none), (max-width: 1024px)').matches;
+      if (isTouchOrSmall) {
+        if (!item.classList.contains('is-active')) {
+          e.preventDefault();
+          // Close other dropdowns
+          dropdownItems.forEach(other => {
+            if (other !== item) {
+              other.classList.remove('is-active');
+              other.querySelector(':scope > .nav-link-subtle')?.setAttribute('aria-expanded', 'false');
+            }
+          });
+          item.classList.add('is-active');
+          trigger.setAttribute('aria-expanded', 'true');
+        }
+      }
+    });
+
+    // Keyboard navigation: Enter / Space / ArrowDown
+    trigger.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ' || e.key === 'ArrowDown') {
+        if (!item.classList.contains('is-active')) {
+          e.preventDefault();
+          item.classList.add('is-active');
+          trigger.setAttribute('aria-expanded', 'true');
+          const firstLink = dropdown.querySelector('a');
+          if (firstLink) firstLink.focus();
+        }
+      }
+    });
+
+    // Arrow keys inside dropdown
+    const links = dropdown.querySelectorAll('.dropdown-link');
+    links.forEach((link, idx) => {
+      link.addEventListener('keydown', function(e) {
+        if (e.key === 'ArrowDown') {
+          e.preventDefault();
+          const nextLink = links[idx + 1] || links[0];
+          nextLink.focus();
+        } else if (e.key === 'ArrowUp') {
+          e.preventDefault();
+          if (idx === 0) {
+            trigger.focus();
+          } else {
+            links[idx - 1].focus();
+          }
+        } else if (e.key === 'Escape') {
+          e.preventDefault();
+          item.classList.remove('is-active');
+          trigger.setAttribute('aria-expanded', 'false');
+          trigger.focus();
+        }
+      });
+    });
+  });
+
+  // Close dropdowns when clicking outside
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.has-dropdown')) {
+      dropdownItems.forEach(item => {
+        item.classList.remove('is-active');
+        item.querySelector(':scope > .nav-link-subtle')?.setAttribute('aria-expanded', 'false');
+      });
+    }
+  });
+
+  // Close dropdowns on Escape key globally
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      dropdownItems.forEach(item => {
+        if (item.classList.contains('is-active')) {
+          item.classList.remove('is-active');
+          const trigger = item.querySelector(':scope > .nav-link-subtle');
+          if (trigger) {
+            trigger.setAttribute('aria-expanded', 'false');
+            trigger.focus();
+          }
+        }
+      });
+    }
+  });
+}
+
+/* --------------------------------------------------------------------------
+   COURSE TABS SYSTEM
+   -------------------------------------------------------------------------- */
+function initCourseTabs() {
+  const wrappers = document.querySelectorAll('.course-tabs-wrapper');
+  if (!wrappers.length) return;
+
+  function activateTab(wrapper, activeTab) {
+    const targetId = activeTab.getAttribute('aria-controls');
+    const tabs = wrapper.querySelectorAll('.course-tab-btn');
+    const panes = wrapper.querySelectorAll('.course-tab-pane');
+
+    tabs.forEach(tab => {
+      const isActive = tab === activeTab;
+      tab.classList.toggle('is-active', isActive);
+      tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      tab.setAttribute('tabindex', isActive ? '0' : '-1');
+    });
+
+    panes.forEach(pane => {
+      if (pane.id === targetId) {
+        pane.classList.add('is-active');
+        pane.style.display = 'block';
+      } else {
+        pane.classList.remove('is-active');
+        pane.style.display = 'none';
+      }
+    });
+  }
+
+  wrappers.forEach(wrapper => {
+    const tabs = wrapper.querySelectorAll('.course-tab-btn');
+    const panes = wrapper.querySelectorAll('.course-tab-pane');
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => {
+        activateTab(wrapper, tab);
+      });
+
+      // Keyboard navigation
+      tab.addEventListener('keydown', (e) => {
+        let targetIndex = null;
+        if (e.key === 'ArrowRight') {
+          targetIndex = (index + 1) % tabs.length;
+        } else if (e.key === 'ArrowLeft') {
+          targetIndex = (index - 1 + tabs.length) % tabs.length;
+        } else if (e.key === 'Home') {
+          targetIndex = 0;
+        } else if (e.key === 'End') {
+          targetIndex = tabs.length - 1;
+        }
+
+        if (targetIndex !== null) {
+          e.preventDefault();
+          tabs[targetIndex].focus();
+          activateTab(wrapper, tabs[targetIndex]);
+        }
+      });
+    });
+
+    // Check if hash matches an element inside a pane
+    if (window.location.hash) {
+      try {
+        const targetElement = document.querySelector(window.location.hash);
+        if (targetElement) {
+          const pane = targetElement.closest('.course-tab-pane');
+          if (pane && pane.id) {
+            const matchingTab = wrapper.querySelector(`.course-tab-btn[aria-controls="${pane.id}"]`);
+            if (matchingTab) {
+              activateTab(wrapper, matchingTab);
+            }
+          }
+        }
+      } catch (err) {
+        // Invalid selector, ignore
+      }
+    }
+  });
 }

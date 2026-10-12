@@ -1,7 +1,7 @@
 / /index.html 200
 /about /about.html 200
 /courses /courses.html 200
-/class-material /study-material.html 200
+/class-material /class-material.html 200
 /study-material /study-material.html 200
 /success-stories /success-stories.html 200
 /gallery /gallery.html 200
@@ -14,3 +14,4 @@
 /course-aso /course-aso.html 200
 /course-saralseva /course-saralseva.html 200
 /course-talathi /course-talathi.html 200
+/course-upsc /study-material.html#syllabus 302

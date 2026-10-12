@@ -60,6 +60,375 @@
       display: flex;
       flex-direction: column;
     }
+
+    /* ==========================================================================
+       MODERN ACADEMIC PORTAL ECOSYSTEM (UNIQUE EDUCATION PLATFORM LAYOUT)
+       ========================================================================== */
+    .edu-features-section {
+      background: #FAF7F2;
+      position: relative;
+      overflow: hidden;
+      border-top: 1px solid var(--color-border-subtle);
+      border-bottom: 1px solid var(--color-border-subtle);
+    }
+    .edu-features-section::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 480px;
+      background: radial-gradient(circle at 50% 0%, rgba(139, 30, 30, 0.05) 0%, rgba(250, 247, 242, 0) 70%);
+      pointer-events: none;
+    }
+
+    /* Key Metrics Billboard Strip */
+    .edu-metrics-strip {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      background: #FFFFFF;
+      border-radius: 12px;
+      border: 1px solid rgba(13, 27, 42, 0.08);
+      box-shadow: 0 16px 40px -10px rgba(13, 27, 42, 0.06);
+      margin-bottom: 3.5rem;
+      position: relative;
+      z-index: 2;
+      overflow: hidden;
+    }
+    .edu-metric-cell {
+      padding: 1.5rem 1.25rem;
+      text-align: center;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s ease;
+    }
+    .edu-metric-cell:not(:last-child)::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 20%;
+      height: 60%;
+      width: 1px;
+      background: rgba(13, 27, 42, 0.08);
+    }
+    .edu-metric-cell:hover {
+      background: rgba(244, 239, 230, 0.35);
+    }
+    .edu-metric-val {
+      font-family: var(--font-heading);
+      font-size: 2.1rem;
+      font-weight: 800;
+      line-height: 1;
+      color: var(--color-burgundy);
+      letter-spacing: -0.02em;
+      margin-bottom: 0.35rem;
+      display: flex;
+      align-items: baseline;
+      gap: 2px;
+    }
+    .edu-metric-val sup {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--color-gold);
+    }
+    .edu-metric-label {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--color-slate);
+      line-height: 1.3;
+      margin-bottom: 0.2rem;
+    }
+    .edu-metric-sub {
+      font-size: 0.75rem;
+      color: var(--color-text-muted);
+      line-height: 1.25;
+    }
+
+    /* Track Layout: 2 Pillars Side-by-Side */
+    .edu-tracks-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.25rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Track Pillar Module */
+    .edu-track-pillar {
+      background: #FFFFFF;
+      border-radius: 12px;
+      border: 1px solid rgba(13, 27, 42, 0.08);
+      box-shadow: 0 12px 36px -8px rgba(13, 27, 42, 0.05);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .edu-track-header {
+      padding: 1.6rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(13, 27, 42, 0.07);
+      position: relative;
+    }
+    .edu-track-header--burgundy {
+      background: linear-gradient(135deg, rgba(139, 30, 30, 0.04) 0%, rgba(255, 255, 255, 0.8) 100%);
+      border-top: 4px solid var(--color-burgundy);
+    }
+    .edu-track-header--gold {
+      background: linear-gradient(135deg, rgba(197, 160, 89, 0.08) 0%, rgba(255, 255, 255, 0.8) 100%);
+      border-top: 4px solid var(--color-gold);
+    }
+    .edu-track-title-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+    .edu-track-badge-letter {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 0.95rem;
+      font-family: var(--font-heading);
+    }
+    .edu-track-badge-letter--burgundy {
+      background: var(--color-burgundy);
+      color: #FFFFFF;
+    }
+    .edu-track-badge-letter--gold {
+      background: var(--color-gold);
+      color: var(--color-slate);
+    }
+    .edu-track-heading {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--color-slate);
+      margin: 0;
+      line-height: 1.2;
+    }
+    .edu-track-desc {
+      font-size: 0.8rem;
+      color: var(--color-text-muted);
+      display: block;
+      margin-top: 0.2rem;
+    }
+    .edu-track-counter {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.3rem 0.65rem;
+      border-radius: 20px;
+      background: #FFFFFF;
+      border: 1px solid rgba(13, 27, 42, 0.1);
+      color: var(--color-slate);
+      white-space: nowrap;
+    }
+
+    /* Structured Ledger / Syllabus Row Items */
+    .edu-ledger-list {
+      display: flex;
+      flex-direction: column;
+      divide-y: 1px solid rgba(13, 27, 42, 0.06);
+    }
+    .edu-ledger-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.1rem;
+      padding: 1.15rem 1.75rem;
+      border-bottom: 1px solid rgba(13, 27, 42, 0.06);
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+    }
+    .edu-ledger-item:last-child {
+      border-bottom: none;
+    }
+    .edu-ledger-item:hover {
+      background: rgba(244, 239, 230, 0.35);
+      padding-left: 2rem;
+    }
+    .edu-ledger-item--highlight {
+      background: linear-gradient(90deg, rgba(139, 30, 30, 0.025) 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    .edu-ledger-item--highlight-gold {
+      background: linear-gradient(90deg, rgba(197, 160, 89, 0.04) 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    .edu-ledger-idx {
+      font-family: var(--font-heading);
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--color-text-subtle);
+      width: 24px;
+      padding-top: 2px;
+      flex-shrink: 0;
+    }
+    .edu-ledger-icon {
+      width: 34px;
+      height: 34px;
+      border-radius: 6px;
+      background: #FAF7F2;
+      border: 1px solid rgba(13, 27, 42, 0.08);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: var(--color-burgundy);
+      transition: all 0.25s ease;
+    }
+    .edu-ledger-item:hover .edu-ledger-icon {
+      background: var(--color-burgundy);
+      color: #FFFFFF;
+      border-color: var(--color-burgundy);
+      transform: scale(1.05);
+    }
+    .edu-ledger-icon--gold {
+      color: var(--color-gold);
+    }
+    .edu-ledger-item:hover .edu-ledger-icon--gold {
+      background: var(--color-gold);
+      color: var(--color-slate);
+      border-color: var(--color-gold);
+      transform: scale(1.05);
+    }
+    .edu-ledger-body {
+      flex: 1;
+      min-width: 0;
+    }
+    .edu-ledger-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      margin-bottom: 0.25rem;
+      flex-wrap: wrap;
+    }
+    .edu-ledger-name {
+      font-size: 0.96rem;
+      font-weight: 700;
+      color: var(--color-slate);
+      line-height: 1.35;
+    }
+    .edu-ledger-desc {
+      font-size: 0.87rem;
+      color: var(--color-text-secondary);
+      line-height: 1.55;
+      margin: 0;
+    }
+    .edu-pill {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+      line-height: 1.2;
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+    }
+    .edu-pill--burgundy {
+      background: var(--color-burgundy);
+      color: #FFFFFF;
+    }
+    .edu-pill--gold {
+      background: rgba(197, 160, 89, 0.2);
+      color: var(--color-slate);
+      border: 1px solid rgba(197, 160, 89, 0.4);
+    }
+    .edu-pill--slate {
+      background: rgba(13, 27, 42, 0.08);
+      color: var(--color-slate);
+    }
+
+    /* Bottom Academic Commitment Bar */
+    .edu-guarantee-bar {
+      margin-top: 2.75rem;
+      background: #FFFFFF;
+      border: 1px solid rgba(13, 27, 42, 0.08);
+      border-radius: 12px;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      box-shadow: 0 10px 30px -10px rgba(13, 27, 42, 0.04);
+      position: relative;
+      z-index: 2;
+      flex-wrap: wrap;
+    }
+    .edu-guarantee-left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .edu-guarantee-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(139, 30, 30, 0.08);
+      color: var(--color-burgundy);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .edu-guarantee-text h4 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--color-slate);
+      margin: 0 0 0.2rem 0;
+    }
+    .edu-guarantee-text p {
+      font-size: 0.85rem;
+      color: var(--color-text-muted);
+      margin: 0;
+    }
+
+    @media (max-width: 991px) {
+      .edu-metrics-strip {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .edu-metric-cell:nth-child(3)::after {
+        display: none;
+      }
+      .edu-tracks-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+    @media (max-width: 640px) {
+      .edu-metrics-strip {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .edu-metric-cell:nth-child(2n)::after {
+        display: none;
+      }
+      .edu-metric-cell:last-child {
+        grid-column: span 2;
+      }
+      .edu-track-header {
+        padding: 1.25rem 1.25rem;
+      }
+      .edu-ledger-item {
+        padding: 1rem 1.25rem;
+        gap: 0.85rem;
+      }
+      .edu-ledger-item:hover {
+        padding-left: 1.25rem;
+      }
+      .edu-guarantee-bar {
+        padding: 1.25rem;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
   </style>
 </head>
 <body class="about-page">
@@ -81,19 +450,33 @@
             <ul class="nav-list">
               <li class="nav-item"><a href="/" class="nav-link-subtle">Home</a></li>
               <li class="nav-item"><a href="about" class="nav-link-subtle active">About Us</a></li>
-              <li class="nav-item"><a href="courses" class="nav-link-subtle">Courses</a></li>
-              <li class="nav-item has-dropdown">
-                <a href="study-material#class-material" class="nav-link-subtle">
-                  Class Material <span class="nav-arrow">∨</span>
+                            <li class="nav-item has-dropdown">
+                <a href="courses" class="nav-link-subtle">
+                  Courses <span class="nav-arrow">∨</span>
                 </a>
                 <ul class="nav-dropdown">
-                  <li><a href="study-material#class-notes" class="dropdown-link">Class Notes</a></li>
-                  <li><a href="study-material#magazine" class="dropdown-link">Class Magazine</a></li>
-                  <li><a href="study-material#test-series" class="dropdown-link">Test Series</a></li>
+                  <li><a href="course-rajyaseva" class="dropdown-link">Rajyaseva Examination</a></li>
+                  <li><a href="study-material#syllabus" class="dropdown-link">UPSC Civil Services</a></li>
+                  <li><a href="course-combine" class="dropdown-link">Combine Group B (PSI/STI/ASO)</a></li>
+                  <li><a href="course-psi" class="dropdown-link">PSI Mains &amp; Physical</a></li>
+                  <li><a href="course-sti" class="dropdown-link">Sales Tax Inspector (STI)</a></li>
+                  <li><a href="course-aso" class="dropdown-link">ASO Mains Examination</a></li>
+                  <li><a href="course-saralseva" class="dropdown-link">Saralseva Direct Recruitment</a></li>
+                  <li><a href="course-talathi" class="dropdown-link">Talathi Bharti Examination</a></li>
                 </ul>
               </li>
               <li class="nav-item has-dropdown">
-                <a href="study-material#study-material" class="nav-link-subtle">
+                <a href="class-material" class="nav-link-subtle">
+                  Class Material <span class="nav-arrow">∨</span>
+                </a>
+                <ul class="nav-dropdown">
+                  <li><a href="class-material#class-notes" class="dropdown-link">Class Notes</a></li>
+                  <li><a href="class-material#class-magazine" class="dropdown-link">Class Magazine</a></li>
+                  <li><a href="class-material#test-series" class="dropdown-link">Test Series</a></li>
+                </ul>
+              </li>
+              <li class="nav-item has-dropdown">
+                <a href="study-material" class="nav-link-subtle">
                   Study Material <span class="nav-arrow">∨</span>
                 </a>
                 <ul class="nav-dropdown">
@@ -114,7 +497,11 @@
           </nav>
 
           <!-- Header Actions -->
-          <div class="header__actions">
+                    <div class="header__actions">
+            <div class="lang-selector" role="group" aria-label="Select Language">
+              <button type="button" class="lang-pill is-active" data-lang="en" aria-label="English">EN</button>
+              <button type="button" class="lang-pill" data-lang="mr" aria-label="मराठी">मराठी</button>
+            </div>
             <a href="#popover-start-your-journey" class="btn btn--tiny btn--burgundy">
               <span class="btn__txt"><span class="btn__txt-inner" data-txt="Book Strategy Session">Book Strategy Session</span></span>
             </a>
@@ -131,9 +518,18 @@
     <div class="main-menu__overlay"></div>
     <nav class="main-menu" data-menu="main">
       <div class="main-menu__inner">
-        <div class="main-menu__close-bar">
+                <div class="main-menu__close-bar">
           <span class="txt-uppercase-cap" style="color: var(--color-gold);">Academy Directory</span>
           <button class="main-menu__close-btn" data-menu-close aria-label="Close menu">&times;</button>
+        </div>
+
+        <!-- Language Selector for Mobile Drawer -->
+        <div class="drawer-lang-selector">
+          <span class="drawer-lang-label">भाषा निवडा / Language</span>
+          <div class="lang-selector" role="group" aria-label="Select Language">
+            <button type="button" class="lang-pill is-active" data-lang="en" aria-label="English">EN</button>
+            <button type="button" class="lang-pill" data-lang="mr" aria-label="मराठी">मराठी</button>
+          </div>
         </div>
         <ul class="main-menu__items">
           <li><a href="/" class="menu-item-link"><span>01. Home</span> <span>→</span></a></li>
@@ -141,6 +537,7 @@
           <li><a href="courses" class="menu-item-link"><span>03. Courses</span> <span>→</span></a></li>
           <li class="main-menu__subitems">
             <a href="course-rajyaseva" class="main-menu__sublink">• Rajyaseva Examination</a>
+            <a href="study-material#syllabus" class="main-menu__sublink">• UPSC Civil Services</a>
             <a href="course-combine" class="main-menu__sublink">• Combine Group B (PSI/STI/ASO)</a>
             <a href="course-psi" class="main-menu__sublink">• PSI Mains &amp; Physical</a>
             <a href="course-sti" class="main-menu__sublink">• Sales Tax Inspector (STI)</a>
@@ -148,13 +545,13 @@
             <a href="course-saralseva" class="main-menu__sublink">• Saralseva Direct Recruitment</a>
             <a href="course-talathi" class="main-menu__sublink">• Talathi Bharti Examination</a>
           </li>
-          <li><a href="study-material#class-material" class="menu-item-link"><span>04. Class Material</span> <span>→</span></a></li>
+          <li><a href="class-material" class="menu-item-link"><span>04. Class Material</span> <span>→</span></a></li>
           <li class="main-menu__subitems">
-            <a href="study-material#class-notes" class="main-menu__sublink">• Class Notes</a>
-            <a href="study-material#magazine" class="main-menu__sublink">• Class Magazine</a>
-            <a href="study-material#test-series" class="main-menu__sublink">• Test Series</a>
+            <a href="class-material#class-notes" class="main-menu__sublink">• Class Notes</a>
+            <a href="class-material#class-magazine" class="main-menu__sublink">• Class Magazine</a>
+            <a href="class-material#test-series" class="main-menu__sublink">• Test Series</a>
           </li>
-          <li><a href="study-material#study-material" class="menu-item-link"><span>05. Study Material</span> <span>→</span></a></li>
+          <li><a href="study-material" class="menu-item-link"><span>05. Study Material</span> <span>→</span></a></li>
           <li class="main-menu__subitems">
             <a href="study-material#school-books" class="main-menu__sublink">• School books</a>
             <a href="study-material#ncert" class="main-menu__sublink">• NCERT</a>
@@ -169,6 +566,27 @@
           <li><a href="blog" class="menu-item-link"><span>08. Blog &amp; Insights</span> <span>→</span></a></li>
           <li><a href="contact" class="menu-item-link"><span>09. Contact Us</span> <span>→</span></a></li>
         </ul>
+        <!-- Quick Contact & WhatsApp Bar -->
+        <div class="drawer-contact-bar">
+          <span class="drawer-contact-title">Direct Helpline &amp; WhatsApp</span>
+          <div class="drawer-contact-links">
+            <a href="tel:+917887878001" class="drawer-contact-btn drawer-contact-btn--tel" aria-label="Call Admissions 7887878001">
+              📞 7887878001
+            </a>
+            <a href="tel:+917887878002" class="drawer-contact-btn drawer-contact-btn--tel" aria-label="Call Admissions 7887878002">
+              📞 7887878002
+            </a>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 0.25rem;">
+            <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp Line 1">
+              💬 WhatsApp 1
+            </a>
+            <a href="https://wa.me/917887878002?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp Line 2">
+              💬 WhatsApp 2
+            </a>
+          </div>
+        </div>
+
         <div style="margin-top: auto; padding-top: 2rem;">
           <a href="#popover-start-your-journey" class="btn btn--regular btn--gold btn--full">
             <span class="btn__txt"><span class="btn__txt-inner" data-txt="Book Strategy Session">Book Strategy Session</span></span>
@@ -222,33 +640,35 @@
 
           <div class="img-w-txt__txt" data-animate="fade">
             <span class="txt-script" style="color: var(--color-burgundy); font-size: 1.5rem; display: block; margin-bottom: 0.35rem;">Institutional Heritage</span>
-            <h2 style="font-size: clamp(1.8rem, 2.5vw, 2.3rem); line-height: 1.2; margin-bottom: 1.25rem; color: var(--color-slate);">
-              About Lakshya Career Academy
+            <h2 style="font-size: clamp(1.8rem, 2.5vw, 2.3rem); line-height: 1.2; color: var(--color-slate);">
+              About Us
             </h2>
-            <p class="lead" style="font-size: 1.05rem; line-height: 1.7; color: var(--color-text-secondary); margin-bottom: 1rem;">
-              Welcome to <strong>Lakshya Career Academy</strong>, Nashik's premier coaching institute for recruitment exams conducted by MPSC. We are committed to helping aspirants achieve their career goals by providing them with the best guidance and resources.
-            </p>
-            <p style="color: var(--color-text-secondary); line-height: 1.7; margin-bottom: 1rem;">
-              Our coaching institute specializes in preparing students for various MPSC exams, including the Civil Services Exam (ACP/DYSP/Assistant Commissioner Sales Tax/Tahasildar/Deputy Collector/PSI/STI/ASO, etc.) Examinations. We have a team of experienced and knowledgeable faculty members who use innovative teaching methods to make learning an enjoyable and empowering experience for our students.
-            </p>
-            <p style="color: var(--color-text-secondary); line-height: 1.7; margin-bottom: 1rem;">
-              At Lakshya Career Academy, we believe in providing a supportive and inspiring learning environment to help students achieve success in their careers. Our comprehensive study material, regular mock tests, and individual attention to each student ensure that they are thoroughly prepared for their exams.
-            </p>
-            <p style="color: var(--color-text-secondary); line-height: 1.7; margin-bottom: 1rem;">
-              We take pride in our students' success and have helped numerous aspirants realize their dreams of joining the civil services. Our commitment to excellence and dedication to our students have made us one of the most trusted coaching institutes in Nashik.
-            </p>
-            <p style="color: var(--color-text-secondary); line-height: 1.7; margin-bottom: 1.5rem;">
-              Whether you are a first-time aspirant or looking to enhance your skills, Lakshya Career Academy is the right place for you. Join us and let us help you achieve your career aspirations.
-            </p>
+            <div class="about-intro__body">
+              <p class="lead" style="font-size: 1.05rem; line-height: 1.7; color: var(--color-text-secondary);">
+                Welcome to Lakshya Career Academy, a leading training institute in Nashik for recruitment examinations conducted by the MPSC. We are committed to helping candidates achieve their goals by providing excellent guidance and resources.
+              </p>
+              <p style="color: var(--color-text-secondary); line-height: 1.7;">
+                Our institute prepares students for various competitive examinations, including civil service examinations for posts such as Assistant Commissioner of Police, Deputy Superintendent of Police, Assistant Commissioner of Sales Tax, Tahsildar, Deputy Collector, PSI, STI and ASO.
+              </p>
+              <p style="color: var(--color-text-secondary); line-height: 1.7;">
+                We have a team of experienced and knowledgeable teachers who use innovative teaching methods to make learning an enjoyable experience.
+              </p>
+              <p style="color: var(--color-text-secondary); line-height: 1.7;">
+                At Lakshya Career Academy, we believe in creating a supportive and motivating learning environment that helps students succeed in their careers. Our comprehensive study material, regular practice tests and individual attention ensure that every student is well prepared for their examinations.
+              </p>
+              <p style="color: var(--color-text-secondary); line-height: 1.7;">
+                We take pride in our students’ success and have helped many aspirants fulfil their dream of joining the civil services. Our commitment to excellence and dedication to our students have made us one of Nashik’s most trusted training institutes.
+              </p>
+              <p style="color: var(--color-text-secondary); line-height: 1.7;">
+                Whether you are a first-time aspirant or wish to improve your skills, Lakshya Career Academy is the right place for you. Join us and work towards achieving your career ambitions.
+              </p>
+            </div>
             <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
-              <a href="#aim" class="btn btn--burgundy btn--regular">
-                <span class="btn__txt"><span class="btn__txt-inner" data-txt="Our Aim ↓">Our Aim ↓</span></span>
+              <a href="#vision-mission" class="btn btn--burgundy btn--regular">
+                <span class="btn__txt"><span class="btn__txt-inner" data-txt="Vision &amp; Mission ↓">Vision &amp; Mission ↓</span></span>
               </a>
-              <a href="#mission" class="btn btn--gold btn--regular">
-                <span class="btn__txt"><span class="btn__txt-inner" data-txt="Our Mission ↓">Our Mission ↓</span></span>
-              </a>
-              <a href="#speciality" class="btn btn--outline btn--regular">
-                <span class="btn__txt"><span class="btn__txt-inner" data-txt="Our Speciality ↓">Our Speciality ↓</span></span>
+              <a href="#features" class="btn btn--gold btn--regular">
+                <span class="btn__txt"><span class="btn__txt-inner" data-txt="Academy Features ↓">Academy Features ↓</span></span>
               </a>
             </div>
           </div>
@@ -257,307 +677,822 @@
     </section>
 
     <!-- ========================================================================
-         2. OUR SPECIALITY (MASTERING COMPETITIVE EXAMS WITH VISION, STRATEGIES & SKILLS)
+         2. OUR VISION & MISSION (UNIFIED SIDE-BY-SIDE LAYOUT)
          ======================================================================== -->
-    <section class="section pv-large bg-colorway-beige" id="speciality">
+    <section class="section pv-large bg-colorway-beige" id="vision-mission" style="padding-top: 4rem; padding-bottom: 4rem;">
+      <div id="vision" style="position: relative; top: -80px; visibility: hidden;"></div>
+      <div id="mission" style="position: relative; top: -80px; visibility: hidden;"></div>
+      <div id="aim" style="position: relative; top: -80px; visibility: hidden;"></div>
       <div id="pedagogy" style="position: relative; top: -80px; visibility: hidden;"></div>
+      
       <div class="section section--large">
         <div class="txt-center content mb-medium" data-animate="fade">
-          <span class="txt-script" style="color: var(--color-burgundy); font-size: 1.5rem;">Discover Us For</span>
-          <h2 style="font-size: clamp(2rem, 2.8vw, 2.6rem); margin-bottom: 0.5rem; color: var(--color-slate);">Our Speciality</h2>
-          <p class="lead" style="color: var(--color-burgundy); font-weight: 600; font-size: 1.2rem; max-width: 850px; margin: 0 auto 1rem;">
-            Mastering Competitive Exams with Vision, Strategies and Skills
-          </p>
-          <p style="max-width: 750px; margin: 0 auto; color: var(--color-text-muted); font-size: 0.95rem;">
-            Complete integrated coaching methodology under one roof at our Pandit Colony center in Nashik.
-          </p>
+          <span class="txt-script" style="color: var(--color-burgundy); font-size: 1.5rem;">Purpose &amp; Directive</span>
+          <h2 style="font-size: clamp(2rem, 2.8vw, 2.6rem); margin-bottom: 0.5rem; color: var(--color-slate);">Our Vision &amp; Mission</h2>
+          <div style="width: 60px; height: 3px; background: var(--color-gold); margin: 0.75rem auto 0 auto; border-radius: 2px;"></div>
         </div>
 
-        <div class="speciality-grid">
+        <div class="grid grid-2" style="gap: 2rem; align-items: stretch;">
           
-          <div class="speciality-card">
-            <span class="speciality-card__icon">✓</span>
-            <div>
-              <h4 class="speciality-card__title">Prelims + Mains + Interview + Physical</h4>
-              <p class="speciality-card__desc">All stages of MPSC examinations covered comprehensively under one roof.</p>
+          <!-- Vision Card -->
+          <div class="aim-box" data-animate="fade" style="background: #FFFFFF; border-radius: 8px; padding: 2.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.03); border-top: 4px solid var(--color-burgundy); border: 1px solid var(--color-border-subtle); display: flex; flex-direction: column; height: 100%;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; border-bottom: 1px solid var(--color-border-subtle); padding-bottom: 0.75rem;">
+              <span class="txt-uppercase-cap" style="color: var(--color-burgundy); font-weight: 700;">Institutional Purpose</span>
+              <span style="background: rgba(139, 30, 30, 0.08); color: var(--color-burgundy); font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 4px;">Vision</span>
             </div>
+            
+            <h3 class="h3" style="color: var(--color-slate); margin-bottom: 1rem; font-size: 1.5rem;">Our Vision</h3>
+            
+            <p class="lead" style="font-size: 1.08rem; line-height: 1.7; color: var(--color-slate); font-weight: 600; margin-bottom: 1.25rem;">
+              To provide excellent UPSC and MPSC classes and appropriate guidance, and continuously work towards developing knowledgeable and capable administrators.
+            </p>
+            
+            <p style="color: var(--color-text-secondary); line-height: 1.7; font-size: 0.95rem; margin-bottom: 1.25rem;">
+              Through education, we aim to build a thoughtful and intelligent society and provide quality teaching that improves preparation for competitive examinations.
+            </p>
+            
+            <p style="color: var(--color-text-secondary); line-height: 1.7; font-size: 0.95rem; margin: 0; margin-top: auto;">
+              We strive to create a supportive environment that enables students to participate more effectively in recruitment processes.
+            </p>
           </div>
 
-          <div class="speciality-card">
-            <span class="speciality-card__icon">✓</span>
-            <div>
-              <h4 class="speciality-card__title">Rigorous Mock Tests</h4>
-              <p class="speciality-card__desc">Real exam simulation with micro-level negative marking analysis and score improvement tracking.</p>
+          <!-- Mission Card -->
+          <div class="aim-box" data-animate="fade" style="background: #FFFFFF; border-radius: 8px; padding: 2.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.03); border-top: 4px solid var(--color-gold); border: 1px solid var(--color-border-subtle); display: flex; flex-direction: column; height: 100%;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; border-bottom: 1px solid var(--color-border-subtle); padding-bottom: 0.75rem;">
+              <span class="txt-uppercase-cap" style="color: var(--color-gold); font-weight: 700;">Strategic Directive</span>
+              <span style="background: rgba(197, 160, 89, 0.15); color: var(--color-slate); font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 4px;">Mission</span>
             </div>
-          </div>
-
-          <div class="speciality-card">
-            <span class="speciality-card__icon">✓</span>
-            <div>
-              <h4 class="speciality-card__title">Separate Subject Experts</h4>
-              <p class="speciality-card__desc">Dedicated specialist faculty members for History, Polity, Economy, Geography, CSAT &amp; Law.</p>
-            </div>
-          </div>
-
-          <div class="speciality-card">
-            <span class="speciality-card__icon">✓</span>
-            <div>
-              <h4 class="speciality-card__title">Multiple Test Series</h4>
-              <p class="speciality-card__desc">Comprehensive test series for Prelims and descriptive Mains with evaluated model answers.</p>
-            </div>
-          </div>
-
-          <div class="speciality-card">
-            <span class="speciality-card__icon">✓</span>
-            <div>
-              <h4 class="speciality-card__title">Hard Copy of All Notes</h4>
-              <p class="speciality-card__desc">Complete printed study booklets, chapter-wise summaries, and revision charts provided to every student.</p>
-            </div>
-          </div>
-
-          <div class="speciality-card">
-            <span class="speciality-card__icon">✓</span>
-            <div>
-              <h4 class="speciality-card__title">Focused Current Affairs</h4>
-              <p class="speciality-card__desc">Special focus on Maharashtra state issues, national developments, policy initiatives, and budget analysis.</p>
-            </div>
-          </div>
-
-          <div class="speciality-card">
-            <span class="speciality-card__icon">✓</span>
-            <div>
-              <h4 class="speciality-card__title">Structured Essay Writing</h4>
-              <p class="speciality-card__desc">Dedicated training in descriptive essay structure, arguments, thesis drafting, and presentation skills.</p>
-            </div>
-          </div>
-
-          <div class="speciality-card">
-            <span class="speciality-card__icon">✓</span>
-            <div>
-              <h4 class="speciality-card__title">Daily Newspaper Reading Session</h4>
-              <p class="speciality-card__desc">Guided daily editorial reading of leading newspapers with key exam points and notes drafting.</p>
-            </div>
-          </div>
-
-          <div class="speciality-card">
-            <span class="speciality-card__icon">✓</span>
-            <div>
-              <h4 class="speciality-card__title">CSAT Preparation</h4>
-              <p class="speciality-card__desc">Comprehensive training in reading comprehension, analytical reasoning, and qualifying strategies.</p>
-            </div>
-          </div>
-
-          <div class="speciality-card">
-            <span class="speciality-card__icon">✓</span>
-            <div>
-              <h4 class="speciality-card__title">IQ and Maths Special Focus</h4>
-              <p class="speciality-card__desc">Specialized speed-maths and logical deduction techniques designed for high Prelims velocity.</p>
-            </div>
-          </div>
-
-          <div class="speciality-card">
-            <span class="speciality-card__icon">✓</span>
-            <div>
-              <h4 class="speciality-card__title">30 Max Students in One Batch</h4>
-              <p class="speciality-card__desc">Strict batch limitation guaranteeing personalized interaction and zero overcrowded classroom culture.</p>
-            </div>
-          </div>
-
-          <div class="speciality-card">
-            <span class="speciality-card__icon">✓</span>
-            <div>
-              <h4 class="speciality-card__title">Free Monthly Magazine</h4>
-              <p class="speciality-card__desc">Curated in-house monthly current affairs journal provided free of charge to enrolled aspirants.</p>
-            </div>
-          </div>
-
-          <div class="speciality-card">
-            <span class="speciality-card__icon">✓</span>
-            <div>
-              <h4 class="speciality-card__title">Individual Guidance Every 15 Days</h4>
-              <p class="speciality-card__desc">Fortnightly 1-on-1 personal mentorship reviews with directors auditing study plans, notes, and progress.</p>
-            </div>
-          </div>
-
-          <div class="speciality-card">
-            <span class="speciality-card__icon">✓</span>
-            <div>
-              <h4 class="speciality-card__title">Daily Written Practice of Mains Exam</h4>
-              <p class="speciality-card__desc">Rigorous daily descriptive answer writing evaluated line-by-line with actionable faculty feedback.</p>
-            </div>
+            
+            <h3 class="h3" style="color: var(--color-slate); margin-bottom: 1rem; font-size: 1.5rem;">Our Mission</h3>
+            
+            <p class="lead" style="font-size: 1.08rem; line-height: 1.7; color: var(--color-burgundy); font-weight: 600; margin-bottom: 1.25rem;">
+              To increase Maharashtra’s participation in the decision-making process.
+            </p>
+            
+            <p style="color: var(--color-text-secondary); line-height: 1.7; font-size: 0.95rem; margin-bottom: 1.25rem;">
+              The Constitution of India promises a strong and prosperous India and entrusts certain special powers to the administrative services. A capable administrative workforce is needed to exercise and implement these powers effectively.
+            </p>
+            
+            <p style="color: var(--color-text-secondary); line-height: 1.7; font-size: 0.95rem; margin-bottom: 1.25rem;">
+              Lakshya Career Academy in Nashik brings together people dedicated to training competent administrators who will fulfil their responsibilities towards social development.
+            </p>
+            
+            <p style="color: var(--color-text-secondary); line-height: 1.7; font-size: 0.95rem; margin: 0; margin-top: auto;">
+              These are people with a spirit of service. Rather than rejecting or ignoring the system of governance, we seek to improve it.
+            </p>
           </div>
 
         </div>
       </div>
     </section>
 
-    <!-- ========================================================================
-         3. OUR AIM (OFFICIAL CORE VISION & METHODOLOGY)
+        <!-- ========================================================================
+         3. FEATURES OF LAKSHYA CAREER ACADEMY (ACADEMIC LEARNING PLATFORM ARCHITECTURE)
          ======================================================================== -->
-    <section class="section pv-large bg-colorway-light-orange" id="aim">
+    <section class="section pv-large edu-features-section" id="features" style="padding-top: 4.5rem; padding-bottom: 4.5rem;">
       <div class="section section--large">
         
+        <!-- Platform Header -->
         <div class="txt-center content mb-medium" data-animate="fade">
-          <span class="txt-script" style="color: var(--color-burgundy); font-size: 1.5rem;">Institutional Purpose</span>
-          <h2 style="font-size: clamp(2rem, 2.8vw, 2.6rem); margin-bottom: 0.5rem; color: var(--color-slate);">Our Aim</h2>
-          <p class="lead" style="color: var(--color-slate); font-weight: 500; font-size: 1.15rem; max-width: 850px; margin: 0 auto;">
-            "To Increase Maharashtra’s Share in Direct Decision Making Process"
-          </p>
-        </div>
-
-        <div class="aim-box" data-animate="fade">
-          <span class="aim-box__badge">Constitutional &amp; Administrative Vision</span>
-          <h3 class="aim-box__title">Building an Able, Trained &amp; Empathetic Administrative Class</h3>
-          <p class="aim-box__text">
-            Indian Constitution vows for a strong and prosperous India and has entrusted the Administrative services with certain special rights. To exercise and implement them skilfully an able Administrative class is needed. <strong>LAKSHYA CAREER ACADEMY, Nashik</strong> has gathered the resources to prepare the trained, able Administrators who have not forgotten their duty to the social development. It is such people with a philanthropic bent of mind who need not despise or ignore politics but rather improve it.
-          </p>
-
-          <hr style="border: 0; border-top: 1px solid var(--color-border-subtle); margin: 2rem 0;">
-
-          <h4 class="aim-box__subheading">
-            <span>🏛️</span> How Does Lakshya Career Academy Prepare?
-          </h4>
-          <p class="aim-box__text">
-            Preparations for UPSC / MPSC require sustained efforts, a sharp focus and vast knowledge. <strong>Lakshya Career Academy broadens your horizons.</strong> The coaching at Top Academy is integrated as it takes care of all that is required to get a crack at the UPSC / MPSC examination. There is a rigorous and comprehensive teaching schedule inundated with regular tests and evaluation.
-          </p>
-          <p class="aim-box__text">
-            The salient feature of best UPSC / MPSC coaching centre has almost all the study material available in the market. The teaching sessions are interactive by top notch faculty who have a first-hand experience of the examinations. Last but most important is that <strong>Lakshya IAS Academy is fully aware of the change in the pattern and has incorporated these changes in the teaching pattern</strong>. We are not leaving any stone unturned. True to its name, Top IAS coaching centre in city or the goal is our final frontier.
-          </p>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ========================================================================
-         4. OUR MISSION (THE 3 CRITICAL STRATEGIC PILLARS)
-         ======================================================================== -->
-    <section class="section pv-large bg-colorway-white" id="mission">
-      <div class="section section--large">
-        
-        <div class="txt-center content mb-medium" data-animate="fade">
-          <span class="txt-script" style="color: var(--color-burgundy); font-size: 1.5rem;">Strategic Directive</span>
-          <h2 style="font-size: clamp(2rem, 2.8vw, 2.6rem); margin-bottom: 0.5rem; color: var(--color-slate);">Our Mission</h2>
-          <p class="lead" style="color: var(--color-burgundy); font-weight: 600; font-size: 1.15rem; max-width: 850px; margin: 0 auto;">
-            Bridging the Representation Gap &amp; Empowering Maharashtra's Youth
-          </p>
-        </div>
-
-        <div class="mission-grid">
-          
-          <!-- Mission Pillar 1 -->
-          <div class="mission-pillar" data-animate="fade">
-            <span class="mission-pillar__num">01</span>
-            <h3 class="mission-pillar__title">The Reasons: Maharashtra Lags Behind in Competitive Tests Because…</h3>
-            <p class="mission-pillar__desc">
-              Students from Maharashtra have made tremendous progress in the corporate field but their presence in Government Administration, especially at the helm, is negligible. <strong>Maharashtra contributes to 10% national population but less than 7% to its administration.</strong>
-            </p>
-            <p class="mission-pillar__desc" style="margin-top: 1rem;">
-              To add to this, young boys and girls from the state are lured by medical, engineering, and other lucrative fields. The luster of the media also attracts them. <strong>It is imperative that Maharashtra should have a definite say in the national administration and in national affairs.</strong> The UPSC and MPSC provide a vast scope and candidates should take constructive advantage of this opportunity.
-            </p>
+          <div style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(139, 30, 30, 0.06); border: 1px solid rgba(139, 30, 30, 0.15); border-radius: 20px; padding: 0.35rem 0.95rem; margin-bottom: 0.85rem;">
+            <span style="display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--color-burgundy);"></span>
+            <span style="font-size: 0.76rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-burgundy);">Academic Operating Architecture</span>
           </div>
-
-          <!-- Mission Pillar 2 -->
-          <div class="mission-pillar" data-animate="fade">
-            <span class="mission-pillar__num">02</span>
-            <h3 class="mission-pillar__title">Administrative Power of Maharashtra Vis-à-Vis Other States</h3>
-            <p class="mission-pillar__desc">
-              Delhi, Rajasthan, Madhya Pradesh, Bihar, Punjab, Haryana, Uttar Pradesh from North, and Karnataka, Andhra Pradesh, Tamil Nadu, Kerala from South send <strong>more than 70% of their youth</strong> for the Competitive tests to serve either state or central cadre.
-            </p>
-            <p class="mission-pillar__desc" style="margin-top: 1rem;">
-              Maharashtra should, in fact, send many more candidates and strengthen its cadre. These candidates are well versed with the local problems and hence may be the right people to govern their own state and champion development from within.
-            </p>
-          </div>
-
-          <!-- Mission Pillar 3 -->
-          <div class="mission-pillar" data-animate="fade">
-            <span class="mission-pillar__num">03</span>
-            <h3 class="mission-pillar__title">Preparing the Policy Makers &amp; Able Administrators</h3>
-            <p class="mission-pillar__desc">
-              It is an Administration that draws out developmental plans. The actual implementation of these plans spells the development and prosperity of the State or Nation. Though Maharashtra is a progressive state and a lot has been done in that direction, still it is not sufficient.
-            </p>
-            <p class="mission-pillar__desc" style="margin-top: 1rem;">
-              In that context, the people mostly conversant with the State’s problems, alone, can tackle them. <strong>The aim of Lakshya IAS Academy is to provide the best UPSC &amp; MPSC classes and take concentrated efforts to prepare these students who are conversant and able administrators by giving them appropriate guidance.</strong>
-            </p>
-          </div>
-
+          <h2 style="font-size: clamp(2.1rem, 3vw, 2.75rem); margin-bottom: 0.65rem; color: var(--color-slate); letter-spacing: -0.02em;">Features of Lakshya Career Academy</h2>
+          <p class="lead" style="color: var(--color-text-secondary); max-width: 780px; margin: 0 auto; font-size: 1.05rem; line-height: 1.65;">
+            Comprehensive preparation, personal guidance, and the right learning environment to help aspirants prepare for competitive examinations.
+          </p>
+          <div style="width: 54px; height: 3px; background: var(--color-gold); margin: 1.1rem auto 0 auto; border-radius: 2px;"></div>
         </div>
 
-      </div>
-    </section>
-
-    <!-- ========================================================================
-         5. DIRECTORS & FACULTY EDITORIAL PROFILES (ACTUAL LAKSHYA DIRECTORS)
-         ======================================================================== -->
-    <section class="section pv-large bg-colorway-beige" id="faculty">
-      <div class="section section--large">
-        <div class="txt-center content mb-medium" data-animate="fade">
-          <span class="txt-script">Academic Leadership</span>
-          <h2>Founding Directors &amp; Senior Faculty</h2>
-          <p class="lead">Experienced educators and mentors dedicated to your civil service transformation.</p>
+        <!-- Metric Billboard Strip: Highlights of Core Platform Deliverables -->
+        <div class="edu-metrics-strip" data-animate="fade">
+          <div class="edu-metric-cell">
+            <div class="edu-metric-val">42<sup>Tests</sup></div>
+            <div class="edu-metric-label">Structured Test Series</div>
+            <div class="edu-metric-sub">Rigorous Prelims &amp; Mains drills</div>
+          </div>
+          <div class="edu-metric-cell">
+            <div class="edu-metric-val">15<sup>Days</sup></div>
+            <div class="edu-metric-label">Personal Mentorship</div>
+            <div class="edu-metric-sub">Individual progress review cycle</div>
+          </div>
+          <div class="edu-metric-cell">
+            <div class="edu-metric-val">40</div>
+            <div class="edu-metric-label">Students per Batch</div>
+            <div class="edu-metric-sub">Strict cohort cap for focused learning</div>
+          </div>
+          <div class="edu-metric-cell">
+            <div class="edu-metric-val">120</div>
+            <div class="edu-metric-label">Language Passages</div>
+            <div class="edu-metric-sub">Translation &amp; Précis exercises</div>
+          </div>
+          <div class="edu-metric-cell">
+            <div class="edu-metric-val">100%</div>
+            <div class="edu-metric-label">Free Study Room</div>
+            <div class="edu-metric-sub">Academy library &amp; Wi-Fi access included</div>
+          </div>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem;">
-          
-          <!-- Director 1: Atul Nikumbh -->
-          <div class="director-card" data-animate="fade">
-            <div class="director-img-wrap">
-              <img src="assets/img/team/teacher2.jpg" alt="Atul Nikumbh - Founder &amp; Director">
-              <span class="director-badge">Founder &amp; Director</span>
-            </div>
-            <div class="director-info">
-              <h3 class="h4" style="color: var(--color-slate); margin-bottom: 0.25rem;">Atul Nikumbh Sir</h3>
-              <p style="color: var(--color-burgundy); font-weight: 600; font-size: 0.85rem; margin-bottom: 1rem;">
-                Director • Maharashtra History &amp; Indian Polity Specialist
-              </p>
-              <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.25rem;">
-                Founder Director of The Lakshya Career Academy with over 15 years of dedicated MPSC coaching expertise. Renowned across Maharashtra for his conceptual clarity in Indian Polity, modern state history, and individual descriptive answer-writing mentorship.
-              </p>
-              <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--color-border-subtle); display: flex; justify-content: space-between; align-items: center;">
-                <span style="font-size: 0.75rem; color: var(--color-text-muted); font-weight: 600;">15+ Years Mentoring</span>
-                <span style="font-size: 0.75rem; color: var(--color-gold); font-weight: 700;">Rajyaseva &amp; Combine</span>
+        <!-- Academic Tracks: Two Distinct Architectural Pillars -->
+        <div class="edu-tracks-grid">
+
+          <!-- Track A: Preparation and Study Support -->
+          <div class="edu-track-pillar" data-animate="fade">
+            
+            <div class="edu-track-header edu-track-header--burgundy">
+              <div class="edu-track-title-wrap">
+                <span class="edu-track-badge-letter edu-track-badge-letter--burgundy">A</span>
+                <div>
+                  <h3 class="edu-track-heading">Preparation and Study Support</h3>
+                  <span class="edu-track-desc">Curriculum, examination scope, printed notes &amp; rigorous practice</span>
+                </div>
               </div>
+              <span class="edu-track-counter">11 Modules</span>
+            </div>
+
+            <div class="edu-ledger-list">
+              
+              <!-- 1. All Stages Preparation -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">01</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">All Examination Stages</span>
+                    <span class="edu-pill edu-pill--slate">Prelims to Interview</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Complete preparation for preliminary examinations, main examinations, interviews, and physical tests.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 2. Target Exams -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">02</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Major Examination Scope</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Preparation for UPSC, State Services, Combined Group B, and Combined Group C examinations.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 3. Notes -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">03</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Printed &amp; Classroom Notes</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Printed notes for all subjects, supplemented by notes written in class.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 4. Test Series (Highlighted) -->
+              <div class="edu-ledger-item edu-ledger-item--highlight">
+                <span class="edu-ledger-idx">04</span>
+                <div class="edu-ledger-icon" style="background: var(--color-burgundy); color: #fff; border-color: var(--color-burgundy);">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name" style="color: var(--color-burgundy);">Test Series</span>
+                    <span class="edu-pill edu-pill--burgundy">★ 42 Tests Series</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Test series comprising 42 tests.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 5. Free Study-Room Access (Highlighted) -->
+              <div class="edu-ledger-item edu-ledger-item--highlight-gold">
+                <span class="edu-ledger-idx">05</span>
+                <div class="edu-ledger-icon edu-ledger-icon--gold" style="background: var(--color-gold); color: var(--color-slate); border-color: var(--color-gold);">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Free Study-Room Access</span>
+                    <span class="edu-pill edu-pill--gold">Complimentary Access</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Free study-room access, including free use of the academy’s books during study-room hours.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 6. Essay Practice -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">06</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">40 Essays Practice</span>
+                    <span class="edu-pill edu-pill--slate">Bilingual</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Practice covering 40 essays in Marathi and English.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 7. Translation & Précis -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">07</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"></polyline><line x1="9" y1="20" x2="15" y2="20"></line><line x1="12" y1="4" x2="12" y2="20"></line></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Translation &amp; Précis-Writing</span>
+                    <span class="edu-pill edu-pill--slate">120 Passages</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Translation and précis-writing practice comprising 120 passages.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 8. Maths & Reasoning -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">08</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Maths &amp; Reasoning Drills</span>
+                    <span class="edu-pill edu-pill--slate">≥40 Questions/Ch</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Mathematics and reasoning preparation with at least 40 questions per chapter.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 9. Newspaper Reading -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">09</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"></path><path d="M18 14h-8"></path><path d="M15 18h-5"></path><path d="M10 6h8v4h-8V6Z"></path></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Newspaper-Reading Sessions</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Newspaper-reading sessions.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 10. Special Lectures on Current Affairs -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">10</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Special Lectures on Current Affairs</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Special lectures on current affairs.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 11. Free Current Affairs Magazine -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">11</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Free Current Affairs Magazine</span>
+                    <span class="edu-pill edu-pill--slate">Periodic Issue</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Free current affairs magazine.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Track B: Individual Guidance and Facilities -->
+          <div class="edu-track-pillar" data-animate="fade">
+            
+            <div class="edu-track-header edu-track-header--gold">
+              <div class="edu-track-title-wrap">
+                <span class="edu-track-badge-letter edu-track-badge-letter--gold">B</span>
+                <div>
+                  <h3 class="edu-track-heading">Individual Guidance and Facilities</h3>
+                  <span class="edu-track-desc">Mentorship, small cohorts, infrastructure &amp; personal progress review</span>
+                </div>
+              </div>
+              <span class="edu-track-counter">10 Modules</span>
+            </div>
+
+            <div class="edu-ledger-list">
+              
+              <!-- 12. Personal Counselling (Highlighted) -->
+              <div class="edu-ledger-item edu-ledger-item--highlight-gold">
+                <span class="edu-ledger-idx">12</span>
+                <div class="edu-ledger-icon edu-ledger-icon--gold" style="background: var(--color-gold); color: var(--color-slate); border-color: var(--color-gold);">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><polyline points="17 11 19 13 23 9"></polyline></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name" style="color: var(--color-slate);">Personal Counselling</span>
+                    <span class="edu-pill edu-pill--gold">★ Every 15 Days</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Personal counselling, with the teacher personally reviewing students’ study progress every 15 days.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 13. Only 40 Students / Batch (Highlighted) -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">13</span>
+                <div class="edu-ledger-icon" style="background: var(--color-slate); color: #fff; border-color: var(--color-slate);">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Capped Batch Size</span>
+                    <span class="edu-pill edu-pill--burgundy">Max 40 Students</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Only 40 students per batch.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 14. Separate Experienced Teacher -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">14</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Subject-Specialist Faculty</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    A separate experienced teacher for each subject.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 15. Free Wi-Fi -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">15</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Free Campus Wi-Fi</span>
+                    <span class="edu-pill edu-pill--slate">High-Speed</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Free Wi-Fi.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 16. Social Events -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">16</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Social &amp; Interactive Events</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Social events.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 17. Personality Development -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">17</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Personality Development</span>
+                    <span class="edu-pill edu-pill--slate">Interview Preparedness</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Personality development sessions.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 18. Discussion Session After Test -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">18</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Post-Test Discussion Sessions</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    A dedicated discussion session after every test.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 19. Revision Sessions -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">19</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Pre-Completion Revision Sessions</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Revision sessions before the batch ends.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 20. Weekly Answer-Writing (Highlighted) -->
+              <div class="edu-ledger-item edu-ledger-item--highlight">
+                <span class="edu-ledger-idx">20</span>
+                <div class="edu-ledger-icon" style="background: var(--color-burgundy); color: #fff; border-color: var(--color-burgundy);">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name" style="color: var(--color-burgundy);">Answer-Writing Practice</span>
+                    <span class="edu-pill edu-pill--burgundy">★ Weekly Drill</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Weekly answer-writing practice covering three to five questions.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 21. Digital Classroom -->
+              <div class="edu-ledger-item">
+                <span class="edu-ledger-idx">21</span>
+                <div class="edu-ledger-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                </div>
+                <div class="edu-ledger-body">
+                  <div class="edu-ledger-head">
+                    <span class="edu-ledger-name">Digital Classroom Infrastructure</span>
+                    <span class="edu-pill edu-pill--slate">AV-Equipped</span>
+                  </div>
+                  <p class="edu-ledger-desc">
+                    Digital classroom.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Academic Commitment Guarantee Bar -->
+        <div class="edu-guarantee-bar" data-animate="fade">
+          <div class="edu-guarantee-left">
+            <div class="edu-guarantee-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <div class="edu-guarantee-text">
+              <h4>Committed to Administrative Excellence</h4>
+              <p>Every feature is designed to ensure rigorous MPSC and UPSC readiness under personalized faculty supervision.</p>
+            </div>
+          </div>
+          <div style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap;">
+            <a href="#popover-start-your-journey" class="btn btn--small btn--burgundy">
+              <span class="btn__txt"><span class="btn__txt-inner" data-txt="Enquire About Admissions">Enquire About Admissions</span></span>
+            </a>
+            <a href="courses" class="btn btn--small btn--subtle">
+              <span class="btn__txt"><span class="btn__txt-inner" data-txt="Explore Courses →">Explore Courses →</span></span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+<!-- ========================================================================
+         4. BOARD OF DIRECTORS
+         ======================================================================== -->
+    <section class="section pv-large bg-colorway-beige" id="directors">
+      <div id="faculty" style="position: relative; top: -80px; visibility: hidden;"></div>
+      <div class="section section--large">
+        <div class="txt-center content mb-medium" data-animate="fade">
+          <span class="txt-script" style="color: var(--color-burgundy); font-size: 1.5rem;">Academic Leadership</span>
+          <h2 style="font-size: clamp(2rem, 2.8vw, 2.6rem); margin-bottom: 0.5rem; color: var(--color-slate);">Board of Directors</h2>
+        </div>
+
+        <div class="directors-grid">
+          
+          <!-- Director 1: Pranjal Nikumbh -->
+          <div class="director-profile-card" data-animate="fade">
+            <div class="director-profile-card__img-wrap">
+              <img src="assets/img/team/teacher1.jpg" alt="Pranjal Nikumbh - Director">
+            </div>
+            <div class="director-profile-card__body">
+              <h3 class="director-profile-card__name">Pranjal Nikumbh</h3>
+              <p class="director-profile-card__role">Director • Lakshya Career Academy</p>
+              <p class="director-profile-card__intro">
+                Faculty and academic mentor with experience in Indian Polity and Geography.
+              </p>
+              <button type="button" class="btn btn--small btn--burgundy director-profile-card__btn" data-director-modal-trigger="pranjal" aria-label="View full profile of Pranjal Nikumbh">
+                <span class="btn__txt"><span class="btn__txt-inner" data-txt="View Profile →">View Profile →</span></span>
+              </button>
             </div>
           </div>
 
           <!-- Director 2: Nishant Pawar -->
-          <div class="director-card" data-animate="fade">
-            <div class="director-img-wrap">
-              <img src="assets/img/team/teacher3.jpg" alt="Nishant Pawar - Director &amp; Senior Faculty">
-              <span class="director-badge">Director &amp; Senior Faculty</span>
+          <div class="director-profile-card" data-animate="fade">
+            <div class="director-profile-card__img-wrap">
+              <img src="assets/img/team/teacher3.jpg" alt="Nishant Pawar - Director">
             </div>
-            <div class="director-info">
-              <h3 class="h4" style="color: var(--color-slate); margin-bottom: 0.25rem;">Nishant Pawar Sir</h3>
-              <p style="color: var(--color-burgundy); font-weight: 600; font-size: 0.85rem; margin-bottom: 1rem;">
-                Director • Indian Economy, CSAT &amp; Quantitative Aptitude
+            <div class="director-profile-card__body">
+              <h3 class="director-profile-card__name">Nishant Pawar</h3>
+              <p class="director-profile-card__role">Director • Lakshya Career Academy</p>
+              <p class="director-profile-card__intro">
+                Specialist in Macroeconomics, Maharashtra Economic Survey, CSAT aptitude, and logical reasoning.
               </p>
-              <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.25rem;">
-                Director and Senior Faculty specializing in Macroeconomics, Maharashtra Economic Survey, CSAT logical reasoning, and data interpretation. Renowned for analytical shortcut methods that maximize Prelims scoring velocity.
-              </p>
-              <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--color-border-subtle); display: flex; justify-content: space-between; align-items: center;">
-                <span style="font-size: 0.75rem; color: var(--color-text-muted); font-weight: 600;">Economy &amp; CSAT Lead</span>
-                <span style="font-size: 0.75rem; color: var(--color-gold); font-weight: 700;">Prelims Strategy</span>
-              </div>
+              <button type="button" class="btn btn--small btn--burgundy director-profile-card__btn" data-director-modal-trigger="nishant" aria-label="View full profile of Nishant Pawar">
+                <span class="btn__txt"><span class="btn__txt-inner" data-txt="View Profile →">View Profile →</span></span>
+              </button>
             </div>
           </div>
 
-          <!-- Director 3: Pranjal Nikumbh -->
-          <div class="director-card" data-animate="fade">
-            <div class="director-img-wrap">
-              <img src="assets/img/team/teacher1.jpg" alt="Pranjal Nikumbh - Director &amp; Academic Coordinator">
-              <span class="director-badge">Director &amp; Law Specialist</span>
+          <!-- Director 3: Atul Shashikant Nikumbh -->
+          <div class="director-profile-card" data-animate="fade">
+            <div class="director-profile-card__img-wrap">
+              <img src="assets/img/team/teacher2.jpg" alt="Atul Shashikant Nikumbh - Director">
             </div>
-            <div class="director-info">
-              <h3 class="h4" style="color: var(--color-slate); margin-bottom: 0.25rem;">Pranjal Nikumbh Ma'am</h3>
-              <p style="color: var(--color-burgundy); font-weight: 600; font-size: 0.85rem; margin-bottom: 1rem;">
-                Director • Law (IPC/CrPC), General Studies &amp; Student Counseling
+            <div class="director-profile-card__body">
+              <h3 class="director-profile-card__name">Atul Shashikant Nikumbh</h3>
+              <p class="director-profile-card__role">Director • Lakshya Career Academy</p>
+              <p class="director-profile-card__intro">
+                Experienced educator with expertise in Economics and Science.
               </p>
-              <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.25rem;">
-                Director and Academic Coordinator. Law faculty specializing in Indian Penal Code (IPC), Code of Criminal Procedure (CrPC), Mumbai Police Act, Right to Information (RTI), Human Rights, and personal psychological counseling for aspirants.
-              </p>
-              <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--color-border-subtle); display: flex; justify-content: space-between; align-items: center;">
-                <span style="font-size: 0.75rem; color: var(--color-text-muted); font-weight: 600;">PSI Law &amp; Counseling</span>
-                <span style="font-size: 0.75rem; color: var(--color-gold); font-weight: 700;">Academic Operations</span>
-              </div>
+              <button type="button" class="btn btn--small btn--burgundy director-profile-card__btn" data-director-modal-trigger="atul" aria-label="View full profile of Atul Shashikant Nikumbh">
+                <span class="btn__txt"><span class="btn__txt-inner" data-txt="View Profile →">View Profile →</span></span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DIRECTOR PROFILE MODALS -->
+    <!-- Modal 1: Pranjal Nikumbh -->
+    <aside class="director-modal" id="modal-director-pranjal" role="dialog" aria-modal="true" aria-labelledby="modal-title-pranjal">
+      <div class="director-modal__overlay"></div>
+      <div class="director-modal__dialog">
+        <header class="director-modal__header">
+          <div class="director-modal__header-info">
+            <img src="assets/img/team/teacher1.jpg" alt="Pranjal Nikumbh" class="director-modal__avatar">
+            <div>
+              <h3 id="modal-title-pranjal" class="director-modal__name">Pranjal Nikumbh</h3>
+              <span class="director-modal__role">Director • Lakshya Career Academy</span>
+            </div>
+          </div>
+          <button type="button" class="director-modal__close" aria-label="Close profile">&times;</button>
+        </header>
+        <div class="director-modal__body">
+          <p class="director-modal__intro">
+            Faculty and academic mentor with experience in Indian Polity and Geography.
+          </p>
+
+          <h4 class="director-modal__section-title">Educational Qualifications</h4>
+          <ul class="director-modal__list">
+            <li>B.A. and M.A. in Political Science.</li>
+            <li>B.Sc. in Zoology.</li>
+          </ul>
+
+          <h4 class="director-modal__section-title">Examination Achievements</h4>
+          <ul class="director-modal__list">
+            <li>2014 and 2016: UPSC Main Examination and Interview.</li>
+            <li>2015, 2016 and 2017: State Services Main Examination.</li>
+          </ul>
+
+          <h4 class="director-modal__section-title">Teaching Experience</h4>
+          <ul class="director-modal__list">
+            <li>Six years of experience teaching Indian Polity and Geography.</li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Modal 2: Nishant Pawar -->
+    <aside class="director-modal" id="modal-director-nishant" role="dialog" aria-modal="true" aria-labelledby="modal-title-nishant">
+      <div class="director-modal__overlay"></div>
+      <div class="director-modal__dialog">
+        <header class="director-modal__header">
+          <div class="director-modal__header-info">
+            <img src="assets/img/team/teacher3.jpg" alt="Nishant Pawar" class="director-modal__avatar">
+            <div>
+              <h3 id="modal-title-nishant" class="director-modal__name">Nishant Pawar</h3>
+              <span class="director-modal__role">Director • Lakshya Career Academy</span>
+            </div>
+          </div>
+          <button type="button" class="director-modal__close" aria-label="Close profile">&times;</button>
+        </header>
+        <div class="director-modal__body">
+          <p class="director-modal__intro">
+            Specialist in Macroeconomics, Maharashtra Economic Survey, CSAT aptitude, and logical reasoning.
+          </p>
+
+          <h4 class="director-modal__section-title">Professional Achievements</h4>
+          <ul class="director-modal__list">
+            <li>Maharashtra Finance and Accounts Officer, Group A: 2018.</li>
+            <li>Block Development Officer, Group B: 2018.</li>
+            <li>Charity Inspector: 2014.</li>
+            <li>2014, 2016 and 2017: State Services Main Examination and Interview.</li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Modal 3: Atul Shashikant Nikumbh -->
+    <aside class="director-modal" id="modal-director-atul" role="dialog" aria-modal="true" aria-labelledby="modal-title-atul">
+      <div class="director-modal__overlay"></div>
+      <div class="director-modal__dialog">
+        <header class="director-modal__header">
+          <div class="director-modal__header-info">
+            <img src="assets/img/team/teacher2.jpg" alt="Atul Shashikant Nikumbh" class="director-modal__avatar">
+            <div>
+              <h3 id="modal-title-atul" class="director-modal__name">Atul Shashikant Nikumbh</h3>
+              <span class="director-modal__role">Director • Lakshya Career Academy</span>
+            </div>
+          </div>
+          <button type="button" class="director-modal__close" aria-label="Close profile">&times;</button>
+        </header>
+        <div class="director-modal__body">
+          <p class="director-modal__intro">
+            Experienced educator with expertise in Economics and Science.
+          </p>
+
+          <h4 class="director-modal__section-title">Educational Qualifications</h4>
+          <ul class="director-modal__list">
+            <li>Master of Science in Microbiology.</li>
+          </ul>
+
+          <h4 class="director-modal__section-title">Examination Achievements</h4>
+          <ul class="director-modal__list">
+            <li>2013, 2014, 2015 and 2017: State Services Interview.</li>
+            <li>2016 and 2018: State Services Main Examination.</li>
+            <li>2014, 2015, 2016 and 2017: UPSC Interview.</li>
+            <li>Selected for SID.</li>
+            <li>Selected as Assistant Commandant.</li>
+            <li>2018: Municipal Council Main Examination.</li>
+          </ul>
+
+          <h4 class="director-modal__section-title">Teaching Experience</h4>
+          <ul class="director-modal__list">
+            <li>Seven years of experience teaching Economics and Science in Nashik, Pune and Mumbai.</li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ========================================================================
+         5. KEY HIGHLIGHTS OF OUR COACHING ECOSYSTEM
+         ======================================================================== -->
+    <section class="section speciality-section bg-colorway-beige-warm pv-large" id="coaching-highlights">
+      <div class="section section--large">
+        <div class="txt-center content speciality-header" data-animate="fade">
+          <span class="txt-script" style="color: var(--color-burgundy); font-size: 1.5rem;">Why Aspirants Choose Lakshya</span>
+          <h2 class="speciality-title" style="font-size: clamp(2rem, 2.8vw, 2.6rem); margin-bottom: 0.5rem; color: var(--color-slate);">Key Highlights of Our Coaching Ecosystem</h2>
+          <p class="lead speciality-lead" style="max-width: 750px; margin: 0 auto; color: var(--color-text-secondary);">
+            Every resource at Lakshya is tailored to remove preparation roadblocks and convert sincere efforts into top administrative ranks.
+          </p>
+        </div>
+
+        <div class="speciality-editorial-grid" data-animate="fade">
+          
+          <div class="speciality-item">
+            <div class="speciality-item__icon-wrap">
+              <svg class="speciality-item__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20h9"/>
+                <path d="M16.375 3.625a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.375 3.625z"/>
+              </svg>
+            </div>
+            <div class="speciality-item__body">
+              <h3 class="speciality-item__title">Daily Answer Writing Correction</h3>
+              <p class="speciality-item__desc">Rigorous daily Mains questions evaluated line-by-line with structural feedback on introduction, body diagrams, and conclusions.</p>
+            </div>
+          </div>
+
+          <div class="speciality-item">
+            <div class="speciality-item__icon-wrap">
+              <svg class="speciality-item__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/>
+                <path d="M18 14h-8"/>
+                <path d="M18 18h-8"/>
+                <path d="M10 6h8v4h-8z"/>
+              </svg>
+            </div>
+            <div class="speciality-item__body">
+              <h3 class="speciality-item__title">Daily Editorial &amp; News Digest</h3>
+              <p class="speciality-item__desc">Systematic analysis of Indian Express, Loksatta, and Lokrajya with condensed exam-ready bullet points.</p>
+            </div>
+          </div>
+
+          <div class="speciality-item">
+            <div class="speciality-item__icon-wrap">
+              <svg class="speciality-item__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="2" y1="20" x2="22" y2="20"/>
+                <line x1="6" y1="9" x2="6" y2="20"/>
+                <line x1="10" y1="9" x2="10" y2="20"/>
+                <line x1="14" y1="9" x2="14" y2="20"/>
+                <line x1="18" y1="9" x2="18" y2="20"/>
+                <polygon points="12 2 2 7 22 7 12 2"/>
+              </svg>
+            </div>
+            <div class="speciality-item__body">
+              <h3 class="speciality-item__title">24x7 Air-Conditioned Library</h3>
+              <p class="speciality-item__desc">Peaceful, dedicated study cubicles equipped with 10,000+ reference volumes and high-speed research Wi-Fi.</p>
+            </div>
+          </div>
+
+          <div class="speciality-item">
+            <div class="speciality-item__icon-wrap">
+              <svg class="speciality-item__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="5" r="2"/>
+                <path d="M6 21v-4l4-3 1-5 4 2v4"/>
+                <path d="M7 11 4 8"/>
+                <path d="M13 9 17 6"/>
+                <path d="m14 14 3 7"/>
+              </svg>
+            </div>
+            <div class="speciality-item__body">
+              <h3 class="speciality-item__title">Physical Fitness Guidance (PSI)</h3>
+              <p class="speciality-item__desc">Specialized ground training coaches for 100-mark physical exams: 800m running, pull-ups, shot-put, and long jump.</p>
+            </div>
+          </div>
+
+          <div class="speciality-item">
+            <div class="speciality-item__icon-wrap">
+              <svg class="speciality-item__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
+                <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                <line x1="12" y1="19" x2="12" y2="22"/>
+                <line x1="8" y1="22" x2="16" y2="22"/>
+              </svg>
+            </div>
+            <div class="speciality-item__body">
+              <h3 class="speciality-item__title">Serving Officer Mock Panels</h3>
+              <p class="speciality-item__desc">Interviews conducted by serving IAS, IPS, Deputy Collectors, and Tahasildars with video playback feedback.</p>
+            </div>
+          </div>
+
+          <div class="speciality-item">
+            <div class="speciality-item__icon-wrap">
+              <svg class="speciality-item__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-0.5-5.5Z"/>
+                <path d="M8 7h8"/>
+                <path d="M8 11h8"/>
+                <path d="M8 15h5"/>
+              </svg>
+            </div>
+            <div class="speciality-item__body">
+              <h3 class="speciality-item__title">12-Year PYQ Topic Breakdown</h3>
+              <p class="speciality-item__desc">Comprehensive past papers decomposed by micro-topic with trend analysis and model answers.</p>
             </div>
           </div>
 
@@ -629,6 +1564,9 @@
             <a href="tel:+917887878001" class="btn btn--outline btn--large" style="color: #0D1B2A; border-color: rgba(13,27,42,0.35);">
               <span class="btn__txt"><span class="btn__txt-inner" data-txt="📞 +91 7887878001">📞 +91 7887878001</span></span>
             </a>
+            <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--large" style="color: #25D366; border-color: #25D366; font-weight: 700;">
+              <span class="btn__txt"><span class="btn__txt-inner" data-txt="💬 Chat on WhatsApp">💬 Chat on WhatsApp</span></span>
+            </a>
             <a href="courses" class="btn btn--outline btn--large" style="color: var(--color-gold); border-color: var(--color-gold);">
               <span class="btn__txt"><span class="btn__txt-inner" data-txt="Explore All 7 Programs →">Explore All 7 Programs →</span></span>
             </a>
@@ -697,26 +1635,22 @@
               </ul>
             </div>
 
-            <div class="footer__nav-col">
+                        <div class="footer__nav-col">
               <h4 class="footer__heading">Admissions Office</h4>
               <p class="footer__contact-line">
                 <strong>Campus:</strong><br>
                 2nd Floor, Bhaskar Android, Opp. Sindhusagar Academy, Near Lane No. 4, Pandit Colony, Nashik, 422002
               </p>
-              <p class="footer__contact-line" style="margin-top: 1rem;">
+              <p class="footer__contact-line" style="margin-top: 0.85rem;">
                 <strong>Telephone:</strong><br>
-                <a href="tel:+917887878001">+91 7887878001</a><br>
-                <a href="tel:+919022869315">+91 9022869315</a>
+                <a href="tel:+917887878001">📞 +91 7887878001</a><br>
+                <a href="tel:+917887878002">📞 +91 7887878002</a>
               </p>
-              <p class="footer__contact-line footer__contact-whatsapp" style="margin-top: 1rem;">
-                <strong>WhatsApp:</strong><br>
-                <a href="https://wa.me/917887878001" target="_blank" style="color: #25D366;">+91 7887878001</a>
-              </p>
-              <p class="footer__contact-line" style="margin-top: 1rem;">
+              <p class="footer__contact-line" style="margin-top: 0.85rem;">
                 <strong>Email Office:</strong><br>
                 <a href="mailto:lakshyacareeracademynashik@gmail.com">lakshyacareeracademynashik@gmail.com</a>
               </p>
-            </div>
+            </div></div>
           </div>
 
           <div class="footer__bottom">
@@ -768,6 +1702,8 @@
 
  
 
+    <script src="js/translations.js"></script>
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
   <script src="js/animations.js"></script>
   <script src="js/enquiry.js"></script>

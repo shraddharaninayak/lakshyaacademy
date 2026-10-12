@@ -1,6 +1,8 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/class-material", "destination": "/study-material.html" }
+    { "source": "/class-material", "destination": "/class-material.html" },
+    { "source": "/study-material", "destination": "/study-material.html" },
+    { "source": "/course-upsc", "destination": "/study-material.html" }
   ]
 }
