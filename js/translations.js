@@ -3,14 +3,14 @@
  */
 
 window.LAKSHYA_I18N = {
-  "Home": "मुख्यपृष्ठ",
+  Home: "मुख्यपृष्ठ",
   "About Us": "आमच्याबद्दल",
-  "Courses": "अभ्यासक्रम",
+  Courses: "अभ्यासक्रम",
   "Class Material": "क्लास मटेरियल",
   "Study Material": "अभ्यास साहित्य",
   "Success Stories": "यशस्वी विद्यार्थी",
-  "Gallery": "गॅलरी",
-  "Blog": "ब्लॉग",
+  Gallery: "गॅलरी",
+  Blog: "ब्लॉग",
   "Contact Us": "संपर्क",
   "Academy Directory": "अकॅडमी निर्देशिका",
   "Direct Helpline & WhatsApp": "थेट हेल्पलाइन आणि व्हॉट्सॲप",
@@ -31,12 +31,12 @@ window.LAKSHYA_I18N = {
   "Class Magazine": "मासिक पत्रिका",
   "Test Series": "टेस्ट सिरीज",
   "School books": "शालेय क्रमिक पुस्तके",
-  "NCERT": "NCERT पुस्तके",
-  "Yojna": "योजना मासिक",
-  "Kurukshetra": "कुरुक्षेत्र मासिक",
+  NCERT: "NCERT पुस्तके",
+  Yojna: "योजना मासिक",
+  Kurukshetra: "कुरुक्षेत्र मासिक",
   "Lok Rajya": "लोकराज्य मासिक",
   "Previous Year Question Papers": "मागील वर्षांच्या प्रश्नपत्रिका (PYQ)",
-  "Syllabus": "अभ्यासक्रम",
+  Syllabus: "अभ्यासक्रम",
   "Begin Your Transformation": "तुमच्या यशाचा प्रवास सुरू करा",
   "Your Goal Needs a Plan.": "तुमच्या ध्येयाला हवी योग्य दिशा आणि नियोजन.",
   "Enquire Now / Book Session": "चौकशी करा / सत्र बुक करा",
@@ -60,7 +60,7 @@ window.LAKSHYA_I18N = {
   "Email Office:": "अधिकृत ईमेल:",
   "Office Hours:": "कार्यालयीन वेळ:",
   "Call / Inquiry:": "थेट संपर्क / चौकशी:",
-  "Institutional": "संस्थात्मक माहिती",
+  Institutional: "संस्थात्मक माहिती",
   "About Lakshya Academy": "लक्ष्य अकॅडमीबद्दल",
   "15-Day Mentorship": "१५ दिवसांचे मार्गदर्शन",
   "Directors & Faculty": "संचालक व प्राध्यापक वर्ग",
@@ -75,15 +75,17 @@ window.LAKSHYA_I18N = {
   "Contact & Campus Map": "संपर्क आणि कॅम्पस नकाशा",
   "Academy Blog": "अकॅडमी ब्लॉग",
   "Scheme of Examination": "परीक्षेचे स्वरूप व योजना",
-  "Scheme of Examination: Group B and Group C": "परीक्षेचे स्वरूप: गट ब आणि गट क",
-  "Scheme of Examination: UPSC / Rajyaseva": "परीक्षेचे स्वरूप: UPSC / राज्यसेवा",
+  "Scheme of Examination: Group B and Group C":
+    "परीक्षेचे स्वरूप: गट ब आणि गट क",
+  "Scheme of Examination: UPSC / Rajyaseva":
+    "परीक्षेचे स्वरूप: UPSC / राज्यसेवा",
   "Structure of the Rajyaseva Examination": "राज्यसेवा परीक्षेची रचना",
   "1. Preliminary Examination": "१. पूर्व परीक्षा",
   "2. Main Examination": "२. मुख्य परीक्षा",
   "3. Interview": "३. मुलाखत",
   "Preliminary Examination": "पूर्व परीक्षा",
   "Main Examination": "मुख्य परीक्षा",
-  "Interview": "मुलाखत",
+  Interview: "मुलाखत",
   "Paper 1: General Studies": "पेपर १: सामान्य अध्ययन",
   "Paper 2: CSAT": "पेपर २: सीसॅट (CSAT)",
   "Total Marks:": "एकूण गुण:",
@@ -109,7 +111,7 @@ window.LAKSHYA_I18N = {
   "Optional Subject Paper I": "पर्यायी विषय पेपर १",
   "Optional Subject Paper II": "पर्यायी विषय पेपर २",
   "About Exam": "परीक्षेविषयी",
-  "Eligibility": "पात्रता निकष",
+  Eligibility: "पात्रता निकष",
   "Eligibility & Attempts": "पात्रता व संधी (अटेम्प्ट्स)",
   "Preliminary Exam": "पूर्व परीक्षा",
   "Main Exam": "मुख्य परीक्षा",
@@ -118,41 +120,61 @@ window.LAKSHYA_I18N = {
   "Group A Posts": "गट अ पदे (Group A)",
   "Group B Posts": "गट ब पदे (Group B)",
   "Group C Posts": "गट क पदे (Group C)",
-  "Services": "प्रशासकीय संवर्ग / सेवा",
+  Services: "प्रशासकीय संवर्ग / सेवा",
   "Exam Blueprint": "परीक्षेचा आराखडा",
   "Course Highlights": "अभ्यासक्रमाची वैशिष्ट्ये",
   "Faculty & Mentors": "मार्गदर्शक व प्राध्यापक",
   "Admission & Batches": "प्रवेश व बॅच वेळापत्रक",
   "1. Deputy Collector (DCA)": "१. उपजिल्हाधिकारी (DCA)",
-  "2. Deputy Superintendent of Police / Assistant Commissioner of Police (ACP)": "२. पोलीस उपअधीक्षक / साहाय्यक पोलीस आयुक्त (ACP)",
-  "3. Assistant Commissioner of Sales Tax (ASC)": "३. साहाय्यक राज्य कर आयुक्त (ASC)",
-  "4. Deputy Registrar of Co-operative Societies (DRC)": "४. उपनिबंधक, सहकारी संस्था (DRC)",
-  "5. Superintendent of State Excise (SSE)": "५. अधीक्षक, राज्य उत्पादन शुल्क (SSE)",
-  "6. Block Development Officer (BDO), Group A": "६. गटविकास अधिकारी (BDO), गट अ",
-  "7. Finance and Accounts Service, Group A": "७. महाराष्ट्र वित्त व लेखा सेवा, गट अ",
-  "8. Chief Officer, Municipal Council / Nagar Parishad, Group A": "८. मुख्याधिकारी, नगरपरिषद, गट अ",
-  "9. Assistant Director, Skill Development, Employment and Entrepreneurship": "९. साहाय्यक संचालक, कौशल्य विकास, रोजगार व उद्योजकता",
-  "10. Assistant Commissioner, Social Welfare": "१०. साहाय्यक आयुक्त, समाज कल्याण",
-  "11. Deputy Superintendent of Land Records (DLR)": "११. उपअधीक्षक, भूमी अभिलेख (DLR)",
-  "12. Deputy Superintendent of State Excise": "१२. उपअधीक्षक, राज्य उत्पादन शुल्क",
-  "13. Assistant Regional Transport Officer (ARTO)": "१३. साहाय्यक प्रादेशिक परिवहन अधिकारी (ARTO)",
-  "14. Project Officer, Integrated Tribal Development Project": "१४. प्रकल्प अधिकारी, एकात्मिक आदिवासी विकास प्रकल्प",
+  "2. Deputy Superintendent of Police / Assistant Commissioner of Police (ACP)":
+    "२. पोलीस उपअधीक्षक / साहाय्यक पोलीस आयुक्त (ACP)",
+  "3. Assistant Commissioner of Sales Tax (ASC)":
+    "३. साहाय्यक राज्य कर आयुक्त (ASC)",
+  "4. Deputy Registrar of Co-operative Societies (DRC)":
+    "४. उपनिबंधक, सहकारी संस्था (DRC)",
+  "5. Superintendent of State Excise (SSE)":
+    "५. अधीक्षक, राज्य उत्पादन शुल्क (SSE)",
+  "6. Block Development Officer (BDO), Group A":
+    "६. गटविकास अधिकारी (BDO), गट अ",
+  "7. Finance and Accounts Service, Group A":
+    "७. महाराष्ट्र वित्त व लेखा सेवा, गट अ",
+  "8. Chief Officer, Municipal Council / Nagar Parishad, Group A":
+    "८. मुख्याधिकारी, नगरपरिषद, गट अ",
+  "9. Assistant Director, Skill Development, Employment and Entrepreneurship":
+    "९. साहाय्यक संचालक, कौशल्य विकास, रोजगार व उद्योजकता",
+  "10. Assistant Commissioner, Social Welfare":
+    "१०. साहाय्यक आयुक्त, समाज कल्याण",
+  "11. Deputy Superintendent of Land Records (DLR)":
+    "११. उपअधीक्षक, भूमी अभिलेख (DLR)",
+  "12. Deputy Superintendent of State Excise":
+    "१२. उपअधीक्षक, राज्य उत्पादन शुल्क",
+  "13. Assistant Regional Transport Officer (ARTO)":
+    "१३. साहाय्यक प्रादेशिक परिवहन अधिकारी (ARTO)",
+  "14. Project Officer, Integrated Tribal Development Project":
+    "१४. प्रकल्प अधिकारी, एकात्मिक आदिवासी विकास प्रकल्प",
   "1. Tehsildar": "१. तहसीलदार",
   "2. Block Development Officer, Group B": "२. गटविकास अधिकारी, गट ब",
-  "3. Chief Officer, Municipal Council, Group B": "३. मुख्याधिकारी, नगरपरिषद, गट ब",
-  "4. Assistant Registrar of Co-operative Societies": "४. साहाय्यक निबंधक, सहकारी संस्था",
-  "5. Deputy Superintendent of Land Records, Group B": "५. उपअधीक्षक भूमी अभिलेख, गट ब",
-  "6. Finance and Accounts Service, Group B": "६. महाराष्ट्र वित्त व लेखा सेवा, गट ब",
+  "3. Chief Officer, Municipal Council, Group B":
+    "३. मुख्याधिकारी, नगरपरिषद, गट ब",
+  "4. Assistant Registrar of Co-operative Societies":
+    "४. साहाय्यक निबंधक, सहकारी संस्था",
+  "5. Deputy Superintendent of Land Records, Group B":
+    "५. उपअधीक्षक भूमी अभिलेख, गट ब",
+  "6. Finance and Accounts Service, Group B":
+    "६. महाराष्ट्र वित्त व लेखा सेवा, गट ब",
   "7. Taluka Executive Magistrate": "७. तालुका कार्यकारी दंडाधिकारी",
-  "8. Deputy Education Officer, Maharashtra Education Service": "८. उपशिक्षणाधिकारी, महाराष्ट्र शिक्षण सेवा",
+  "8. Deputy Education Officer, Maharashtra Education Service":
+    "८. उपशिक्षणाधिकारी, महाराष्ट्र शिक्षण सेवा",
   "9. Assistant Commissioner of State Tax": "९. साहाय्यक राज्य कर आयुक्त",
   "10. Sub-Registrar, Group B": "१०. दुय्यम निबंधक, गट ब",
   "11. Inspector of Stamps, Group B": "११. मुद्रांक निरीक्षक, गट ब",
-  "12. Assistant Project Officer, Tribal Development": "१२. साहाय्यक प्रकल्प अधिकारी, आदिवासी विकास",
+  "12. Assistant Project Officer, Tribal Development":
+    "१२. साहाय्यक प्रकल्प अधिकारी, आदिवासी विकास",
   "13. Industry Officer, Group B": "१३. उद्योग अधिकारी, गट ब",
   "14. Section Officer (Mantralaya)": "१४. कक्ष अधिकारी (मंत्रालय)",
   "15. State Excise Inspector": "१५. राज्य उत्पादन शुल्क निरीक्षक",
-  "16. Child Development Project Officer (CDPO)": "१६. बालविकास प्रकल्प अधिकारी (CDPO)",
+  "16. Child Development Project Officer (CDPO)":
+    "१६. बालविकास प्रकल्प अधिकारी (CDPO)",
   "PSI: Police Sub Inspector": "PSI: पोलीस उपनिरीक्षक",
   "STI: State Tax Inspector": "STI: राज्य कर निरीक्षक",
   "ASO: Assistant Section Officer": "ASO: साहाय्यक कक्ष अधिकारी",
@@ -165,14 +187,15 @@ window.LAKSHYA_I18N = {
   "Our Vision & Mission": "आमचे ध्येय व उद्दिष्ट (Vision & Mission)",
   "Our Vision": "आमचे व्हिजन (Vision)",
   "Our Mission": "आमचे मिशन (Mission)",
-  "Features of Lakshya Career Academy": "लक्ष्य करिअर अकॅडमीची प्रमुख वैशिष्ट्ये",
+  "Features of Lakshya Career Academy":
+    "लक्ष्य करिअर अकॅडमीची प्रमुख वैशिष्ट्ये",
   "Academy: Lakshya Career Academy": "अकॅडमी: लक्ष्य करिअर अकॅडमी",
   "Social Events & Gatherings": "सामाजिक कार्यक्रम व स्नेहसंमेलन",
   "Social Events": "सामाजिक कार्यक्रम",
   "All Photos": "सर्व छायाचित्रे",
-  "Campus": "कॅम्पस",
-  "Classroom": "वर्गखोल्या",
-  "Library": "अभ्यासिका",
+  Campus: "कॅम्पस",
+  Classroom: "वर्गखोल्या",
+  Library: "अभ्यासिका",
   "01. Home": "०1. मुख्यपृष्ठ",
   "02. Home": "",
   "03. Home": "",
@@ -207,7 +230,8 @@ window.LAKSHYA_I18N = {
   "02. About Us": "02. आमच्याबद्दल",
   "03. Courses →": "03. अभ्यासक्रम →",
   "03. Courses": "03. अभ्यासक्रम",
-  "• Rajyaseva Examination • UPSC Civil Services • Combine Group B (PSI/STI/ASO) • PSI Mains & Physical • Sales Tax Inspector (STI) • ASO Mains Examination • Saralseva Direct Recruitment • Talathi Bharti Examination": "• राज्यसेवा परीक्षा • UPSC नागरी सेवा • गट B (PSI/STI/ASO) एकत्र करा • PSI मुख्य आणि शारीरिक • विक्रीकर निरीक्षक (STI) • ASO मुख्य परीक्षा • सरलसेवा थेट भरती • तलाठी भारती परीक्षा",
+  "• Rajyaseva Examination • UPSC Civil Services • Combine Group B (PSI/STI/ASO) • PSI Mains & Physical • Sales Tax Inspector (STI) • ASO Mains Examination • Saralseva Direct Recruitment • Talathi Bharti Examination":
+    "• राज्यसेवा परीक्षा • UPSC नागरी सेवा • गट B (PSI/STI/ASO) एकत्र करा • PSI मुख्य आणि शारीरिक • विक्रीकर निरीक्षक (STI) • ASO मुख्य परीक्षा • सरलसेवा थेट भरती • तलाठी भारती परीक्षा",
   "• Rajyaseva Examination": "• राज्यसेवा परीक्षा",
   "• UPSC Civil Services": "• UPSC नागरी सेवा",
   "• Combine Group B (PSI/STI/ASO)": "• गट B (PSI/STI/ASO) एकत्र करा",
@@ -218,13 +242,15 @@ window.LAKSHYA_I18N = {
   "• Talathi Bharti Examination": "• तलाठी भारती परीक्षा",
   "04. Class Material →": "04. वर्ग साहित्य →",
   "04. Class Material": "04. वर्ग साहित्य",
-  "• Class Notes • Class Magazine • Test Series": "• वर्ग नोट्स • वर्ग मासिक • चाचणी मालिका",
+  "• Class Notes • Class Magazine • Test Series":
+    "• वर्ग नोट्स • वर्ग मासिक • चाचणी मालिका",
   "• Class Notes": "• वर्ग नोट्स",
   "• Class Magazine": "• वर्ग मासिक",
   "• Test Series": "• चाचणी मालिका",
   "05. Study Material →": "05. अभ्यास साहित्य →",
   "05. Study Material": "05. अभ्यास साहित्य",
-  "• School books • NCERT • Yojna • Kurukshetra • Lok Rajya • Previous Year Question Papers • Syllabus": "• शालेय पुस्तके • NCERT • योजना • कुरुक्षेत्र • लोकराज्य • मागील वर्षाच्या प्रश्नपत्रिका • अभ्यासक्रम",
+  "• School books • NCERT • Yojna • Kurukshetra • Lok Rajya • Previous Year Question Papers • Syllabus":
+    "• शालेय पुस्तके • NCERT • योजना • कुरुक्षेत्र • लोकराज्य • मागील वर्षाच्या प्रश्नपत्रिका • अभ्यासक्रम",
   "• School books": "• शालेय पुस्तके",
   "• NCERT": "• NCERT",
   "• Yojna": "• योजना",
@@ -246,55 +272,79 @@ window.LAKSHYA_I18N = {
   "💬 WhatsApp 2": "💬 WhatsApp 2",
   "Since 2010 • Nashik": "2010 पासून • नाशिक",
   "OUR STORY": "आमची कथा",
-  "The Aim & MissionTo Increase Maharashtra's Share": "महाराष्ट्राचा वाटा वाढवण्याचे उद्दिष्ट आणि मिशन",
-  "15-Day MentorshipDirect Faculty Engagement": "15-दिवसीय मेंटरशिप डायरेक्ट फॅकल्टी एंगेजमेंट",
+  "The Aim & MissionTo Increase Maharashtra's Share":
+    "महाराष्ट्राचा वाटा वाढवण्याचे उद्दिष्ट आणि मिशन",
+  "15-Day MentorshipDirect Faculty Engagement":
+    "15-दिवसीय मेंटरशिप डायरेक्ट फॅकल्टी एंगेजमेंट",
   "Institutional Heritage": "संस्थात्मक वारसा",
-  "Welcome to Lakshya Career Academy, a leading training institute in Nashik for recruitment examinations conducted by the MPSC. We are committed to helping candidates achieve their goals by providing excellent guidance and resources.": "MPSC द्वारे आयोजित केलेल्या भरती परीक्षांसाठी नाशिकमधील अग्रगण्य प्रशिक्षण संस्था लक्ष्य करिअर अकादमीमध्ये आपले स्वागत आहे. उत्कृष्ट मार्गदर्शन आणि संसाधने प्रदान करून उमेदवारांना त्यांचे ध्येय साध्य करण्यात मदत करण्यासाठी आम्ही वचनबद्ध आहोत.",
-  "Our institute prepares students for various competitive examinations, including civil service examinations for posts such as Assistant Commissioner of Police, Deputy Superintendent of Police, Assistant Commissioner of Sales Tax, Tahsildar, Deputy Collector, PSI, STI and ASO.": "आमची संस्था सहाय्यक पोलिस आयुक्त, पोलिस उपअधीक्षक, सहायक विक्रीकर आयुक्त, तहसीलदार, उपजिल्हाधिकारी, PSI, STI आणि ASO या पदांसाठी नागरी सेवा परीक्षांसह विविध स्पर्धात्मक परीक्षांसाठी विद्यार्थ्यांना तयार करते.",
-  "We have a team of experienced and knowledgeable teachers who use innovative teaching methods to make learning an enjoyable experience.": "आमच्याकडे अनुभवी आणि जाणकार शिक्षकांची एक टीम आहे जी शिकण्याचा आनंददायी अनुभव देण्यासाठी नाविन्यपूर्ण अध्यापन पद्धती वापरतात.",
-  "At Lakshya Career Academy, we believe in creating a supportive and motivating learning environment that helps students succeed in their careers. Our comprehensive study material, regular practice tests and individual attention ensure that every student is well prepared for their examinations.": "लक्ष्य करिअर अकादमीमध्ये, विद्यार्थ्यांना त्यांच्या करिअरमध्ये यशस्वी होण्यास मदत करणारे आश्वासक आणि प्रेरणादायी शिक्षण वातावरण तयार करण्यावर आमचा विश्वास आहे. आमची सर्वसमावेशक अभ्यास सामग्री, नियमित सराव चाचण्या आणि वैयक्तिक लक्ष हे सुनिश्चित करतात की प्रत्येक विद्यार्थी त्यांच्या परीक्षांसाठी चांगल्या प्रकारे तयार आहे.",
-  "We take pride in our students’ success and have helped many aspirants fulfil their dream of joining the civil services. Our commitment to excellence and dedication to our students have made us one of Nashik’s most trusted training institutes.": "आम्हाला आमच्या विद्यार्थ्यांच्या यशाचा अभिमान वाटतो आणि अनेक इच्छुकांना नागरी सेवांमध्ये सामील होण्याचे त्यांचे स्वप्न पूर्ण करण्यात मदत केली आहे. उत्कृष्टतेची आमची बांधिलकी आणि आमच्या विद्यार्थ्यांसाठी समर्पण यामुळे आम्हाला नाशिकच्या सर्वात विश्वासार्ह प्रशिक्षण संस्थांपैकी एक बनवले आहे.",
-  "Whether you are a first-time aspirant or wish to improve your skills, Lakshya Career Academy is the right place for you. Join us and work towards achieving your career ambitions.": "तुम्ही प्रथमच इच्छुक असाल किंवा तुमचे कौशल्य सुधारू इच्छित असाल, लक्ष्य करिअर अकादमी तुमच्यासाठी योग्य ठिकाण आहे. आमच्यात सामील व्हा आणि तुमच्या करिअरच्या महत्त्वाकांक्षा साध्य करण्यासाठी कार्य करा.",
+  "Welcome to Lakshya Career Academy, a leading training institute in Nashik for recruitment examinations conducted by the MPSC. We are committed to helping candidates achieve their goals by providing excellent guidance and resources.":
+    "MPSC द्वारे आयोजित केलेल्या भरती परीक्षांसाठी नाशिकमधील अग्रगण्य प्रशिक्षण संस्था लक्ष्य करिअर अकादमीमध्ये आपले स्वागत आहे. उत्कृष्ट मार्गदर्शन आणि संसाधने प्रदान करून उमेदवारांना त्यांचे ध्येय साध्य करण्यात मदत करण्यासाठी आम्ही वचनबद्ध आहोत.",
+  "Our institute prepares students for various competitive examinations, including civil service examinations for posts such as Assistant Commissioner of Police, Deputy Superintendent of Police, Assistant Commissioner of Sales Tax, Tahsildar, Deputy Collector, PSI, STI and ASO.":
+    "आमची संस्था सहाय्यक पोलिस आयुक्त, पोलिस उपअधीक्षक, सहायक विक्रीकर आयुक्त, तहसीलदार, उपजिल्हाधिकारी, PSI, STI आणि ASO या पदांसाठी नागरी सेवा परीक्षांसह विविध स्पर्धात्मक परीक्षांसाठी विद्यार्थ्यांना तयार करते.",
+  "We have a team of experienced and knowledgeable teachers who use innovative teaching methods to make learning an enjoyable experience.":
+    "आमच्याकडे अनुभवी आणि जाणकार शिक्षकांची एक टीम आहे जी शिकण्याचा आनंददायी अनुभव देण्यासाठी नाविन्यपूर्ण अध्यापन पद्धती वापरतात.",
+  "At Lakshya Career Academy, we believe in creating a supportive and motivating learning environment that helps students succeed in their careers. Our comprehensive study material, regular practice tests and individual attention ensure that every student is well prepared for their examinations.":
+    "लक्ष्य करिअर अकादमीमध्ये, विद्यार्थ्यांना त्यांच्या करिअरमध्ये यशस्वी होण्यास मदत करणारे आश्वासक आणि प्रेरणादायी शिक्षण वातावरण तयार करण्यावर आमचा विश्वास आहे. आमची सर्वसमावेशक अभ्यास सामग्री, नियमित सराव चाचण्या आणि वैयक्तिक लक्ष हे सुनिश्चित करतात की प्रत्येक विद्यार्थी त्यांच्या परीक्षांसाठी चांगल्या प्रकारे तयार आहे.",
+  "We take pride in our students’ success and have helped many aspirants fulfil their dream of joining the civil services. Our commitment to excellence and dedication to our students have made us one of Nashik’s most trusted training institutes.":
+    "आम्हाला आमच्या विद्यार्थ्यांच्या यशाचा अभिमान वाटतो आणि अनेक इच्छुकांना नागरी सेवांमध्ये सामील होण्याचे त्यांचे स्वप्न पूर्ण करण्यात मदत केली आहे. उत्कृष्टतेची आमची बांधिलकी आणि आमच्या विद्यार्थ्यांसाठी समर्पण यामुळे आम्हाला नाशिकच्या सर्वात विश्वासार्ह प्रशिक्षण संस्थांपैकी एक बनवले आहे.",
+  "Whether you are a first-time aspirant or wish to improve your skills, Lakshya Career Academy is the right place for you. Join us and work towards achieving your career ambitions.":
+    "तुम्ही प्रथमच इच्छुक असाल किंवा तुमचे कौशल्य सुधारू इच्छित असाल, लक्ष्य करिअर अकादमी तुमच्यासाठी योग्य ठिकाण आहे. आमच्यात सामील व्हा आणि तुमच्या करिअरच्या महत्त्वाकांक्षा साध्य करण्यासाठी कार्य करा.",
   "Vision & Mission ↓": "व्हिजन आणि मिशन ↓",
   "Academy Features ↓": "अकादमीची वैशिष्ट्ये ↓",
   "Purpose & Directive": "उद्देश आणि निर्देश",
   "Institutional Purpose": "संस्थात्मक उद्देश",
-  "Vision": "दृष्टी",
-  "To provide excellent UPSC and MPSC classes and appropriate guidance, and continuously work towards developing knowledgeable and capable administrators.": "उत्कृष्ट UPSC आणि MPSC वर्ग आणि योग्य मार्गदर्शन प्रदान करणे आणि ज्ञानी आणि सक्षम प्रशासक विकसित करण्यासाठी सतत कार्य करणे.",
-  "Through education, we aim to build a thoughtful and intelligent society and provide quality teaching that improves preparation for competitive examinations.": "शिक्षणाद्वारे, आम्ही विचारशील आणि हुशार समाज निर्माण करणे आणि स्पर्धात्मक परीक्षांची तयारी सुधारणारे दर्जेदार शिक्षण देणे हे आमचे ध्येय आहे.",
-  "We strive to create a supportive environment that enables students to participate more effectively in recruitment processes.": "विद्यार्थ्यांना भरती प्रक्रियेत अधिक प्रभावीपणे सहभागी होण्यास सक्षम करणारे आश्वासक वातावरण निर्माण करण्याचा आम्ही प्रयत्न करतो.",
+  Vision: "दृष्टी",
+  "To provide excellent UPSC and MPSC classes and appropriate guidance, and continuously work towards developing knowledgeable and capable administrators.":
+    "उत्कृष्ट UPSC आणि MPSC वर्ग आणि योग्य मार्गदर्शन प्रदान करणे आणि ज्ञानी आणि सक्षम प्रशासक विकसित करण्यासाठी सतत कार्य करणे.",
+  "Through education, we aim to build a thoughtful and intelligent society and provide quality teaching that improves preparation for competitive examinations.":
+    "शिक्षणाद्वारे, आम्ही विचारशील आणि हुशार समाज निर्माण करणे आणि स्पर्धात्मक परीक्षांची तयारी सुधारणारे दर्जेदार शिक्षण देणे हे आमचे ध्येय आहे.",
+  "We strive to create a supportive environment that enables students to participate more effectively in recruitment processes.":
+    "विद्यार्थ्यांना भरती प्रक्रियेत अधिक प्रभावीपणे सहभागी होण्यास सक्षम करणारे आश्वासक वातावरण निर्माण करण्याचा आम्ही प्रयत्न करतो.",
   "Strategic Directive": "धोरणात्मक निर्देश",
-  "Mission": "मिशन",
-  "To increase Maharashtra’s participation in the decision-making process.": "निर्णय प्रक्रियेत महाराष्ट्राचा सहभाग वाढवणे.",
-  "The Constitution of India promises a strong and prosperous India and entrusts certain special powers to the administrative services. A capable administrative workforce is needed to exercise and implement these powers effectively.": "भारतीय राज्यघटनेने सशक्त आणि समृद्ध भारताचे वचन दिले आहे आणि काही विशेष अधिकार प्रशासकीय सेवांना सोपवले आहेत. या अधिकारांचा प्रभावीपणे वापर आणि अंमलबजावणी करण्यासाठी सक्षम प्रशासकीय कर्मचाऱ्यांची गरज आहे.",
-  "Lakshya Career Academy in Nashik brings together people dedicated to training competent administrators who will fulfil their responsibilities towards social development.": "नाशिकमधील लक्ष्य करिअर अकादमी सक्षम प्रशासकांना प्रशिक्षण देण्यासाठी समर्पित लोकांना एकत्र आणते जे सामाजिक विकासासाठी आपली जबाबदारी पार पाडतील.",
-  "These are people with a spirit of service. Rather than rejecting or ignoring the system of governance, we seek to improve it.": "सेवेची भावना असलेले हे लोक आहेत. शासनप्रणाली नाकारण्यापेक्षा किंवा त्याकडे दुर्लक्ष करण्याऐवजी आम्ही ती सुधारण्याचा प्रयत्न करतो.",
+  Mission: "मिशन",
+  "To increase Maharashtra’s participation in the decision-making process.":
+    "निर्णय प्रक्रियेत महाराष्ट्राचा सहभाग वाढवणे.",
+  "The Constitution of India promises a strong and prosperous India and entrusts certain special powers to the administrative services. A capable administrative workforce is needed to exercise and implement these powers effectively.":
+    "भारतीय राज्यघटनेने सशक्त आणि समृद्ध भारताचे वचन दिले आहे आणि काही विशेष अधिकार प्रशासकीय सेवांना सोपवले आहेत. या अधिकारांचा प्रभावीपणे वापर आणि अंमलबजावणी करण्यासाठी सक्षम प्रशासकीय कर्मचाऱ्यांची गरज आहे.",
+  "Lakshya Career Academy in Nashik brings together people dedicated to training competent administrators who will fulfil their responsibilities towards social development.":
+    "नाशिकमधील लक्ष्य करिअर अकादमी सक्षम प्रशासकांना प्रशिक्षण देण्यासाठी समर्पित लोकांना एकत्र आणते जे सामाजिक विकासासाठी आपली जबाबदारी पार पाडतील.",
+  "These are people with a spirit of service. Rather than rejecting or ignoring the system of governance, we seek to improve it.":
+    "सेवेची भावना असलेले हे लोक आहेत. शासनप्रणाली नाकारण्यापेक्षा किंवा त्याकडे दुर्लक्ष करण्याऐवजी आम्ही ती सुधारण्याचा प्रयत्न करतो.",
   "Academic Operating Architecture": "शैक्षणिक ऑपरेटिंग आर्किटेक्चर",
-  "Comprehensive preparation, personal guidance, and the right learning environment to help aspirants prepare for competitive examinations.": "सर्वसमावेशक तयारी, वैयक्तिक मार्गदर्शन आणि योग्य शिक्षण वातावरण इच्छुकांना स्पर्धात्मक परीक्षांची तयारी करण्यास मदत करते.",
+  "Comprehensive preparation, personal guidance, and the right learning environment to help aspirants prepare for competitive examinations.":
+    "सर्वसमावेशक तयारी, वैयक्तिक मार्गदर्शन आणि योग्य शिक्षण वातावरण इच्छुकांना स्पर्धात्मक परीक्षांची तयारी करण्यास मदत करते.",
   "Preparation and Study Support": "तयारी आणि अभ्यास समर्थन",
-  "Curriculum, examination scope, printed notes & rigorous practice": "अभ्यासक्रम, परीक्षेची व्याप्ती, छापील नोट्स आणि कठोर सराव",
+  "Curriculum, examination scope, printed notes & rigorous practice":
+    "अभ्यासक्रम, परीक्षेची व्याप्ती, छापील नोट्स आणि कठोर सराव",
   "11 Modules": "11 मॉड्यूल",
   "All Examination Stages": "परीक्षांचे सर्व टप्पे",
   "Prelims to Interview": "मुलाखतीची प्रिलिम्स",
-  "Complete preparation for preliminary examinations, main examinations, interviews, and physical tests.": "प्राथमिक परीक्षा, मुख्य परीक्षा, मुलाखती आणि शारीरिक चाचण्यांसाठी पूर्ण तयारी.",
+  "Complete preparation for preliminary examinations, main examinations, interviews, and physical tests.":
+    "प्राथमिक परीक्षा, मुख्य परीक्षा, मुलाखती आणि शारीरिक चाचण्यांसाठी पूर्ण तयारी.",
   "Major Examination Scope": "मुख्य परीक्षेची व्याप्ती",
-  "Preparation for UPSC, State Services, Combined Group B, and Combined Group C examinations.": "UPSC, राज्य सेवा, एकत्रित गट ब आणि एकत्रित गट क परीक्षांची तयारी.",
+  "Preparation for UPSC, State Services, Combined Group B, and Combined Group C examinations.":
+    "UPSC, राज्य सेवा, एकत्रित गट ब आणि एकत्रित गट क परीक्षांची तयारी.",
   "Printed & Classroom Notes": "मुद्रित आणि वर्गातील नोट्स",
-  "Printed notes for all subjects, supplemented by notes written in class.": "सर्व विषयांसाठी मुद्रित नोट्स, वर्गात लिहिलेल्या नोट्सद्वारे पूरक.",
+  "Printed notes for all subjects, supplemented by notes written in class.":
+    "सर्व विषयांसाठी मुद्रित नोट्स, वर्गात लिहिलेल्या नोट्सद्वारे पूरक.",
   "★ 42 Tests Series": "★ 42 कसोटी मालिका",
   "Test series comprising 42 tests.": "42 कसोटींचा समावेश असलेली कसोटी मालिका.",
   "Free Study-Room Access": "मोफत अभ्यास-खोली प्रवेश",
   "Complimentary Access": "मोफत प्रवेश",
-  "Free study-room access, including free use of the academy’s books during study-room hours.": "अभ्यासाच्या खोलीत विनामूल्य प्रवेश, अकादमीच्या पुस्तकांच्या विनामूल्य वापरासह",
+  "Free study-room access, including free use of the academy’s books during study-room hours.":
+    "अभ्यासाच्या खोलीत विनामूल्य प्रवेश, अकादमीच्या पुस्तकांच्या विनामूल्य वापरासह",
   "40 Essays Practice": "40 निबंध सराव",
-  "Bilingual": "द्विभाषिक",
-  "Practice covering 40 essays in Marathi and English.": "मराठी आणि इंग्रजीमध्ये 40 निबंध समाविष्ट करण्याचा सराव करा.",
+  Bilingual: "द्विभाषिक",
+  "Practice covering 40 essays in Marathi and English.":
+    "मराठी आणि इंग्रजीमध्ये 40 निबंध समाविष्ट करण्याचा सराव करा.",
   "Translation & Précis-Writing": "भाषांतर आणि अचूक लेखन",
   "120 Passages": "120 परिच्छेद",
-  "Translation and précis-writing practice comprising 120 passages.": "120 परिच्छेदांचा समावेश असलेले भाषांतर आणि अचूक लेखन सराव.",
+  "Translation and précis-writing practice comprising 120 passages.":
+    "120 परिच्छेदांचा समावेश असलेले भाषांतर आणि अचूक लेखन सराव.",
   "Maths & Reasoning Drills": "गणित आणि तर्क अभ्यास",
   "≥40 Questions/Ch": "≥40 प्रश्न/Ch",
-  "Mathematics and reasoning preparation with at least 40 questions per chapter.": "प्रत्येक अध्यायात किमान 40 प्रश्नांसह गणित आणि तर्क तयारी.",
+  "Mathematics and reasoning preparation with at least 40 questions per chapter.":
+    "प्रत्येक अध्यायात किमान 40 प्रश्नांसह गणित आणि तर्क तयारी.",
   "Newspaper-Reading Sessions": "वृत्तपत्र-वाचन सत्र",
   "Newspaper-reading sessions.": "वर्तमानपत्र वाचन सत्र.",
   "Special Lectures on Current Affairs": "चालू घडामोडींवर विशेष व्याख्याने",
@@ -303,16 +353,19 @@ window.LAKSHYA_I18N = {
   "Periodic Issue": "नियतकालिक अंक",
   "Free current affairs magazine.": "मोफत चालू घडामोडी मासिक.",
   "Individual Guidance and Facilities": "वैयक्तिक मार्गदर्शन आणि सुविधा",
-  "Mentorship, small cohorts, infrastructure & personal progress review": "मार्गदर्शन, लहान गट, पायाभूत सुविधा आणि वैयक्तिक प्रगती पुनरावलोकन",
+  "Mentorship, small cohorts, infrastructure & personal progress review":
+    "मार्गदर्शन, लहान गट, पायाभूत सुविधा आणि वैयक्तिक प्रगती पुनरावलोकन",
   "10 Modules": "10 मॉड्यूल",
   "Personal Counselling": "वैयक्तिक समुपदेशन",
   "★ Every 15 Days": "★ दर १५ दिवसांनी",
-  "Personal counselling, with the teacher personally reviewing students’ study progress every 15 days.": "वैयक्तिक समुपदेशन, शिक्षक दर 15 दिवसांनी विद्यार्थ्यांच्या अभ्यासाच्या प्रगतीचे वैयक्तिकरित्या पुनरावलोकन करतात.",
+  "Personal counselling, with the teacher personally reviewing students’ study progress every 15 days.":
+    "वैयक्तिक समुपदेशन, शिक्षक दर 15 दिवसांनी विद्यार्थ्यांच्या अभ्यासाच्या प्रगतीचे वैयक्तिकरित्या पुनरावलोकन करतात.",
   "Capped Batch Size": "कॅप्ड बॅच आकार",
   "Max 40 Students": "कमाल ४० विद्यार्थी",
   "Only 40 students per batch.": "प्रति बॅच फक्त 40 विद्यार्थी.",
   "Subject-Specialist Faculty": "विषय-विशेषज्ञ फॅकल्टी",
-  "A separate experienced teacher for each subject.": "प्रत्येक विषयासाठी स्वतंत्र अनुभवी शिक्षक.",
+  "A separate experienced teacher for each subject.":
+    "प्रत्येक विषयासाठी स्वतंत्र अनुभवी शिक्षक.",
   "Free Campus Wi-Fi": "मोफत कॅम्पस वाय-फाय",
   "High-Speed": "हाय-स्पीड",
   "Free Wi-Fi.": "मोफत वाय-फाय.",
@@ -322,86 +375,123 @@ window.LAKSHYA_I18N = {
   "Interview Preparedness": "मुलाखतीची तयारी",
   "Personality development sessions.": "व्यक्तिमत्व विकास सत्रे.",
   "Post-Test Discussion Sessions": "चाचणीनंतरची चर्चा सत्रे",
-  "A dedicated discussion session after every test.": "प्रत्येक चाचणीनंतर एक समर्पित चर्चा सत्र.",
+  "A dedicated discussion session after every test.":
+    "प्रत्येक चाचणीनंतर एक समर्पित चर्चा सत्र.",
   "Pre-Completion Revision Sessions": "पूर्व-पूर्णता पुनरावृत्ती सत्रे",
-  "Revision sessions before the batch ends.": "बॅच संपण्यापूर्वी पुनरावृत्ती सत्रे.",
+  "Revision sessions before the batch ends.":
+    "बॅच संपण्यापूर्वी पुनरावृत्ती सत्रे.",
   "Answer-Writing Practice": "उत्तर-लेखन सराव",
   "★ Weekly Drill": "★ साप्ताहिक ड्रिल",
-  "Weekly answer-writing practice covering three to five questions.": "साप्ताहिक उत्तर-लेखनाचा सराव तीन ते पाच प्रश्नांचा समावेश आहे.",
+  "Weekly answer-writing practice covering three to five questions.":
+    "साप्ताहिक उत्तर-लेखनाचा सराव तीन ते पाच प्रश्नांचा समावेश आहे.",
   "Digital Classroom Infrastructure": "डिजिटल क्लासरूम पायाभूत सुविधा",
   "AV-Equipped": "एव्ही-सुसज्ज",
   "Digital classroom.": "डिजिटल वर्ग.",
   "Committed to Administrative Excellence": "प्रशासकीय उत्कृष्टतेसाठी वचनबद्ध",
-  "Every feature is designed to ensure rigorous MPSC and UPSC readiness under personalized faculty supervision.": "प्रत्येक वैशिष्ट्य वैयक्तिकृत प्राध्यापकांच्या देखरेखीखाली कठोर MPSC आणि UPSC तयारी सुनिश्चित करण्यासाठी डिझाइन केलेले आहे.",
+  "Every feature is designed to ensure rigorous MPSC and UPSC readiness under personalized faculty supervision.":
+    "प्रत्येक वैशिष्ट्य वैयक्तिकृत प्राध्यापकांच्या देखरेखीखाली कठोर MPSC आणि UPSC तयारी सुनिश्चित करण्यासाठी डिझाइन केलेले आहे.",
   "Enquire About Admissions": "प्रवेशाबद्दल चौकशी करा",
   "Explore Courses →": "अभ्यासक्रम एक्सप्लोर करा →",
   "Board of Directors": "संचालक मंडळ",
   "Pranjal Nikumbh": "प्रांजल निकुंभ",
   "Director • Lakshya Career Academy": "संचालक • लक्ष्य करिअर अकादमी",
-  "Faculty and academic mentor with experience in Indian Polity and Geography.": "भारतीय राजकारण आणि भूगोल विषयातील अनुभव असलेले प्राध्यापक आणि शैक्षणिक मार्गदर्शक.",
+  "Faculty and academic mentor with experience in Indian Polity and Geography.":
+    "भारतीय राजकारण आणि भूगोल विषयातील अनुभव असलेले प्राध्यापक आणि शैक्षणिक मार्गदर्शक.",
   "View Profile →": "प्रोफाइल पहा →",
   "Nishant Pawar": "निशांत पवार",
-  "Specialist in Macroeconomics, Maharashtra Economic Survey, CSAT aptitude, and logical reasoning.": "मॅक्रो इकॉनॉमिक्स, महाराष्ट्र इकॉनॉमिक सर्व्हे, CSAT योग्यता आणि तार्किक तर्क यातील तज्ञ.",
+  "Specialist in Macroeconomics, Maharashtra Economic Survey, CSAT aptitude, and logical reasoning.":
+    "मॅक्रो इकॉनॉमिक्स, महाराष्ट्र इकॉनॉमिक सर्व्हे, CSAT योग्यता आणि तार्किक तर्क यातील तज्ञ.",
   "Atul Shashikant Nikumbh": "अतुल शशिकांत निकुंभ",
-  "Experienced educator with expertise in Economics and Science.": "अर्थशास्त्र आणि विज्ञान या विषयातील तज्ञ असलेले अनुभवी शिक्षक.",
+  "Experienced educator with expertise in Economics and Science.":
+    "अर्थशास्त्र आणि विज्ञान या विषयातील तज्ञ असलेले अनुभवी शिक्षक.",
   "Educational Qualifications": "शैक्षणिक पात्रता",
   "B.A. and M.A. in Political Science.": "बी.ए. आणि राज्यशास्त्रात M.A.",
   "B.Sc. in Zoology.": "बी.एस्सी. प्राणीशास्त्र मध्ये.",
   "Examination Achievements": "परीक्षेतील यश",
-  "2014 and 2016: UPSC Main Examination and Interview.": "2014 आणि 2016: UPSC मुख्य परीक्षा आणि मुलाखत.",
-  "2015, 2016 and 2017: State Services Main Examination.": "2015, 2016 आणि 2017: राज्य सेवा मुख्य परीक्षा.",
+  "2014 and 2016: UPSC Main Examination and Interview.":
+    "2014 आणि 2016: UPSC मुख्य परीक्षा आणि मुलाखत.",
+  "2015, 2016 and 2017: State Services Main Examination.":
+    "2015, 2016 आणि 2017: राज्य सेवा मुख्य परीक्षा.",
   "Teaching Experience": "शिकवण्याचा अनुभव",
-  "Six years of experience teaching Indian Polity and Geography.": "भारतीय राजकारण आणि भूगोल शिकवण्याचा सहा वर्षांचा अनुभव.",
+  "Six years of experience teaching Indian Polity and Geography.":
+    "भारतीय राजकारण आणि भूगोल शिकवण्याचा सहा वर्षांचा अनुभव.",
   "Professional Achievements": "व्यावसायिक यश",
-  "Maharashtra Finance and Accounts Officer, Group A: 2018.": "महाराष्ट्र वित्त आणि लेखाधिकारी, गट अ: 2018.",
+  "Maharashtra Finance and Accounts Officer, Group A: 2018.":
+    "महाराष्ट्र वित्त आणि लेखाधिकारी, गट अ: 2018.",
   "Block Development Officer, Group B: 2018.": "गट विकास अधिकारी, गट ब: 2018.",
   "Charity Inspector: 2014.": "धर्मादाय निरीक्षक: 2014.",
-  "2014, 2016 and 2017: State Services Main Examination and Interview.": "2014, 2016 आणि 2017: राज्य सेवा मुख्य परीक्षा आणि मुलाखत.",
-  "Master of Science in Microbiology.": "मायक्रोबायोलॉजीमध्ये मास्टर ऑफ सायन्स.",
-  "2013, 2014, 2015 and 2017: State Services Interview.": "2013, 2014, 2015 आणि 2017: राज्य सेवा मुलाखत.",
-  "2016 and 2018: State Services Main Examination.": "2016 आणि 2018: राज्य सेवा मुख्य परीक्षा.",
-  "2014, 2015, 2016 and 2017: UPSC Interview.": "2014, 2015, 2016 आणि 2017: UPSC मुलाखत.",
+  "2014, 2016 and 2017: State Services Main Examination and Interview.":
+    "2014, 2016 आणि 2017: राज्य सेवा मुख्य परीक्षा आणि मुलाखत.",
+  "Master of Science in Microbiology.":
+    "मायक्रोबायोलॉजीमध्ये मास्टर ऑफ सायन्स.",
+  "2013, 2014, 2015 and 2017: State Services Interview.":
+    "2013, 2014, 2015 आणि 2017: राज्य सेवा मुलाखत.",
+  "2016 and 2018: State Services Main Examination.":
+    "2016 आणि 2018: राज्य सेवा मुख्य परीक्षा.",
+  "2014, 2015, 2016 and 2017: UPSC Interview.":
+    "2014, 2015, 2016 आणि 2017: UPSC मुलाखत.",
   "Selected for SID.": "SID साठी निवडले.",
   "Selected as Assistant Commandant.": "असिस्टंट कमांडंट म्हणून निवड.",
   "2018: Municipal Council Main Examination.": "2018: नगरपरिषद मुख्य परीक्षा.",
-  "Seven years of experience teaching Economics and Science in Nashik, Pune and Mumbai.": "नाशिक, पुणे आणि मुंबई येथे अर्थशास्त्र आणि विज्ञान शिकवण्याचा सात वर्षांचा अनुभव.",
+  "Seven years of experience teaching Economics and Science in Nashik, Pune and Mumbai.":
+    "नाशिक, पुणे आणि मुंबई येथे अर्थशास्त्र आणि विज्ञान शिकवण्याचा सात वर्षांचा अनुभव.",
   "Why Aspirants Choose Lakshya": "इच्छुकांनी लक्ष्य का निवडावे",
-  "Key Highlights of Our Coaching Ecosystem": "आमच्या कोचिंग इकोसिस्टमची प्रमुख वैशिष्ट्ये",
-  "Every resource at Lakshya is tailored to remove preparation roadblocks and convert sincere efforts into top administrative ranks.": "लक्ष्य येथील प्रत्येक संसाधन तयारीतील अडथळे दूर करण्यासाठी आणि प्रामाणिक प्रयत्नांना उच्च प्रशासकीय श्रेणींमध्ये रूपांतरित करण्यासाठी तयार केले आहे.",
+  "Key Highlights of Our Coaching Ecosystem":
+    "आमच्या कोचिंग इकोसिस्टमची प्रमुख वैशिष्ट्ये",
+  "Every resource at Lakshya is tailored to remove preparation roadblocks and convert sincere efforts into top administrative ranks.":
+    "लक्ष्य येथील प्रत्येक संसाधन तयारीतील अडथळे दूर करण्यासाठी आणि प्रामाणिक प्रयत्नांना उच्च प्रशासकीय श्रेणींमध्ये रूपांतरित करण्यासाठी तयार केले आहे.",
   "Daily Answer Writing Correction": "दैनिक उत्तर लेखन सुधारणा",
-  "Rigorous daily Mains questions evaluated line-by-line with structural feedback on introduction, body diagrams, and conclusions.": "कठोर दैनिक मुख्य प्रश्नांनी परिचय, मुख्य भाग आकृती आणि निष्कर्षांवरील संरचनात्मक अभिप्रायासह ओळ-दर-लाइन मूल्यमापन केले.",
+  "Rigorous daily Mains questions evaluated line-by-line with structural feedback on introduction, body diagrams, and conclusions.":
+    "कठोर दैनिक मुख्य प्रश्नांनी परिचय, मुख्य भाग आकृती आणि निष्कर्षांवरील संरचनात्मक अभिप्रायासह ओळ-दर-लाइन मूल्यमापन केले.",
   "Daily Editorial & News Digest": "दैनिक संपादकीय आणि बातम्या डायजेस्ट",
-  "Systematic analysis of Indian Express, Loksatta, and Lokrajya with condensed exam-ready bullet points.": "इंडियन एक्स्प्रेस, लोकसत्ता आणि लोकराज्य यांचे संक्षेपित परीक्षा-तयार बुलेट पॉइंट्ससह पद्धतशीर विश्लेषण.",
+  "Systematic analysis of Indian Express, Loksatta, and Lokrajya with condensed exam-ready bullet points.":
+    "इंडियन एक्स्प्रेस, लोकसत्ता आणि लोकराज्य यांचे संक्षेपित परीक्षा-तयार बुलेट पॉइंट्ससह पद्धतशीर विश्लेषण.",
   "24x7 Air-Conditioned Library": "24x7 वातानुकूलित लायब्ररी",
-  "Peaceful, dedicated study cubicles equipped with 10,000+ reference volumes and high-speed research Wi-Fi.": "10,000+ संदर्भ खंड आणि हाय-स्पीड रिसर्च वाय-फायने सुसज्ज शांत, समर्पित अभ्यास क्युबिकल्स.",
+  "Peaceful, dedicated study cubicles equipped with 10,000+ reference volumes and high-speed research Wi-Fi.":
+    "10,000+ संदर्भ खंड आणि हाय-स्पीड रिसर्च वाय-फायने सुसज्ज शांत, समर्पित अभ्यास क्युबिकल्स.",
   "Physical Fitness Guidance (PSI)": "शारीरिक तंदुरुस्ती मार्गदर्शन (PSI)",
-  "Specialized ground training coaches for 100-mark physical exams: 800m running, pull-ups, shot-put, and long jump.": "100-गुणांच्या शारीरिक परीक्षांसाठी खास मैदानी प्रशिक्षण प्रशिक्षक: 800 मीटर धावणे, पुल-अप, शॉट-पुट आणि लांब उडी.",
+  "Specialized ground training coaches for 100-mark physical exams: 800m running, pull-ups, shot-put, and long jump.":
+    "100-गुणांच्या शारीरिक परीक्षांसाठी खास मैदानी प्रशिक्षण प्रशिक्षक: 800 मीटर धावणे, पुल-अप, शॉट-पुट आणि लांब उडी.",
   "Serving Officer Mock Panels": "सर्व्हिंग ऑफिसर मॉक पॅनेल",
-  "Interviews conducted by serving IAS, IPS, Deputy Collectors, and Tahasildars with video playback feedback.": "व्हिडिओ प्लेबॅक फीडबॅकसह आयएएस, आयपीएस, उपजिल्हाधिकारी आणि तहसीलदार यांच्याद्वारे मुलाखती घेतल्या जातात.",
+  "Interviews conducted by serving IAS, IPS, Deputy Collectors, and Tahasildars with video playback feedback.":
+    "व्हिडिओ प्लेबॅक फीडबॅकसह आयएएस, आयपीएस, उपजिल्हाधिकारी आणि तहसीलदार यांच्याद्वारे मुलाखती घेतल्या जातात.",
   "12-Year PYQ Topic Breakdown": "12-वर्ष PYQ विषय ब्रेकडाउन",
-  "Comprehensive past papers decomposed by micro-topic with trend analysis and model answers.": "ट्रेंड विश्लेषण आणि मॉडेल उत्तरांसह सूक्ष्म-विषयाद्वारे विघटित केलेले सर्वसमावेशक मागील पेपर.",
+  "Comprehensive past papers decomposed by micro-topic with trend analysis and model answers.":
+    "ट्रेंड विश्लेषण आणि मॉडेल उत्तरांसह सूक्ष्म-विषयाद्वारे विघटित केलेले सर्वसमावेशक मागील पेपर.",
   "Mentorship Session": "मार्गदर्शन सत्र",
   "Speak Directly with Directors": "संचालकांशी थेट बोला",
-  "Book an in-person or telephonic strategic consultation with Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh at our Pandit Colony campus in Nashik.": "नाशिकमधील आमच्या पंडित कॉलनी कॅम्पसमध्ये अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांच्याशी वैयक्तिक किंवा दूरध्वनीवरून धोरणात्मक सल्लामसलत करा.",
-  "Rajyaseva Examination (State Civil Services)": "राज्यसेवा परीक्षा (राज्य नागरी सेवा)",
+  "Book an in-person or telephonic strategic consultation with Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh at our Pandit Colony campus in Nashik.":
+    "नाशिकमधील आमच्या पंडित कॉलनी कॅम्पसमध्ये अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांच्याशी वैयक्तिक किंवा दूरध्वनीवरून धोरणात्मक सल्लामसलत करा.",
+  "Rajyaseva Examination (State Civil Services)":
+    "राज्यसेवा परीक्षा (राज्य नागरी सेवा)",
   "MPSC Combine Group B (PSI / STI / ASO)": "MPSC एकत्रित गट B (PSI/STI/ASO)",
   "PSI Mains & Physical Coaching": "PSI मुख्य आणि शारीरिक प्रशिक्षण",
   "Sales Tax Inspector (STI) Mains": "विक्रीकर निरीक्षक (STI) मुख्य",
   "Book Consultation on WhatsApp 💬": "व्हॉट्सॲपवर पुस्तक सल्ला 💬",
-  "Join Maharashtra's most disciplined MPSC mentorship academy. Limited to 30 aspirants per batch with structured 15-day review cycles under Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh.": "महाराष्ट्रातील सर्वात शिस्तबद्ध MPSC मेंटॉरशिप अकादमीमध्ये सामील व्हा. अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांच्या अंतर्गत संरचित 15-दिवसीय पुनरावलोकन चक्रांसह प्रति बॅच 30 इच्छुकांपर्यंत मर्यादित.",
+  "Join Maharashtra's most disciplined MPSC mentorship academy. Limited to 30 aspirants per batch with structured 15-day review cycles under Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh.":
+    "महाराष्ट्रातील सर्वात शिस्तबद्ध MPSC मेंटॉरशिप अकादमीमध्ये सामील व्हा. अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांच्या अंतर्गत संरचित 15-दिवसीय पुनरावलोकन चक्रांसह प्रति बॅच 30 इच्छुकांपर्यंत मर्यादित.",
   "📞 +91 7887878001": "📞 +९१ ७८८७८७८००१",
-  "ध्येयमेव जयते • THE LAKSHYA CAREER ACADEMY • NASHIK • EST. 2010 •": "ध्येयमेव जयते • लक्ष्ये रीअर अकादमी • नाशिक • ईएसटी. 2010 •",
-  "TO INCREASE MAHARASHTRA'S SHARE IN GOVERNANCE •": "राज्यकारभारात महाराष्ट्राचा वाटा वाढवण्यासाठी •",
-  "Nashik's dedicated coaching institute for MPSC State Services, Combine Group B, PSI Mains, STI, ASO, Saralseva and Talathi Bharti.": "एमपीएससी राज्य सेवांसाठी नाशिकची समर्पित कोचिंग संस्था, ग्रुप बी, पीएसआय मेन्स, एसटीआय, एएसओ, सरलसेवा आणि तलाठी भारती.",
-  "Campus: 2nd Floor, Bhaskar Android, Opp. Sindhusagar Academy, Near Lane No. 4, Pandit Colony, Nashik, 422002": "कॅम्पस: दुसरा मजला, भास्कर अँड्रॉइड, समोर. सिंधुसागर अकादमी, लेन क्रमांक 4 जवळ, पंडित कॉलनी, नाशिक, 422002",
-  "Telephone: 📞 +91 7887878001 📞 +91 7887878002": "दूरध्वनी: 📞 +91 7887878001 📞 +91 7887878002",
+  "ध्येयमेव जयते • THE LAKSHYA CAREER ACADEMY • NASHIK • EST. 2010 •":
+    "ध्येयमेव जयते • लक्ष्ये रीअर अकादमी • नाशिक • ईएसटी. 2010 •",
+  "TO INCREASE MAHARASHTRA'S SHARE IN GOVERNANCE •":
+    "राज्यकारभारात महाराष्ट्राचा वाटा वाढवण्यासाठी •",
+  "Nashik's dedicated coaching institute for MPSC State Services, Combine Group B, PSI Mains, STI, ASO, Saralseva and Talathi Bharti.":
+    "एमपीएससी राज्य सेवांसाठी नाशिकची समर्पित कोचिंग संस्था, ग्रुप बी, पीएसआय मेन्स, एसटीआय, एएसओ, सरलसेवा आणि तलाठी भारती.",
+  "Campus: 2nd Floor, Bhaskar Android, Opp. Sindhusagar Academy, Near Lane No. 4, Pandit Colony, Nashik, 422002":
+    "कॅम्पस: दुसरा मजला, भास्कर अँड्रॉइड, समोर. सिंधुसागर अकादमी, लेन क्रमांक 4 जवळ, पंडित कॉलनी, नाशिक, 422002",
+  "Telephone: 📞 +91 7887878001 📞 +91 7887878002":
+    "दूरध्वनी: 📞 +91 7887878001 📞 +91 7887878002",
   "📞 +91 7887878002": "📞 +९१ ७८८७८७८००२",
-  "© 2026 The Lakshya Career Academy. All Rights Reserved.": "© २०२६ द लक्ष्य करिअर अकॅडमी. सर्व हक्क सुरक्षित.",
-  "Please complete the details below and an academic counselor will connect with you on WhatsApp.": "कृपया खालील तपशील पूर्ण करा आणि एक शैक्षणिक सल्लागार तुमच्याशी WhatsApp वर कनेक्ट होईल.",
+  "© 2026 The Lakshya Career Academy. All Rights Reserved.":
+    "© २०२६ द लक्ष्य करिअर अकॅडमी. सर्व हक्क सुरक्षित.",
+  "Please complete the details below and an academic counselor will connect with you on WhatsApp.":
+    "कृपया खालील तपशील पूर्ण करा आणि एक शैक्षणिक सल्लागार तुमच्याशी WhatsApp वर कनेक्ट होईल.",
   "Submit via WhatsApp 💬": "WhatsApp द्वारे सबमिट करा 💬",
   "The Lakshya Academic Journal": "लक्ष्य शैक्षणिक जर्नल",
-  "MPSC Exam Strategies, Insights & Analytical Digests": "MPSC परीक्षा धोरणे, अंतर्दृष्टी आणि विश्लेषणात्मक डायजेस्ट",
-  "Curated guidance from Atul Nikumbh, Nishant Pawar, Pranjal Nikumbh, and guest civil servants to sharpen your preparation for Maharashtra State Services & Combined Group B.": "अतुल निकुंभ, निशांत पवार, प्रांजल निकुंभ आणि पाहुणे नागरी सेवकांकडून तयार केलेले मार्गदर्शन महाराष्ट्र राज्य सेवा आणि एकत्रित गट ब साठी तुमची तयारी अधिक तीव्र करण्यासाठी.",
+  "MPSC Exam Strategies, Insights & Analytical Digests":
+    "MPSC परीक्षा धोरणे, अंतर्दृष्टी आणि विश्लेषणात्मक डायजेस्ट",
+  "Curated guidance from Atul Nikumbh, Nishant Pawar, Pranjal Nikumbh, and guest civil servants to sharpen your preparation for Maharashtra State Services & Combined Group B.":
+    "अतुल निकुंभ, निशांत पवार, प्रांजल निकुंभ आणि पाहुणे नागरी सेवकांकडून तयार केलेले मार्गदर्शन महाराष्ट्र राज्य सेवा आणि एकत्रित गट ब साठी तुमची तयारी अधिक तीव्र करण्यासाठी.",
   "All Articles (6)": "सर्व लेख (6)",
   "MPSC Strategy": "MPSC धोरण",
   "Current Affairs & Lokrajya": "चालू घडामोडी आणि लोकराज्य",
@@ -409,108 +499,152 @@ window.LAKSHYA_I18N = {
   "Rajyaseva Strategy": "राज्यसेवा धोरण",
   "📅 Sept 18, 2026": "📅 18 सप्टेंबर 2026",
   "⏱️ 6 Min Read": "⏱️ ६ मिनिटे वाचा",
-  "How to Structure 250-Word MPSC GS Descriptive Answers": "250-शब्द MPSC GS वर्णनात्मक उत्तरांची रचना कशी करावी",
-  "Mastering the introduction-body-conclusion framework, integrating Maharashtra-specific case studies, and utilizing schematic flowcharts for maximum marks.": "परिचय-मुख्य-समारोप फ्रेमवर्कमध्ये प्रभुत्व मिळवणे, महाराष्ट्र-विशिष्ट केस स्टडी एकत्र करणे आणि जास्तीत जास्त गुणांसाठी योजनाबद्ध फ्लोचार्ट वापरणे.",
+  "How to Structure 250-Word MPSC GS Descriptive Answers":
+    "250-शब्द MPSC GS वर्णनात्मक उत्तरांची रचना कशी करावी",
+  "Mastering the introduction-body-conclusion framework, integrating Maharashtra-specific case studies, and utilizing schematic flowcharts for maximum marks.":
+    "परिचय-मुख्य-समारोप फ्रेमवर्कमध्ये प्रभुत्व मिळवणे, महाराष्ट्र-विशिष्ट केस स्टडी एकत्र करणे आणि जास्तीत जास्त गुणांसाठी योजनाबद्ध फ्लोचार्ट वापरणे.",
   "Current Affairs": "चालू घडामोडी",
   "📅 Sept 12, 2026": "📅 12 सप्टेंबर 2026",
   "⏱️ 8 Min Read": "⏱️ 8 मिनिटे वाचा",
-  "Connecting Lokrajya & State Schemes with Prelims GS Paper I": "लोकराज्य आणि राज्य योजनांना प्रिलिम्स GS पेपर I सह जोडणे",
-  "A definitive guide on how Maharashtra government monthly publications and annual budgets translate into high-frequency Prelims and Mains questions.": "महाराष्ट्र सरकारची मासिक प्रकाशने आणि वार्षिक बजेट उच्च-फ्रिक्वेंसी प्रिलिम्स आणि मुख्य प्रश्नांमध्ये कसे अनुवादित केले जाते याबद्दल निश्चित मार्गदर्शक.",
+  "Connecting Lokrajya & State Schemes with Prelims GS Paper I":
+    "लोकराज्य आणि राज्य योजनांना प्रिलिम्स GS पेपर I सह जोडणे",
+  "A definitive guide on how Maharashtra government monthly publications and annual budgets translate into high-frequency Prelims and Mains questions.":
+    "महाराष्ट्र सरकारची मासिक प्रकाशने आणि वार्षिक बजेट उच्च-फ्रिक्वेंसी प्रिलिम्स आणि मुख्य प्रश्नांमध्ये कसे अनुवादित केले जाते याबद्दल निश्चित मार्गदर्शक.",
   "Combine Group B": "गट बी एकत्र करा",
   "📅 Aug 28, 2026": "📅 २८ ऑगस्ट २०२६",
   "⏱️ 5 Min Read": "⏱️ ५ मिनिटे वाचा",
-  "PSI, STI & ASO Joint Prelims: The 100-Day Micro Timetable": "PSI, STI आणि ASO संयुक्त प्रिलिम्स: 100-दिवसांचे सूक्ष्म वेळापत्रक",
-  "Subject weightage distribution across History, Geography, Polity, Science, and Mental Ability with 15-day revision checkpoints.": "15-दिवसांच्या पुनरावृत्ती चेकपॉईंटसह इतिहास, भूगोल, राजकीय, विज्ञान आणि मानसिक क्षमता या सर्व विषयांचे वेटेज वितरण.",
+  "PSI, STI & ASO Joint Prelims: The 100-Day Micro Timetable":
+    "PSI, STI आणि ASO संयुक्त प्रिलिम्स: 100-दिवसांचे सूक्ष्म वेळापत्रक",
+  "Subject weightage distribution across History, Geography, Polity, Science, and Mental Ability with 15-day revision checkpoints.":
+    "15-दिवसांच्या पुनरावृत्ती चेकपॉईंटसह इतिहास, भूगोल, राजकीय, विज्ञान आणि मानसिक क्षमता या सर्व विषयांचे वेटेज वितरण.",
   "Foundation Books": "फाउंडेशन पुस्तके",
   "📅 Aug 15, 2026": "📅 १५ ऑगस्ट २०२६",
   "⏱️ 7 Min Read": "⏱️ 7 मिनिटे वाचा",
-  "Which State Board (6th-12th) & NCERT Books are Essential for MPSC?": "MPSC साठी कोणते राज्य मंडळ (6वी-12वी) आणि NCERT पुस्तके आवश्यक आहेत?",
-  "Cut through the clutter: the exact chapters to read from Maharashtra State Board textbooks and NCERTs for Geography, History, and Science.": "गोंधळ दूर करा: महाराष्ट्र राज्य मंडळाच्या पाठ्यपुस्तकांमधून आणि भूगोल, इतिहास आणि विज्ञानासाठी NCERTs मधून वाचण्यासाठी अचूक प्रकरणे.",
+  "Which State Board (6th-12th) & NCERT Books are Essential for MPSC?":
+    "MPSC साठी कोणते राज्य मंडळ (6वी-12वी) आणि NCERT पुस्तके आवश्यक आहेत?",
+  "Cut through the clutter: the exact chapters to read from Maharashtra State Board textbooks and NCERTs for Geography, History, and Science.":
+    "गोंधळ दूर करा: महाराष्ट्र राज्य मंडळाच्या पाठ्यपुस्तकांमधून आणि भूगोल, इतिहास आणि विज्ञानासाठी NCERTs मधून वाचण्यासाठी अचूक प्रकरणे.",
   "PSI Physical Test": "PSI शारीरिक चाचणी",
   "📅 July 30, 2026": "📅 ३० जुलै २०२६",
-  "Cracking the PSI Physical Test: Running, Pull-ups & Shot Put Strategy": "PSI शारीरिक चाचणी क्रॅक करणे: धावणे, पुल-अप आणि शॉट पुट धोरण",
-  "Scientific physical conditioning guidelines, stamina building routines, and technical tips for the Maharashtra Police Sub-Inspector ground test.": "वैज्ञानिक शारीरिक कंडिशनिंग मार्गदर्शक तत्त्वे, स्टॅमिना बिल्डिंग रूटीन आणि महाराष्ट्र पोलीस उपनिरीक्षक ग्राउंड टेस्टसाठी तांत्रिक टिपा.",
+  "Cracking the PSI Physical Test: Running, Pull-ups & Shot Put Strategy":
+    "PSI शारीरिक चाचणी क्रॅक करणे: धावणे, पुल-अप आणि शॉट पुट धोरण",
+  "Scientific physical conditioning guidelines, stamina building routines, and technical tips for the Maharashtra Police Sub-Inspector ground test.":
+    "वैज्ञानिक शारीरिक कंडिशनिंग मार्गदर्शक तत्त्वे, स्टॅमिना बिल्डिंग रूटीन आणि महाराष्ट्र पोलीस उपनिरीक्षक ग्राउंड टेस्टसाठी तांत्रिक टिपा.",
   "Interview Guidance": "मुलाखत मार्गदर्शन",
   "📅 July 14, 2026": "📅 14 जुलै 2026",
   "⏱️ 9 Min Read": "⏱️ 9 मिनिटे वाचा",
-  "The MPSC Interview Panel: Addressing DAF, Hobbies & Situation Questions": "MPSC मुलाखत पॅनेल: DAF, छंद आणि परिस्थिती प्रश्नांना संबोधित करणे",
-  "Insights from senior retired civil servants on body language, expressing balanced viewpoints, and handling district-specific administrative scenarios.": "वरिष्ठ निवृत्त नागरी सेवकांकडून देहबोली, संतुलित दृष्टिकोन व्यक्त करणे आणि जिल्हा-विशिष्ट प्रशासकीय परिस्थिती हाताळणे यावरील अंतर्दृष्टी.",
+  "The MPSC Interview Panel: Addressing DAF, Hobbies & Situation Questions":
+    "MPSC मुलाखत पॅनेल: DAF, छंद आणि परिस्थिती प्रश्नांना संबोधित करणे",
+  "Insights from senior retired civil servants on body language, expressing balanced viewpoints, and handling district-specific administrative scenarios.":
+    "वरिष्ठ निवृत्त नागरी सेवकांकडून देहबोली, संतुलित दृष्टिकोन व्यक्त करणे आणि जिल्हा-विशिष्ट प्रशासकीय परिस्थिती हाताळणे यावरील अंतर्दृष्टी.",
   "Stay Ahead": "पुढे राहा",
-  "Get Daily MPSC Current Affairs on WhatsApp": "व्हॉट्सॲपवर दररोज एमपीएससी चालू घडामोडी मिळवा",
-  "Join over 5,000+ Maharashtra civil service aspirants receiving daily Marathi news summaries, Lokrajya highlights, and practice questions.": "दररोज मराठी बातम्यांचे सारांश, लोकराज्य हायलाइट्स आणि सराव प्रश्न मिळवणाऱ्या 5,000+ हून अधिक महाराष्ट्र नागरी सेवा इच्छुकांमध्ये सामील व्हा.",
+  "Get Daily MPSC Current Affairs on WhatsApp":
+    "व्हॉट्सॲपवर दररोज एमपीएससी चालू घडामोडी मिळवा",
+  "Join over 5,000+ Maharashtra civil service aspirants receiving daily Marathi news summaries, Lokrajya highlights, and practice questions.":
+    "दररोज मराठी बातम्यांचे सारांश, लोकराज्य हायलाइट्स आणि सराव प्रश्न मिळवणाऱ्या 5,000+ हून अधिक महाराष्ट्र नागरी सेवा इच्छुकांमध्ये सामील व्हा.",
   "Join WhatsApp Broadcast 💬": "व्हाट्सएप ब्रॉडकास्टमध्ये सामील व्हा 💬",
   "Explore Study Material Notes →": "स्टडी मटेरियल नोट्स एक्सप्लोर करा →",
-  "Maharashtra's gold standard in MPSC, Combine Group B (PSI / STI / ASO), and Saralseva mentorship. Empowering future administrators in Pandit Colony, Nashik since 2010.": "MPSC, कंबाईन ग्रुप B (PSI/STI/ASO), आणि सरलसेवा मेंटॉरशिपमध्ये महाराष्ट्राचे सुवर्ण मानक. पंडित कॉलनी, नाशिकमध्ये 2010 पासून भावी प्रशासकांना सक्षम करणे.",
+  "Maharashtra's gold standard in MPSC, Combine Group B (PSI / STI / ASO), and Saralseva mentorship. Empowering future administrators in Pandit Colony, Nashik since 2010.":
+    "MPSC, कंबाईन ग्रुप B (PSI/STI/ASO), आणि सरलसेवा मेंटॉरशिपमध्ये महाराष्ट्राचे सुवर्ण मानक. पंडित कॉलनी, नाशिकमध्ये 2010 पासून भावी प्रशासकांना सक्षम करणे.",
   "Academic Programs": "शैक्षणिक कार्यक्रम",
   "MPSC Rajyaseva Class I & II": "MPSC राज्यसेवा वर्ग I आणि II",
   "Combine Group B (PSI / STI / ASO)": "गट B (PSI/STI/ASO) एकत्र करा",
   "Police Sub-Inspector (PSI)": "पोलीस उपनिरीक्षक (PSI)",
   "Assistant Section Officer (ASO)": "सहाय्यक विभाग अधिकारी (ASO)",
   "Blog & Insights": "ब्लॉग आणि अंतर्दृष्टी",
-  "Academic Repository • Classroom Materials": "शैक्षणिक भांडार • वर्गातील साहित्य",
+  "Academic Repository • Classroom Materials":
+    "शैक्षणिक भांडार • वर्गातील साहित्य",
   "CLASS MATERIAL": "वर्ग साहित्य",
-  "Subjectwise Master NotesDescriptive & Objective Formats": "विषयानुसार मास्टर नोट्स वर्णनात्मक आणि वस्तुनिष्ठ स्वरूप",
-  "Monthly Current Affairs MagazinesWeekly Diagnostic Test Series": "मासिक चालू घडामोडी मासिके साप्ताहिक निदान चाचणी मालिका",
+  "Subjectwise Master NotesDescriptive & Objective Formats":
+    "विषयानुसार मास्टर नोट्स वर्णनात्मक आणि वस्तुनिष्ठ स्वरूप",
+  "Monthly Current Affairs MagazinesWeekly Diagnostic Test Series":
+    "मासिक चालू घडामोडी मासिके साप्ताहिक निदान चाचणी मालिका",
   "Academic Excellence": "शैक्षणिक उत्कृष्टता",
-  "\"Structured classroom notes, updated monthly magazines, and rigorous test series form the bedrock of top-tier MPSC rankers.\"": "\"स्ट्रक्चर्ड क्लासरूम नोट्स, अद्ययावत मासिक मासिके आणि कठोर चाचणी मालिका शीर्ष-स्तरीय MPSC रँकर्सचा आधार बनतात.\"",
-  "Lakshya Career Academy's internal classroom resources are curated directly under the academic leadership of Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh. Designed for maximum conceptual retention and answer-writing clarity.": "लक्ष्य करिअर अकादमीची अंतर्गत वर्ग संसाधने अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांच्या शैक्षणिक नेतृत्वाखाली थेट तयार केली जातात. जास्तीत जास्त संकल्पनात्मक धारणा आणि उत्तर-लेखन स्पष्टतेसाठी डिझाइन केलेले.",
+  '"Structured classroom notes, updated monthly magazines, and rigorous test series form the bedrock of top-tier MPSC rankers."':
+    '"स्ट्रक्चर्ड क्लासरूम नोट्स, अद्ययावत मासिक मासिके आणि कठोर चाचणी मालिका शीर्ष-स्तरीय MPSC रँकर्सचा आधार बनतात."',
+  "Lakshya Career Academy's internal classroom resources are curated directly under the academic leadership of Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh. Designed for maximum conceptual retention and answer-writing clarity.":
+    "लक्ष्य करिअर अकादमीची अंतर्गत वर्ग संसाधने अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांच्या शैक्षणिक नेतृत्वाखाली थेट तयार केली जातात. जास्तीत जास्त संकल्पनात्मक धारणा आणि उत्तर-लेखन स्पष्टतेसाठी डिझाइन केलेले.",
   "Classroom Archives": "वर्ग अभिलेखागार",
-  "Lakshya Academy Class Material & Resources": "लक्ष्य अकादमी वर्ग साहित्य आणि संसाधने",
-  "Explore our subjectwise class notes, monthly academy current affairs magazines, and diagnostic test series modules.": "आमच्या विषयवार वर्ग नोट्स, मासिक अकादमी चालू घडामोडी मासिके आणि निदान चाचणी मालिका मॉड्यूल एक्सप्लोर करा.",
+  "Lakshya Academy Class Material & Resources":
+    "लक्ष्य अकादमी वर्ग साहित्य आणि संसाधने",
+  "Explore our subjectwise class notes, monthly academy current affairs magazines, and diagnostic test series modules.":
+    "आमच्या विषयवार वर्ग नोट्स, मासिक अकादमी चालू घडामोडी मासिके आणि निदान चाचणी मालिका मॉड्यूल एक्सप्लोर करा.",
   "Section 01": "कलम 01",
-  "Concise chapter-wise analytical digests and subjectwise master notes prepared by Atul Nikumbh sir and expert faculty, directly mapped to updated MPSC descriptive and objective examination blueprints.": "अतुल निकुंभ सर आणि तज्ञ प्राध्यापकांनी तयार केलेल्या संक्षिप्त प्रकरणानुसार विश्लेषणात्मक डायजेस्ट आणि विषयनिहाय मास्टर नोट्स, अपडेट केलेल्या MPSC वर्णनात्मक आणि वस्तुनिष्ठ परीक्षेच्या ब्लूप्रिंटमध्ये थेट मॅप केल्या आहेत.",
+  "Concise chapter-wise analytical digests and subjectwise master notes prepared by Atul Nikumbh sir and expert faculty, directly mapped to updated MPSC descriptive and objective examination blueprints.":
+    "अतुल निकुंभ सर आणि तज्ञ प्राध्यापकांनी तयार केलेल्या संक्षिप्त प्रकरणानुसार विश्लेषणात्मक डायजेस्ट आणि विषयनिहाय मास्टर नोट्स, अपडेट केलेल्या MPSC वर्णनात्मक आणि वस्तुनिष्ठ परीक्षेच्या ब्लूप्रिंटमध्ये थेट मॅप केल्या आहेत.",
   "Polity & Governance": "राजकारण आणि शासन",
-  "Indian Constitution & Maharashtra Governance": "भारतीय राज्यघटना आणि महाराष्ट्र शासन",
-  "Master notes covering constitutional articles, landmark Supreme Court & High Court judgments, statutory commissions, and Maharashtra state administrative framework.": "संवैधानिक लेख, ऐतिहासिक सर्वोच्च न्यायालय आणि उच्च न्यायालयाचे निकाल, वैधानिक आयोग आणि महाराष्ट्र राज्य प्रशासकीय चौकट समाविष्ट असलेल्या मास्टर नोट्स.",
+  "Indian Constitution & Maharashtra Governance":
+    "भारतीय राज्यघटना आणि महाराष्ट्र शासन",
+  "Master notes covering constitutional articles, landmark Supreme Court & High Court judgments, statutory commissions, and Maharashtra state administrative framework.":
+    "संवैधानिक लेख, ऐतिहासिक सर्वोच्च न्यायालय आणि उच्च न्यायालयाचे निकाल, वैधानिक आयोग आणि महाराष्ट्र राज्य प्रशासकीय चौकट समाविष्ट असलेल्या मास्टर नोट्स.",
   "GS Paper II Focus": "GS पेपर II फोकस",
   "Request Notes": "नोट्सची विनंती करा",
   "History & Culture": "इतिहास आणि संस्कृती",
-  "Modern Indian History & Social Reformers of Maharashtra": "आधुनिक भारतीय इतिहास आणि महाराष्ट्राचे समाजसुधारक",
-  "Analytical notes detailing the freedom movement, non-Brahmin movement, Dalit emancipation leaders, and social reform movements in 19th and 20th century Maharashtra.": "१९ व्या आणि २० व्या शतकातील महाराष्ट्रातील स्वातंत्र्य चळवळ, ब्राह्मणेतर चळवळ, दलित मुक्ती नेते आणि सामाजिक सुधारणा चळवळींचे तपशीलवार विश्लेषणात्मक नोट्स.",
+  "Modern Indian History & Social Reformers of Maharashtra":
+    "आधुनिक भारतीय इतिहास आणि महाराष्ट्राचे समाजसुधारक",
+  "Analytical notes detailing the freedom movement, non-Brahmin movement, Dalit emancipation leaders, and social reform movements in 19th and 20th century Maharashtra.":
+    "१९ व्या आणि २० व्या शतकातील महाराष्ट्रातील स्वातंत्र्य चळवळ, ब्राह्मणेतर चळवळ, दलित मुक्ती नेते आणि सामाजिक सुधारणा चळवळींचे तपशीलवार विश्लेषणात्मक नोट्स.",
   "GS Paper I Focus": "GS पेपर I फोकस",
   "Geography & Agri": "भूगोल आणि कृषी",
-  "Geography of Maharashtra & Agricultural Economics": "महाराष्ट्राचा भूगोल आणि कृषी अर्थशास्त्र",
-  "Physical, human, and economic geography of Maharashtra including river systems, soil types, cropping patterns, and regional development boards.": "नदी प्रणाली, मातीचे प्रकार, पीक पद्धती आणि प्रादेशिक विकास मंडळांसह महाराष्ट्राचा भौतिक, मानवी आणि आर्थिक भूगोल.",
+  "Geography of Maharashtra & Agricultural Economics":
+    "महाराष्ट्राचा भूगोल आणि कृषी अर्थशास्त्र",
+  "Physical, human, and economic geography of Maharashtra including river systems, soil types, cropping patterns, and regional development boards.":
+    "नदी प्रणाली, मातीचे प्रकार, पीक पद्धती आणि प्रादेशिक विकास मंडळांसह महाराष्ट्राचा भौतिक, मानवी आणि आर्थिक भूगोल.",
   "Section 02": "कलम 02",
-  "Lakshya Academy's monthly current affairs compendiums edited specifically for Maharashtra competitive examinations featuring state schemes, policy developments, and practice MCQs.": "लक्ष्य अकादमीचे मासिक चालू घडामोडींचे संकलन विशेषत: महाराष्ट्र स्पर्धा परीक्षांसाठी राज्य योजना, धोरणात्मक घडामोडी आणि सराव MCQs साठी संपादित केले आहे.",
+  "Lakshya Academy's monthly current affairs compendiums edited specifically for Maharashtra competitive examinations featuring state schemes, policy developments, and practice MCQs.":
+    "लक्ष्य अकादमीचे मासिक चालू घडामोडींचे संकलन विशेषत: महाराष्ट्र स्पर्धा परीक्षांसाठी राज्य योजना, धोरणात्मक घडामोडी आणि सराव MCQs साठी संपादित केले आहे.",
   "Monthly Compendium": "मासिक संकलन",
-  "Lakshya Current Affairs Monthly Edition": "लक्ष्य चालू घडामोडी मासिक आवृत्ती",
-  "Comprehensive monthly analysis covering Maharashtra government policies, national milestones, international events, economic indicators, and sports achievements with 100 practice MCQs.": "100 सराव MCQ सह महाराष्ट्र सरकारची धोरणे, राष्ट्रीय टप्पे, आंतरराष्ट्रीय घडामोडी, आर्थिक सूचक आणि क्रीडा उपलब्धी यांचा समावेश असलेले सर्वसमावेशक मासिक विश्लेषण.",
+  "Lakshya Current Affairs Monthly Edition":
+    "लक्ष्य चालू घडामोडी मासिक आवृत्ती",
+  "Comprehensive monthly analysis covering Maharashtra government policies, national milestones, international events, economic indicators, and sports achievements with 100 practice MCQs.":
+    "100 सराव MCQ सह महाराष्ट्र सरकारची धोरणे, राष्ट्रीय टप्पे, आंतरराष्ट्रीय घडामोडी, आर्थिक सूचक आणि क्रीडा उपलब्धी यांचा समावेश असलेले सर्वसमावेशक मासिक विश्लेषण.",
   "Marathi & English": "मराठी आणि इंग्रजी",
   "Get Magazine": "मासिक मिळवा",
   "Special Edition": "विशेष आवृत्ती",
-  "Maharashtra State Budget & Economic Survey Issue": "महाराष्ट्र राज्य अर्थसंकल्प आणि आर्थिक सर्वेक्षण समस्या",
-  "Special annual edition breaking down the Maharashtra State Budget, Economic Survey statistical charts, infrastructure allocations, and welfare schemes for Prelims and Mains.": "विशेष वार्षिक आवृत्तीत महाराष्ट्र राज्याचा अर्थसंकल्प, आर्थिक सर्वेक्षण सांख्यिकीय तक्ते, पायाभूत सुविधांचे वाटप आणि प्रिलिम्स आणि मुख्यांसाठी कल्याणकारी योजनांचा समावेश आहे.",
+  "Maharashtra State Budget & Economic Survey Issue":
+    "महाराष्ट्र राज्य अर्थसंकल्प आणि आर्थिक सर्वेक्षण समस्या",
+  "Special annual edition breaking down the Maharashtra State Budget, Economic Survey statistical charts, infrastructure allocations, and welfare schemes for Prelims and Mains.":
+    "विशेष वार्षिक आवृत्तीत महाराष्ट्र राज्याचा अर्थसंकल्प, आर्थिक सर्वेक्षण सांख्यिकीय तक्ते, पायाभूत सुविधांचे वाटप आणि प्रिलिम्स आणि मुख्यांसाठी कल्याणकारी योजनांचा समावेश आहे.",
   "Annual Digest": "वार्षिक डायजेस्ट",
   "Request Issue": "विनंती समस्या",
-  "Archives": "अभिलेखागार",
+  Archives: "अभिलेखागार",
   "Previous Months Magazine Archive": "मागील महिन्यांचे मासिक संग्रहण",
-  "Past 12 months magazine issues compiled into subjectwise revision booklets for quick pre-exam review.": "मागील 12 महिन्यांचे मासिक अंक द्रुत पूर्व परीक्षेच्या पुनरावलोकनासाठी विषयनिहाय पुनरावृत्ती पुस्तिकांमध्ये संकलित केले आहेत.",
+  "Past 12 months magazine issues compiled into subjectwise revision booklets for quick pre-exam review.":
+    "मागील 12 महिन्यांचे मासिक अंक द्रुत पूर्व परीक्षेच्या पुनरावलोकनासाठी विषयनिहाय पुनरावृत्ती पुस्तिकांमध्ये संकलित केले आहेत.",
   "Status: Coming Soon": "स्थिती: लवकरच येत आहे",
   "Coming Soon": "लवकरच येत आहे",
   "Section 03": "कलम 03",
-  "Rigorous weekly diagnostic test series, OMR preliminary practice papers, and descriptive answer-writing mock tests evaluated with 1-on-1 mentorship feedback.": "कठोर साप्ताहिक निदान चाचणी मालिका, OMR प्राथमिक सराव पेपर आणि वर्णनात्मक उत्तर-लेखन मॉक चाचण्यांचे 1-ऑन-1 मार्गदर्शन अभिप्रायासह मूल्यांकन केले गेले.",
+  "Rigorous weekly diagnostic test series, OMR preliminary practice papers, and descriptive answer-writing mock tests evaluated with 1-on-1 mentorship feedback.":
+    "कठोर साप्ताहिक निदान चाचणी मालिका, OMR प्राथमिक सराव पेपर आणि वर्णनात्मक उत्तर-लेखन मॉक चाचण्यांचे 1-ऑन-1 मार्गदर्शन अभिप्रायासह मूल्यांकन केले गेले.",
   "MPSC Prelims Test Series": "एमपीएससी प्रिलिम्स चाचणी मालिका",
-  "Rajyaseva & Combine Prelims OMR Test Series": "राज्यसेवा आणि एकत्रित प्रिलिम्स OMR चाचणी मालिका",
-  "Full-length 100-mark OMR tests simulating exact exam conditions, negative marking elimination drills, and CSAT speed tests with answer keys.": "पूर्ण-लांबीच्या 100-गुणांच्या OMR चाचण्या अचूक परीक्षा परिस्थिती, नकारात्मक चिन्हांकन निर्मूलन कवायती आणि उत्तर की सह CSAT गती चाचण्यांचे अनुकरण करतात.",
+  "Rajyaseva & Combine Prelims OMR Test Series":
+    "राज्यसेवा आणि एकत्रित प्रिलिम्स OMR चाचणी मालिका",
+  "Full-length 100-mark OMR tests simulating exact exam conditions, negative marking elimination drills, and CSAT speed tests with answer keys.":
+    "पूर्ण-लांबीच्या 100-गुणांच्या OMR चाचण्या अचूक परीक्षा परिस्थिती, नकारात्मक चिन्हांकन निर्मूलन कवायती आणि उत्तर की सह CSAT गती चाचण्यांचे अनुकरण करतात.",
   "Weekly Schedule": "साप्ताहिक वेळापत्रक",
   "Join Test Series": "चाचणी मालिकेत सामील व्हा",
   "Mains Answer Writing": "मुख्य उत्तर लेखन",
-  "Mains Descriptive Answer Evaluation Program": "मुख्य वर्णनात्मक उत्तर मूल्यमापन कार्यक्रम",
-  "Daily answer writing questions evaluated line-by-line with direct feedback on paper structure, keyword density, and diagram representation.": "पेपर संरचना, कीवर्ड घनता आणि आकृती प्रतिनिधित्व यावर थेट अभिप्रायासह दैनंदिन उत्तर लेखन प्रश्नांचे ओळ-दर-ओळ मूल्यांकन केले जाते.",
+  "Mains Descriptive Answer Evaluation Program":
+    "मुख्य वर्णनात्मक उत्तर मूल्यमापन कार्यक्रम",
+  "Daily answer writing questions evaluated line-by-line with direct feedback on paper structure, keyword density, and diagram representation.":
+    "पेपर संरचना, कीवर्ड घनता आणि आकृती प्रतिनिधित्व यावर थेट अभिप्रायासह दैनंदिन उत्तर लेखन प्रश्नांचे ओळ-दर-ओळ मूल्यांकन केले जाते.",
   "Mentors Evaluated": "मार्गदर्शकांनी मूल्यांकन केले",
   "Enroll Now": "आता प्रवेश घ्या",
   "Online Portal": "ऑनलाइन पोर्टल",
   "Online Diagnostic Test Portal": "ऑनलाइन डायग्नोस्टिक टेस्ट पोर्टल",
-  "Digital test portal for remote aspirants with instant score analytics, time-per-question metrics, and rank comparisons across Maharashtra.": "दूरस्थ इच्छुकांसाठी झटपट स्कोअर ॲनालिटिक्स, वेळ-प्रति-प्रश्न मेट्रिक्स आणि संपूर्ण महाराष्ट्रात रँक तुलना असलेले डिजिटल चाचणी पोर्टल.",
+  "Digital test portal for remote aspirants with instant score analytics, time-per-question metrics, and rank comparisons across Maharashtra.":
+    "दूरस्थ इच्छुकांसाठी झटपट स्कोअर ॲनालिटिक्स, वेळ-प्रति-प्रश्न मेट्रिक्स आणि संपूर्ण महाराष्ट्रात रँक तुलना असलेले डिजिटल चाचणी पोर्टल.",
   "Request Class Material": "वर्ग साहित्याची विनंती करा",
   "Order Class Material & Test Series": "ऑर्डर वर्ग साहित्य आणि चाचणी मालिका",
-  "Connect with our academic library desk to receive study material booklets and diagnostic test papers.": "अभ्यास साहित्य पुस्तिका आणि निदान चाचणी पेपर प्राप्त करण्यासाठी आमच्या शैक्षणिक लायब्ररी डेस्कशी कनेक्ट व्हा.",
+  "Connect with our academic library desk to receive study material booklets and diagnostic test papers.":
+    "अभ्यास साहित्य पुस्तिका आणि निदान चाचणी पेपर प्राप्त करण्यासाठी आमच्या शैक्षणिक लायब्ररी डेस्कशी कनेक्ट व्हा.",
   "Your Full Name *": "तुमचे पूर्ण नाव*",
   "Mobile / WhatsApp Number *": "मोबाईल/व्हॉट्सॲप नंबर*",
   "Target Examination Program *": "लक्ष्य परीक्षा कार्यक्रम *",
-  "MPSC Rajyaseva (State Services Class I & II)": "MPSC राज्यसेवा (राज्य सेवा वर्ग I आणि II)",
-  "MPSC Combine Group B (PSI / STI / ASO Joint)": "MPSC एकत्रित गट ब (PSI/STI/ASO संयुक्त)",
+  "MPSC Rajyaseva (State Services Class I & II)":
+    "MPSC राज्यसेवा (राज्य सेवा वर्ग I आणि II)",
+  "MPSC Combine Group B (PSI / STI / ASO Joint)":
+    "MPSC एकत्रित गट ब (PSI/STI/ASO संयुक्त)",
   "PSI Mains & 100M Ground Physical": "PSI मुख्य आणि 100M ग्राउंड फिजिकल",
   "ASO Mains Examination (Secretariat)": "ASO मुख्य परीक्षा (सचिवालय)",
   "Saralseva Direct Recruitment (TCS / IBPS)": "सरलसेवा थेट भर्ती (TCS/IBPS)",
@@ -526,39 +660,51 @@ window.LAKSHYA_I18N = {
   "03 Study Notes →": "03 स्टडी नोट्स →",
   "Study Notes": "स्टडी नोट्स",
   "04 Admissions Office →": "04 प्रवेश कार्यालय →",
-  "Call / Inquiry: 📞 +91 7887878001 📞 +91 7887878002": "कॉल / चौकशी: 📞 +91 7887878001 📞 +91 7887878002",
-  "Office Hours: Mon – Sat: 8:00 AM – 8:00 PM": "कार्यालयीन वेळ: सोम-शनि: सकाळी 8:00 ते रात्री 8:00",
-  "© 2010–2026 The Lakshya Career Academy Nashik. All Rights Reserved.": "© २०१०–२०२६ द लक्ष्य करिअर अकॅडमी नाशिक. सर्व हक्क सुरक्षित.",
+  "Call / Inquiry: 📞 +91 7887878001 📞 +91 7887878002":
+    "कॉल / चौकशी: 📞 +91 7887878001 📞 +91 7887878002",
+  "Office Hours: Mon – Sat: 8:00 AM – 8:00 PM":
+    "कार्यालयीन वेळ: सोम-शनि: सकाळी 8:00 ते रात्री 8:00",
+  "© 2010–2026 The Lakshya Career Academy Nashik. All Rights Reserved.":
+    "© २०१०–२०२६ द लक्ष्य करिअर अकॅडमी नाशिक. सर्व हक्क सुरक्षित.",
   "Pandit Colony Campus • Nashik": "पंडित कॉलनी परिसर • नाशिक",
   "CONTACT & VISIT": "संपर्क आणि भेट द्या",
-  "1-on-1 Academic CounselingMeet Founder Directors": "1-ऑन-1 शैक्षणिक समुपदेशन संस्थापक संचालकांना भेटा",
-  "Pandit Colony, NashikDirect WhatsApp Concierge": "पंडित कॉलनी, नाशिक डायरेक्ट व्हॉट्सॲप द्वारपाल",
+  "1-on-1 Academic CounselingMeet Founder Directors":
+    "1-ऑन-1 शैक्षणिक समुपदेशन संस्थापक संचालकांना भेटा",
+  "Pandit Colony, NashikDirect WhatsApp Concierge":
+    "पंडित कॉलनी, नाशिक डायरेक्ट व्हॉट्सॲप द्वारपाल",
   "Admissions & Consultation": "प्रवेश आणि सल्ला",
-  "\"The first step toward becoming an administrative officer is a diagnostic discussion on syllabus strategy.\"": "\"प्रशासकीय अधिकारी बनण्याच्या दिशेने पहिले पाऊल म्हणजे अभ्यासक्रमाच्या धोरणावर निदानात्मक चर्चा.\"",
-  "Whether you are beginning your preparation during graduation, transitioning from private employment, or targeting top cadre ranks in your next attempt, our founder directors Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh are available to review your academic timeline at our Pandit Colony campus in Nashik.": "तुम्ही ग्रॅज्युएशनच्या काळात तुमच्या तयारीला सुरुवात करत असाल, खाजगी नोकरीतून बदल करत असाल किंवा तुमच्या पुढच्या प्रयत्नामध्ये टॉप कॅडर रँकना टार्गेट करत असाल, आमचे संस्थापक संचालक अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ हे तुमच्या शैक्षणिक टाइमलाइनचे पुनरावलोकन करण्यासाठी नाशिकमधील पंडित कॉलनी कॅम्पस येथे उपलब्ध आहेत.",
+  '"The first step toward becoming an administrative officer is a diagnostic discussion on syllabus strategy."':
+    '"प्रशासकीय अधिकारी बनण्याच्या दिशेने पहिले पाऊल म्हणजे अभ्यासक्रमाच्या धोरणावर निदानात्मक चर्चा."',
+  "Whether you are beginning your preparation during graduation, transitioning from private employment, or targeting top cadre ranks in your next attempt, our founder directors Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh are available to review your academic timeline at our Pandit Colony campus in Nashik.":
+    "तुम्ही ग्रॅज्युएशनच्या काळात तुमच्या तयारीला सुरुवात करत असाल, खाजगी नोकरीतून बदल करत असाल किंवा तुमच्या पुढच्या प्रयत्नामध्ये टॉप कॅडर रँकना टार्गेट करत असाल, आमचे संस्थापक संचालक अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ हे तुमच्या शैक्षणिक टाइमलाइनचे पुनरावलोकन करण्यासाठी नाशिकमधील पंडित कॉलनी कॅम्पस येथे उपलब्ध आहेत.",
   "Campus Information": "कॅम्पस माहिती",
   "Admissions Office & Reading Hall": "प्रवेश कार्यालय आणि वाचन हॉल",
   "🏛️": "🏛️",
   "Lakshya Career Academy": "लक्ष्य करिअर अकादमी",
-  "City: Nashik Examinations: MPSC, UPSC, PSI, STI and ASO": "शहर: नाशिक परीक्षा: MPSC, UPSC, PSI, STI आणि ASO",
-  "MPSC": "एमपीएससी",
-  "UPSC": "UPSC",
-  "PSI": "पीएसआय",
-  "STI": "STI",
-  "ASO": "ASO",
+  "City: Nashik Examinations: MPSC, UPSC, PSI, STI and ASO":
+    "शहर: नाशिक परीक्षा: MPSC, UPSC, PSI, STI आणि ASO",
+  MPSC: "एमपीएससी",
+  UPSC: "UPSC",
+  PSI: "पीएसआय",
+  STI: "STI",
+  ASO: "ASO",
   "Academy Campus Address": "अकादमी परिसर पत्ता",
-  "2nd Floor, Bhaskar Android Building, Opposite Sindhusagar Academy, Near Lane No. 4, Pandit Colony, Nashik, Maharashtra - 422002": "दुसरा मजला, भास्कर अँड्रॉईड बिल्डिंग, सिंधुसागर अकादमी समोर, लेन क्र. 4 जवळ, पंडित कॉलनी, नाशिक, महाराष्ट्र - 422002",
+  "2nd Floor, Bhaskar Android Building, Opposite Sindhusagar Academy, Near Lane No. 4, Pandit Colony, Nashik, Maharashtra - 422002":
+    "दुसरा मजला, भास्कर अँड्रॉईड बिल्डिंग, सिंधुसागर अकादमी समोर, लेन क्र. 4 जवळ, पंडित कॉलनी, नाशिक, महाराष्ट्र - 422002",
   "Open in Google Maps →": "Google नकाशे → मध्ये उघडा",
   "Admissions & Student Helpline": "प्रवेश आणि विद्यार्थी हेल्पलाइन",
-  "Direct telephone lines for admission enquiries and counseling appointments:": "प्रवेश चौकशी आणि समुपदेशन भेटीसाठी थेट टेलिफोन लाईन्स:",
-  "Connect directly on WhatsApp with our academic counselors:": "आमच्या शैक्षणिक समुपदेशकांशी थेट WhatsApp वर कनेक्ट व्हा:",
+  "Direct telephone lines for admission enquiries and counseling appointments:":
+    "प्रवेश चौकशी आणि समुपदेशन भेटीसाठी थेट टेलिफोन लाईन्स:",
+  "Connect directly on WhatsApp with our academic counselors:":
+    "आमच्या शैक्षणिक समुपदेशकांशी थेट WhatsApp वर कनेक्ट व्हा:",
   "WhatsApp Line 1 (7887878001)": "WhatsApp लाइन 1 (7887878001)",
   "WhatsApp Line 2 (7887878002)": "WhatsApp लाइन 2 (7887878002)",
   "Admissions Desk": "प्रवेश डेस्क",
   "Book a Strategy Consultation": "स्ट्रॅटेजी कन्सल्टेशन बुक करा",
   "WhatsApp / Mobile Number *": "व्हॉट्सॲप / मोबाईल नंबर *",
   "Target Examination *": "लक्ष्य परीक्षा *",
-  "Rajyaseva Examination (MPSC State Services)": "राज्यसेवा परीक्षा (MPSC राज्य सेवा)",
+  "Rajyaseva Examination (MPSC State Services)":
+    "राज्यसेवा परीक्षा (MPSC राज्य सेवा)",
   "UPSC Civil Services Examination": "UPSC नागरी सेवा परीक्षा",
   "Current Academic Status *": "सध्याची शैक्षणिक स्थिती*",
   "Undergraduate (Final Year)": "पदवीपूर्व (अंतिम वर्ष)",
@@ -567,33 +713,50 @@ window.LAKSHYA_I18N = {
   "Repeat Aspirant (Targeting Rank)": "पुनरावृत्ती इच्छुक (लक्ष्यीकरण श्रेणी)",
   "Mantralaya Secretariat Cadre • Mumbai": "मंत्रालय सचिवालय संवर्ग • मुंबई",
   "ASO MAINS": "ASO MAINS",
-  "Indian Constitution & GovernanceSecretariat Manual & RTI Acts": "भारतीय राज्यघटना आणि शासन सचिवालय नियमावली आणि आरटीआय कायदे",
-  "200 Marks Written Mastery40 Marks Board Interview": "200 मार्क्स लिखित मास्टरी40 मार्क्स बोर्ड मुलाखत",
+  "Indian Constitution & GovernanceSecretariat Manual & RTI Acts":
+    "भारतीय राज्यघटना आणि शासन सचिवालय नियमावली आणि आरटीआय कायदे",
+  "200 Marks Written Mastery40 Marks Board Interview":
+    "200 मार्क्स लिखित मास्टरी40 मार्क्स बोर्ड मुलाखत",
   "State Secretariat Administration": "राज्य सचिवालय प्रशासन",
-  "\"Assistant Section Officers form the core administrative engine at Mantralaya, executing government policy, cabinet notes, and statutory files.\"": "\"सहायक विभाग अधिकारी मंत्रालयात मुख्य प्रशासकीय इंजिन तयार करतात, सरकारी धोरण, कॅबिनेट नोट्स आणि वैधानिक फाइल्सची अंमलबजावणी करतात.\"",
-  "The Lakshya Career Academy provides specialized coaching for the ASO Main examination focusing extensively on the Indian Constitution, Central and State administrative relationships, Mantralaya office procedures, the Right to Information Act 2005, and high-accuracy language papers.": "लक्ष्य करिअर अकादमी भारतीय राज्यघटना, केंद्रीय आणि राज्य प्रशासकीय संबंध, मंत्रालय कार्यालयीन कार्यपद्धती, माहितीचा अधिकार कायदा 2005 आणि उच्च-अचूकतेच्या भाषेतील पेपर्सवर व्यापकपणे लक्ष केंद्रित करून ASO मुख्य परीक्षेसाठी विशेष प्रशिक्षण प्रदान करते.",
+  '"Assistant Section Officers form the core administrative engine at Mantralaya, executing government policy, cabinet notes, and statutory files."':
+    '"सहायक विभाग अधिकारी मंत्रालयात मुख्य प्रशासकीय इंजिन तयार करतात, सरकारी धोरण, कॅबिनेट नोट्स आणि वैधानिक फाइल्सची अंमलबजावणी करतात."',
+  "The Lakshya Career Academy provides specialized coaching for the ASO Main examination focusing extensively on the Indian Constitution, Central and State administrative relationships, Mantralaya office procedures, the Right to Information Act 2005, and high-accuracy language papers.":
+    "लक्ष्य करिअर अकादमी भारतीय राज्यघटना, केंद्रीय आणि राज्य प्रशासकीय संबंध, मंत्रालय कार्यालयीन कार्यपद्धती, माहितीचा अधिकार कायदा 2005 आणि उच्च-अचूकतेच्या भाषेतील पेपर्सवर व्यापकपणे लक्ष केंद्रित करून ASO मुख्य परीक्षेसाठी विशेष प्रशिक्षण प्रदान करते.",
   "Examination Structure": "परीक्षेची रचना",
   "Syllabus & Statutes": "अभ्यासक्रम आणि कायदे",
-  "Overview": "विहंगावलोकन",
+  Overview: "विहंगावलोकन",
   "Assistant Section Officer (ASO) Cadre": "सहाय्यक विभाग अधिकारी (ASO) संवर्ग",
-  "Assistant Section Officers (ASO) serve in the Maharashtra State Secretariat (Mantralaya) in Mumbai, the Maharashtra Public Service Commission (MPSC) office, and the Maharashtra Legislature Secretariat.": "सहाय्यक विभाग अधिकारी (ASO) मुंबईतील महाराष्ट्र राज्य सचिवालय (मंत्रालय), महाराष्ट्र लोकसेवा आयोग (MPSC) कार्यालय आणि महाराष्ट्र विधानमंडळ सचिवालयात काम करतात.",
-  "They play a pivotal role in administrative file processing, cabinet drafting, constitutional compliance, policy formulation, and state legislative affairs.": "ते प्रशासकीय फाइल प्रक्रिया, मंत्रिमंडळ मसुदा, घटनात्मक अनुपालन, धोरण तयार करणे आणि राज्य विधानविषयक कामकाजात महत्त्वपूर्ण भूमिका बजावतात.",
-  "Direct administrative desk role in Maharashtra State Secretariat handling key department portfolios.": "मुख्य विभाग पोर्टफोलिओ हाताळणाऱ्या महाराष्ट्र राज्य सचिवालयात थेट प्रशासकीय डेस्कची भूमिका.",
-  "In-depth conceptual mastery of Indian Constitution, Rules of Business, and RTI compliance mechanisms.": "भारतीय राज्यघटनेचे सखोल वैचारिक प्रभुत्व, व्यवसायाचे नियम आणि आरटीआय अनुपालन यंत्रणा.",
+  "Assistant Section Officers (ASO) serve in the Maharashtra State Secretariat (Mantralaya) in Mumbai, the Maharashtra Public Service Commission (MPSC) office, and the Maharashtra Legislature Secretariat.":
+    "सहाय्यक विभाग अधिकारी (ASO) मुंबईतील महाराष्ट्र राज्य सचिवालय (मंत्रालय), महाराष्ट्र लोकसेवा आयोग (MPSC) कार्यालय आणि महाराष्ट्र विधानमंडळ सचिवालयात काम करतात.",
+  "They play a pivotal role in administrative file processing, cabinet drafting, constitutional compliance, policy formulation, and state legislative affairs.":
+    "ते प्रशासकीय फाइल प्रक्रिया, मंत्रिमंडळ मसुदा, घटनात्मक अनुपालन, धोरण तयार करणे आणि राज्य विधानविषयक कामकाजात महत्त्वपूर्ण भूमिका बजावतात.",
+  "Direct administrative desk role in Maharashtra State Secretariat handling key department portfolios.":
+    "मुख्य विभाग पोर्टफोलिओ हाताळणाऱ्या महाराष्ट्र राज्य सचिवालयात थेट प्रशासकीय डेस्कची भूमिका.",
+  "In-depth conceptual mastery of Indian Constitution, Rules of Business, and RTI compliance mechanisms.":
+    "भारतीय राज्यघटनेचे सखोल वैचारिक प्रभुत्व, व्यवसायाचे नियम आणि आरटीआय अनुपालन यंत्रणा.",
   "Marks Architecture": "मार्क्स आर्किटेक्चर",
   "ASO Examination Structure": "ASO परीक्षा संरचना",
-  "Paper 1 (100M Languages) + Paper 2 (100M Polity, Governance & GS)": "पेपर 1 (100M भाषा) + पेपर 2 (100M पोलिटी, गव्हर्नन्स आणि GS)",
-  "Departmental board assessment for final state-wide merit list": "अंतिम राज्यव्यापी गुणवत्ता यादीसाठी विभागीय बोर्ड मूल्यांकन",
+  "Paper 1 (100M Languages) + Paper 2 (100M Polity, Governance & GS)":
+    "पेपर 1 (100M भाषा) + पेपर 2 (100M पोलिटी, गव्हर्नन्स आणि GS)",
+  "Departmental board assessment for final state-wide merit list":
+    "अंतिम राज्यव्यापी गुणवत्ता यादीसाठी विभागीय बोर्ड मूल्यांकन",
   "Syllabus Matrix": "अभ्यासक्रम मॅट्रिक्स",
-  "All Core Subjects & Statutes Covered": "सर्व मुख्य विषय आणि नियम समाविष्ट आहेत",
-  "National and international events with high relevance to state governance and cabinet decisions.": "राज्य शासन आणि मंत्रिमंडळाच्या निर्णयांशी उच्च प्रासंगिकतेसह राष्ट्रीय आणि आंतरराष्ट्रीय कार्यक्रम.",
-  "Critical decision-making, pattern comprehension, and logical deduction for secretarial tasks.": "सेक्रेटरील कामांसाठी गंभीर निर्णय घेणे, नमुना आकलन आणि तार्किक वजावट.",
-  "Appellate authorities, timeline constraints, penal provisions, and public record disclosure.": "अपील अधिकारी, टाइमलाइन मर्यादा, दंडात्मक तरतुदी आणि सार्वजनिक रेकॉर्ड प्रकटीकरण.",
-  "Union & State Executive, Legislative procedure, Governor powers, and landmark judicial cases.": "संघ आणि राज्य कार्यकारिणी, विधान प्रक्रिया, राज्यपालांचे अधिकार आणि ऐतिहासिक न्यायालयीन प्रकरणे.",
-  "Rules of Business, Chief Secretary hierarchy, file movement procedures, and district coordination.": "व्यवसायाचे नियम, मुख्य सचिव पदानुक्रम, फाइल हालचाली प्रक्रिया आणि जिल्हा समन्वय.",
+  "All Core Subjects & Statutes Covered":
+    "सर्व मुख्य विषय आणि नियम समाविष्ट आहेत",
+  "National and international events with high relevance to state governance and cabinet decisions.":
+    "राज्य शासन आणि मंत्रिमंडळाच्या निर्णयांशी उच्च प्रासंगिकतेसह राष्ट्रीय आणि आंतरराष्ट्रीय कार्यक्रम.",
+  "Critical decision-making, pattern comprehension, and logical deduction for secretarial tasks.":
+    "सेक्रेटरील कामांसाठी गंभीर निर्णय घेणे, नमुना आकलन आणि तार्किक वजावट.",
+  "Appellate authorities, timeline constraints, penal provisions, and public record disclosure.":
+    "अपील अधिकारी, टाइमलाइन मर्यादा, दंडात्मक तरतुदी आणि सार्वजनिक रेकॉर्ड प्रकटीकरण.",
+  "Union & State Executive, Legislative procedure, Governor powers, and landmark judicial cases.":
+    "संघ आणि राज्य कार्यकारिणी, विधान प्रक्रिया, राज्यपालांचे अधिकार आणि ऐतिहासिक न्यायालयीन प्रकरणे.",
+  "Rules of Business, Chief Secretary hierarchy, file movement procedures, and district coordination.":
+    "व्यवसायाचे नियम, मुख्य सचिव पदानुक्रम, फाइल हालचाली प्रक्रिया आणि जिल्हा समन्वय.",
   "Admissions Open": "प्रवेश खुला",
   "ASO Mains Specialist Batch": "ASO मुख्य विशेषज्ञ बॅच",
-  "Master Constitution, Governance & Secretariat laws with senior faculty at Pandit Colony.": "पंडित कॉलनी येथील वरिष्ठ प्राध्यापकांसह मास्टर कॉन्स्टिट्यूशन, गव्हर्नन्स आणि सचिवालय कायदे.",
+  "Master Constitution, Governance & Secretariat laws with senior faculty at Pandit Colony.":
+    "पंडित कॉलनी येथील वरिष्ठ प्राध्यापकांसह मास्टर कॉन्स्टिट्यूशन, गव्हर्नन्स आणि सचिवालय कायदे.",
   "30 Students (Strict)": "30 विद्यार्थी (कठोर)",
   "Full Constitution Mastery": "पूर्ण संविधान प्रभुत्व",
   "15-Day Milestone Cycle": "१५-दिवसांची माइलस्टोन सायकल",
@@ -602,60 +765,86 @@ window.LAKSHYA_I18N = {
   "WhatsApp Concierge": "WhatsApp द्वारपाल",
   "Plan Your Strategy": "तुमची रणनीती आखा",
   "Book an ASO Mains Consultation": "ASO मुख्य सल्लामसलत बुक करा",
-  "Meet founder directors Atul Nikumbh & Nishant Pawar for a diagnostic syllabus discussion and course roadmap.": "डायग्नोस्टिक अभ्यासक्रम चर्चा आणि कोर्स रोडमॅपसाठी संस्थापक संचालक अतुल निकुंभ आणि निशांत पवार यांना भेटा.",
+  "Meet founder directors Atul Nikumbh & Nishant Pawar for a diagnostic syllabus discussion and course roadmap.":
+    "डायग्नोस्टिक अभ्यासक्रम चर्चा आणि कोर्स रोडमॅपसाठी संस्थापक संचालक अतुल निकुंभ आणि निशांत पवार यांना भेटा.",
   "Selected Program *": "निवडलेला कार्यक्रम*",
-  "Joint Subordinate Services • PSI • STI • ASO": "संयुक्त अधीनस्थ सेवा • PSI • STI • ASO",
+  "Joint Subordinate Services • PSI • STI • ASO":
+    "संयुक्त अधीनस्थ सेवा • PSI • STI • ASO",
   "COMBINE GROUP B": "गट बी एकत्र करा",
-  "Unified Common Prelims (100M)Specialized Mains Blueprint": "युनिफाइड कॉमन प्रिलिम्स (100M)स्पेशलाइज्ड मेन्स ब्लूप्रिंट",
-  "Police • Finance • SecretariatBatch Capped at 30 Aspirants": "पोलिस • वित्त • सचिवालय बॅच 30 इच्छुकांसाठी मर्यादित",
+  "Unified Common Prelims (100M)Specialized Mains Blueprint":
+    "युनिफाइड कॉमन प्रिलिम्स (100M)स्पेशलाइज्ड मेन्स ब्लूप्रिंट",
+  "Police • Finance • SecretariatBatch Capped at 30 Aspirants":
+    "पोलिस • वित्त • सचिवालय बॅच 30 इच्छुकांसाठी मर्यादित",
   "Joint Administrative Scheme": "संयुक्त प्रशासकीय योजना",
-  "\"The MPSC Combine Group B is Maharashtra's most competitive unified examination, gateway to 3 distinct cadres: Police Sub-Inspector, Sales Tax Inspector, and Assistant Section Officer.\"": "\"MPSC एकत्रित गट बी ही महाराष्ट्रातील सर्वात स्पर्धात्मक एकत्रित परीक्षा आहे, 3 भिन्न संवर्गांसाठी प्रवेशद्वार आहे: पोलिस उपनिरीक्षक, विक्रीकर निरीक्षक आणि सहाय्यक विभाग अधिकारी.\"",
-  "The Lakshya Career Academy runs an intensive pre-cum-mains training program structured to maximize accuracy in the high-speed 100-mark preliminary examination, while concurrently developing the in-depth subject mastery required for the 200-mark post-specific mains examination.": "लक्ष्य करिअर अकादमी उच्च-गती 100-गुणांच्या प्राथमिक परीक्षेत अचूकता वाढवण्यासाठी संरचित सघन प्री-कम-मेन प्रशिक्षण कार्यक्रम चालवते, त्याचवेळी 200-गुणांच्या पोस्ट-विशिष्ट मुख्य परीक्षेसाठी आवश्यक असलेल्या सखोल विषयावर प्रभुत्व विकसित करते.",
-  "MPSC Combine Group B & Group C Examination": "MPSC एकत्रित गट ब आणि गट क परीक्षा",
-  "The Maharashtra Public Service Commission conducts the Non-Gazetted Subordinate Services Joint Examination for candidates aspiring to join executive government cadre positions including Police Sub Inspector (PSI), State Tax Inspector (STI), Assistant Section Officer (ASO), and vital Group C clerical and technical cadres.": "महाराष्ट्र लोकसेवा आयोग पोलीस उपनिरीक्षक (PSI), राज्य कर निरीक्षक (STI), सहाय्यक विभाग अधिकारी (ASO) आणि महत्त्वाच्या गट लिपिक आणि तांत्रिक संवर्गांसह कार्यकारी सरकारी संवर्गातील पदांवर सामील होण्यासाठी इच्छुक उमेदवारांसाठी अराजपत्रित अधीनस्थ सेवा संयुक्त परीक्षा आयोजित करते.",
-  "The examination incorporates a combined Preliminary examination followed by targeted post-specific Main examinations and departmental physical/interview rounds where applicable.": "परीक्षेत एकत्रित प्राथमिक परीक्षा आणि त्यानंतर लक्ष्यित पोस्ट-विशिष्ट मुख्य परीक्षा आणि विभागीय शारीरिक/मुलाखत फेऱ्यांचा समावेश होतो.",
-  "Single screening test of 100 objective questions covering General Studies and Mental Ability.": "सामान्य अध्ययन आणि मानसिक क्षमता समाविष्ट असलेल्या 100 वस्तुनिष्ठ प्रश्नांची एकल स्क्रीनिंग चाचणी.",
-  "Focused coaching for Maharashtra Acts, descriptive and objective language papers, and test series.": "महाराष्ट्र अधिनियम, वर्णनात्मक आणि वस्तुनिष्ठ भाषेचे पेपर आणि चाचणी मालिकेसाठी केंद्रित प्रशिक्षण.",
-  "Requirements": "आवश्यकता",
+  '"The MPSC Combine Group B is Maharashtra\'s most competitive unified examination, gateway to 3 distinct cadres: Police Sub-Inspector, Sales Tax Inspector, and Assistant Section Officer."':
+    '"MPSC एकत्रित गट बी ही महाराष्ट्रातील सर्वात स्पर्धात्मक एकत्रित परीक्षा आहे, 3 भिन्न संवर्गांसाठी प्रवेशद्वार आहे: पोलिस उपनिरीक्षक, विक्रीकर निरीक्षक आणि सहाय्यक विभाग अधिकारी."',
+  "The Lakshya Career Academy runs an intensive pre-cum-mains training program structured to maximize accuracy in the high-speed 100-mark preliminary examination, while concurrently developing the in-depth subject mastery required for the 200-mark post-specific mains examination.":
+    "लक्ष्य करिअर अकादमी उच्च-गती 100-गुणांच्या प्राथमिक परीक्षेत अचूकता वाढवण्यासाठी संरचित सघन प्री-कम-मेन प्रशिक्षण कार्यक्रम चालवते, त्याचवेळी 200-गुणांच्या पोस्ट-विशिष्ट मुख्य परीक्षेसाठी आवश्यक असलेल्या सखोल विषयावर प्रभुत्व विकसित करते.",
+  "MPSC Combine Group B & Group C Examination":
+    "MPSC एकत्रित गट ब आणि गट क परीक्षा",
+  "The Maharashtra Public Service Commission conducts the Non-Gazetted Subordinate Services Joint Examination for candidates aspiring to join executive government cadre positions including Police Sub Inspector (PSI), State Tax Inspector (STI), Assistant Section Officer (ASO), and vital Group C clerical and technical cadres.":
+    "महाराष्ट्र लोकसेवा आयोग पोलीस उपनिरीक्षक (PSI), राज्य कर निरीक्षक (STI), सहाय्यक विभाग अधिकारी (ASO) आणि महत्त्वाच्या गट लिपिक आणि तांत्रिक संवर्गांसह कार्यकारी सरकारी संवर्गातील पदांवर सामील होण्यासाठी इच्छुक उमेदवारांसाठी अराजपत्रित अधीनस्थ सेवा संयुक्त परीक्षा आयोजित करते.",
+  "The examination incorporates a combined Preliminary examination followed by targeted post-specific Main examinations and departmental physical/interview rounds where applicable.":
+    "परीक्षेत एकत्रित प्राथमिक परीक्षा आणि त्यानंतर लक्ष्यित पोस्ट-विशिष्ट मुख्य परीक्षा आणि विभागीय शारीरिक/मुलाखत फेऱ्यांचा समावेश होतो.",
+  "Single screening test of 100 objective questions covering General Studies and Mental Ability.":
+    "सामान्य अध्ययन आणि मानसिक क्षमता समाविष्ट असलेल्या 100 वस्तुनिष्ठ प्रश्नांची एकल स्क्रीनिंग चाचणी.",
+  "Focused coaching for Maharashtra Acts, descriptive and objective language papers, and test series.":
+    "महाराष्ट्र अधिनियम, वर्णनात्मक आणि वस्तुनिष्ठ भाषेचे पेपर आणि चाचणी मालिकेसाठी केंद्रित प्रशिक्षण.",
+  Requirements: "आवश्यकता",
   "Age Criteria & Eligibility": "वय निकष आणि पात्रता",
   "18 to 38 Years": "18 ते 38 वर्षे",
   "18 to 43 Years": "18 ते 43 वर्षे",
-  "Graduation degree in any discipline from a recognized University": "मान्यताप्राप्त विद्यापीठातून कोणत्याही शाखेतील पदवी",
-  "Proficiency in Marathi language is compulsory": "मराठी भाषेवर प्रभुत्व असणे अनिवार्य आहे",
+  "Graduation degree in any discipline from a recognized University":
+    "मान्यताप्राप्त विद्यापीठातून कोणत्याही शाखेतील पदवी",
+  "Proficiency in Marathi language is compulsory":
+    "मराठी भाषेवर प्रभुत्व असणे अनिवार्य आहे",
   "A. Preliminary Examination": "A. प्राथमिक परीक्षा",
   "100 Marks Total": "एकूण 100 गुण",
-  "Common objective multiple choice screening examination for all Group B and Group C posts.": "सर्व गट ब आणि गट क पदांसाठी सामान्य उद्दिष्ट एकाधिक निवड स्क्रीनिंग परीक्षा.",
+  "Common objective multiple choice screening examination for all Group B and Group C posts.":
+    "सर्व गट ब आणि गट क पदांसाठी सामान्य उद्दिष्ट एकाधिक निवड स्क्रीनिंग परीक्षा.",
   "Curriculum Modules": "अभ्यासक्रम मॉड्यूल्स",
   "Common Preliminary Exam Syllabus": "सामान्य प्राथमिक परीक्षेचा अभ्यासक्रम",
   "General Studies (GS)": "सामान्य अध्ययन (GS)",
-  "Current Affairs (National & Maharashtra)": "चालू घडामोडी (राष्ट्रीय आणि महाराष्ट्र)",
-  "Modern Indian History & National Movement": "आधुनिक भारतीय इतिहास आणि राष्ट्रीय चळवळ",
+  "Current Affairs (National & Maharashtra)":
+    "चालू घडामोडी (राष्ट्रीय आणि महाराष्ट्र)",
+  "Modern Indian History & National Movement":
+    "आधुनिक भारतीय इतिहास आणि राष्ट्रीय चळवळ",
   "Geography of Maharashtra & India": "महाराष्ट्र आणि भारताचा भूगोल",
-  "Indian Polity, Constitution & Panchayati Raj": "भारतीय राजकारण, राज्यघटना आणि पंचायती राज",
+  "Indian Polity, Constitution & Panchayati Raj":
+    "भारतीय राजकारण, राज्यघटना आणि पंचायती राज",
   "Economic & Social Development": "आर्थिक आणि सामाजिक विकास",
-  "General Science (Physics, Chemistry, Zoology, Botany)": "सामान्य विज्ञान (भौतिकशास्त्र, रसायनशास्त्र, प्राणीशास्त्र, वनस्पतिशास्त्र)",
-  "Environmental Ecology & Biodiversity": "पर्यावरणीय पर्यावरणशास्त्र आणि जैवविविधता",
+  "General Science (Physics, Chemistry, Zoology, Botany)":
+    "सामान्य विज्ञान (भौतिकशास्त्र, रसायनशास्त्र, प्राणीशास्त्र, वनस्पतिशास्त्र)",
+  "Environmental Ecology & Biodiversity":
+    "पर्यावरणीय पर्यावरणशास्त्र आणि जैवविविधता",
   "CSAT & Aptitude": "CSAT आणि योग्यता",
-  "Logical Reasoning & Analytical Ability": "तार्किक तर्क आणि विश्लेषणात्मक क्षमता",
+  "Logical Reasoning & Analytical Ability":
+    "तार्किक तर्क आणि विश्लेषणात्मक क्षमता",
   "Arithmetic & Quantitative Aptitude": "अंकगणित आणि परिमाणात्मक योग्यता",
   "Reading Comprehension (Marathi & English)": "वाचन आकलन (मराठी आणि इंग्रजी)",
   "Data Interpretation & Tables": "डेटा इंटरप्रिटेशन आणि टेबल्स",
   "Mental Ability & Pattern Identification": "मानसिक क्षमता आणि नमुना ओळख",
-  "Decision Making & Situational Problem Solving": "निर्णय घेणे आणि परिस्थितीजन्य समस्या सोडवणे",
+  "Decision Making & Situational Problem Solving":
+    "निर्णय घेणे आणि परिस्थितीजन्य समस्या सोडवणे",
   "Speed Calculation Drills & Shortcuts": "गती गणना कवायती आणि शॉर्टकट",
   "Stage B": "स्टेज बी",
   "400 Marks Total": "एकूण 400 गुण",
-  "Detailed two-paper objective examination to assess language proficiency, aptitude, and post-specific duties.": "भाषा प्राविण्य, योग्यता आणि पोस्ट-विशिष्ट कर्तव्यांचे मूल्यांकन करण्यासाठी तपशीलवार दोन-पेपर वस्तुनिष्ठ परीक्षा.",
+  "Detailed two-paper objective examination to assess language proficiency, aptitude, and post-specific duties.":
+    "भाषा प्राविण्य, योग्यता आणि पोस्ट-विशिष्ट कर्तव्यांचे मूल्यांकन करण्यासाठी तपशीलवार दोन-पेपर वस्तुनिष्ठ परीक्षा.",
   "200 Marks": "200 गुण",
   "Marathi, English and General Knowledge": "मराठी, इंग्रजी आणि सामान्य ज्ञान",
-  "General Aptitude, language skills and knowledge required for the responsibilities of the post": "सामान्य योग्यता, भाषा कौशल्ये आणि पदाच्या जबाबदाऱ्यांसाठी आवश्यक ज्ञान",
+  "General Aptitude, language skills and knowledge required for the responsibilities of the post":
+    "सामान्य योग्यता, भाषा कौशल्ये आणि पदाच्या जबाबदाऱ्यांसाठी आवश्यक ज्ञान",
   "Stage C": "स्टेज सी",
   "Interview & Physical Test": "मुलाखत आणि शारीरिक चाचणी",
   "Post-Specific Stage": "पोस्ट-विशिष्ट टप्पा",
-  "Applicable to Police Sub Inspector (PSI) candidates as indicated in the brochure. Comprises standardized physical fitness ground performance tests followed by a formal interview board.": "माहितीपत्रकात दर्शविल्याप्रमाणे पोलीस उपनिरीक्षक (PSI) उमेदवारांना लागू. औपचारिक मुलाखत मंडळ त्यानंतर प्रमाणित शारीरिक फिटनेस ग्राउंड कामगिरी चाचण्यांचा समावेश होतो.",
+  "Applicable to Police Sub Inspector (PSI) candidates as indicated in the brochure. Comprises standardized physical fitness ground performance tests followed by a formal interview board.":
+    "माहितीपत्रकात दर्शविल्याप्रमाणे पोलीस उपनिरीक्षक (PSI) उमेदवारांना लागू. औपचारिक मुलाखत मंडळ त्यानंतर प्रमाणित शारीरिक फिटनेस ग्राउंड कामगिरी चाचण्यांचा समावेश होतो.",
   "Cadre Spectrum": "कॅडर स्पेक्ट्रम",
-  "Posts Offered in Group B & Group C": "गट ब आणि गट क मध्ये ऑफर केलेल्या पोस्ट",
-  "MPSC Subordinate Services (Combine) examination provides opportunities for candidates to secure prestigious Group B and Group C positions in Maharashtra state administration.": "एमपीएससी सबऑर्डिनेट सर्व्हिसेस (एकत्रित) परीक्षा उमेदवारांना महाराष्ट्र राज्य प्रशासनातील प्रतिष्ठित गट ब आणि गट क पदे मिळविण्याची संधी प्रदान करते.",
+  "Posts Offered in Group B & Group C":
+    "गट ब आणि गट क मध्ये ऑफर केलेल्या पोस्ट",
+  "MPSC Subordinate Services (Combine) examination provides opportunities for candidates to secure prestigious Group B and Group C positions in Maharashtra state administration.":
+    "एमपीएससी सबऑर्डिनेट सर्व्हिसेस (एकत्रित) परीक्षा उमेदवारांना महाराष्ट्र राज्य प्रशासनातील प्रतिष्ठित गट ब आणि गट क पदे मिळविण्याची संधी प्रदान करते.",
   "GROUP B": "ग्रुप बी",
   "Non-Gazetted": "अराजपत्रित",
   "Inspector of Stamps, Group B": "मुद्रांक निरीक्षक, गट ब",
@@ -664,265 +853,412 @@ window.LAKSHYA_I18N = {
   "Clerk-Typist (Marathi and English)": "लिपिक-टंकलेखक (मराठी आणि इंग्रजी)",
   "Industry Inspector": "उद्योग निरीक्षक",
   "Combine Group B Batch": "गट बी बॅच एकत्र करा",
-  "Comprehensive Pre-cum-Mains coaching with separate batches for PSI, STI, and ASO Mains.": "पीएसआय, एसटीआय आणि एएसओ मेन्ससाठी स्वतंत्र बॅचसह सर्वसमावेशक प्री-कम-मेन कोचिंग.",
+  "Comprehensive Pre-cum-Mains coaching with separate batches for PSI, STI, and ASO Mains.":
+    "पीएसआय, एसटीआय आणि एएसओ मेन्ससाठी स्वतंत्र बॅचसह सर्वसमावेशक प्री-कम-मेन कोचिंग.",
   "Prelims + Mains Included": "प्रिलिम्स + मुख्य समाविष्ट",
   "15-Day Milestone Tests": "१५-दिवसीय माइलस्टोन चाचण्या",
   "By Atul Nikumbh Sir": "अतुल निकुंभ सर यांनी केले",
   "Book a Combine Group B Consultation": "कम्बाइन ग्रुप बी सल्लामसलत बुक करा",
-  "Police Cadre Specialization • Home Department": "पोलीस केडर स्पेशलायझेशन • गृह विभाग",
+  "Police Cadre Specialization • Home Department":
+    "पोलीस केडर स्पेशलायझेशन • गृह विभाग",
   "PSI MAINS & PHYSICAL": "पीएसआय मेन्स आणि फिजिकल",
-  "11 Criminal Law Acts & GSIPC • CrPC • Evidence • Police Act": "11 फौजदारी कायदा आणि GSIPC • CrPC • पुरावा • पोलिस कायदा",
-  "100M Ground TrainingInterview Board Preparation": "100M ग्राउंड प्रशिक्षण मुलाखत मंडळाची तयारी",
+  "11 Criminal Law Acts & GSIPC • CrPC • Evidence • Police Act":
+    "11 फौजदारी कायदा आणि GSIPC • CrPC • पुरावा • पोलिस कायदा",
+  "100M Ground TrainingInterview Board Preparation":
+    "100M ग्राउंड प्रशिक्षण मुलाखत मंडळाची तयारी",
   "The Uniform Cadre": "एकसमान संवर्ग",
-  "\"Police Sub-Inspector demands a dual mastery: sharp legal acumen in the examination hall, and peak physical discipline on the ground.\"": "\"पोलीस उपनिरीक्षक दुहेरी प्रभुत्वाची मागणी करतात: परीक्षा हॉलमध्ये तीक्ष्ण कायदेशीर कुशाग्रता आणि जमिनीवर शारीरिक शिस्त.\"",
-  "The Lakshya Career Academy has produced scores of decorated Police Sub-Inspectors serving across Maharashtra. Our specialized PSI program covers all 11 core syllabus acts line-by-line, alongside dedicated physical fitness coaching and personality interview guidance.": "लक्ष्य करिअर अकादमीने संपूर्ण महाराष्ट्रात सेवा देणारे अनेक सुशोभित पोलीस उपनिरीक्षक तयार केले आहेत. आमच्या विशेष PSI कार्यक्रमात समर्पित शारीरिक फिटनेस कोचिंग आणि व्यक्तिमत्व मुलाखत मार्गदर्शनाबरोबरच सर्व 11 मुख्य अभ्यासक्रमांचा समावेश आहे.",
+  '"Police Sub-Inspector demands a dual mastery: sharp legal acumen in the examination hall, and peak physical discipline on the ground."':
+    '"पोलीस उपनिरीक्षक दुहेरी प्रभुत्वाची मागणी करतात: परीक्षा हॉलमध्ये तीक्ष्ण कायदेशीर कुशाग्रता आणि जमिनीवर शारीरिक शिस्त."',
+  "The Lakshya Career Academy has produced scores of decorated Police Sub-Inspectors serving across Maharashtra. Our specialized PSI program covers all 11 core syllabus acts line-by-line, alongside dedicated physical fitness coaching and personality interview guidance.":
+    "लक्ष्य करिअर अकादमीने संपूर्ण महाराष्ट्रात सेवा देणारे अनेक सुशोभित पोलीस उपनिरीक्षक तयार केले आहेत. आमच्या विशेष PSI कार्यक्रमात समर्पित शारीरिक फिटनेस कोचिंग आणि व्यक्तिमत्व मुलाखत मार्गदर्शनाबरोबरच सर्व 11 मुख्य अभ्यासक्रमांचा समावेश आहे.",
   "Examination Scheme": "परीक्षा योजना",
   "Mains Syllabus & Acts": "मुख्य अभ्यासक्रम आणि कायदे",
   "Physical Test & Interview": "शारीरिक चाचणी आणि मुलाखत",
-  "Police Sub Inspector (PSI) Selection Architecture": "पोलीस उपनिरीक्षक (PSI) निवड आर्किटेक्चर",
-  "The Police Sub Inspector cadre under the Maharashtra Home Department is one of the most prestigious uniforms in state service. The selection process evaluates written legal proficiency, physical endurance on the ground, and leadership temperament during the interview.": "महाराष्ट्र गृह विभागांतर्गत पोलीस उपनिरीक्षक संवर्ग राज्य सेवेतील सर्वात प्रतिष्ठित गणवेशांपैकी एक आहे. निवड प्रक्रिया मुलाखती दरम्यान लिखित कायदेशीर प्रवीणता, जमिनीवर शारीरिक सहनशक्ती आणि नेतृत्व स्वभाव यांचे मूल्यांकन करते.",
-  "Lakshya Career Academy's dedicated PSI coaching program provides rigorous instruction in IPC, CrPC, Bombay Police Act, and state-specific governance laws, coupled with systematic physical training protocols.": "लक्ष्य करिअर अकादमीचा समर्पित PSI कोचिंग प्रोग्राम आयपीसी, सीआरपीसी, बॉम्बे पोलिस कायदा, आणि राज्य-विशिष्ट प्रशासन कायद्यांसह पद्धतशीर शारीरिक प्रशिक्षण प्रोटोकॉलसह कठोर सूचना प्रदान करतो.",
-  "Line-by-line digest coverage of criminal law sections, case citations, and investigative procedures.": "फौजदारी कायद्याचे विभाग, केस उद्धृत आणि तपास प्रक्रियेचे लाइन-बाय-लाइन डायजेस्ट कव्हरेज.",
-  "Continuous diagnostic testing ensuring rapid retention of legal terminology and speed calculation.": "कायदेशीर शब्दावली आणि गती गणना जलद धारणा सुनिश्चित करण्यासाठी सतत निदान चाचणी.",
+  "Police Sub Inspector (PSI) Selection Architecture":
+    "पोलीस उपनिरीक्षक (PSI) निवड आर्किटेक्चर",
+  "The Police Sub Inspector cadre under the Maharashtra Home Department is one of the most prestigious uniforms in state service. The selection process evaluates written legal proficiency, physical endurance on the ground, and leadership temperament during the interview.":
+    "महाराष्ट्र गृह विभागांतर्गत पोलीस उपनिरीक्षक संवर्ग राज्य सेवेतील सर्वात प्रतिष्ठित गणवेशांपैकी एक आहे. निवड प्रक्रिया मुलाखती दरम्यान लिखित कायदेशीर प्रवीणता, जमिनीवर शारीरिक सहनशक्ती आणि नेतृत्व स्वभाव यांचे मूल्यांकन करते.",
+  "Lakshya Career Academy's dedicated PSI coaching program provides rigorous instruction in IPC, CrPC, Bombay Police Act, and state-specific governance laws, coupled with systematic physical training protocols.":
+    "लक्ष्य करिअर अकादमीचा समर्पित PSI कोचिंग प्रोग्राम आयपीसी, सीआरपीसी, बॉम्बे पोलिस कायदा, आणि राज्य-विशिष्ट प्रशासन कायद्यांसह पद्धतशीर शारीरिक प्रशिक्षण प्रोटोकॉलसह कठोर सूचना प्रदान करतो.",
+  "Line-by-line digest coverage of criminal law sections, case citations, and investigative procedures.":
+    "फौजदारी कायद्याचे विभाग, केस उद्धृत आणि तपास प्रक्रियेचे लाइन-बाय-लाइन डायजेस्ट कव्हरेज.",
+  "Continuous diagnostic testing ensuring rapid retention of legal terminology and speed calculation.":
+    "कायदेशीर शब्दावली आणि गती गणना जलद धारणा सुनिश्चित करण्यासाठी सतत निदान चाचणी.",
   "Evaluation Scheme": "मूल्यमापन योजना",
   "PSI Examination Structure": "PSI परीक्षा रचना",
-  "Paper 1 (100M Marathi & English) + Paper 2 (100M GS & Law Acts)": "पेपर 1 (100M मराठी आणि इंग्रजी) + पेपर 2 (100M GS आणि कायदा कायदे)",
-  "800m running, pull-ups, shot put & long jump standard drills": "800 मीटर धावणे, पुल-अप, शॉट पुट आणि लांब उडी मानक ड्रिल",
-  "Board personality & departmental aptitude assessment": "बोर्ड व्यक्तिमत्व आणि विभागीय योग्यता मूल्यांकन",
-  "Bi-weekly case-law problem tests and one-on-one evaluations": "द्वि-साप्ताहिक केस-कायदा समस्या चाचण्या आणि एक-एक मूल्यमापन",
+  "Paper 1 (100M Marathi & English) + Paper 2 (100M GS & Law Acts)":
+    "पेपर 1 (100M मराठी आणि इंग्रजी) + पेपर 2 (100M GS आणि कायदा कायदे)",
+  "800m running, pull-ups, shot put & long jump standard drills":
+    "800 मीटर धावणे, पुल-अप, शॉट पुट आणि लांब उडी मानक ड्रिल",
+  "Board personality & departmental aptitude assessment":
+    "बोर्ड व्यक्तिमत्व आणि विभागीय योग्यता मूल्यांकन",
+  "Bi-weekly case-law problem tests and one-on-one evaluations":
+    "द्वि-साप्ताहिक केस-कायदा समस्या चाचण्या आणि एक-एक मूल्यमापन",
   "Complete Curriculum": "पूर्ण अभ्यासक्रम",
   "All 11 Core Subjects & Special Acts": "सर्व 11 मुख्य विषय आणि विशेष कायदे",
-  "Current events in India and across the world with specialized focus on Maharashtra's law and order.": "महाराष्ट्राच्या कायदा आणि सुव्यवस्थेवर विशेष लक्ष केंद्रित करून भारतातील आणि जगभरातील चालू घडामोडी.",
-  "Analytical reasoning, rapid calculation, situational deduction, and mental aptitude.": "विश्लेषणात्मक तर्क, जलद गणना, परिस्थितीजन्य वजावट आणि मानसिक योग्यता.",
-  "Physical boundaries, river systems, climate, district demographics, and administrative divisions.": "भौतिक सीमा, नदी प्रणाली, हवामान, जिल्हा लोकसंख्याशास्त्र आणि प्रशासकीय विभाग.",
-  "Social reform movements, 19th and 20th century leaders, and freedom struggle milestones.": "सामाजिक सुधारणा चळवळी, 19व्या आणि 20व्या शतकातील नेते आणि स्वातंत्र्य लढ्याचे टप्पे.",
-  "Preamble, Fundamental Rights, Directive Principles, Executive, Judiciary, and Police powers.": "प्रस्तावना, मूलभूत अधिकार, मार्गदर्शक तत्त्वे, कार्यकारी, न्यायपालिका आणि पोलिस अधिकार.",
-  "Statutory provisions, public authority duties, exemptions, appeals, and penalty clauses.": "वैधानिक तरतुदी, सार्वजनिक प्राधिकरण कर्तव्ये, सूट, अपील आणि दंड कलम.",
-  "Cyber crimes, IT Act sections, electronic evidence fundamentals, and e-governance systems.": "सायबर गुन्हे, आयटी कायदा विभाग, इलेक्ट्रॉनिक पुरावे मूलभूत आणि ई-गव्हर्नन्स प्रणाली.",
-  "Protection of Human Rights Act, state commissions, custodial procedures, and ethics.": "मानवी हक्क कायद्याचे संरक्षण, राज्य आयोग, कोठडी प्रक्रिया आणि नैतिकता.",
-  "Police powers, maintenance of public order, departmental discipline, externment, and warrants.": "पोलिस अधिकार, सार्वजनिक सुव्यवस्था राखणे, विभागीय शिस्त, बहिष्कार आणि वॉरंट.",
-  "General explanations, offences affecting the human body, property, and state security.": "सामान्य स्पष्टीकरण, मानवी शरीर, मालमत्ता आणि राज्य सुरक्षा प्रभावित करणारे गुन्हे.",
-  "FIR, investigation, arrest procedures, search & seizure, bail, and relevancy of judicial evidence.": "एफआयआर, तपास, अटक प्रक्रिया, शोध आणि जप्ती, जामीन आणि न्यायालयीन पुराव्याची प्रासंगिकता.",
+  "Current events in India and across the world with specialized focus on Maharashtra's law and order.":
+    "महाराष्ट्राच्या कायदा आणि सुव्यवस्थेवर विशेष लक्ष केंद्रित करून भारतातील आणि जगभरातील चालू घडामोडी.",
+  "Analytical reasoning, rapid calculation, situational deduction, and mental aptitude.":
+    "विश्लेषणात्मक तर्क, जलद गणना, परिस्थितीजन्य वजावट आणि मानसिक योग्यता.",
+  "Physical boundaries, river systems, climate, district demographics, and administrative divisions.":
+    "भौतिक सीमा, नदी प्रणाली, हवामान, जिल्हा लोकसंख्याशास्त्र आणि प्रशासकीय विभाग.",
+  "Social reform movements, 19th and 20th century leaders, and freedom struggle milestones.":
+    "सामाजिक सुधारणा चळवळी, 19व्या आणि 20व्या शतकातील नेते आणि स्वातंत्र्य लढ्याचे टप्पे.",
+  "Preamble, Fundamental Rights, Directive Principles, Executive, Judiciary, and Police powers.":
+    "प्रस्तावना, मूलभूत अधिकार, मार्गदर्शक तत्त्वे, कार्यकारी, न्यायपालिका आणि पोलिस अधिकार.",
+  "Statutory provisions, public authority duties, exemptions, appeals, and penalty clauses.":
+    "वैधानिक तरतुदी, सार्वजनिक प्राधिकरण कर्तव्ये, सूट, अपील आणि दंड कलम.",
+  "Cyber crimes, IT Act sections, electronic evidence fundamentals, and e-governance systems.":
+    "सायबर गुन्हे, आयटी कायदा विभाग, इलेक्ट्रॉनिक पुरावे मूलभूत आणि ई-गव्हर्नन्स प्रणाली.",
+  "Protection of Human Rights Act, state commissions, custodial procedures, and ethics.":
+    "मानवी हक्क कायद्याचे संरक्षण, राज्य आयोग, कोठडी प्रक्रिया आणि नैतिकता.",
+  "Police powers, maintenance of public order, departmental discipline, externment, and warrants.":
+    "पोलिस अधिकार, सार्वजनिक सुव्यवस्था राखणे, विभागीय शिस्त, बहिष्कार आणि वॉरंट.",
+  "General explanations, offences affecting the human body, property, and state security.":
+    "सामान्य स्पष्टीकरण, मानवी शरीर, मालमत्ता आणि राज्य सुरक्षा प्रभावित करणारे गुन्हे.",
+  "FIR, investigation, arrest procedures, search & seizure, bail, and relevancy of judicial evidence.":
+    "एफआयआर, तपास, अटक प्रक्रिया, शोध आणि जप्ती, जामीन आणि न्यायालयीन पुराव्याची प्रासंगिकता.",
   "Ground Standards": "ग्राउंड मानके",
   "Ground Physical Test (100 Marks)": "ग्राउंड शारीरिक चाचणी (100 गुण)",
-  "Physical test parameters strictly evaluate physical fitness and endurance for field policing:": "शारीरिक चाचणी पॅरामीटर्स फील्ड पोलिसिंगसाठी शारीरिक फिटनेस आणि सहनशक्तीचे काटेकोरपणे मूल्यांकन करतात:",
-  "800m Running: Timed stamina test on standardized track": "800m धावणे: प्रमाणित ट्रॅकवर वेळेवर तग धरण्याची चाचणी",
-  "Pull-Ups: Upper body muscular endurance": "पुल-अप्स: वरच्या शरीराची स्नायू सहनशक्ती",
-  "Shot Put (गोळाफेक): Strength and throwing technique": "शॉट पुट (गोळाफेक): ताकद आणि फेकण्याचे तंत्र",
-  "Long Jump: Explosive lower body power and agility": "लांब उडी: स्फोटक खालच्या शरीराची शक्ती आणि चपळता",
+  "Physical test parameters strictly evaluate physical fitness and endurance for field policing:":
+    "शारीरिक चाचणी पॅरामीटर्स फील्ड पोलिसिंगसाठी शारीरिक फिटनेस आणि सहनशक्तीचे काटेकोरपणे मूल्यांकन करतात:",
+  "800m Running: Timed stamina test on standardized track":
+    "800m धावणे: प्रमाणित ट्रॅकवर वेळेवर तग धरण्याची चाचणी",
+  "Pull-Ups: Upper body muscular endurance":
+    "पुल-अप्स: वरच्या शरीराची स्नायू सहनशक्ती",
+  "Shot Put (गोळाफेक): Strength and throwing technique":
+    "शॉट पुट (गोळाफेक): ताकद आणि फेकण्याचे तंत्र",
+  "Long Jump: Explosive lower body power and agility":
+    "लांब उडी: स्फोटक खालच्या शरीराची शक्ती आणि चपळता",
   "Board Assessment": "बोर्ड मूल्यांकन",
   "Interview Panel (40 Marks)": "मुलाखत पॅनेल (४० गुण)",
-  "Personal interview by the MPSC selection panel evaluating mental presence, situational judgment in crisis management, moral integrity, and departmental motivation.": "मानसिक उपस्थिती, संकट व्यवस्थापनातील परिस्थितीजन्य निर्णय, नैतिक सचोटी आणि विभागीय प्रेरणा यांचे मूल्यमापन करणाऱ्या MPSC निवड पॅनेलची वैयक्तिक मुलाखत.",
+  "Personal interview by the MPSC selection panel evaluating mental presence, situational judgment in crisis management, moral integrity, and departmental motivation.":
+    "मानसिक उपस्थिती, संकट व्यवस्थापनातील परिस्थितीजन्य निर्णय, नैतिक सचोटी आणि विभागीय प्रेरणा यांचे मूल्यमापन करणाऱ्या MPSC निवड पॅनेलची वैयक्तिक मुलाखत.",
   "PSI Specialist Batch": "PSI स्पेशालिस्ट बॅच",
-  "Complete coverage of all 11 law components, language papers, and physical guidance.": "कायद्याच्या सर्व 11 घटकांचे संपूर्ण कव्हरेज, भाषेचे पेपर आणि भौतिक मार्गदर्शन.",
+  "Complete coverage of all 11 law components, language papers, and physical guidance.":
+    "कायद्याच्या सर्व 11 घटकांचे संपूर्ण कव्हरेज, भाषेचे पेपर आणि भौतिक मार्गदर्शन.",
   "Max 30 Students": "कमाल ३० विद्यार्थी",
   "11 Full Digest Booklets": "11 पूर्ण डायजेस्ट पुस्तिका",
   "Ground Drills Track": "ग्राउंड ड्रिल ट्रॅक",
   "Book a PSI Mains Consultation": "PSI मुख्य सल्लामसलत बुक करा",
-  "• Rajyaseva Examination • Combine Group B (PSI/STI/ASO) • PSI Mains & Physical • Sales Tax Inspector (STI) • ASO Mains Examination • Saralseva Direct Recruitment • Talathi Bharti Examination": "• राज्यसेवा परीक्षा • एकत्रित गट ब (PSI/STI/ASO) • PSI मुख्य आणि शारीरिक • विक्रीकर निरीक्षक (STI) • ASO मुख्य परीक्षा • सरलसेवा थेट भरती • तलाठी भारती परीक्षा",
-  "State Administrative Services • Class I & II": "राज्य प्रशासकीय सेवा • वर्ग I आणि II",
-  "RAJYASEVA": "राज्यसेवा",
-  "Deputy Collector & DySPClass I Leadership Cadre": "उपजिल्हाधिकारी आणि DySPClass I नेतृत्व संवर्ग",
-  "1-Year Comprehensive TrackPrelims • Mains • Interview": "1-वर्षाचा सर्वसमावेशक ट्रॅकप्रिलिम्स • मुख्य • मुलाखत",
+  "• Rajyaseva Examination • Combine Group B (PSI/STI/ASO) • PSI Mains & Physical • Sales Tax Inspector (STI) • ASO Mains Examination • Saralseva Direct Recruitment • Talathi Bharti Examination":
+    "• राज्यसेवा परीक्षा • एकत्रित गट ब (PSI/STI/ASO) • PSI मुख्य आणि शारीरिक • विक्रीकर निरीक्षक (STI) • ASO मुख्य परीक्षा • सरलसेवा थेट भरती • तलाठी भारती परीक्षा",
+  "State Administrative Services • Class I & II":
+    "राज्य प्रशासकीय सेवा • वर्ग I आणि II",
+  RAJYASEVA: "राज्यसेवा",
+  "Deputy Collector & DySPClass I Leadership Cadre":
+    "उपजिल्हाधिकारी आणि DySPClass I नेतृत्व संवर्ग",
+  "1-Year Comprehensive TrackPrelims • Mains • Interview":
+    "1-वर्षाचा सर्वसमावेशक ट्रॅकप्रिलिम्स • मुख्य • मुलाखत",
   "The Premier State Examination": "प्रीमियर राज्य परीक्षा",
-  "\"Rajyaseva represents the highest administrative calling in Maharashtra. Success demands strategic breadth, analytical depth, and consistent answer-writing discipline.\"": "\"राज्यसेवा ही महाराष्ट्रातील सर्वोच्च प्रशासकीय मागणीचे प्रतिनिधित्व करते. यशासाठी धोरणात्मक रुंदी, विश्लेषणात्मक खोली आणि सातत्यपूर्ण उत्तर-लेखन शिस्तीची आवश्यकता असते.\"",
-  "The Maharashtra Public Service Commission (MPSC) conducts the State Services Examination (Rajyaseva) to select officers who direct the administrative machinery of the state. At The Lakshya Career Academy, our 1-Year Integrated Program transforms serious aspirants through structured milestone tracking, personal mentor reviews every 15 days, and direct coaching under Atul Nikumbh sir.": "महाराष्ट्र लोकसेवा आयोग (MPSC) राज्याच्या प्रशासकीय यंत्रणेला निर्देशित करणाऱ्या अधिकाऱ्यांची निवड करण्यासाठी राज्य सेवा परीक्षा (राज्यसेवा) आयोजित करते. लक्ष्य करिअर अकादमीमध्ये, आमचा 1-वर्षाचा एकात्मिक कार्यक्रम संरचित माइलस्टोन ट्रॅकिंग, दर 15 दिवसांनी वैयक्तिक मार्गदर्शक पुनरावलोकने आणि अतुल निकुंभ सर यांच्या अंतर्गत थेट प्रशिक्षणाद्वारे गंभीर इच्छुकांमध्ये बदल घडवून आणतो.",
-  "MPSC Rajyaseva (Maharashtra State Services Examination) is conducted to recruit top-tier administrative officers across Maharashtra. The examination consists of three progressive stages:": "MPSC राज्यसेवा (महाराष्ट्र राज्य सेवा परीक्षा) संपूर्ण महाराष्ट्रात उच्च-स्तरीय प्रशासकीय अधिकाऱ्यांची भरती करण्यासाठी आयोजित केली जाते. परीक्षेत तीन प्रगतीशील टप्पे असतात:",
-  "Preliminary Examination (Screening Objective Test)": "प्राथमिक परीक्षा (स्क्रीनिंग ऑब्जेक्टिव्ह टेस्ट)",
-  "Main Examination (Comprehensive Merit Written Evaluation)": "मुख्य परीक्षा (व्यापक गुणवत्तेचे लेखी मूल्यमापन)",
-  "Interview / Personality Test (State Administrative Suitability)": "मुलाखत / व्यक्तिमत्व चाचणी (राज्य प्रशासकीय योग्यता)",
+  '"Rajyaseva represents the highest administrative calling in Maharashtra. Success demands strategic breadth, analytical depth, and consistent answer-writing discipline."':
+    '"राज्यसेवा ही महाराष्ट्रातील सर्वोच्च प्रशासकीय मागणीचे प्रतिनिधित्व करते. यशासाठी धोरणात्मक रुंदी, विश्लेषणात्मक खोली आणि सातत्यपूर्ण उत्तर-लेखन शिस्तीची आवश्यकता असते."',
+  "The Maharashtra Public Service Commission (MPSC) conducts the State Services Examination (Rajyaseva) to select officers who direct the administrative machinery of the state. At The Lakshya Career Academy, our 1-Year Integrated Program transforms serious aspirants through structured milestone tracking, personal mentor reviews every 15 days, and direct coaching under Atul Nikumbh sir.":
+    "महाराष्ट्र लोकसेवा आयोग (MPSC) राज्याच्या प्रशासकीय यंत्रणेला निर्देशित करणाऱ्या अधिकाऱ्यांची निवड करण्यासाठी राज्य सेवा परीक्षा (राज्यसेवा) आयोजित करते. लक्ष्य करिअर अकादमीमध्ये, आमचा 1-वर्षाचा एकात्मिक कार्यक्रम संरचित माइलस्टोन ट्रॅकिंग, दर 15 दिवसांनी वैयक्तिक मार्गदर्शक पुनरावलोकने आणि अतुल निकुंभ सर यांच्या अंतर्गत थेट प्रशिक्षणाद्वारे गंभीर इच्छुकांमध्ये बदल घडवून आणतो.",
+  "MPSC Rajyaseva (Maharashtra State Services Examination) is conducted to recruit top-tier administrative officers across Maharashtra. The examination consists of three progressive stages:":
+    "MPSC राज्यसेवा (महाराष्ट्र राज्य सेवा परीक्षा) संपूर्ण महाराष्ट्रात उच्च-स्तरीय प्रशासकीय अधिकाऱ्यांची भरती करण्यासाठी आयोजित केली जाते. परीक्षेत तीन प्रगतीशील टप्पे असतात:",
+  "Preliminary Examination (Screening Objective Test)":
+    "प्राथमिक परीक्षा (स्क्रीनिंग ऑब्जेक्टिव्ह टेस्ट)",
+  "Main Examination (Comprehensive Merit Written Evaluation)":
+    "मुख्य परीक्षा (व्यापक गुणवत्तेचे लेखी मूल्यमापन)",
+  "Interview / Personality Test (State Administrative Suitability)":
+    "मुलाखत / व्यक्तिमत्व चाचणी (राज्य प्रशासकीय योग्यता)",
   "Pedagogy & Mentorship": "अध्यापनशास्त्र आणि मार्गदर्शन",
-  "How Lakshya Secures Class I Rank Roster": "लक्ष्य वर्ग I रँक रोस्टर कसे सुरक्षित करते",
-  "Individual evaluation of descriptive answer copies with direct line-by-line feedback from Atul Nikumbh sir.": "अतुल निकुंभ सरांकडून थेट ओळ-दर-लाइन अभिप्रायासह वर्णनात्मक उत्तर प्रतींचे वैयक्तिक मूल्यमापन.",
-  "Bi-weekly diagnostic test cycles and 1-on-1 counseling to eliminate conceptual weaknesses promptly.": "द्वि-साप्ताहिक निदान चाचणी चक्र आणि वैचारिक कमकुवतपणा त्वरित दूर करण्यासाठी 1-ऑन-1 समुपदेशन.",
-  "Curated 20-25 page chapter digests covering all 4 GS papers and state-specific governance policies.": "सर्व 4 GS पेपर्स आणि राज्य-विशिष्ट गव्हर्नन्स पॉलिसी समाविष्ट करणारे 20-25 पानांचे अध्याय डायजेस्ट क्युरेटेड.",
-  "Mock interview panels conducted with senior civil servants and video-recorded body language analysis.": "वरिष्ठ नागरी सेवकांसह मॉक इंटरव्ह्यू पॅनेल आणि व्हिडिओ-रेकॉर्ड केलेले देहबोली विश्लेषण.",
+  "How Lakshya Secures Class I Rank Roster":
+    "लक्ष्य वर्ग I रँक रोस्टर कसे सुरक्षित करते",
+  "Individual evaluation of descriptive answer copies with direct line-by-line feedback from Atul Nikumbh sir.":
+    "अतुल निकुंभ सरांकडून थेट ओळ-दर-लाइन अभिप्रायासह वर्णनात्मक उत्तर प्रतींचे वैयक्तिक मूल्यमापन.",
+  "Bi-weekly diagnostic test cycles and 1-on-1 counseling to eliminate conceptual weaknesses promptly.":
+    "द्वि-साप्ताहिक निदान चाचणी चक्र आणि वैचारिक कमकुवतपणा त्वरित दूर करण्यासाठी 1-ऑन-1 समुपदेशन.",
+  "Curated 20-25 page chapter digests covering all 4 GS papers and state-specific governance policies.":
+    "सर्व 4 GS पेपर्स आणि राज्य-विशिष्ट गव्हर्नन्स पॉलिसी समाविष्ट करणारे 20-25 पानांचे अध्याय डायजेस्ट क्युरेटेड.",
+  "Mock interview panels conducted with senior civil servants and video-recorded body language analysis.":
+    "वरिष्ठ नागरी सेवकांसह मॉक इंटरव्ह्यू पॅनेल आणि व्हिडिओ-रेकॉर्ड केलेले देहबोली विश्लेषण.",
   "Candidate Eligibility": "उमेदवार पात्रता",
   "Age & Educational Criteria": "वय आणि शैक्षणिक निकष",
   "19 to 38 Years": "19 ते 38 वर्षे",
   "19 to 43 Years": "19 ते 43 वर्षे",
-  "Graduation in any discipline from a recognized University (Final year students eligible)": "मान्यताप्राप्त विद्यापीठातून कोणत्याही शाखेतील पदवी (अंतिम वर्षाचे विद्यार्थी पात्र)",
+  "Graduation in any discipline from a recognized University (Final year students eligible)":
+    "मान्यताप्राप्त विद्यापीठातून कोणत्याही शाखेतील पदवी (अंतिम वर्षाचे विद्यार्थी पात्र)",
   "Fluent Marathi & English": "अस्खलित मराठी आणि इंग्रजी",
   "Stage 1": "टप्पा १",
-  "Objective Multiple Choice format. Serves as the screening gateway for qualifying into the Mains examination.": "वस्तुनिष्ठ एकाधिक निवड स्वरूप. मुख्य परीक्षेत पात्र होण्यासाठी स्क्रीनिंग गेटवे म्हणून काम करते.",
-  "Minimum qualifying marks: 80, as shown in the image.": "किमान पात्रता गुण: 80, इमेजमध्ये दाखवल्याप्रमाणे.",
+  "Objective Multiple Choice format. Serves as the screening gateway for qualifying into the Mains examination.":
+    "वस्तुनिष्ठ एकाधिक निवड स्वरूप. मुख्य परीक्षेत पात्र होण्यासाठी स्क्रीनिंग गेटवे म्हणून काम करते.",
+  "Minimum qualifying marks: 80, as shown in the image.":
+    "किमान पात्रता गुण: 80, इमेजमध्ये दाखवल्याप्रमाणे.",
   "Stage 2": "टप्पा 2",
   "Written Examination": "लेखी परीक्षा",
-  "Comprehensive written descriptive papers determining the candidate's core administrative merit.": "सर्वसमावेशक लिखित वर्णनात्मक कागदपत्रे उमेदवाराची मुख्य प्रशासकीय गुणवत्ता निर्धारित करतात.",
+  "Comprehensive written descriptive papers determining the candidate's core administrative merit.":
+    "सर्वसमावेशक लिखित वर्णनात्मक कागदपत्रे उमेदवाराची मुख्य प्रशासकीय गुणवत्ता निर्धारित करतात.",
   "Paper I": "पेपर I",
   "Paper II": "पेपर II",
   "Paper III": "पेपर III",
   "Paper IV": "पेपर IV",
   "Stage 3": "स्टेज 3",
   "275 Marks Total": "एकूण 275 गुण",
-  "The Personality Test evaluates candidate's administrative suitability, leadership qualities, critical thinking, moral integrity, and grasp over state governance.": "व्यक्तिमत्व चाचणी उमेदवाराची प्रशासकीय योग्यता, नेतृत्वगुण, गंभीर विचारसरणी, नैतिक सचोटी आणि राज्याच्या कारभारावरील आकलन यांचे मूल्यमापन करते.",
-  "MPSC Rajyaseva provides opportunities for candidates to secure various Class 1 (Group A) and Class 2 (Group B) government positions in Maharashtra.": "MPSC राज्यसेवा उमेदवारांना महाराष्ट्रात विविध वर्ग 1 (गट अ) आणि वर्ग 2 (गट ब) सरकारी पदे मिळवण्यासाठी संधी प्रदान करते.",
+  "The Personality Test evaluates candidate's administrative suitability, leadership qualities, critical thinking, moral integrity, and grasp over state governance.":
+    "व्यक्तिमत्व चाचणी उमेदवाराची प्रशासकीय योग्यता, नेतृत्वगुण, गंभीर विचारसरणी, नैतिक सचोटी आणि राज्याच्या कारभारावरील आकलन यांचे मूल्यमापन करते.",
+  "MPSC Rajyaseva provides opportunities for candidates to secure various Class 1 (Group A) and Class 2 (Group B) government positions in Maharashtra.":
+    "MPSC राज्यसेवा उमेदवारांना महाराष्ट्रात विविध वर्ग 1 (गट अ) आणि वर्ग 2 (गट ब) सरकारी पदे मिळवण्यासाठी संधी प्रदान करते.",
   "Class 1": "वर्ग १",
   "Deputy Collector (DCA)": "उपजिल्हाधिकारी (DCA)",
-  "Deputy Superintendent of Police / Assistant Commissioner of Police (ACP)": "पोलीस उपअधीक्षक / सहायक पोलीस आयुक्त (ACP)",
+  "Deputy Superintendent of Police / Assistant Commissioner of Police (ACP)":
+    "पोलीस उपअधीक्षक / सहायक पोलीस आयुक्त (ACP)",
   "Assistant Commissioner of Sales Tax (ASC)": "विक्रीकर सहायक आयुक्त (ASC)",
   "4. Registrar, Co-operative Societies": "4. निबंधक, सहकारी संस्था",
   "Registrar, Co-operative Societies": "निबंधक, सहकारी संस्था",
-  "5. Deputy Chief Executive Officer (DCE)": "5. उपमुख्य कार्यकारी अधिकारी (DCE)",
+  "5. Deputy Chief Executive Officer (DCE)":
+    "5. उपमुख्य कार्यकारी अधिकारी (DCE)",
   "Deputy Chief Executive Officer (DCE)": "उपमुख्य कार्यकारी अधिकारी (DCE)",
-  "6. Assistant Director, Maharashtra Finance and Accounts Service (MFA)": "6. सहाय्यक संचालक, महाराष्ट्र वित्त आणि लेखा सेवा (MFA)",
-  "Assistant Director, Maharashtra Finance and Accounts Service (MFA)": "सहाय्यक संचालक, महाराष्ट्र वित्त व लेखा सेवा (MFA)",
-  "7. Chief Officer, Municipal Corporation / Municipal Parishad (COA)": "7. मुख्याधिकारी, महानगरपालिका / नगर परिषद (COA)",
-  "Chief Officer, Municipal Corporation / Municipal Parishad (COA)": "मुख्याधिकारी, महानगरपालिका / नगर परिषद (COA)",
-  "8. Superintendent of State Excise (SSE)": "8. राज्य उत्पादन शुल्क अधीक्षक (SSE)",
+  "6. Assistant Director, Maharashtra Finance and Accounts Service (MFA)":
+    "6. सहाय्यक संचालक, महाराष्ट्र वित्त आणि लेखा सेवा (MFA)",
+  "Assistant Director, Maharashtra Finance and Accounts Service (MFA)":
+    "सहाय्यक संचालक, महाराष्ट्र वित्त व लेखा सेवा (MFA)",
+  "7. Chief Officer, Municipal Corporation / Municipal Parishad (COA)":
+    "7. मुख्याधिकारी, महानगरपालिका / नगर परिषद (COA)",
+  "Chief Officer, Municipal Corporation / Municipal Parishad (COA)":
+    "मुख्याधिकारी, महानगरपालिका / नगर परिषद (COA)",
+  "8. Superintendent of State Excise (SSE)":
+    "8. राज्य उत्पादन शुल्क अधीक्षक (SSE)",
   "Superintendent of State Excise (SSE)": "राज्य उत्पादन शुल्क अधीक्षक (SSE)",
-  "9. Education Officer, Maharashtra Education Service, Administration Branch (EOOB)": "9. शिक्षणाधिकारी, महाराष्ट्र शिक्षण सेवा, प्रशासन शाखा (EOOB)",
-  "Education Officer, Maharashtra Education Service, Administration Branch (EOOB)": "शिक्षणाधिकारी, महाराष्ट्र शिक्षण सेवा, प्रशासन शाखा (EOOB)",
+  "9. Education Officer, Maharashtra Education Service, Administration Branch (EOOB)":
+    "9. शिक्षणाधिकारी, महाराष्ट्र शिक्षण सेवा, प्रशासन शाखा (EOOB)",
+  "Education Officer, Maharashtra Education Service, Administration Branch (EOOB)":
+    "शिक्षणाधिकारी, महाराष्ट्र शिक्षण सेवा, प्रशासन शाखा (EOOB)",
   "10. Tahsildar (TAH)": "10. तहसीलदार (TAH)",
   "Tahsildar (TAH)": "तहसीलदार (TAH)",
   "Class 2": "वर्ग 2",
-  "1. Deputy Education Officer, Maharashtra Education Service, Administration Branch (DEB)": "1. उपशिक्षणाधिकारी, महाराष्ट्र शिक्षण सेवा, प्रशासन शाखा (DEB)",
-  "Deputy Education Officer, Maharashtra Education Service, Administration Branch (DEB)": "उपशिक्षणाधिकारी, महाराष्ट्र शिक्षण सेवा, प्रशासन शाखा (DEB)",
-  "2. Assistant Regional Transport Officer": "2. सहायक प्रादेशिक परिवहन अधिकारी",
+  "1. Deputy Education Officer, Maharashtra Education Service, Administration Branch (DEB)":
+    "1. उपशिक्षणाधिकारी, महाराष्ट्र शिक्षण सेवा, प्रशासन शाखा (DEB)",
+  "Deputy Education Officer, Maharashtra Education Service, Administration Branch (DEB)":
+    "उपशिक्षणाधिकारी, महाराष्ट्र शिक्षण सेवा, प्रशासन शाखा (DEB)",
+  "2. Assistant Regional Transport Officer":
+    "2. सहायक प्रादेशिक परिवहन अधिकारी",
   "Assistant Regional Transport Officer": "सहाय्यक प्रादेशिक परिवहन अधिकारी",
-  "3. Accounting Officer, Maharashtra Finance and Accounts Service": "3. लेखाधिकारी, महाराष्ट्र वित्त आणि लेखा सेवा",
-  "Accounting Officer, Maharashtra Finance and Accounts Service": "लेखा अधिकारी, महाराष्ट्र वित्त आणि लेखा सेवा",
+  "3. Accounting Officer, Maharashtra Finance and Accounts Service":
+    "3. लेखाधिकारी, महाराष्ट्र वित्त आणि लेखा सेवा",
+  "Accounting Officer, Maharashtra Finance and Accounts Service":
+    "लेखा अधिकारी, महाराष्ट्र वित्त आणि लेखा सेवा",
   "4. Section Officer (SOB)": "4. विभाग अधिकारी (SOB)",
   "Section Officer (SOB)": "विभाग अधिकारी (SOB)",
   "5. Block Development Officer (BDO)": "5. ब्लॉक विकास अधिकारी (BDO)",
   "Block Development Officer (BDO)": "ब्लॉक विकास अधिकारी (BDO)",
-  "6. Assistant Block Development Officer (ABDO)": "6. सहाय्यक गट विकास अधिकारी (ABDO)",
-  "Assistant Block Development Officer (ABDO)": "सहाय्यक गट विकास अधिकारी (ABDO)",
-  "7. Chief Officer, Municipal Corporation / Municipal Parishad": "7. मुख्याधिकारी, महानगरपालिका/नगर परिषद",
-  "Chief Officer, Municipal Corporation / Municipal Parishad": "मुख्याधिकारी, महानगरपालिका/नगर परिषद",
-  "8. Assistant Registrar, Co-operative Societies (ARB)": "8. सहाय्यक निबंधक, सहकारी संस्था (ARB)",
-  "Assistant Registrar, Co-operative Societies (ARB)": "सहाय्यक निबंधक, सहकारी संस्था (ARB)",
-  "9. Deputy Superintendent, Land Records (DSL)": "9. उपअधीक्षक, भूमी अभिलेख (DSL)",
+  "6. Assistant Block Development Officer (ABDO)":
+    "6. सहाय्यक गट विकास अधिकारी (ABDO)",
+  "Assistant Block Development Officer (ABDO)":
+    "सहाय्यक गट विकास अधिकारी (ABDO)",
+  "7. Chief Officer, Municipal Corporation / Municipal Parishad":
+    "7. मुख्याधिकारी, महानगरपालिका/नगर परिषद",
+  "Chief Officer, Municipal Corporation / Municipal Parishad":
+    "मुख्याधिकारी, महानगरपालिका/नगर परिषद",
+  "8. Assistant Registrar, Co-operative Societies (ARB)":
+    "8. सहाय्यक निबंधक, सहकारी संस्था (ARB)",
+  "Assistant Registrar, Co-operative Societies (ARB)":
+    "सहाय्यक निबंधक, सहकारी संस्था (ARB)",
+  "9. Deputy Superintendent, Land Records (DSL)":
+    "9. उपअधीक्षक, भूमी अभिलेख (DSL)",
   "Deputy Superintendent, Land Records (DSL)": "उपअधीक्षक, भूमी अभिलेख (DSL)",
-  "10. Deputy Superintendent, State Excise (DSE)": "10. उपअधीक्षक, राज्य उत्पादन शुल्क (DSE)",
-  "Deputy Superintendent, State Excise (DSE)": "उपअधीक्षक, राज्य उत्पादन शुल्क (DSE)",
-  "11. Assistant Commissioner, State Excise (ASE)": "11. सहाय्यक आयुक्त, राज्य उत्पादन शुल्क (ASE)",
-  "Assistant Commissioner, State Excise (ASE)": "सहाय्यक आयुक्त, राज्य उत्पादन शुल्क (ASE)",
+  "10. Deputy Superintendent, State Excise (DSE)":
+    "10. उपअधीक्षक, राज्य उत्पादन शुल्क (DSE)",
+  "Deputy Superintendent, State Excise (DSE)":
+    "उपअधीक्षक, राज्य उत्पादन शुल्क (DSE)",
+  "11. Assistant Commissioner, State Excise (ASE)":
+    "11. सहाय्यक आयुक्त, राज्य उत्पादन शुल्क (ASE)",
+  "Assistant Commissioner, State Excise (ASE)":
+    "सहाय्यक आयुक्त, राज्य उत्पादन शुल्क (ASE)",
   "12. Naib Tahsildar (NTB)": "12. नायब तहसीलदार (NTB)",
   "Naib Tahsildar (NTB)": "नायब तहसीलदार (NTB)",
-  "13. Assistant Director, Skill Development, Employment and Entrepreneurship, Group A": "13. सहाय्यक संचालक, कौशल्य विकास, रोजगार आणि उद्योजकता, गट अ",
-  "Assistant Director, Skill Development, Employment and Entrepreneurship, Group A": "सहाय्यक संचालक, कौशल्य विकास, रोजगार आणि उद्योजकता, गट अ",
-  "14. Skill Development, Employment and Entrepreneurship Guiding Officer, Group B": "14. कौशल्य विकास, रोजगार आणि उद्योजकता मार्गदर्शक अधिकारी, गट ब",
-  "Skill Development, Employment and Entrepreneurship Guiding Officer, Group B": "कौशल्य विकास, रोजगार आणि उद्योजकता मार्गदर्शक अधिकारी, गट ब",
-  "15. Industry Officer, Technical, Group B": "15. उद्योग अधिकारी, तांत्रिक, गट ब",
+  "13. Assistant Director, Skill Development, Employment and Entrepreneurship, Group A":
+    "13. सहाय्यक संचालक, कौशल्य विकास, रोजगार आणि उद्योजकता, गट अ",
+  "Assistant Director, Skill Development, Employment and Entrepreneurship, Group A":
+    "सहाय्यक संचालक, कौशल्य विकास, रोजगार आणि उद्योजकता, गट अ",
+  "14. Skill Development, Employment and Entrepreneurship Guiding Officer, Group B":
+    "14. कौशल्य विकास, रोजगार आणि उद्योजकता मार्गदर्शक अधिकारी, गट ब",
+  "Skill Development, Employment and Entrepreneurship Guiding Officer, Group B":
+    "कौशल्य विकास, रोजगार आणि उद्योजकता मार्गदर्शक अधिकारी, गट ब",
+  "15. Industry Officer, Technical, Group B":
+    "15. उद्योग अधिकारी, तांत्रिक, गट ब",
   "Industry Officer, Technical, Group B": "उद्योग अधिकारी, तांत्रिक, गट ब",
   "Rajyaseva Foundation Batch": "राज्यसेवा फाउंडेशन बॅच",
-  "1-Year Integrated Classroom Program at Pandit Colony Campus, Nashik.": "पंडित कॉलनी कॅम्पस, नाशिक येथे 1 वर्षाचा एकात्मिक वर्ग कार्यक्रम.",
+  "1-Year Integrated Classroom Program at Pandit Colony Campus, Nashik.":
+    "पंडित कॉलनी कॅम्पस, नाशिक येथे 1 वर्षाचा एकात्मिक वर्ग कार्यक्रम.",
   "Marathi & Semi-English": "मराठी आणि सेमी-इंग्रजी",
   "Printed Digests Included": "मुद्रित डायजेस्ट समाविष्ट आहेत",
   "15-Day Cycle + Prelims Mocks": "१५ दिवसांची सायकल + प्रिलिम्स मॉक",
   "Book a Rajyaseva Consultation": "राज्यसेवा सल्लामसलत बुक करा",
-  "Maharashtra Direct Recruitment • TCS & IBPS Pattern": "महाराष्ट्र थेट भरती • TCS आणि IBPS पॅटर्न",
+  "Maharashtra Direct Recruitment • TCS & IBPS Pattern":
+    "महाराष्ट्र थेट भरती • TCS आणि IBPS पॅटर्न",
   "SARALSEVA BHARTI": "सरलसेवा भारती",
-  "Clerk-Typist • Vanrakshak • ZP StaffSingle-Stage 200M Selection": "लिपिक-टंकलेखक • वनरक्षक • झेडपी कर्मचारी सिंगल-स्टेज 200M निवड",
-  "Marathi • English • GK • MathsDaily Speed & Accuracy Drills": "मराठी • इंग्रजी • GK • MathsDaily Speed & Accuracy Drills",
+  "Clerk-Typist • Vanrakshak • ZP StaffSingle-Stage 200M Selection":
+    "लिपिक-टंकलेखक • वनरक्षक • झेडपी कर्मचारी सिंगल-स्टेज 200M निवड",
+  "Marathi • English • GK • MathsDaily Speed & Accuracy Drills":
+    "मराठी • इंग्रजी • GK • MathsDaily Speed & Accuracy Drills",
   "State Direct Recruitment": "राज्य थेट भरती",
-  "\"Saralseva recruitment requires unmatched speed and zero calculation errors across 100 high-density objective questions.\"": "\"सरलसेवा भरतीसाठी 100 उच्च-घनता वस्तुनिष्ठ प्रश्नांमध्ये अतुलनीय गती आणि शून्य गणना त्रुटी आवश्यक आहेत.\"",
-  "Saralseva represents the single-stage direct recruitment examination conducted for Group C and Group D government vacancies across Maharashtra departments: Clerk-cum-Typist, Vanrakshak (Forest Guard), Krushi Sevak, Tax Assistant, and Zilla Parishad cadres. Lakshya Career Academy delivers precision classroom drills designed specifically for the latest TCS and IBPS examination patterns.": "सरलसेवा संपूर्ण महाराष्ट्रात गट C आणि गट D सरकारी रिक्त पदांसाठी आयोजित एकल-टप्प्यात थेट भरती परीक्षेचे प्रतिनिधित्व करते: लिपिक-सह-टंकलेखक, वनरक्षक (वनरक्षक), कृषी सेवक, कर सहाय्यक आणि जिल्हा परिषद संवर्ग. लक्ष्य करिअर अकादमी विशेषत: नवीनतम TCS आणि IBPS परीक्षा पद्धतींसाठी डिझाइन केलेले अचूक क्लासरूम ड्रिल देते.",
+  '"Saralseva recruitment requires unmatched speed and zero calculation errors across 100 high-density objective questions."':
+    '"सरलसेवा भरतीसाठी 100 उच्च-घनता वस्तुनिष्ठ प्रश्नांमध्ये अतुलनीय गती आणि शून्य गणना त्रुटी आवश्यक आहेत."',
+  "Saralseva represents the single-stage direct recruitment examination conducted for Group C and Group D government vacancies across Maharashtra departments: Clerk-cum-Typist, Vanrakshak (Forest Guard), Krushi Sevak, Tax Assistant, and Zilla Parishad cadres. Lakshya Career Academy delivers precision classroom drills designed specifically for the latest TCS and IBPS examination patterns.":
+    "सरलसेवा संपूर्ण महाराष्ट्रात गट C आणि गट D सरकारी रिक्त पदांसाठी आयोजित एकल-टप्प्यात थेट भरती परीक्षेचे प्रतिनिधित्व करते: लिपिक-सह-टंकलेखक, वनरक्षक (वनरक्षक), कृषी सेवक, कर सहाय्यक आणि जिल्हा परिषद संवर्ग. लक्ष्य करिअर अकादमी विशेषत: नवीनतम TCS आणि IBPS परीक्षा पद्धतींसाठी डिझाइन केलेले अचूक क्लासरूम ड्रिल देते.",
   "Examination Pattern": "परीक्षा नमुना",
   "Eligibility & Cadres": "पात्रता आणि संवर्ग",
   "Saralseva Direct Recruitment Examinations": "सरलसेवा थेट भरती परीक्षा",
-  "Saralseva encompasses direct government recruitment across various departments in Maharashtra including Zilla Parishad, Municipal Corporations (BMC), Revenue, Public Health, Land Records, and Forest Department.": "सरसेवेमध्ये जिल्हा परिषद, महानगरपालिका (BMC), महसूल, सार्वजनिक आरोग्य, भूमी अभिलेख आणि वन विभाग यासह महाराष्ट्रातील विविध विभागांमध्ये थेट सरकारी भरती समाविष्ट आहे.",
-  "The examination is typically conducted via single-stage online computer-based tests (TCS/IBPS pattern) evaluating candidates on 4 core subjects for a total of 200 marks.": "परीक्षा सामान्यत: एकल-स्टेज ऑनलाइन संगणक-आधारित चाचण्यांद्वारे (TCS/IBPS पॅटर्न) एकूण 200 गुणांसाठी 4 मुख्य विषयांवर उमेदवारांचे मूल्यांकन करून घेतली जाते.",
-  "Direct merit ranking through standardized 100 question / 200 marks objective examination.": "प्रमाणित 100 प्रश्न / 200 गुणांच्या वस्तुनिष्ठ परीक्षेद्वारे थेट गुणवत्ता क्रमवारी.",
-  "Daily speed calculation tests, grammar drills, and computer lab mock test simulation.": "दैनिक गती गणना चाचण्या, व्याकरण कवायती आणि संगणक लॅब मॉक चाचणी सिम्युलेशन.",
+  "Saralseva encompasses direct government recruitment across various departments in Maharashtra including Zilla Parishad, Municipal Corporations (BMC), Revenue, Public Health, Land Records, and Forest Department.":
+    "सरसेवेमध्ये जिल्हा परिषद, महानगरपालिका (BMC), महसूल, सार्वजनिक आरोग्य, भूमी अभिलेख आणि वन विभाग यासह महाराष्ट्रातील विविध विभागांमध्ये थेट सरकारी भरती समाविष्ट आहे.",
+  "The examination is typically conducted via single-stage online computer-based tests (TCS/IBPS pattern) evaluating candidates on 4 core subjects for a total of 200 marks.":
+    "परीक्षा सामान्यत: एकल-स्टेज ऑनलाइन संगणक-आधारित चाचण्यांद्वारे (TCS/IBPS पॅटर्न) एकूण 200 गुणांसाठी 4 मुख्य विषयांवर उमेदवारांचे मूल्यांकन करून घेतली जाते.",
+  "Direct merit ranking through standardized 100 question / 200 marks objective examination.":
+    "प्रमाणित 100 प्रश्न / 200 गुणांच्या वस्तुनिष्ठ परीक्षेद्वारे थेट गुणवत्ता क्रमवारी.",
+  "Daily speed calculation tests, grammar drills, and computer lab mock test simulation.":
+    "दैनिक गती गणना चाचण्या, व्याकरण कवायती आणि संगणक लॅब मॉक चाचणी सिम्युलेशन.",
   "Examination Matrix": "परीक्षा मॅट्रिक्स",
   "200 Marks 4-Subject Distribution": "200 गुण 4-विषय वितरण",
   "50 Marks": "50 गुण",
-  "25 Questions: Grammar, Sandhi, Samas, vocabulary, idioms, sentence correction & comprehension.": "25 प्रश्न: व्याकरण, संधि, समास, शब्दसंग्रह, मुहावरे, वाक्य सुधारणा आणि आकलन.",
-  "25 Questions: Tenses, voice, vocabulary, synonyms/antonyms, prepositions & error spotting.": "25 प्रश्न: काल, आवाज, शब्दसंग्रह, समानार्थी/विपरीत शब्द, पूर्वसर्ग आणि त्रुटी शोधणे.",
-  "25 Questions: Maharashtra History, Geography, Indian Polity, Current Affairs & General Science.": "25 प्रश्न: महाराष्ट्र इतिहास, भूगोल, भारतीय राजकारण, चालू घडामोडी आणि सामान्य विज्ञान.",
-  "25 Questions: Quantitative aptitude, number series, coding-decoding, percentage & speed maths.": "25 प्रश्न: परिमाणात्मक योग्यता, संख्या मालिका, कोडिंग-डिकोडिंग, टक्केवारी आणि गती गणिते.",
+  "25 Questions: Grammar, Sandhi, Samas, vocabulary, idioms, sentence correction & comprehension.":
+    "25 प्रश्न: व्याकरण, संधि, समास, शब्दसंग्रह, मुहावरे, वाक्य सुधारणा आणि आकलन.",
+  "25 Questions: Tenses, voice, vocabulary, synonyms/antonyms, prepositions & error spotting.":
+    "25 प्रश्न: काल, आवाज, शब्दसंग्रह, समानार्थी/विपरीत शब्द, पूर्वसर्ग आणि त्रुटी शोधणे.",
+  "25 Questions: Maharashtra History, Geography, Indian Polity, Current Affairs & General Science.":
+    "25 प्रश्न: महाराष्ट्र इतिहास, भूगोल, भारतीय राजकारण, चालू घडामोडी आणि सामान्य विज्ञान.",
+  "25 Questions: Quantitative aptitude, number series, coding-decoding, percentage & speed maths.":
+    "25 प्रश्न: परिमाणात्मक योग्यता, संख्या मालिका, कोडिंग-डिकोडिंग, टक्केवारी आणि गती गणिते.",
   "Cadre Requirements & Eligibility": "कॅडर आवश्यकता आणि पात्रता",
-  "10th / 12th Passed or Graduate + MS-CIT certificate + Typing certificate (Marathi 30 wpm or English 40 wpm).": "10 वी / 12 वी उत्तीर्ण किंवा पदवी + MS-CIT प्रमाणपत्र + टायपिंग प्रमाणपत्र (मराठी 30 wpm किंवा इंग्रजी 40 wpm).",
-  "Graduation degree in any discipline from a recognized University + MS-CIT computer literacy.": "मान्यताप्राप्त विद्यापीठातून कोणत्याही शाखेतील पदवी + MS-CIT संगणक साक्षरता.",
-  "12th Standard Passed (Science, Maths, Geography or Economics subjects) + Physical ground qualifying test.": "12वी उत्तीर्ण (विज्ञान, गणित, भूगोल किंवा अर्थशास्त्र विषय) + भौतिक ग्राउंड पात्रता चाचणी.",
-  "Open Category: 18 to 38 Years | Reserved Categories: 18 to 43 Years (Departmental relaxations applicable).": "खुला प्रवर्ग: 18 ते 38 वर्षे | राखीव प्रवर्ग: १८ ते ४३ वर्षे (विभागीय सूट लागू).",
+  "10th / 12th Passed or Graduate + MS-CIT certificate + Typing certificate (Marathi 30 wpm or English 40 wpm).":
+    "10 वी / 12 वी उत्तीर्ण किंवा पदवी + MS-CIT प्रमाणपत्र + टायपिंग प्रमाणपत्र (मराठी 30 wpm किंवा इंग्रजी 40 wpm).",
+  "Graduation degree in any discipline from a recognized University + MS-CIT computer literacy.":
+    "मान्यताप्राप्त विद्यापीठातून कोणत्याही शाखेतील पदवी + MS-CIT संगणक साक्षरता.",
+  "12th Standard Passed (Science, Maths, Geography or Economics subjects) + Physical ground qualifying test.":
+    "12वी उत्तीर्ण (विज्ञान, गणित, भूगोल किंवा अर्थशास्त्र विषय) + भौतिक ग्राउंड पात्रता चाचणी.",
+  "Open Category: 18 to 38 Years | Reserved Categories: 18 to 43 Years (Departmental relaxations applicable).":
+    "खुला प्रवर्ग: 18 ते 38 वर्षे | राखीव प्रवर्ग: १८ ते ४३ वर्षे (विभागीय सूट लागू).",
   "Saralseva Fast-Track": "सरलसेवा फास्ट-ट्रॅक",
-  "Daily computer pattern mock tests, full syllabus notes, and personal doubt solving.": "दैनंदिन कॉम्प्युटर पॅटर्न मॉक टेस्ट, संपूर्ण अभ्यासक्रमाच्या नोट्स आणि वैयक्तिक शंका सोडवणे.",
+  "Daily computer pattern mock tests, full syllabus notes, and personal doubt solving.":
+    "दैनंदिन कॉम्प्युटर पॅटर्न मॉक टेस्ट, संपूर्ण अभ्यासक्रमाच्या नोट्स आणि वैयक्तिक शंका सोडवणे.",
   "TCS & IBPS Drills": "TCS आणि IBPS कवायती",
   "Daily Speed Drills": "दैनिक गती कवायती",
   "Printed Formula Digests": "मुद्रित फॉर्म्युला डायजेस्ट",
   "Book a Saralseva Consultation": "एक सरलसेवा सल्ला बुक करा",
   "State Tax Department • Finance Cadre": "राज्य कर विभाग • वित्त संवर्ग",
   "SALES TAX INSPECTOR": "सेल्स टॅक्स इन्स्पेक्टर",
-  "Economics & Public FinanceGST, State Budgets & Planning": "अर्थशास्त्र आणि सार्वजनिक वित्त जीएसटी, राज्य अर्थसंकल्प आणि नियोजन",
-  "Mains 200 Marks BlueprintDirect Cadre Merit Focus": "मुख्य 200 गुण ब्लूप्रिंट डायरेक्ट कॅडर मेरिट फोकस",
+  "Economics & Public FinanceGST, State Budgets & Planning":
+    "अर्थशास्त्र आणि सार्वजनिक वित्त जीएसटी, राज्य अर्थसंकल्प आणि नियोजन",
+  "Mains 200 Marks BlueprintDirect Cadre Merit Focus":
+    "मुख्य 200 गुण ब्लूप्रिंट डायरेक्ट कॅडर मेरिट फोकस",
   "State Fiscal Administration": "राज्य वित्तीय प्रशासन",
-  "\"The Sales Tax Inspector post represents the financial bedrock of Maharashtra's revenue administration, demanding authoritative grasp over economics and tax statutes.\"": "\"विक्रीकर निरीक्षक पद हे महाराष्ट्राच्या महसूल प्रशासनाच्या आर्थिक पायाचे प्रतिनिधित्व करते, जे अर्थशास्त्र आणि कर कायद्यांवरील अधिकृत आकलनाची मागणी करते.\"",
-  "Following qualification in the Combine Group B Preliminary Examination, candidates face the STI Mains examination. Lakshya Career Academy provides an intensive curriculum concentrating on the Economic Survey of Maharashtra, Indian and global trade dynamics, public budgeting, GST frameworks, and high-scoring language papers.": "कंबाईन ग्रुप बी प्राथमिक परीक्षेतील पात्रतेनंतर, उमेदवारांना STI मुख्य परीक्षेला सामोरे जावे लागते. लक्ष्य करिअर अकादमी महाराष्ट्राचे आर्थिक सर्वेक्षण, भारतीय आणि जागतिक व्यापार गतिशीलता, सार्वजनिक अर्थसंकल्प, जीएसटी फ्रेमवर्क आणि उच्च-स्कोअरिंग भाषा पेपर यावर लक्ष केंद्रित करणारा एक गहन अभ्यासक्रम प्रदान करते.",
+  '"The Sales Tax Inspector post represents the financial bedrock of Maharashtra\'s revenue administration, demanding authoritative grasp over economics and tax statutes."':
+    '"विक्रीकर निरीक्षक पद हे महाराष्ट्राच्या महसूल प्रशासनाच्या आर्थिक पायाचे प्रतिनिधित्व करते, जे अर्थशास्त्र आणि कर कायद्यांवरील अधिकृत आकलनाची मागणी करते."',
+  "Following qualification in the Combine Group B Preliminary Examination, candidates face the STI Mains examination. Lakshya Career Academy provides an intensive curriculum concentrating on the Economic Survey of Maharashtra, Indian and global trade dynamics, public budgeting, GST frameworks, and high-scoring language papers.":
+    "कंबाईन ग्रुप बी प्राथमिक परीक्षेतील पात्रतेनंतर, उमेदवारांना STI मुख्य परीक्षेला सामोरे जावे लागते. लक्ष्य करिअर अकादमी महाराष्ट्राचे आर्थिक सर्वेक्षण, भारतीय आणि जागतिक व्यापार गतिशीलता, सार्वजनिक अर्थसंकल्प, जीएसटी फ्रेमवर्क आणि उच्च-स्कोअरिंग भाषा पेपर यावर लक्ष केंद्रित करणारा एक गहन अभ्यासक्रम प्रदान करते.",
   "Mains Exam Scheme": "मुख्य परीक्षा योजना",
   "Mentoring Framework": "मार्गदर्शन फ्रेमवर्क",
   "State Tax Inspector (STI) Selection": "राज्य कर निरीक्षक (STI) निवड",
-  "The State Tax Inspector (STI) operates under the Goods and Services Tax (GST) and Commercial Taxes Department of Maharashtra. This cadre is responsible for state revenue collection, tax audit scrutiny, enterprise assessments, and statutory tax compliance.": "राज्य कर निरीक्षक (STI) महाराष्ट्राच्या वस्तू आणि सेवा कर (GST) आणि व्यावसायिक कर विभागांतर्गत कार्यरत आहेत. हे संवर्ग राज्य महसूल संकलन, कर लेखापरीक्षण छाननी, एंटरप्राइझ मूल्यांकन आणि वैधानिक कर अनुपालनासाठी जबाबदार आहे.",
-  "The examination tests comprehensive proficiency in languages, General Studies, Indian Economy, Public Finance, Accountancy, and Commercial Taxation laws.": "ही परीक्षा भाषा, सामान्य अध्ययन, भारतीय अर्थव्यवस्था, सार्वजनिक वित्त, लेखा, आणि व्यावसायिक कर कायद्यातील सर्वसमावेशक प्रवीणतेची चाचणी घेते.",
-  "Complete mastery of Maharashtra Economic Survey data, budgetary allocations, and state revenue trends.": "महाराष्ट्र आर्थिक सर्वेक्षण डेटा, अर्थसंकल्पीय वाटप आणि राज्य महसूल ट्रेंडवर पूर्ण प्रभुत्व.",
-  "Specialized modules covering GST legislation, accounting concepts, and audited financial statements.": "जीएसटी कायदे, लेखा संकल्पना आणि लेखापरीक्षित आर्थिक स्टेटमेन्ट समाविष्ट करणारे विशेष मॉड्यूल.",
+  "The State Tax Inspector (STI) operates under the Goods and Services Tax (GST) and Commercial Taxes Department of Maharashtra. This cadre is responsible for state revenue collection, tax audit scrutiny, enterprise assessments, and statutory tax compliance.":
+    "राज्य कर निरीक्षक (STI) महाराष्ट्राच्या वस्तू आणि सेवा कर (GST) आणि व्यावसायिक कर विभागांतर्गत कार्यरत आहेत. हे संवर्ग राज्य महसूल संकलन, कर लेखापरीक्षण छाननी, एंटरप्राइझ मूल्यांकन आणि वैधानिक कर अनुपालनासाठी जबाबदार आहे.",
+  "The examination tests comprehensive proficiency in languages, General Studies, Indian Economy, Public Finance, Accountancy, and Commercial Taxation laws.":
+    "ही परीक्षा भाषा, सामान्य अध्ययन, भारतीय अर्थव्यवस्था, सार्वजनिक वित्त, लेखा, आणि व्यावसायिक कर कायद्यातील सर्वसमावेशक प्रवीणतेची चाचणी घेते.",
+  "Complete mastery of Maharashtra Economic Survey data, budgetary allocations, and state revenue trends.":
+    "महाराष्ट्र आर्थिक सर्वेक्षण डेटा, अर्थसंकल्पीय वाटप आणि राज्य महसूल ट्रेंडवर पूर्ण प्रभुत्व.",
+  "Specialized modules covering GST legislation, accounting concepts, and audited financial statements.":
+    "जीएसटी कायदे, लेखा संकल्पना आणि लेखापरीक्षित आर्थिक स्टेटमेन्ट समाविष्ट करणारे विशेष मॉड्यूल.",
   "STI Mains 200-Mark Examination Scheme": "STI मुख्य 200-गुण परीक्षा योजना",
   "Paper 1: Languages": "पेपर 1: भाषा",
   "100 Marks": "100 गुण",
-  "Marathi Grammar, Sandhi, Samas & Vocabulary (50 Marks)": "मराठी व्याकरण, संधि, समास आणि शब्दसंग्रह (५० गुण)",
-  "English Grammar, Sentence Structure & Usage (50 Marks)": "इंग्रजी व्याकरण, वाक्य रचना आणि वापर (५० गुण)",
-  "100 Objective Questions | 1 Hour Duration": "100 वस्तुनिष्ठ प्रश्न | 1 तास कालावधी",
+  "Marathi Grammar, Sandhi, Samas & Vocabulary (50 Marks)":
+    "मराठी व्याकरण, संधि, समास आणि शब्दसंग्रह (५० गुण)",
+  "English Grammar, Sentence Structure & Usage (50 Marks)":
+    "इंग्रजी व्याकरण, वाक्य रचना आणि वापर (५० गुण)",
+  "100 Objective Questions | 1 Hour Duration":
+    "100 वस्तुनिष्ठ प्रश्न | 1 तास कालावधी",
   "Paper 2: General Studies": "पेपर 2: सामान्य अध्ययन",
-  "General Studies, Intelligence & Aptitude (30 Marks)": "सामान्य अध्ययन, बुद्धिमत्ता आणि योग्यता (३० गुण)",
-  "Bookkeeping & Accountancy Fundamentals (30 Marks)": "बुककीपिंग आणि अकाउंटन्सीची मूलभूत तत्त्वे (३० गुण)",
-  "Indian Economy, Planning & Sales Tax Acts (40 Marks)": "भारतीय अर्थव्यवस्था, नियोजन आणि विक्रीकर कायदे (४० गुण)",
+  "General Studies, Intelligence & Aptitude (30 Marks)":
+    "सामान्य अध्ययन, बुद्धिमत्ता आणि योग्यता (३० गुण)",
+  "Bookkeeping & Accountancy Fundamentals (30 Marks)":
+    "बुककीपिंग आणि अकाउंटन्सीची मूलभूत तत्त्वे (३० गुण)",
+  "Indian Economy, Planning & Sales Tax Acts (40 Marks)":
+    "भारतीय अर्थव्यवस्था, नियोजन आणि विक्रीकर कायदे (४० गुण)",
   "Lakshya Advantage": "लक्ष्याचा फायदा",
   "Specialized STI Mentoring Framework": "विशेष STI मार्गदर्शन फ्रेमवर्क",
-  "Exclusive chapter-wise summary notes and statistical analysis tables updated for the latest fiscal year.": "विशेष प्रकरणानुसार सारांश नोट्स आणि सांख्यिकीय विश्लेषण सारण्या नवीनतम आर्थिक वर्षासाठी अद्यतनित केल्या आहेत.",
-  "Topic-wise sorted questions with recurring theme markers and model answer explanations.": "आवर्ती थीम मार्कर आणि मॉडेल उत्तर स्पष्टीकरणांसह विषयानुसार क्रमवारी लावलेले प्रश्न.",
-  "Rigorous mock exams under exact MPSC negative marking conditions with individualized weakness reports.": "तंतोतंत MPSC निगेटिव्ह मार्किंग परिस्थितीनुसार कठोर मॉक परीक्षा वैयक्तिक कमकुवतपणा अहवालांसह.",
-  "Dedicated coverage of GST Council revisions, VAT legacy provisions, and relevant Supreme Court verdicts.": "GST कौन्सिलच्या सुधारणा, VAT वारसा तरतुदी आणि सर्वोच्च न्यायालयाच्या संबंधित निकालांचे समर्पित कव्हरेज.",
+  "Exclusive chapter-wise summary notes and statistical analysis tables updated for the latest fiscal year.":
+    "विशेष प्रकरणानुसार सारांश नोट्स आणि सांख्यिकीय विश्लेषण सारण्या नवीनतम आर्थिक वर्षासाठी अद्यतनित केल्या आहेत.",
+  "Topic-wise sorted questions with recurring theme markers and model answer explanations.":
+    "आवर्ती थीम मार्कर आणि मॉडेल उत्तर स्पष्टीकरणांसह विषयानुसार क्रमवारी लावलेले प्रश्न.",
+  "Rigorous mock exams under exact MPSC negative marking conditions with individualized weakness reports.":
+    "तंतोतंत MPSC निगेटिव्ह मार्किंग परिस्थितीनुसार कठोर मॉक परीक्षा वैयक्तिक कमकुवतपणा अहवालांसह.",
+  "Dedicated coverage of GST Council revisions, VAT legacy provisions, and relevant Supreme Court verdicts.":
+    "GST कौन्सिलच्या सुधारणा, VAT वारसा तरतुदी आणि सर्वोच्च न्यायालयाच्या संबंधित निकालांचे समर्पित कव्हरेज.",
   "STI Mains Specialist Batch": "STI मुख्य विशेषज्ञ बॅच",
-  "Specialized coaching with economics subject masters, test series, and printed notes.": "अर्थशास्त्र विषयातील मास्टर्स, चाचणी मालिका आणि मुद्रित नोट्ससह विशेष प्रशिक्षण.",
+  "Specialized coaching with economics subject masters, test series, and printed notes.":
+    "अर्थशास्त्र विषयातील मास्टर्स, चाचणी मालिका आणि मुद्रित नोट्ससह विशेष प्रशिक्षण.",
   "Full GST & Survey": "संपूर्ण GST आणि सर्वेक्षण",
   "Atul Nikumbh & Team": "अतुल निकुंभ आणि टीम",
   "Book an STI Consultation": "STI सल्लामसलत बुक करा",
-  "Revenue Department Recruitment • District Cadre": "महसूल विभाग भरती • जिल्हा संवर्ग",
+  "Revenue Department Recruitment • District Cadre":
+    "महसूल विभाग भरती • जिल्हा संवर्ग",
   "TALATHI BHARTI": "तलाठी भारती",
-  "Village Revenue Administration100 Questions • 200 Marks": "ग्राम महसूल प्रशासन100 प्रश्न • 200 गुण",
-  "District Wise Test SeriesSmall Cohorts of 30 Students": "जिल्हानिहाय चाचणी मालिका 30 विद्यार्थ्यांचे छोटे गट",
+  "Village Revenue Administration100 Questions • 200 Marks":
+    "ग्राम महसूल प्रशासन100 प्रश्न • 200 गुण",
+  "District Wise Test SeriesSmall Cohorts of 30 Students":
+    "जिल्हानिहाय चाचणी मालिका 30 विद्यार्थ्यांचे छोटे गट",
   "Revenue Administration": "महसूल प्रशासन",
-  "\"The Talathi is the essential grassroots executive of Maharashtra's revenue and land records administration.\"": "\"तलाठी हा महाराष्ट्राच्या महसूल आणि भूमी अभिलेख प्रशासनाचा आवश्यक तळागाळातील कार्यकारी अधिकारी आहे.\"",
-  "Talathi Bharti is conducted across every district of Maharashtra with separate merit rosters. The single written examination demands flawless speed across 100 questions covering Marathi grammar, English comprehension, General Knowledge, and Mental Arithmetic. Lakshya Career Academy provides rigorous weekly mock series and personalized doubt solving to ensure top district ranks.": "तलाठी भारती महाराष्ट्रातील प्रत्येक जिल्ह्यात स्वतंत्र गुणवत्ता यादीसह आयोजित केली जाते. मराठी व्याकरण, इंग्रजी आकलन, सामान्य ज्ञान आणि मानसिक अंकगणित अशा 100 प्रश्नांसाठी एकच लेखी परीक्षा निर्दोष गतीची मागणी करते. लक्ष्य करिअर अकादमी अव्वल जिल्हा रँक सुनिश्चित करण्यासाठी कठोर साप्ताहिक मॉक सिरीज आणि वैयक्तिक शंकांचे निराकरण करते.",
+  '"The Talathi is the essential grassroots executive of Maharashtra\'s revenue and land records administration."':
+    '"तलाठी हा महाराष्ट्राच्या महसूल आणि भूमी अभिलेख प्रशासनाचा आवश्यक तळागाळातील कार्यकारी अधिकारी आहे."',
+  "Talathi Bharti is conducted across every district of Maharashtra with separate merit rosters. The single written examination demands flawless speed across 100 questions covering Marathi grammar, English comprehension, General Knowledge, and Mental Arithmetic. Lakshya Career Academy provides rigorous weekly mock series and personalized doubt solving to ensure top district ranks.":
+    "तलाठी भारती महाराष्ट्रातील प्रत्येक जिल्ह्यात स्वतंत्र गुणवत्ता यादीसह आयोजित केली जाते. मराठी व्याकरण, इंग्रजी आकलन, सामान्य ज्ञान आणि मानसिक अंकगणित अशा 100 प्रश्नांसाठी एकच लेखी परीक्षा निर्दोष गतीची मागणी करते. लक्ष्य करिअर अकादमी अव्वल जिल्हा रँक सुनिश्चित करण्यासाठी कठोर साप्ताहिक मॉक सिरीज आणि वैयक्तिक शंकांचे निराकरण करते.",
   "Eligibility & Criteria": "पात्रता आणि निकष",
   "Talathi (Revenue Department) Role": "तलाठी (महसूल विभाग) भूमिका",
-  "A Talathi is a village-level revenue officer working under the Maharashtra Revenue Department and District Collectorate. Key responsibilities include maintaining 7/12 (Satbara) land records, revenue collection, crop assessment (Pik Pahani), panchnama documentation, and certifying government certificates.": "तलाठी हा महाराष्ट्र महसूल विभाग आणि जिल्हाधिकारी कार्यालयांतर्गत काम करणारा गाव-स्तरीय महसूल अधिकारी असतो. मुख्य जबाबदाऱ्यांमध्ये 7/12 (सातबारा) जमिनीच्या नोंदी ठेवणे, महसूल गोळा करणे, पीक मूल्यांकन (पिक पाहणी), पंचनामा कागदपत्रे आणि सरकारी प्रमाणपत्रे प्रमाणित करणे यांचा समावेश होतो.",
-  "The Talathi Bharti examination is conducted online under the TCS/IBPS pattern, comprising 100 questions for 200 marks with no negative marking.": "तलाठी भारती परीक्षा TCS/IBPS पॅटर्न अंतर्गत ऑनलाइन घेतली जाते, ज्यामध्ये 200 गुणांसाठी 100 प्रश्न असतात ज्यामध्ये कोणतेही नकारात्मक चिन्ह नाही.",
-  "100 questions / 200 marks written exam determines direct district-wise appointment with no interview.": "100 प्रश्न / 200 गुणांची लेखी परीक्षा कोणत्याही मुलाखतीशिवाय थेट जिल्हानिहाय नियुक्ती ठरवते.",
-  "2-hour timed computerized test drills covering Marathi, English, GK, and quantitative maths.": "मराठी, इंग्रजी, जीके, आणि परिमाणात्मक गणिते समाविष्ट करणारे 2-तासांचे संगणकीकृत चाचणी अभ्यास.",
+  "A Talathi is a village-level revenue officer working under the Maharashtra Revenue Department and District Collectorate. Key responsibilities include maintaining 7/12 (Satbara) land records, revenue collection, crop assessment (Pik Pahani), panchnama documentation, and certifying government certificates.":
+    "तलाठी हा महाराष्ट्र महसूल विभाग आणि जिल्हाधिकारी कार्यालयांतर्गत काम करणारा गाव-स्तरीय महसूल अधिकारी असतो. मुख्य जबाबदाऱ्यांमध्ये 7/12 (सातबारा) जमिनीच्या नोंदी ठेवणे, महसूल गोळा करणे, पीक मूल्यांकन (पिक पाहणी), पंचनामा कागदपत्रे आणि सरकारी प्रमाणपत्रे प्रमाणित करणे यांचा समावेश होतो.",
+  "The Talathi Bharti examination is conducted online under the TCS/IBPS pattern, comprising 100 questions for 200 marks with no negative marking.":
+    "तलाठी भारती परीक्षा TCS/IBPS पॅटर्न अंतर्गत ऑनलाइन घेतली जाते, ज्यामध्ये 200 गुणांसाठी 100 प्रश्न असतात ज्यामध्ये कोणतेही नकारात्मक चिन्ह नाही.",
+  "100 questions / 200 marks written exam determines direct district-wise appointment with no interview.":
+    "100 प्रश्न / 200 गुणांची लेखी परीक्षा कोणत्याही मुलाखतीशिवाय थेट जिल्हानिहाय नियुक्ती ठरवते.",
+  "2-hour timed computerized test drills covering Marathi, English, GK, and quantitative maths.":
+    "मराठी, इंग्रजी, जीके, आणि परिमाणात्मक गणिते समाविष्ट करणारे 2-तासांचे संगणकीकृत चाचणी अभ्यास.",
   "Subject Blueprint": "विषय ब्लूप्रिंट",
   "200 Marks Subject-Wise Weightage": "200 गुणांचे विषयनिहाय वजन",
-  "25 Questions: शब्दसंग्रह, म्हणी, वाक्यरचना, समास, काळ व प्रयोग, समानार्थी/विरुद्धार्थी शब्द.": "25 प्रश्न: शब्दसंग्रह, म्हण, वाक्यरचना, समास, काली व वापर, समानार्थी/विरोधी शब्द.",
-  "25 Questions: Vocabulary, idioms, grammar rules, spelling checks, prepositions & sentence completion.": "25 प्रश्न: शब्दसंग्रह, मुहावरे, व्याकरणाचे नियम, शब्दलेखन तपासणे, पूर्वसर्ग आणि वाक्य पूर्ण करणे.",
-  "25 Questions: Maharashtra History, Geography, Indian Constitution, RTI Act & Current Affairs.": "25 प्रश्न: महाराष्ट्राचा इतिहास, भूगोल, भारतीय राज्यघटना, RTI कायदा आणि चालू घडामोडी.",
-  "25 Questions: संख्यामाला, नातेसंबंध, वेळ व वेग, नफा-तोटा, टक्केवारी व भूमिती सूत्रे.": "25 प्रश्न: संख्याला, नातेसंबंध, वेळ व वेग, नफा-तोटा, टक्केवारी व भूमिती सूत्रे.",
+  "25 Questions: शब्दसंग्रह, म्हणी, वाक्यरचना, समास, काळ व प्रयोग, समानार्थी/विरुद्धार्थी शब्द.":
+    "25 प्रश्न: शब्दसंग्रह, म्हण, वाक्यरचना, समास, काली व वापर, समानार्थी/विरोधी शब्द.",
+  "25 Questions: Vocabulary, idioms, grammar rules, spelling checks, prepositions & sentence completion.":
+    "25 प्रश्न: शब्दसंग्रह, मुहावरे, व्याकरणाचे नियम, शब्दलेखन तपासणे, पूर्वसर्ग आणि वाक्य पूर्ण करणे.",
+  "25 Questions: Maharashtra History, Geography, Indian Constitution, RTI Act & Current Affairs.":
+    "25 प्रश्न: महाराष्ट्राचा इतिहास, भूगोल, भारतीय राज्यघटना, RTI कायदा आणि चालू घडामोडी.",
+  "25 Questions: संख्यामाला, नातेसंबंध, वेळ व वेग, नफा-तोटा, टक्केवारी व भूमिती सूत्रे.":
+    "25 प्रश्न: संख्याला, नातेसंबंध, वेळ व वेग, नफा-तोटा, टक्केवारी व भूमिती सूत्रे.",
   "Eligibility & Qualification Criteria": "पात्रता आणि पात्रता निकष",
-  "Graduation degree in any discipline from a recognized University. Final year appearing candidates eligible as per notification terms.": "मान्यताप्राप्त विद्यापीठातून कोणत्याही शाखेतील पदवी. अधिसूचना अटींनुसार पात्र उमेदवार अंतिम वर्षात उपस्थित आहेत.",
-  "MS-CIT or equivalent computer certification (can be submitted within 2 years of appointment if selected).": "MS-CIT किंवा समतुल्य संगणक प्रमाणपत्र (निवड झाल्यास 2 वर्षांच्या आत सबमिट केले जाऊ शकते).",
-  "Must have studied Marathi language up to 10th / SSC level or equivalent standard.": "10वी / SSC स्तर किंवा समकक्ष इयत्तेपर्यंत मराठी भाषेचा अभ्यास केलेला असावा.",
-  "Open Category: 19 to 38 Years | Reserved Categories: 19 to 43 Years.": "खुला प्रवर्ग: 19 ते 38 वर्षे | आरक्षित श्रेणी: 19 ते 43 वर्षे.",
+  "Graduation degree in any discipline from a recognized University. Final year appearing candidates eligible as per notification terms.":
+    "मान्यताप्राप्त विद्यापीठातून कोणत्याही शाखेतील पदवी. अधिसूचना अटींनुसार पात्र उमेदवार अंतिम वर्षात उपस्थित आहेत.",
+  "MS-CIT or equivalent computer certification (can be submitted within 2 years of appointment if selected).":
+    "MS-CIT किंवा समतुल्य संगणक प्रमाणपत्र (निवड झाल्यास 2 वर्षांच्या आत सबमिट केले जाऊ शकते).",
+  "Must have studied Marathi language up to 10th / SSC level or equivalent standard.":
+    "10वी / SSC स्तर किंवा समकक्ष इयत्तेपर्यंत मराठी भाषेचा अभ्यास केलेला असावा.",
+  "Open Category: 19 to 38 Years | Reserved Categories: 19 to 43 Years.":
+    "खुला प्रवर्ग: 19 ते 38 वर्षे | आरक्षित श्रेणी: 19 ते 43 वर्षे.",
   "Talathi Specialist Batch": "तलाठी स्पेशालिस्ट बॅच",
-  "Small batch of 30 students with daily mock drills and hard copy study books.": "30 विद्यार्थ्यांची लहान तुकडी दररोज मॉक ड्रिल आणि हार्ड कॉपी अभ्यास पुस्तके.",
+  "Small batch of 30 students with daily mock drills and hard copy study books.":
+    "30 विद्यार्थ्यांची लहान तुकडी दररोज मॉक ड्रिल आणि हार्ड कॉपी अभ्यास पुस्तके.",
   "TCS / IBPS Format": "TCS/IBPS फॉरमॅट",
   "All District Papers": "सर्व जिल्हा पेपर",
   "Hardcopy Digests": "हार्डकॉपी डायजेस्ट",
   "Book a Talathi Consultation": "तलाठी सल्लामसलत बुक करा",
-  "Comprehensive Curriculum • All 7 Syllabi": "सर्वसमावेशक अभ्यासक्रम • सर्व 7 अभ्यासक्रम",
+  "Comprehensive Curriculum • All 7 Syllabi":
+    "सर्वसमावेशक अभ्यासक्रम • सर्व 7 अभ्यासक्रम",
   "ACADEMIC CATALOG": "शैक्षणिक कॅटलॉग",
-  "MPSC State Services & CombineRajyaseva, PSI, STI & ASO": "MPSC राज्य सेवा आणि एकत्रित राज्यसेवा, PSI, STI आणि ASO",
-  "Direct State RecruitmentSaralseva & Talathi Bharti": "थेट राज्य भरतीसरलसेवा आणि तलाठी भारती",
+  "MPSC State Services & CombineRajyaseva, PSI, STI & ASO":
+    "MPSC राज्य सेवा आणि एकत्रित राज्यसेवा, PSI, STI आणि ASO",
+  "Direct State RecruitmentSaralseva & Talathi Bharti":
+    "थेट राज्य भरतीसरलसेवा आणि तलाठी भारती",
   "Rigorous Pedagogy": "कठोर अध्यापनशास्त्र",
-  "\"Every examination demands a tailored blueprint. We do not apply generic coaching to specialized cadres.\"": "\"प्रत्येक परीक्षेत एक तयार केलेल्या ब्ल्यू प्रिंटची मागणी केली जाते. आम्ही विशेष कॅडरसाठी जेनेरिक कोचिंग लागू करत नाही.\"",
-  "The Lakshya Career Academy delivers structured coaching for all 7 major competitive examination streams in Maharashtra. Every course is rooted in our core framework: limited batches of 30 students, 15-day syllabus & test cycles, complete printed study materials, and direct personal guidance from founder directors Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh.": "लक्ष्य करिअर अकादमी महाराष्ट्रातील सर्व 7 प्रमुख स्पर्धा परीक्षा प्रवाहांसाठी संरचित कोचिंग प्रदान करते. प्रत्येक अभ्यासक्रम आमच्या मूळ फ्रेमवर्कमध्ये रुजलेला आहे: 30 विद्यार्थ्यांच्या मर्यादित तुकड्या, 15 दिवसांचा अभ्यासक्रम आणि चाचणी चक्र, संपूर्ण छापील अभ्यास साहित्य आणि संस्थापक संचालक अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांचे थेट वैयक्तिक मार्गदर्शन.",
+  '"Every examination demands a tailored blueprint. We do not apply generic coaching to specialized cadres."':
+    '"प्रत्येक परीक्षेत एक तयार केलेल्या ब्ल्यू प्रिंटची मागणी केली जाते. आम्ही विशेष कॅडरसाठी जेनेरिक कोचिंग लागू करत नाही."',
+  "The Lakshya Career Academy delivers structured coaching for all 7 major competitive examination streams in Maharashtra. Every course is rooted in our core framework: limited batches of 30 students, 15-day syllabus & test cycles, complete printed study materials, and direct personal guidance from founder directors Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh.":
+    "लक्ष्य करिअर अकादमी महाराष्ट्रातील सर्व 7 प्रमुख स्पर्धा परीक्षा प्रवाहांसाठी संरचित कोचिंग प्रदान करते. प्रत्येक अभ्यासक्रम आमच्या मूळ फ्रेमवर्कमध्ये रुजलेला आहे: 30 विद्यार्थ्यांच्या मर्यादित तुकड्या, 15 दिवसांचा अभ्यासक्रम आणि चाचणी चक्र, संपूर्ण छापील अभ्यास साहित्य आणि संस्थापक संचालक अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांचे थेट वैयक्तिक मार्गदर्शन.",
   "Program Catalog": "कार्यक्रम कॅटलॉग",
   "Choose Your Administrative Path": "तुमचा प्रशासकीय मार्ग निवडा",
-  "Select a category below or explore each program's complete syllabus, marks distribution, and admission blueprint.": "खालील श्रेणी निवडा किंवा प्रत्येक कार्यक्रमाचा संपूर्ण अभ्यासक्रम, गुण वितरण आणि प्रवेशाची ब्लूप्रिंट एक्सप्लोर करा.",
+  "Select a category below or explore each program's complete syllabus, marks distribution, and admission blueprint.":
+    "खालील श्रेणी निवडा किंवा प्रत्येक कार्यक्रमाचा संपूर्ण अभ्यासक्रम, गुण वितरण आणि प्रवेशाची ब्लूप्रिंट एक्सप्लोर करा.",
   "State Services (Rajyaseva)": "राज्य सेवा (राज्यसेवा)",
   "Saralseva & Talathi": "सरलसेवा आणि तलाठी",
   "MPSC State Services": "MPSC राज्य सेवा",
-  "Comprehensive preparation for Maharashtra Civil Services Class I and Class II officer cadres: Deputy Collector, DySP, Assistant Commissioner of State Tax, and Tahasildar.": "महाराष्ट्र नागरी सेवा वर्ग I आणि वर्ग II अधिकारी संवर्गासाठी सर्वसमावेशक तयारी: उपजिल्हाधिकारी, DySP, राज्य कर सहायक आयुक्त आणि तहसीलदार.",
+  "Comprehensive preparation for Maharashtra Civil Services Class I and Class II officer cadres: Deputy Collector, DySP, Assistant Commissioner of State Tax, and Tahasildar.":
+    "महाराष्ट्र नागरी सेवा वर्ग I आणि वर्ग II अधिकारी संवर्गासाठी सर्वसमावेशक तयारी: उपजिल्हाधिकारी, DySP, राज्य कर सहायक आयुक्त आणि तहसीलदार.",
   "Stages:": "टप्पे:",
   "Prelims + Mains + Interview": "प्रिलिम्स + मुख्य + मुलाखत",
   "Prelims:": "प्रिलिम्स:",
@@ -932,9 +1268,10 @@ window.LAKSHYA_I18N = {
   "Interview:": "मुलाखत:",
   "100 Marks Panel": "100 गुणांचे पॅनेल",
   "Detailed Syllabus": "तपशीलवार अभ्यासक्रम",
-  "Enquire": "चौकशी करा",
+  Enquire: "चौकशी करा",
   "Group B Joint Exam": "गट ब संयुक्त परीक्षा",
-  "Unified preliminary examination coaching for Police Sub-Inspector, State Tax Inspector, and Assistant Section Officer posts with specialized Mains focus.": "विशेष मुख्य फोकससह पोलिस उपनिरीक्षक, राज्य कर निरीक्षक आणि सहाय्यक विभाग अधिकारी पदांसाठी युनिफाइड प्राथमिक परीक्षा प्रशिक्षण.",
+  "Unified preliminary examination coaching for Police Sub-Inspector, State Tax Inspector, and Assistant Section Officer posts with specialized Mains focus.":
+    "विशेष मुख्य फोकससह पोलिस उपनिरीक्षक, राज्य कर निरीक्षक आणि सहाय्यक विभाग अधिकारी पदांसाठी युनिफाइड प्राथमिक परीक्षा प्रशिक्षण.",
   "Age Limit:": "वयोमर्यादा:",
   "18-38 yrs (Open) / 43 (Res)": "18-38 वर्षे (खुले) / 43 (रि.)",
   "100 Marks (1 Hour Common)": "100 गुण (1 तास सामान्य)",
@@ -943,7 +1280,8 @@ window.LAKSHYA_I18N = {
   "Strictly 30 Students": "काटेकोरपणे 30 विद्यार्थी",
   "Police Cadre": "पोलीस संवर्ग",
   "PSI Mains Examination": "PSI मुख्य परीक्षा",
-  "Specialized coaching for Police Sub-Inspector mains including Indian Penal Code (IPC), CrPC, Evidence Act, Bombay Police Act, 100M Ground Physical, and 40M Interview.": "भारतीय दंड संहिता (IPC), CrPC, पुरावा कायदा, बॉम्बे पोलिस कायदा, 100M ग्राउंड फिजिकल आणि 40M मुलाखत यासह पोलिस उपनिरीक्षक मुख्यांसाठी विशेष प्रशिक्षण.",
+  "Specialized coaching for Police Sub-Inspector mains including Indian Penal Code (IPC), CrPC, Evidence Act, Bombay Police Act, 100M Ground Physical, and 40M Interview.":
+    "भारतीय दंड संहिता (IPC), CrPC, पुरावा कायदा, बॉम्बे पोलिस कायदा, 100M ग्राउंड फिजिकल आणि 40M मुलाखत यासह पोलिस उपनिरीक्षक मुख्यांसाठी विशेष प्रशिक्षण.",
   "Paper 1:": "पेपर १:",
   "100M (Marathi & English)": "100M (मराठी आणि इंग्रजी)",
   "Paper 2:": "पेपर २:",
@@ -952,20 +1290,23 @@ window.LAKSHYA_I18N = {
   "100 Marks Ground Drills": "100 मार्क्स ग्राउंड ड्रिल",
   "40 Marks Board": "40 गुणांचे बोर्ड",
   "Taxation & Finance": "कर आकारणी आणि वित्त",
-  "Focused coaching for STI main examination with deep mastery on Maharashtra economy, state revenue, GST, central/state budgets, and economic planning.": "महाराष्ट्राची अर्थव्यवस्था, राज्य महसूल, GST, केंद्र/राज्य अर्थसंकल्प आणि आर्थिक नियोजन यावर सखोल प्रभुत्व असलेले STI मुख्य परीक्षेसाठी केंद्रित प्रशिक्षण.",
+  "Focused coaching for STI main examination with deep mastery on Maharashtra economy, state revenue, GST, central/state budgets, and economic planning.":
+    "महाराष्ट्राची अर्थव्यवस्था, राज्य महसूल, GST, केंद्र/राज्य अर्थसंकल्प आणि आर्थिक नियोजन यावर सखोल प्रभुत्व असलेले STI मुख्य परीक्षेसाठी केंद्रित प्रशिक्षण.",
   "Core Focus:": "कोर फोकस:",
   "Economics, Planning & GST": "अर्थशास्त्र, नियोजन आणि GST",
   "100M (General Studies & Eco)": "100M (सामान्य अभ्यास आणि पर्यावरण)",
   "Mentorship:": "मार्गदर्शन:",
   "15-Day Written Review": "15-दिवसीय लेखी पुनरावलोकन",
   "Secretariat Administration": "सचिवालय प्रशासन",
-  "Assistant Section Officer main exam preparation focusing on Indian Constitution, RTI Act 2005, IT Act, Secretariat Manual procedures, and Governance.": "सहाय्यक विभाग अधिकारी मुख्य परीक्षेची तयारी भारतीय राज्यघटना, RTI कायदा 2005, IT कायदा, सचिवालय मॅन्युअल प्रक्रिया आणि शासन यावर लक्ष केंद्रित करते.",
+  "Assistant Section Officer main exam preparation focusing on Indian Constitution, RTI Act 2005, IT Act, Secretariat Manual procedures, and Governance.":
+    "सहाय्यक विभाग अधिकारी मुख्य परीक्षेची तयारी भारतीय राज्यघटना, RTI कायदा 2005, IT कायदा, सचिवालय मॅन्युअल प्रक्रिया आणि शासन यावर लक्ष केंद्रित करते.",
   "100M (Polity & Governance)": "100M (राजकारण आणि शासन)",
   "Special Acts:": "विशेष कायदे:",
   "RTI & Information Tech": "RTI आणि माहिती तंत्रज्ञान",
   "40 Marks Panel": "40 गुणांचे पॅनेल",
   "Saralseva Examination": "सरलसेवा परीक्षा",
-  "Structured preparation for state-level direct recruitment exams: Clerk/Typist, Tax Assistant, Vanrakshak, and departmental recruitment under TCS & IBPS patterns.": "राज्यस्तरीय थेट भरती परीक्षांसाठी संरचित तयारी: लिपिक/टंकलेखक, कर सहाय्यक, वनरक्षक, आणि TCS आणि IBPS पॅटर्न अंतर्गत विभागीय भरती.",
+  "Structured preparation for state-level direct recruitment exams: Clerk/Typist, Tax Assistant, Vanrakshak, and departmental recruitment under TCS & IBPS patterns.":
+    "राज्यस्तरीय थेट भरती परीक्षांसाठी संरचित तयारी: लिपिक/टंकलेखक, कर सहाय्यक, वनरक्षक, आणि TCS आणि IBPS पॅटर्न अंतर्गत विभागीय भरती.",
   "200 Marks (100 Questions)": "200 गुण (100 प्रश्न)",
   "Marathi & Eng:": "मराठी आणि इंजी:",
   "50M Marathi + 50M English": "50M मराठी + 50M इंग्रजी",
@@ -975,7 +1316,8 @@ window.LAKSHYA_I18N = {
   "TCS & IBPS Computer Pattern": "TCS आणि IBPS संगणक नमुना",
   "Revenue Cadre": "महसूल संवर्ग",
   "Talathi Examination": "तलाठी परीक्षा",
-  "Targeted district-wise Talathi Bharti coaching with speed drills in Marathi Grammar, General Knowledge, and Numerical Aptitude tailored for revenue administration.": "महसूल प्रशासनासाठी तयार करण्यात आलेले मराठी व्याकरण, सामान्य ज्ञान आणि संख्यात्मक योग्यता यामधील स्पीड ड्रिलसह जिल्हानिहाय तलाठी भारती प्रशिक्षण.",
+  "Targeted district-wise Talathi Bharti coaching with speed drills in Marathi Grammar, General Knowledge, and Numerical Aptitude tailored for revenue administration.":
+    "महसूल प्रशासनासाठी तयार करण्यात आलेले मराठी व्याकरण, सामान्य ज्ञान आणि संख्यात्मक योग्यता यामधील स्पीड ड्रिलसह जिल्हानिहाय तलाठी भारती प्रशिक्षण.",
   "Eligibility:": "पात्रता:",
   "Graduate (Any Stream) + MS-CIT": "पदवीधर (कोणताही प्रवाह) + MS-CIT",
   "Cadre:": "संवर्ग:",
@@ -983,9 +1325,11 @@ window.LAKSHYA_I18N = {
   "PYQ Drills:": "PYQ कवायती:",
   "Full District Question Bank": "संपूर्ण जिल्हा प्रश्न बँक",
   "Curriculum Comparison": "अभ्यासक्रम तुलना",
-  "MPSC & State Services Examination Matrix": "MPSC आणि राज्य सेवा परीक्षा मॅट्रिक्स",
-  "A comparative structural overview of preliminary, mains, and interview requirements across all 7 courses.": "सर्व 7 अभ्यासक्रमांमधील प्राथमिक, मुख्य आणि मुलाखतीच्या आवश्यकतांचे तुलनात्मक संरचनात्मक विहंगावलोकन.",
-  "Program": "कार्यक्रम",
+  "MPSC & State Services Examination Matrix":
+    "MPSC आणि राज्य सेवा परीक्षा मॅट्रिक्स",
+  "A comparative structural overview of preliminary, mains, and interview requirements across all 7 courses.":
+    "सर्व 7 अभ्यासक्रमांमधील प्राथमिक, मुख्य आणि मुलाखतीच्या आवश्यकतांचे तुलनात्मक संरचनात्मक विहंगावलोकन.",
+  Program: "कार्यक्रम",
   "Mains Exam Format": "मुख्य परीक्षेचे स्वरूप",
   "Physical / Interview": "शारीरिक / मुलाखत",
   "Key Cadres": "प्रमुख संवर्ग",
@@ -1020,97 +1364,137 @@ window.LAKSHYA_I18N = {
   "District Merit List": "जिल्हा गुणवत्ता यादी",
   "Talathi (Village Revenue Officer)": "तलाठी (गाव महसूल अधिकारी)",
   "Book an Academic Consultation": "शैक्षणिक सल्लामसलत बुक करा",
-  "Meet founder directors Atul Nikumbh & Nishant Pawar for a diagnostic syllabus discussion and course selection roadmap.": "डायग्नोस्टिक अभ्यासक्रम चर्चा आणि अभ्यासक्रम निवड रोडमॅपसाठी संस्थापक संचालक अतुल निकुंभ आणि निशांत पवार यांना भेटा.",
+  "Meet founder directors Atul Nikumbh & Nishant Pawar for a diagnostic syllabus discussion and course selection roadmap.":
+    "डायग्नोस्टिक अभ्यासक्रम चर्चा आणि अभ्यासक्रम निवड रोडमॅपसाठी संस्थापक संचालक अतुल निकुंभ आणि निशांत पवार यांना भेटा.",
   "Visit Nashik Campus →": "नाशिक कॅम्पसला भेट द्या →",
-  "Connect directly with director Atul Nikumbh or Nishant Pawar for personalized MPSC course planning and batch enrolment.": "वैयक्तिक एमपीएससी अभ्यासक्रम नियोजन आणि बॅच नोंदणीसाठी संचालक अतुल निकुंभ किंवा निशांत पवार यांच्याशी थेट संपर्क साधा.",
+  "Connect directly with director Atul Nikumbh or Nishant Pawar for personalized MPSC course planning and batch enrolment.":
+    "वैयक्तिक एमपीएससी अभ्यासक्रम नियोजन आणि बॅच नोंदणीसाठी संचालक अतुल निकुंभ किंवा निशांत पवार यांच्याशी थेट संपर्क साधा.",
   "WhatsApp Mobile Number *": "WhatsApp मोबाईल नंबर*",
   "Preferred Course Stream *": "पसंतीचा अभ्यासक्रम प्रवाह *",
   "MPSC Rajyaseva (State Services)": "MPSC राज्यसेवा (राज्य सेवा)",
   "PSI Mains & Physical Drills": "PSI मुख्य आणि शारीरिक कवायती",
   "Educational Background *": "शैक्षणिक पार्श्वभूमी*",
   "Connect on WhatsApp": "WhatsApp वर कनेक्ट करा",
-  "Authentic Archives • Pandit Colony, Nashik": "ऑथेंटिक आर्काइव्ह्ज • पंडित कॉलनी, नाशिक",
+  "Authentic Archives • Pandit Colony, Nashik":
+    "ऑथेंटिक आर्काइव्ह्ज • पंडित कॉलनी, नाशिक",
   "PHOTO ARCHIVES": "फोटो संग्रहण",
-  "Interactive Lecture HallsFocused Cohorts of 30": "इंटरएक्टिव्ह लेक्चर हॉल्स फोकस्ड ३० ची कॉहोर्ट्स",
-  "Officer FelicitationsState Level Guidance Seminars": "अधिकारी सत्कार राज्यस्तरीय मार्गदर्शन सेमिनार",
+  "Interactive Lecture HallsFocused Cohorts of 30":
+    "इंटरएक्टिव्ह लेक्चर हॉल्स फोकस्ड ३० ची कॉहोर्ट्स",
+  "Officer FelicitationsState Level Guidance Seminars":
+    "अधिकारी सत्कार राज्यस्तरीय मार्गदर्शन सेमिनार",
   "Authentic Academic Life": "प्रामाणिक शैक्षणिक जीवन",
-  "\"A disciplined environment creates an extraordinary officer. Experience our actual lecture halls, library sessions, and felicitation stages.\"": "\"शिस्तबद्ध वातावरण एक विलक्षण अधिकारी बनवते. आमचे प्रत्यक्ष व्याख्यान हॉल, लायब्ररी सत्रे आणि सत्कार टप्पे अनुभवा.\"",
-  "Located in Pandit Colony, Nashik, The Lakshya Career Academy combines modern pedagogical facilities with an intimate academic atmosphere. Every cohort is capped at 30 students to preserve strict classroom engagement and allow direct mentor interactions with founder directors Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh.": "पंडित कॉलनी, नाशिक येथे स्थित, लक्ष्य करिअर अकादमी आधुनिक शैक्षणिक सुविधांसह जिव्हाळ्याच्या शैक्षणिक वातावरणाची जोड देते. प्रत्येक गटाला 30 विद्यार्थ्यांपर्यंत वर्गात काटेकोरपणे व्यस्त ठेवण्यासाठी आणि संस्थापक संचालक अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांच्याशी थेट मार्गदर्शक संवाद साधण्याची परवानगी देण्यात आली आहे.",
+  '"A disciplined environment creates an extraordinary officer. Experience our actual lecture halls, library sessions, and felicitation stages."':
+    '"शिस्तबद्ध वातावरण एक विलक्षण अधिकारी बनवते. आमचे प्रत्यक्ष व्याख्यान हॉल, लायब्ररी सत्रे आणि सत्कार टप्पे अनुभवा."',
+  "Located in Pandit Colony, Nashik, The Lakshya Career Academy combines modern pedagogical facilities with an intimate academic atmosphere. Every cohort is capped at 30 students to preserve strict classroom engagement and allow direct mentor interactions with founder directors Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh.":
+    "पंडित कॉलनी, नाशिक येथे स्थित, लक्ष्य करिअर अकादमी आधुनिक शैक्षणिक सुविधांसह जिव्हाळ्याच्या शैक्षणिक वातावरणाची जोड देते. प्रत्येक गटाला 30 विद्यार्थ्यांपर्यंत वर्गात काटेकोरपणे व्यस्त ठेवण्यासाठी आणि संस्थापक संचालक अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांच्याशी थेट मार्गदर्शक संवाद साधण्याची परवानगी देण्यात आली आहे.",
   "Actual Academy Moments": "वास्तविक अकादमी क्षण",
   "Life Inside Lakshya Academy": "लाइफ इनसाइड लक्ष्य अकादमी",
   "Classroom & Lectures": "वर्ग आणि व्याख्याने",
   "Felicitations & Achievers": "सत्कार आणि यशवंत",
   "Seminars & Mentorship": "सेमिनार आणि मार्गदर्शन",
   "Interactive Classroom Lecture": "परस्परसंवादी वर्ग व्याख्यान",
-  "Batch size strictly capped at 30 students for personal engagement and instant doubt clearing.": "वैयक्तिक व्यस्तता आणि झटपट शंका दूर करण्यासाठी बॅचचा आकार 30 विद्यार्थ्यांवर काटेकोरपणे मर्यादित आहे.",
+  "Batch size strictly capped at 30 students for personal engagement and instant doubt clearing.":
+    "वैयक्तिक व्यस्तता आणि झटपट शंका दूर करण्यासाठी बॅचचा आकार 30 विद्यार्थ्यांवर काटेकोरपणे मर्यादित आहे.",
   "State Rank Holder Felicitation": "राज्य श्रेणी धारकांचा सत्कार",
-  "Honoring successful officers selected for Maharashtra State Administration & Police.": "महाराष्ट्र राज्य प्रशासन आणि पोलिसांसाठी निवड झालेल्या यशस्वी अधिकाऱ्यांचा सत्कार.",
+  "Honoring successful officers selected for Maharashtra State Administration & Police.":
+    "महाराष्ट्र राज्य प्रशासन आणि पोलिसांसाठी निवड झालेल्या यशस्वी अधिकाऱ्यांचा सत्कार.",
   "State Services Guidance Symposium": "राज्य सेवा मार्गदर्शन परिसंवाद",
-  "Comprehensive strategy session addressed by senior administrative officers and mentors.": "वरिष्ठ प्रशासकीय अधिकारी आणि मार्गदर्शकांनी संबोधित केलेले व्यापक धोरण सत्र.",
+  "Comprehensive strategy session addressed by senior administrative officers and mentors.":
+    "वरिष्ठ प्रशासकीय अधिकारी आणि मार्गदर्शकांनी संबोधित केलेले व्यापक धोरण सत्र.",
   "Concept Mastery & Note Making": "संकल्पना मास्टरी आणि नोट मेकिंग",
-  "Structured subject delivery covering Indian Polity, Economics, and Maharashtra History.": "भारतीय राजकारण, अर्थशास्त्र आणि महाराष्ट्राचा इतिहास कव्हर करणारे संरचित विषय वितरण.",
+  "Structured subject delivery covering Indian Polity, Economics, and Maharashtra History.":
+    "भारतीय राजकारण, अर्थशास्त्र आणि महाराष्ट्राचा इतिहास कव्हर करणारे संरचित विषय वितरण.",
   "Achievers Recognition Ceremony": "अचिव्हर्स रिकग्निशन सोहळा",
-  "Presenting awards and mementos to newly selected State Tax and Sub-Inspectors.": "नव्याने निवडलेल्या राज्य कर आणि उपनिरीक्षकांना पुरस्कार आणि स्मृतिचिन्ह प्रदान करणे.",
+  "Presenting awards and mementos to newly selected State Tax and Sub-Inspectors.":
+    "नव्याने निवडलेल्या राज्य कर आणि उपनिरीक्षकांना पुरस्कार आणि स्मृतिचिन्ह प्रदान करणे.",
   "Aspirant Motivation & Strategy Camp": "इच्छुक प्रेरणा आणि रणनीती शिबिर",
-  "Specialized guidance on overcoming exam pressure, time management, and mock test analytics.": "परीक्षेच्या दबावावर मात करणे, वेळ व्यवस्थापन आणि मॉक टेस्ट विश्लेषणे यावर विशेष मार्गदर्शन.",
+  "Specialized guidance on overcoming exam pressure, time management, and mock test analytics.":
+    "परीक्षेच्या दबावावर मात करणे, वेळ व्यवस्थापन आणि मॉक टेस्ट विश्लेषणे यावर विशेष मार्गदर्शन.",
   "Daily Answer Writing & Evaluation": "दैनिक उत्तर लेखन आणि मूल्यमापन",
-  "In-class timed descriptive writing with line-by-line feedback from Atul Nikumbh sir.": "अतुल निकुंभ सरांच्या ओळी-दर-ओळ अभिप्रायासह वर्गातील वेळेनुसार वर्णनात्मक लेखन.",
+  "In-class timed descriptive writing with line-by-line feedback from Atul Nikumbh sir.":
+    "अतुल निकुंभ सरांच्या ओळी-दर-ओळ अभिप्रायासह वर्गातील वेळेनुसार वर्णनात्मक लेखन.",
   "Lakshya Annual Convocation Stage": "लक्ष्य वार्षिक दीक्षांत समारंभ स्टेज",
-  "Celebrating the dedication and rank-winning milestones of our candidates with families.": "आमच्या उमेदवारांचे समर्पण आणि रँक-विजेते टप्पे कुटुंबांसह साजरे करत आहे.",
+  "Celebrating the dedication and rank-winning milestones of our candidates with families.":
+    "आमच्या उमेदवारांचे समर्पण आणि रँक-विजेते टप्पे कुटुंबांसह साजरे करत आहे.",
   "Serving Officer Guest Lecture": "सेवारत अधिकारी अतिथी व्याख्यान",
-  "Direct insights into administrative challenges and interview board expectations.": "प्रशासकीय आव्हाने आणि मुलाखत मंडळाच्या अपेक्षांमध्ये थेट अंतर्दृष्टी.",
+  "Direct insights into administrative challenges and interview board expectations.":
+    "प्रशासकीय आव्हाने आणि मुलाखत मंडळाच्या अपेक्षांमध्ये थेट अंतर्दृष्टी.",
   "General Studies Foundation Hall": "जनरल स्टडीज फाउंडेशन हॉल",
-  "Comprehensive syllabus mapping with interactive question answering in Pandit Colony.": "पंडित कॉलनीमध्ये संवादात्मक प्रश्नांच्या उत्तरांसह सर्वसमावेशक अभ्यासक्रम मॅपिंग.",
+  "Comprehensive syllabus mapping with interactive question answering in Pandit Colony.":
+    "पंडित कॉलनीमध्ये संवादात्मक प्रश्नांच्या उत्तरांसह सर्वसमावेशक अभ्यासक्रम मॅपिंग.",
   "Peer Study Circle & Discussion": "पीअर स्टडी सर्कल आणि चर्चा",
-  "Collaborative debates on Maharashtra government policies and current affairs topics.": "महाराष्ट्र सरकारची धोरणे आणि चालू घडामोडी या विषयांवर सहयोगी वादविवाद.",
+  "Collaborative debates on Maharashtra government policies and current affairs topics.":
+    "महाराष्ट्र सरकारची धोरणे आणि चालू घडामोडी या विषयांवर सहयोगी वादविवाद.",
   "State Level Civil Services Guidance": "राज्यस्तरीय नागरी सेवा मार्गदर्शन",
-  "Nashik's largest annual gathering of serious civil service aspirants.": "गंभीर नागरी सेवा इच्छुकांचा नाशिकचा सर्वात मोठा वार्षिक मेळावा.",
-  "Selected Officer Honour Ceremony": "निवड झालेल्या अधिकाऱ्यांचा सत्कार समारंभ",
-  "Recognizing the outstanding ranks scored by Lakshya students across Maharashtra cadres.": "लक्ष्याच्या विद्यार्थ्यांनी उत्कृष्ट रँक मिळविल्यास संपूर्ण महाराष्ट्राच्या संवर्गातील उत्कृष्ट गुणांची दखल घेत.",
+  "Nashik's largest annual gathering of serious civil service aspirants.":
+    "गंभीर नागरी सेवा इच्छुकांचा नाशिकचा सर्वात मोठा वार्षिक मेळावा.",
+  "Selected Officer Honour Ceremony":
+    "निवड झालेल्या अधिकाऱ्यांचा सत्कार समारंभ",
+  "Recognizing the outstanding ranks scored by Lakshya students across Maharashtra cadres.":
+    "लक्ष्याच्या विद्यार्थ्यांनी उत्कृष्ट रँक मिळविल्यास संपूर्ण महाराष्ट्राच्या संवर्गातील उत्कृष्ट गुणांची दखल घेत.",
   "CSAT & Logical Reasoning Hall": "CSAT आणि लॉजिकल रिझनिंग हॉल",
-  "Specialized aptitude techniques and short tricks delivered under Nishant Pawar sir.": "निशांत पवार सरांच्या मार्गदर्शनाखाली विशेष योग्यता तंत्र आणि शॉर्ट ट्रिक्स देण्यात आल्या.",
+  "Specialized aptitude techniques and short tricks delivered under Nishant Pawar sir.":
+    "निशांत पवार सरांच्या मार्गदर्शनाखाली विशेष योग्यता तंत्र आणि शॉर्ट ट्रिक्स देण्यात आल्या.",
   "1-Year Preparation Roadmap Seminar": "1-वर्ष तयारी रोडमॅप सेमिनार",
-  "Step-by-step month-wise milestone planning for graduation and repeat aspirants.": "ग्रॅज्युएशन आणि पुनरावृत्ती इच्छूकांसाठी चरण-दर-चरण महिनावार टप्पे नियोजन.",
+  "Step-by-step month-wise milestone planning for graduation and repeat aspirants.":
+    "ग्रॅज्युएशन आणि पुनरावृत्ती इच्छूकांसाठी चरण-दर-चरण महिनावार टप्पे नियोजन.",
   "Indian Polity & Law Modules": "भारतीय राजकारण आणि कायदा मॉड्यूल्स",
-  "Detailed constitutional articles, landmark Supreme Court judgments, and MPSC case studies.": "तपशीलवार घटनात्मक लेख, सर्वोच्च न्यायालयाचे महत्त्वपूर्ण निकाल आणि MPSC केस स्टडीज.",
+  "Detailed constitutional articles, landmark Supreme Court judgments, and MPSC case studies.":
+    "तपशीलवार घटनात्मक लेख, सर्वोच्च न्यायालयाचे महत्त्वपूर्ण निकाल आणि MPSC केस स्टडीज.",
   "Officer Trophy Presentation": "अधिकारी करंडक सादरीकरण",
-  "Traditional Marathi felicitation ceremony with parents and Academy directors.": "पालक आणि अकादमी संचालकांसह पारंपारिक मराठी सत्कार समारंभ.",
+  "Traditional Marathi felicitation ceremony with parents and Academy directors.":
+    "पालक आणि अकादमी संचालकांसह पारंपारिक मराठी सत्कार समारंभ.",
   "15-Day Personal Progress Review": "15-दिवस वैयक्तिक प्रगती पुनरावलोकन",
-  "One-on-one audit of notes, test series scorecards, and descriptive handwriting analysis.": "नोट्स, चाचणी मालिका स्कोअरकार्ड आणि वर्णनात्मक हस्तलेखन विश्लेषण यांचे एक-एक ऑडिट.",
+  "One-on-one audit of notes, test series scorecards, and descriptive handwriting analysis.":
+    "नोट्स, चाचणी मालिका स्कोअरकार्ड आणि वर्णनात्मक हस्तलेखन विश्लेषण यांचे एक-एक ऑडिट.",
   "Subject Specialization Session": "विषय विशेषीकरण सत्र",
-  "Deep-dive modules for Marathi Grammar, English comprehension, and Current Affairs.": "मराठी व्याकरण, इंग्रजी आकलन आणि चालू घडामोडींसाठी सखोल माहिती.",
+  "Deep-dive modules for Marathi Grammar, English comprehension, and Current Affairs.":
+    "मराठी व्याकरण, इंग्रजी आकलन आणि चालू घडामोडींसाठी सखोल माहिती.",
   "Career Orientation Workshop": "करिअर ओरिएंटेशन कार्यशाळा",
-  "Comprehensive briefing on post profiles: Deputy Collector, DySP, Tehsildar, PSI, and STI.": "पोस्ट प्रोफाइल्सवर सर्वसमावेशक माहिती: उपजिल्हाधिकारी, डीवायएसपी, तहसीलदार, पीएसआय आणि एसटीआय.",
+  "Comprehensive briefing on post profiles: Deputy Collector, DySP, Tehsildar, PSI, and STI.":
+    "पोस्ट प्रोफाइल्सवर सर्वसमावेशक माहिती: उपजिल्हाधिकारी, डीवायएसपी, तहसीलदार, पीएसआय आणि एसटीआय.",
   "Rank Holders Group Felicitation": "रँक धारकांचा गट सत्कार",
-  "Our proud cohort of newly appointed officers celebrating together at the academy.": "अकादमीमध्ये एकत्र साजरे करणाऱ्या नवनियुक्त अधिकाऱ्यांचा आमचा अभिमानास्पद गट.",
+  "Our proud cohort of newly appointed officers celebrating together at the academy.":
+    "अकादमीमध्ये एकत्र साजरे करणाऱ्या नवनियुक्त अधिकाऱ्यांचा आमचा अभिमानास्पद गट.",
   "Interactive Strategy Panel": "परस्परसंवादी रणनीती पॅनेल",
-  "Open Q&A addressing exam syllabus changes and high-yield scoring strategies.": "प्रश्नोत्तरे संबोधित करणाऱ्या परीक्षेच्या अभ्यासक्रमातील बदल आणि उच्च-उत्पन्न स्कोअरिंग धोरणे उघडा.",
+  "Open Q&A addressing exam syllabus changes and high-yield scoring strategies.":
+    "प्रश्नोत्तरे संबोधित करणाऱ्या परीक्षेच्या अभ्यासक्रमातील बदल आणि उच्च-उत्पन्न स्कोअरिंग धोरणे उघडा.",
   "Alumni Officer Felicitation": "माजी विद्यार्थी अधिकारी सत्कार",
-  "Welcoming back successful alumni to inspire current batches in Nashik.": "नाशिकमधील सध्याच्या बॅचेसला प्रेरणा देण्यासाठी यशस्वी माजी विद्यार्थ्यांचे स्वागत.",
+  "Welcoming back successful alumni to inspire current batches in Nashik.":
+    "नाशिकमधील सध्याच्या बॅचेसला प्रेरणा देण्यासाठी यशस्वी माजी विद्यार्थ्यांचे स्वागत.",
   "Achievement Celebration Stage": "अचिव्हमेंट सेलिब्रेशन स्टेज",
-  "Celebrating our candidates who cleared Saralseva and Talathi state examinations.": "सरलसेवा आणि तलाठी राज्य परीक्षा उत्तीर्ण झालेल्या आमच्या उमेदवारांचा आनंद साजरा करत आहोत.",
+  "Celebrating our candidates who cleared Saralseva and Talathi state examinations.":
+    "सरलसेवा आणि तलाठी राज्य परीक्षा उत्तीर्ण झालेल्या आमच्या उमेदवारांचा आनंद साजरा करत आहोत.",
   "Academy Community & Student Life": "अकादमी समुदाय आणि विद्यार्थी जीवन",
-  "The academy organizes social events and group activities that bring students and faculty together.": "अकादमी सामाजिक कार्यक्रम आणि समूह क्रियाकलाप आयोजित करते जे विद्यार्थी आणि शिक्षकांना एकत्र आणतात.",
+  "The academy organizes social events and group activities that bring students and faculty together.":
+    "अकादमी सामाजिक कार्यक्रम आणि समूह क्रियाकलाप आयोजित करते जे विद्यार्थी आणि शिक्षकांना एकत्र आणतात.",
   "Group Activities": "गट उपक्रम",
-  "Collaborative student engagement and team interactions fostering camaraderie among aspirants.": "इच्छुकांमध्ये सौहार्द वाढवणारे सहयोगी विद्यार्थी सहभाग आणि सांघिक संवाद.",
+  "Collaborative student engagement and team interactions fostering camaraderie among aspirants.":
+    "इच्छुकांमध्ये सौहार्द वाढवणारे सहयोगी विद्यार्थी सहभाग आणि सांघिक संवाद.",
   "Classroom Gatherings": "वर्ग संमेलने",
-  "Informal classroom discussions, student sharing circles, and mentor-led cohort meetups.": "अनौपचारिक वर्ग चर्चा, विद्यार्थी शेअरिंग सर्कल आणि मेंटॉरच्या नेतृत्वाखालील समूह बैठक.",
+  "Informal classroom discussions, student sharing circles, and mentor-led cohort meetups.":
+    "अनौपचारिक वर्ग चर्चा, विद्यार्थी शेअरिंग सर्कल आणि मेंटॉरच्या नेतृत्वाखालील समूह बैठक.",
   "Award Presentations": "पुरस्कार सादरीकरणे",
-  "Felicitating outstanding test-series performers and academic milestone achievers.": "उत्कृष्ट चाचणी-मालिका परफॉर्मर्स आणि शैक्षणिक टप्पा गाठणाऱ्यांचा सत्कार.",
+  "Felicitating outstanding test-series performers and academic milestone achievers.":
+    "उत्कृष्ट चाचणी-मालिका परफॉर्मर्स आणि शैक्षणिक टप्पा गाठणाऱ्यांचा सत्कार.",
   "Other Academy Events": "इतर अकादमी कार्यक्रम",
-  "Cultural assemblies, celebratory gatherings, and institutional milestones.": "सांस्कृतिक संमेलने, उत्सव मेळावे आणि संस्थात्मक टप्पे.",
+  "Cultural assemblies, celebratory gatherings, and institutional milestones.":
+    "सांस्कृतिक संमेलने, उत्सव मेळावे आणि संस्थात्मक टप्पे.",
   "Peer Group Activities": "समवयस्क गट क्रियाकलाप",
-  "Structured group interaction, collaborative revision, and shared learning circles.": "संरचित गट संवाद, सहयोगी पुनरावृत्ती आणि सामायिक शिक्षण मंडळे.",
+  "Structured group interaction, collaborative revision, and shared learning circles.":
+    "संरचित गट संवाद, सहयोगी पुनरावृत्ती आणि सामायिक शिक्षण मंडळे.",
   "Officer Felicitation Gathering": "अधिकारी सत्कार मेळावा",
-  "Faculty, families, and successful candidates coming together in shared celebration.": "प्राध्यापक, कुटुंबे आणि यशस्वी उमेदवार सामायिक उत्सवात एकत्र येत आहेत.",
+  "Faculty, families, and successful candidates coming together in shared celebration.":
+    "प्राध्यापक, कुटुंबे आणि यशस्वी उमेदवार सामायिक उत्सवात एकत्र येत आहेत.",
   "Visit Our Campus": "आमच्या कॅम्पसला भेट द्या",
   "Schedule a Campus Visit": "कॅम्पस भेटीचे वेळापत्रक करा",
-  "Experience a live lecture session and meet founder directors in Pandit Colony, Nashik.": "थेट व्याख्यान सत्राचा अनुभव घ्या आणि पंडित कॉलनी, नाशिक येथे संस्थापक संचालकांना भेटा.",
+  "Experience a live lecture session and meet founder directors in Pandit Colony, Nashik.":
+    "थेट व्याख्यान सत्राचा अनुभव घ्या आणि पंडित कॉलनी, नाशिक येथे संस्थापक संचालकांना भेटा.",
   "Preferred Time to Visit *": "भेट देण्यासाठी प्राधान्य दिलेली वेळ*",
   "Morning (9:00 AM to 1:00 PM)": "सकाळी (9:00 AM ते 1:00 PM)",
   "Afternoon (1:00 PM to 5:00 PM)": "दुपारी (1:00 PM ते 5:00 PM)",
   "Evening (5:00 PM to 8:00 PM)": "संध्याकाळी (5:00 PM ते 8:00 PM)",
-  "LAKSHYA": "लक्ष्या",
+  LAKSHYA: "लक्ष्या",
   "Focused Discipline": "केंद्रित शिस्त",
   "Personalized Mentoring": "वैयक्तिक मार्गदर्शन",
   "SCROLL TO EXPLORE": "एक्सप्लोर करण्यासाठी स्क्रोल करा",
@@ -1118,238 +1502,318 @@ window.LAKSHYA_I18N = {
   "Admission to Achievement": "अचिव्हमेंटला प्रवेश",
   "Officers Mentored": "अधिकाऱ्यांचे मार्गदर्शन",
   "OUR LEGACY": "आमचा वारसा",
-  "Shaping Maharashtra's Next Generation of Civil Servants": "महाराष्ट्रातील नागरी सेवकांच्या पुढील पिढीला आकार देणे",
-  "Established in 2010 in Nashik, Lakshya Career Academy is dedicated to guiding aspirants towards their goals in competitive examinations. Founded under the academic leadership of Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh, the academy focuses on quality education, structured preparation, and personalised academic guidance.": "नाशिकमध्ये 2010 मध्ये स्थापित, लक्ष्य करिअर अकादमी स्पर्धा परीक्षांमध्ये इच्छुकांना त्यांच्या ध्येयांकडे मार्गदर्शन करण्यासाठी समर्पित आहे. अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांच्या शैक्षणिक नेतृत्वाखाली स्थापन झालेली ही अकादमी दर्जेदार शिक्षण, संरचित तयारी आणि वैयक्तिक शैक्षणिक मार्गदर्शन यावर लक्ष केंद्रित करते.",
-  "With experienced faculty, comprehensive study materials, regular practice, and a supportive learning environment, Lakshya helps students strengthen their knowledge, develop confidence, and prepare for the challenges of competitive examinations.": "अनुभवी प्राध्यापक, सर्वसमावेशक अभ्यास साहित्य, नियमित सराव आणि आश्वासक शिक्षण वातावरणासह लक्ष्य विद्यार्थ्यांना त्यांचे ज्ञान बळकट करण्यास, आत्मविश्वास वाढविण्यात आणि स्पर्धात्मक परीक्षांच्या आव्हानांसाठी तयार करण्यात मदत करते.",
-  "Our vision goes beyond examination preparation. We aim to nurture capable, responsible, and knowledgeable individuals who aspire to contribute to society through public service.": "आपली दृष्टी परीक्षेच्या तयारीच्या पलीकडे जाते. सार्वजनिक सेवेद्वारे समाजात योगदान देण्याची आकांक्षा असलेल्या सक्षम, जबाबदार आणि ज्ञानी व्यक्तींचे पालनपोषण करण्याचे आमचे ध्येय आहे.",
+  "Shaping Maharashtra's Next Generation of Civil Servants":
+    "महाराष्ट्रातील नागरी सेवकांच्या पुढील पिढीला आकार देणे",
+  "Established in 2010 in Nashik, Lakshya Career Academy is dedicated to guiding aspirants towards their goals in competitive examinations. Founded under the academic leadership of Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh, the academy focuses on quality education, structured preparation, and personalised academic guidance.":
+    "नाशिकमध्ये 2010 मध्ये स्थापित, लक्ष्य करिअर अकादमी स्पर्धा परीक्षांमध्ये इच्छुकांना त्यांच्या ध्येयांकडे मार्गदर्शन करण्यासाठी समर्पित आहे. अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांच्या शैक्षणिक नेतृत्वाखाली स्थापन झालेली ही अकादमी दर्जेदार शिक्षण, संरचित तयारी आणि वैयक्तिक शैक्षणिक मार्गदर्शन यावर लक्ष केंद्रित करते.",
+  "With experienced faculty, comprehensive study materials, regular practice, and a supportive learning environment, Lakshya helps students strengthen their knowledge, develop confidence, and prepare for the challenges of competitive examinations.":
+    "अनुभवी प्राध्यापक, सर्वसमावेशक अभ्यास साहित्य, नियमित सराव आणि आश्वासक शिक्षण वातावरणासह लक्ष्य विद्यार्थ्यांना त्यांचे ज्ञान बळकट करण्यास, आत्मविश्वास वाढविण्यात आणि स्पर्धात्मक परीक्षांच्या आव्हानांसाठी तयार करण्यात मदत करते.",
+  "Our vision goes beyond examination preparation. We aim to nurture capable, responsible, and knowledgeable individuals who aspire to contribute to society through public service.":
+    "आपली दृष्टी परीक्षेच्या तयारीच्या पलीकडे जाते. सार्वजनिक सेवेद्वारे समाजात योगदान देण्याची आकांक्षा असलेल्या सक्षम, जबाबदार आणि ज्ञानी व्यक्तींचे पालनपोषण करण्याचे आमचे ध्येय आहे.",
   "30 Students Batch Cap": "30 विद्यार्थी बॅच कॅप",
-  "Strictly limited class size ensures every aspirant receives direct daily faculty interaction.": "काटेकोरपणे मर्यादित वर्गाचा आकार प्रत्येक इच्छुकाला थेट दैनंदिन शिक्षकांशी संवाद साधण्याची खात्री देतो.",
+  "Strictly limited class size ensures every aspirant receives direct daily faculty interaction.":
+    "काटेकोरपणे मर्यादित वर्गाचा आकार प्रत्येक इच्छुकाला थेट दैनंदिन शिक्षकांशी संवाद साधण्याची खात्री देतो.",
   "15-Day Mentoring Cycle": "१५-दिवसीय मार्गदर्शन सायकल",
-  "Fortnightly 1-on-1 milestone reviews auditing daily Mains answer writing and test scores.": "पाक्षिक 1-ऑन-1 माइलस्टोन पुनरावलोकने दैनिक मुख्य उत्तर लेखन आणि चाचणी गुणांचे ऑडिट करतात.",
+  "Fortnightly 1-on-1 milestone reviews auditing daily Mains answer writing and test scores.":
+    "पाक्षिक 1-ऑन-1 माइलस्टोन पुनरावलोकने दैनिक मुख्य उत्तर लेखन आणि चाचणी गुणांचे ऑडिट करतात.",
   "Daily Mains Answer Writing": "दैनिक मुख्य उत्तर लेखन",
-  "Structured descriptive evaluation for GS 1 to 4, essay writing, and high-scoring structure.": "GS 1 ते 4 साठी संरचित वर्णनात्मक मूल्यमापन, निबंध लेखन आणि उच्च-स्कोअरिंग रचना.",
+  "Structured descriptive evaluation for GS 1 to 4, essay writing, and high-scoring structure.":
+    "GS 1 ते 4 साठी संरचित वर्णनात्मक मूल्यमापन, निबंध लेखन आणि उच्च-स्कोअरिंग रचना.",
   "24x7 AC Reading Hall": "24x7 AC रीडिंग हॉल",
-  "Equipped with 12-year PYQ archives, standard reference textbooks, and periodicals.": "12-वर्षांचे PYQ संग्रह, मानक संदर्भ पाठ्यपुस्तके आणि नियतकालिकांसह सुसज्ज.",
+  "Equipped with 12-year PYQ archives, standard reference textbooks, and periodicals.":
+    "12-वर्षांचे PYQ संग्रह, मानक संदर्भ पाठ्यपुस्तके आणि नियतकालिकांसह सुसज्ज.",
   "Our Story & 14 Pillars →": "आमची कथा आणि १४ स्तंभ →",
   "Our Aim & Mission": "आमचे ध्येय आणि ध्येय",
-  "To Increase Maharashtra’s Share in Direct Decision Making Process & Governance.": "थेट निर्णय घेण्याची प्रक्रिया आणि प्रशासनात महाराष्ट्राचा वाटा वाढवण्यासाठी.",
-  "Maharashtra contributes 10% to India's population but less than 7% to administration. Lakshya Career Academy prepares trained, able administrators with a philanthropic vision who actively strengthen state and national governance.": "भारताच्या लोकसंख्येमध्ये महाराष्ट्राचा वाटा 10% आहे परंतु प्रशासनात 7% पेक्षा कमी आहे. लक्ष्य करिअर अकादमी परोपकारी दृष्टी असलेले प्रशिक्षित, सक्षम प्रशासक तयार करते जे सक्रियपणे राज्य आणि राष्ट्रीय प्रशासन मजबूत करतात.",
+  "To Increase Maharashtra’s Share in Direct Decision Making Process & Governance.":
+    "थेट निर्णय घेण्याची प्रक्रिया आणि प्रशासनात महाराष्ट्राचा वाटा वाढवण्यासाठी.",
+  "Maharashtra contributes 10% to India's population but less than 7% to administration. Lakshya Career Academy prepares trained, able administrators with a philanthropic vision who actively strengthen state and national governance.":
+    "भारताच्या लोकसंख्येमध्ये महाराष्ट्राचा वाटा 10% आहे परंतु प्रशासनात 7% पेक्षा कमी आहे. लक्ष्य करिअर अकादमी परोपकारी दृष्टी असलेले प्रशिक्षित, सक्षम प्रशासक तयार करते जे सक्रियपणे राज्य आणि राष्ट्रीय प्रशासन मजबूत करतात.",
   "Read Full Mission & Aim →": "संपूर्ण मिशन आणि ध्येय वाचा →",
   "Systematic Methodology": "पद्धतशीर पद्धत",
-  "The Lakshya 3 Stage Academic Blueprint": "लक्ष्य 3 स्टेज शैक्षणिक ब्लूप्रिंट",
-  "From preliminary MCQ precision to Mains analytical writing and Board interview readiness, our pedagogical system leaves nothing to chance.": "प्राथमिक MCQ अचूकतेपासून ते मुख्य विश्लेषणात्मक लेखन आणि बोर्ड मुलाखतीच्या तयारीपर्यंत, आमची शैक्षणिक प्रणाली कोणतीही संधी सोडत नाही.",
-  "Stage 01 • Foundation & Speed": "टप्पा 01 • पाया आणि गती",
-  "Prelims Exam Mastery (पूर्व परीक्षा)": "प्रिलिम्स परीक्षेत प्रभुत्व (पूर्व परीक्षा)",
-  "Comprehensive conceptual clarity across GS 1 and CSAT aptitude with 12-year PYQ weightage mapping and weekly 100-mark OMR speed drills.": "12-वर्ष PYQ वेटेज मॅपिंग आणि साप्ताहिक 100-मार्क OMR स्पीड ड्रिलसह GS 1 आणि CSAT योग्यता मध्ये सर्वसमावेशक संकल्पनात्मक स्पष्टता.",
-  "12-Year MPSC Topicwise Question Mapping": "12-वर्ष MPSC विषयनिहाय प्रश्न मॅपिंग",
-  "CSAT Logical Reasoning & Data Interpretation": "CSAT लॉजिकल रिझनिंग आणि डेटा इंटरप्रिटेशन",
-  "Weekly Negative Marking Elimination Drills": "साप्ताहिक नकारात्मक चिन्हांकन निर्मूलन कवायती",
-  "State Board 5th to 12th Foundation Mastery": "राज्य मंडळ 5वी ते 12वी फाउंडेशन मास्टरी",
-  "Stage 02 • Analytical Depth": "टप्पा 02 • विश्लेषणात्मक खोली",
-  "Mains Descriptive Excellence (मुख्य परीक्षा)": "मुख्य वर्णनात्मक उत्कृष्टता (मुख्य परीक्षा)",
-  "Daily answer-writing practice corrected line-by-line by directors. Focus on high-scoring structure, administrative keywords, and case studies.": "दैनंदिन उत्तर-लेखनाचा सराव संचालकांनी ओळ-दर-ओळ दुरुस्त केला. उच्च-स्कोअरिंग संरचना, प्रशासकीय कीवर्ड आणि केस स्टडीवर लक्ष केंद्रित करा.",
-  "Daily Descriptive Answer Writing & Feedback": "दैनिक वर्णनात्मक उत्तर लेखन आणि अभिप्राय",
-  "GS 1 to 4 Complete Syllabus Decomposition": "GS 1 ते 4 पूर्ण अभ्यासक्रम विघटन",
-  "Marathi & English Grammar & Essay Writing": "मराठी आणि इंग्रजी व्याकरण आणि निबंध लेखन",
-  "Maharashtra Economic Survey & Budgets": "महाराष्ट्र आर्थिक सर्वेक्षण आणि अंदाजपत्रक",
-  "Stage 03 • Leadership Presence": "टप्पा 03 • नेतृत्वाची उपस्थिती",
-  "Interview & Board Guidance (मुलाखत)": "मुलाखत आणि मंडळाचे मार्गदर्शन (मुलाखत)",
-  "Panel mock interviews conducted by retired and serving Class-1 officers, accompanied by video analysis, body language coaching, and DAF review.": "निवृत्त आणि सेवा देत असलेल्या वर्ग-1 अधिकाऱ्यांच्या पॅनेल मॉक मुलाखती, व्हिडिओ विश्लेषण, देहबोली प्रशिक्षण आणि DAF पुनरावलोकनासह.",
-  "Mock Panels with Serving & Retired Officers": "सेवानिवृत्त आणि सेवानिवृत्त अधिकाऱ्यांसह मॉक पॅनेल",
-  "Video Performance Review & Tone Correction": "व्हिडिओ कार्यप्रदर्शन पुनरावलोकन आणि टोन सुधारणा",
-  "Detailed Application Form (DAF) Analysis": "तपशीलवार अर्ज फॉर्म (DAF) विश्लेषण",
-  "Psychological & Confidence Counseling": "मानसशास्त्रीय आणि आत्मविश्वास समुपदेशन",
   "Class I & II Services": "वर्ग I आणि II सेवा",
-  "State Civil Services foundation program covering Deputy Collector, DySP, and Tahasildar cadres. 400M Prelims, 800M Mains (6 papers), and 100M Interview panel.": "उपजिल्हाधिकारी, डीवायएसपी आणि तहसीलदार संवर्गांना समाविष्ट करणारा राज्य नागरी सेवा प्रतिष्ठान कार्यक्रम. 400M प्रिलिम्स, 800M मुख्य (6 पेपर), आणि 100M मुलाखत पॅनेल.",
+  "State Civil Services foundation program covering Deputy Collector, DySP, and Tahasildar cadres. 400M Prelims, 800M Mains (6 papers), and 100M Interview panel.":
+    "उपजिल्हाधिकारी, डीवायएसपी आणि तहसीलदार संवर्गांना समाविष्ट करणारा राज्य नागरी सेवा प्रतिष्ठान कार्यक्रम. 400M प्रिलिम्स, 800M मुख्य (6 पेपर), आणि 100M मुलाखत पॅनेल.",
   "Explore Rajyaseva": "राज्यसेवा शोधा",
   "Joint Subordinate Cadre": "संयुक्त अधीनस्थ संवर्ग",
-  "Unified joint coaching for Police Sub-Inspector (PSI), Sales Tax Inspector (STI), and Assistant Section Officer (ASO). Integrated Prelims-cum-Mains curriculum.": "पोलीस उपनिरीक्षक (PSI), विक्रीकर निरीक्षक (STI), आणि सहाय्यक विभाग अधिकारी (ASO) साठी एकत्रित संयुक्त प्रशिक्षण. एकात्मिक प्रिलिम्स-कम-मुख्य अभ्यासक्रम.",
+  "Unified joint coaching for Police Sub-Inspector (PSI), Sales Tax Inspector (STI), and Assistant Section Officer (ASO). Integrated Prelims-cum-Mains curriculum.":
+    "पोलीस उपनिरीक्षक (PSI), विक्रीकर निरीक्षक (STI), आणि सहाय्यक विभाग अधिकारी (ASO) साठी एकत्रित संयुक्त प्रशिक्षण. एकात्मिक प्रिलिम्स-कम-मुख्य अभ्यासक्रम.",
   "Explore Combine": "एकत्र एक्सप्लोर करा",
   "Police Department": "पोलीस विभाग",
-  "Specialized law coaching covering IPC, CrPC, Mumbai Police Act, RTI, and Human Rights, accompanied by 100-mark ground physical fitness guidance.": "IPC, CrPC, मुंबई पोलीस कायदा, RTI, आणि मानवाधिकार यांचा समावेश असलेले विशेष कायदेविषयक प्रशिक्षण, 100-गुणांच्या ग्राउंड फिजिकल फिटनेस मार्गदर्शनासह.",
+  "Specialized law coaching covering IPC, CrPC, Mumbai Police Act, RTI, and Human Rights, accompanied by 100-mark ground physical fitness guidance.":
+    "IPC, CrPC, मुंबई पोलीस कायदा, RTI, आणि मानवाधिकार यांचा समावेश असलेले विशेष कायदेविषयक प्रशिक्षण, 100-गुणांच्या ग्राउंड फिजिकल फिटनेस मार्गदर्शनासह.",
   "Explore PSI Batch": "PSI बॅच एक्सप्लोर करा",
   "Direct Recruitment": "थेट भरती",
-  "200-mark 4-subject speed test mastery (Marathi, English, GK, Maths & Reasoning) tailored for District Talathi and State departmental recruitment.": "जिल्हा तलाठी आणि राज्य विभागीय भरतीसाठी 200-गुणांचे 4-विषय वेग चाचणी प्रभुत्व (मराठी, इंग्रजी, GK, गणित आणि तर्क)",
+  "200-mark 4-subject speed test mastery (Marathi, English, GK, Maths & Reasoning) tailored for District Talathi and State departmental recruitment.":
+    "जिल्हा तलाठी आणि राज्य विभागीय भरतीसाठी 200-गुणांचे 4-विषय वेग चाचणी प्रभुत्व (मराठी, इंग्रजी, GK, गणित आणि तर्क)",
   "Explore Saralseva": "सरसेवेचा शोध घ्या",
   "Verified Officer Reviews": "सत्यापित अधिकारी पुनरावलोकने",
   "Success Stories & Testimonials": "यशोगाथा आणि प्रशंसापत्रे",
-  "Hear directly from aspirants who transformed their preparation and cleared competitive examinations with Lakshya Career Academy.": "लक्ष्य करिअर अकादमीसह त्यांच्या तयारीत बदल करणाऱ्या आणि स्पर्धा परीक्षा पास करणाऱ्या इच्छुकांकडून थेट ऐका.",
+  "Hear directly from aspirants who transformed their preparation and cleared competitive examinations with Lakshya Career Academy.":
+    "लक्ष्य करिअर अकादमीसह त्यांच्या तयारीत बदल करणाऱ्या आणि स्पर्धा परीक्षा पास करणाऱ्या इच्छुकांकडून थेट ऐका.",
   "Shrutika Dhatrak": "श्रुतिका धात्रक",
-  "Selected Officer • Maharashtra Engineering Services (MES)": "निवडलेले अधिकारी • महाराष्ट्र अभियांत्रिकी सेवा (MES)",
-  "Joining Lakshya Career Academy was the turning point in my competitive exam journey. The 15-day evaluation cycles and personal mentoring by Atul Sir and Nishant Sir provided absolute conceptual clarity. Lakshya's disciplined study environment and small batch size made all the difference in cracking Maharashtra Engineering Services.": "लक्ष्य करिअर अकादमीमध्ये प्रवेश करणे हा माझ्या स्पर्धा परीक्षेच्या प्रवासातील टर्निंग पॉइंट होता. 15-दिवसीय मूल्यमापन चक्र आणि अतुल सर आणि निशांत सर यांच्या वैयक्तिक मार्गदर्शनाने परिपूर्ण वैचारिक स्पष्टता प्रदान केली. लक्ष्याच्या शिस्तबद्ध अभ्यासाचे वातावरण आणि लहान बॅचच्या आकारामुळे महाराष्ट्र अभियांत्रिकी सेवा क्रॅक करण्यात सर्व फरक पडला.",
+  "Selected Officer • Maharashtra Engineering Services (MES)":
+    "निवडलेले अधिकारी • महाराष्ट्र अभियांत्रिकी सेवा (MES)",
+  "Joining Lakshya Career Academy was the turning point in my competitive exam journey. The 15-day evaluation cycles and personal mentoring by Atul Sir and Nishant Sir provided absolute conceptual clarity. Lakshya's disciplined study environment and small batch size made all the difference in cracking Maharashtra Engineering Services.":
+    "लक्ष्य करिअर अकादमीमध्ये प्रवेश करणे हा माझ्या स्पर्धा परीक्षेच्या प्रवासातील टर्निंग पॉइंट होता. 15-दिवसीय मूल्यमापन चक्र आणि अतुल सर आणि निशांत सर यांच्या वैयक्तिक मार्गदर्शनाने परिपूर्ण वैचारिक स्पष्टता प्रदान केली. लक्ष्याच्या शिस्तबद्ध अभ्यासाचे वातावरण आणि लहान बॅचच्या आकारामुळे महाराष्ट्र अभियांत्रिकी सेवा क्रॅक करण्यात सर्व फरक पडला.",
   "Bhushan Ahirrao": "भूषण अहिरराव",
-  "Selected Officer • Class 2 EPFO (Enforcement Officer)": "निवडलेले अधिकारी • वर्ग 2 EPFO (अंमलबजावणी अधिकारी)",
-  "The structured answer writing guidance, mock interview sessions, and up-to-date study material at Lakshya Academy gave me the competitive edge. The directors personally reviewed my test papers and helped refine my strategy to clear the Class 2 EPFO examination.": "लक्ष्य अकादमीमधील संरचित उत्तर लेखन मार्गदर्शन, मॉक इंटरव्ह्यू सत्रे आणि अद्ययावत अभ्यास सामग्री यांनी मला स्पर्धात्मक धार दिली. संचालकांनी वैयक्तिकरित्या माझ्या चाचणी पेपरचे पुनरावलोकन केले आणि वर्ग 2 EPFO ​​परीक्षा उत्तीर्ण करण्यासाठी माझे धोरण सुधारण्यास मदत केली.",
+  "Selected Officer • Class 2 EPFO (Enforcement Officer)":
+    "निवडलेले अधिकारी • वर्ग 2 EPFO (अंमलबजावणी अधिकारी)",
+  "The structured answer writing guidance, mock interview sessions, and up-to-date study material at Lakshya Academy gave me the competitive edge. The directors personally reviewed my test papers and helped refine my strategy to clear the Class 2 EPFO examination.":
+    "लक्ष्य अकादमीमधील संरचित उत्तर लेखन मार्गदर्शन, मॉक इंटरव्ह्यू सत्रे आणि अद्ययावत अभ्यास सामग्री यांनी मला स्पर्धात्मक धार दिली. संचालकांनी वैयक्तिकरित्या माझ्या चाचणी पेपरचे पुनरावलोकन केले आणि वर्ग 2 EPFO ​​परीक्षा उत्तीर्ण करण्यासाठी माझे धोरण सुधारण्यास मदत केली.",
   "Ankita Wagh": "अंकिता वाघ",
-  "Lakshya Career Academy provides the most dedicated academic ecosystem in Nashik. The faculty members are accessible 24/7 for doubt clearance, and the rigorous test series simulated the real exam conditions with precision. I am deeply grateful for their continuous mentorship.": "लक्ष्य करिअर अकादमी नाशिकमधील सर्वात समर्पित शैक्षणिक परिसंस्था प्रदान करते. संकाय सदस्यांना शंका दूर करण्यासाठी 24/7 प्रवेश करता येतो आणि कठोर चाचणी मालिकेने अचूक परीक्षेच्या परिस्थितीचे अनुकरण केले आहे. त्यांच्या सतत मार्गदर्शनासाठी मी मनापासून कृतज्ञ आहे.",
+  "Lakshya Career Academy provides the most dedicated academic ecosystem in Nashik. The faculty members are accessible 24/7 for doubt clearance, and the rigorous test series simulated the real exam conditions with precision. I am deeply grateful for their continuous mentorship.":
+    "लक्ष्य करिअर अकादमी नाशिकमधील सर्वात समर्पित शैक्षणिक परिसंस्था प्रदान करते. संकाय सदस्यांना शंका दूर करण्यासाठी 24/7 प्रवेश करता येतो आणि कठोर चाचणी मालिकेने अचूक परीक्षेच्या परिस्थितीचे अनुकरण केले आहे. त्यांच्या सतत मार्गदर्शनासाठी मी मनापासून कृतज्ञ आहे.",
   "Parag Wagh": "पराग वाघ",
-  "Selected Officer • Kar Sahayak (Tax Assistant)": "निवड अधिकारी • कार सहाय्यक (कर सहाय्यक)",
-  "The personalized attention and daily CSAT & GS practice sessions at Lakshya transformed my preparation. Atul Sir's subject analysis and regular motivational mentoring gave me the confidence to secure my selection as Kar Sahayak.": "लक्ष्य येथे वैयक्तिक लक्ष आणि दैनंदिन CSAT आणि GS सराव सत्रांमुळे माझ्या तयारीत बदल झाला. अतुल सरांच्या विषयाचे विश्लेषण आणि नियमित प्रेरक मार्गदर्शनामुळे मला कार सहाय्यक म्हणून माझी निवड निश्चित करण्याचा आत्मविश्वास मिळाला.",
-  "View Complete Merit Roster & Success Stories (18+) →": "संपूर्ण मेरिट रोस्टर आणि यशोगाथा पहा (18+) →",
+  "Selected Officer • Kar Sahayak (Tax Assistant)":
+    "निवड अधिकारी • कार सहाय्यक (कर सहाय्यक)",
+  "The personalized attention and daily CSAT & GS practice sessions at Lakshya transformed my preparation. Atul Sir's subject analysis and regular motivational mentoring gave me the confidence to secure my selection as Kar Sahayak.":
+    "लक्ष्य येथे वैयक्तिक लक्ष आणि दैनंदिन CSAT आणि GS सराव सत्रांमुळे माझ्या तयारीत बदल झाला. अतुल सरांच्या विषयाचे विश्लेषण आणि नियमित प्रेरक मार्गदर्शनामुळे मला कार सहाय्यक म्हणून माझी निवड निश्चित करण्याचा आत्मविश्वास मिळाला.",
+  "View Complete Merit Roster & Success Stories (18+) →":
+    "संपूर्ण मेरिट रोस्टर आणि यशोगाथा पहा (18+) →",
   "Admissions & Guidance": "प्रवेश आणि मार्गदर्शन",
-  "Schedule a 1-on-1 Strategy Session": "1-ऑन-1 धोरण सत्र शेड्यूल करा",
-  "Connect directly with founding directors Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh via WhatsApp to review syllabus roadmaps, batch timings, and reading hall access.": "अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ या संस्थापक संचालकांशी व्हॉट्सॲपद्वारे अभ्यासक्रमाचे रोडमॅप, बॅचच्या वेळा आणि रिडिंग हॉल प्रवेशाचे पुनरावलोकन करण्यासाठी थेट कनेक्ट व्हा.",
-  "Select Target Examination *": "लक्ष्य परीक्षा निवडा *",
+  "Plan Your Journey to Success": "यशाच्या दिशेने तुमचा प्रवास सुरू करा",
+  "Get expert guidance for your UPSC and MPSC preparation. Connect with our team to understand course options, examination patterns, study plans, and the right preparation strategy for your goals.":
+    "UPSC आणि MPSC परीक्षांच्या तयारीसाठी तज्ज्ञांचे मार्गदर्शन मिळवा. तुमच्या उद्दिष्टांनुसार योग्य अभ्यासक्रम, परीक्षेचे स्वरूप, अभ्यासाचे नियोजन आणि तयारीची प्रभावी रणनीती समजून घेण्यासाठी आमच्या टीमशी संपर्क साधा.",
   "Connect on WhatsApp 💬": "WhatsApp वर कनेक्ट व्हा 💬",
   "The Knowledge Hub": "नॉलेज हब",
-  "Insights & Strategy from Academic Faculty": "शैक्षणिक विद्याशाखेकडून अंतर्दृष्टी आणि धोरण",
+  "Insights & Strategy from Academic Faculty":
+    "शैक्षणिक विद्याशाखेकडून अंतर्दृष्टी आणि धोरण",
   "6 min read": "6 मिनिटे वाचले",
-  "Strategy": "रणनीती",
-  "Rajyaseva": "राज्यसेवा",
-  "How to Master MPSC Descriptive GS & Essay Papers": "MPSC वर्णनात्मक GS आणि निबंध पेपर्समध्ये कसे मास्टर करावे",
+  Strategy: "रणनीती",
+  Rajyaseva: "राज्यसेवा",
+  "How to Master MPSC Descriptive GS & Essay Papers":
+    "MPSC वर्णनात्मक GS आणि निबंध पेपर्समध्ये कसे मास्टर करावे",
   "Read Guide": "मार्गदर्शक वाचा",
   "7 min read": "7 मिनिटे वाचले",
-  "Analysis": "विश्लेषण",
+  Analysis: "विश्लेषण",
   "PYQ Trends": "PYQ ट्रेंड",
-  "12-Year MPSC Topicwise Question Weightage Breakdown": "12-वर्ष एमपीएससी विषयनिहाय प्रश्न वेटेज ब्रेकडाउन",
+  "12-Year MPSC Topicwise Question Weightage Breakdown":
+    "12-वर्ष एमपीएससी विषयनिहाय प्रश्न वेटेज ब्रेकडाउन",
   "5 min read": "5 मिनिटे वाचा",
-  "Foundation": "पाया",
+  Foundation: "पाया",
   "State Board": "राज्य मंडळ",
-  "Standard 5th to 12th Maharashtra Textbooks Essential List": "इयत्ता 5वी ते 12वी महाराष्ट्र पाठ्यपुस्तकांची आवश्यक यादी",
+  "Standard 5th to 12th Maharashtra Textbooks Essential List":
+    "इयत्ता 5वी ते 12वी महाराष्ट्र पाठ्यपुस्तकांची आवश्यक यादी",
   "8 min read": "8 मिनिटे वाचले",
-  "Lokrajya": "लोकराज्य",
-  "Synthesizing Lokrajya & Yojana for High-Scoring Answers": "उच्च स्कोअरिंग उत्तरांसाठी लोकराज्य आणि योजना संश्लेषित करणे",
+  Lokrajya: "लोकराज्य",
+  "Synthesizing Lokrajya & Yojana for High-Scoring Answers":
+    "उच्च स्कोअरिंग उत्तरांसाठी लोकराज्य आणि योजना संश्लेषित करणे",
   "Rajyaseva Program": "राज्यसेवा कार्यक्रम",
   "Study Material & Notes": "अभ्यास साहित्य आणि नोट्स",
-  "Reference Repository • Study Material & Syllabi": "संदर्भ भांडार • अभ्यास साहित्य आणि अभ्यासक्रम",
+  "Reference Repository • Study Material & Syllabi":
+    "संदर्भ भांडार • अभ्यास साहित्य आणि अभ्यासक्रम",
   "STUDY ARCHIVES": "अभ्यास संग्रह",
-  "School Books & NCERT DigestsOfficial Syllabi & Exam Patterns": "शालेय पुस्तके आणि एनसीईआरटी डायजेस्ट ऑफिशियल अभ्यासक्रम आणि परीक्षेचे नमुने",
-  "12-Year PYQ Topic BanksLokrajya, Yojana & Kurukshetra": "12-वर्ष PYQ विषय बँक्स लोकराज्य, योजना आणि कुरुक्षेत्र",
+  "School Books & NCERT DigestsOfficial Syllabi & Exam Patterns":
+    "शालेय पुस्तके आणि एनसीईआरटी डायजेस्ट ऑफिशियल अभ्यासक्रम आणि परीक्षेचे नमुने",
+  "12-Year PYQ Topic BanksLokrajya, Yojana & Kurukshetra":
+    "12-वर्ष PYQ विषय बँक्स लोकराज्य, योजना आणि कुरुक्षेत्र",
   "The Knowledge Foundation": "नॉलेज फाउंडेशन",
-  "\"Effective civil service preparation begins with standard state textbooks, government periodicals, and exhaustive analysis of previous examination blueprints.\"": "\"प्रभावी नागरी सेवेची तयारी मानक राज्याची पाठ्यपुस्तके, सरकारी नियतकालिके आणि मागील परीक्षेच्या ब्ल्यूप्रिंट्सच्या संपूर्ण विश्लेषणाने सुरू होते.\"",
-  "The Lakshya Career Academy curates essential reference archives, State Board digests, NCERT summaries, official government journals, past 12-year PYQs, and detailed exam scheme breakdowns directly under Atul Nikumbh sir's academic direction.": "लक्ष्य करिअर अकादमी अतुल निकुंभ सरांच्या शैक्षणिक मार्गदर्शनाखाली अत्यावश्यक संदर्भ संग्रह, स्टेट बोर्ड डायजेस्ट, NCERT सारांश, अधिकृत सरकारी जर्नल्स, मागील 12-वर्षांचे PYQ आणि तपशीलवार परीक्षा योजना खंडित करते.",
+  '"Effective civil service preparation begins with standard state textbooks, government periodicals, and exhaustive analysis of previous examination blueprints."':
+    '"प्रभावी नागरी सेवेची तयारी मानक राज्याची पाठ्यपुस्तके, सरकारी नियतकालिके आणि मागील परीक्षेच्या ब्ल्यूप्रिंट्सच्या संपूर्ण विश्लेषणाने सुरू होते."',
+  "The Lakshya Career Academy curates essential reference archives, State Board digests, NCERT summaries, official government journals, past 12-year PYQs, and detailed exam scheme breakdowns directly under Atul Nikumbh sir's academic direction.":
+    "लक्ष्य करिअर अकादमी अतुल निकुंभ सरांच्या शैक्षणिक मार्गदर्शनाखाली अत्यावश्यक संदर्भ संग्रह, स्टेट बोर्ड डायजेस्ट, NCERT सारांश, अधिकृत सरकारी जर्नल्स, मागील 12-वर्षांचे PYQ आणि तपशीलवार परीक्षा योजना खंडित करते.",
   "Reference Repository": "संदर्भ भांडार",
-  "Study Material & Examination Blueprint Archives": "अभ्यास साहित्य आणि परीक्षा ब्ल्यूप्रिंट संग्रह",
-  "Access standard textbooks, NCERT summaries, official government periodicals, previous question papers, and comprehensive examination patterns.": "मानक पाठ्यपुस्तके, NCERT सारांश, अधिकृत सरकारी नियतकालिके, मागील प्रश्नपत्रिका आणि सर्वसमावेशक परीक्षा पद्धतींमध्ये प्रवेश करा.",
+  "Study Material & Examination Blueprint Archives":
+    "अभ्यास साहित्य आणि परीक्षा ब्ल्यूप्रिंट संग्रह",
+  "Access standard textbooks, NCERT summaries, official government periodicals, previous question papers, and comprehensive examination patterns.":
+    "मानक पाठ्यपुस्तके, NCERT सारांश, अधिकृत सरकारी नियतकालिके, मागील प्रश्नपत्रिका आणि सर्वसमावेशक परीक्षा पद्धतींमध्ये प्रवेश करा.",
   "School Books (State Board)": "शालेय पुस्तके (राज्य मंडळ)",
-  "Essential chapter-wise compilations from 6th to 12th standard Maharashtra State Board Balbharati textbooks covering Maharashtra History, Geography, Civics, and General Science.": "महाराष्ट्राचा इतिहास, भूगोल, नागरिकशास्त्र आणि सामान्य विज्ञान यांचा समावेश असलेली 6 वी ते 12 वी महाराष्ट्र राज्य मंडळ बालभारती पाठ्यपुस्तके मधील आवश्यक अध्याय-वार संकलन.",
+  "Essential chapter-wise compilations from 6th to 12th standard Maharashtra State Board Balbharati textbooks covering Maharashtra History, Geography, Civics, and General Science.":
+    "महाराष्ट्राचा इतिहास, भूगोल, नागरिकशास्त्र आणि सामान्य विज्ञान यांचा समावेश असलेली 6 वी ते 12 वी महाराष्ट्र राज्य मंडळ बालभारती पाठ्यपुस्तके मधील आवश्यक अध्याय-वार संकलन.",
   "State Board 6th-10th": "राज्य मंडळ 6वी-10वी",
-  "Balbharati Core Science & History Digests": "बालभारती कोर सायन्स अँड हिस्ट्री डायजेट्स",
-  "Foundational concepts extracted from Maharashtra State Board 6th to 10th standard science, geography, and social studies textbooks with high-yield MPSC fact tables.": "महाराष्ट्र राज्य मंडळ 6वी ते 10वी इयत्तेतील विज्ञान, भूगोल आणि सामाजिक अभ्यास पाठ्यपुस्तकांमधून काढलेल्या मूलभूत संकल्पना उच्च-उत्पन्न MPSC तथ्य सारण्यांसह.",
+  "Balbharati Core Science & History Digests":
+    "बालभारती कोर सायन्स अँड हिस्ट्री डायजेट्स",
+  "Foundational concepts extracted from Maharashtra State Board 6th to 10th standard science, geography, and social studies textbooks with high-yield MPSC fact tables.":
+    "महाराष्ट्र राज्य मंडळ 6वी ते 10वी इयत्तेतील विज्ञान, भूगोल आणि सामाजिक अभ्यास पाठ्यपुस्तकांमधून काढलेल्या मूलभूत संकल्पना उच्च-उत्पन्न MPSC तथ्य सारण्यांसह.",
   "Class 6th to 10th": "इयत्ता 6 वी ते 10 वी",
   "Request List": "विनंती यादी",
   "State Board 11th & 12th": "राज्य मंडळ 11वी आणि 12वी",
-  "Maharashtra History & Geography (11th-12th)": "महाराष्ट्र इतिहास आणि भूगोल (11वी-12वी)",
-  "Higher secondary Maharashtra history and geography textbook notes focusing on regional geography, freedom movement leaders, and agrarian history.": "प्रादेशिक भूगोल, स्वातंत्र्य चळवळीचे नेते आणि कृषी इतिहास यावर लक्ष केंद्रित करणाऱ्या उच्च माध्यमिक महाराष्ट्राचा इतिहास आणि भूगोल पाठ्यपुस्तक.",
+  "Maharashtra History & Geography (11th-12th)":
+    "महाराष्ट्र इतिहास आणि भूगोल (11वी-12वी)",
+  "Higher secondary Maharashtra history and geography textbook notes focusing on regional geography, freedom movement leaders, and agrarian history.":
+    "प्रादेशिक भूगोल, स्वातंत्र्य चळवळीचे नेते आणि कृषी इतिहास यावर लक्ष केंद्रित करणाऱ्या उच्च माध्यमिक महाराष्ट्राचा इतिहास आणि भूगोल पाठ्यपुस्तक.",
   "Class 11th & 12th": "इयत्ता 11वी आणि 12वी",
   "PDF Repository": "पीडीएफ भांडार",
-  "E-Balbharati Textbook Direct Downloads": "ई-बालभारती पाठ्यपुस्तक थेट डाउनलोड",
-  "Digital textbook PDFs organized class-by-class for easy access during self-study.": "डिजिटल पाठ्यपुस्तक PDF स्वयं-अभ्यास दरम्यान सुलभ प्रवेशासाठी वर्ग-दर-वर्ग आयोजित करतात.",
-  "Fundamental conceptual modules curated from NCERT Class 6th to 12th for Indian Polity, Physical Geography, Environment, and Modern History.": "भारतीय राजकारण, भौतिक भूगोल, पर्यावरण आणि आधुनिक इतिहासासाठी NCERT इयत्ता 6 वी ते 12 वी पर्यंत क्युरेट केलेले मूलभूत वैचारिक मॉड्यूल.",
+  "E-Balbharati Textbook Direct Downloads":
+    "ई-बालभारती पाठ्यपुस्तक थेट डाउनलोड",
+  "Digital textbook PDFs organized class-by-class for easy access during self-study.":
+    "डिजिटल पाठ्यपुस्तक PDF स्वयं-अभ्यास दरम्यान सुलभ प्रवेशासाठी वर्ग-दर-वर्ग आयोजित करतात.",
+  "Fundamental conceptual modules curated from NCERT Class 6th to 12th for Indian Polity, Physical Geography, Environment, and Modern History.":
+    "भारतीय राजकारण, भौतिक भूगोल, पर्यावरण आणि आधुनिक इतिहासासाठी NCERT इयत्ता 6 वी ते 12 वी पर्यंत क्युरेट केलेले मूलभूत वैचारिक मॉड्यूल.",
   "Polity & Economy": "राजकारण आणि अर्थव्यवस्था",
-  "NCERT Polity & Economic Development Compendium": "एनसीईआरटी पॉलिटी आणि आर्थिक विकास संकलन",
-  "Concise summaries of NCERT Class 9th-12th Political Theory, Indian Constitution at Work, and Indian Economic Development.": "NCERT इयत्ता 9 वी-12 वी राजकीय सिद्धांत, कामावर भारतीय राज्यघटना आणि भारतीय आर्थिक विकास यांचा संक्षिप्त सारांश.",
+  "NCERT Polity & Economic Development Compendium":
+    "एनसीईआरटी पॉलिटी आणि आर्थिक विकास संकलन",
+  "Concise summaries of NCERT Class 9th-12th Political Theory, Indian Constitution at Work, and Indian Economic Development.":
+    "NCERT इयत्ता 9 वी-12 वी राजकीय सिद्धांत, कामावर भारतीय राज्यघटना आणि भारतीय आर्थिक विकास यांचा संक्षिप्त सारांश.",
   "Core Foundation": "कोर फाउंडेशन",
   "Request NCERT": "NCERT ला विनंती करा",
   "Geography & Science": "भूगोल आणि विज्ञान",
-  "NCERT Physical Geography & Environment Summaries": "NCERT भौतिक भूगोल आणि पर्यावरण सारांश",
-  "Chapterwise digests from NCERT Class 11th Fundamentals of Physical Geography and Class 12th India People & Economy.": "NCERT वर्ग 11वी भौतिक भूगोल आणि इयत्ता 12वी भारत लोक आणि अर्थव्यवस्था मधून अध्यायानुसार पचते.",
+  "NCERT Physical Geography & Environment Summaries":
+    "NCERT भौतिक भूगोल आणि पर्यावरण सारांश",
+  "Chapterwise digests from NCERT Class 11th Fundamentals of Physical Geography and Class 12th India People & Economy.":
+    "NCERT वर्ग 11वी भौतिक भूगोल आणि इयत्ता 12वी भारत लोक आणि अर्थव्यवस्था मधून अध्यायानुसार पचते.",
   "Chapter MCQs": "धडा MCQs",
   "NCERT Topicwise MCQ Practice Bank": "NCERT विषयानुसार MCQ सराव बँक",
-  "Topic-by-topic objective multiple choice practice questions mapped to NCERT textbook chapters.": "एनसीईआरटी पाठ्यपुस्तकांच्या अध्यायांमध्ये मॅप केलेले विषय-दर-विषय उद्देश एकाधिक निवड सराव प्रश्न.",
+  "Topic-by-topic objective multiple choice practice questions mapped to NCERT textbook chapters.":
+    "एनसीईआरटी पाठ्यपुस्तकांच्या अध्यायांमध्ये मॅप केलेले विषय-दर-विषय उद्देश एकाधिक निवड सराव प्रश्न.",
   "Yojna (योजना)": "योजना (योजना)",
-  "Monthly theme-based compilations of Government of India's Yojana magazine focusing on socioeconomic development, infrastructure, tribal welfare, industrial policy, and fiscal planning for Mains GS papers.": "भारत सरकारच्या योजना मासिकाचे मासिक थीम-आधारित संकलन सामाजिक आर्थिक विकास, पायाभूत सुविधा, आदिवासी कल्याण, औद्योगिक धोरण आणि मुख्य GS पेपर्ससाठी वित्तीय नियोजन यावर लक्ष केंद्रित करते.",
+  "Monthly theme-based compilations of Government of India's Yojana magazine focusing on socioeconomic development, infrastructure, tribal welfare, industrial policy, and fiscal planning for Mains GS papers.":
+    "भारत सरकारच्या योजना मासिकाचे मासिक थीम-आधारित संकलन सामाजिक आर्थिक विकास, पायाभूत सुविधा, आदिवासी कल्याण, औद्योगिक धोरण आणि मुख्य GS पेपर्ससाठी वित्तीय नियोजन यावर लक्ष केंद्रित करते.",
   "Govt of India": "भारत सरकार",
   "Yojana Monthly Theme Compendiums": "योजना मासिक थीम संकलने",
-  "Key article summaries, government committee recommendations, and statistical data points compiled for Mains General Studies and Essay papers.": "मुख्य लेखाचे सारांश, सरकारी समितीच्या शिफारशी आणि मुख्य सामान्य अध्ययन आणि निबंध पेपरसाठी संकलित केलेले सांख्यिकीय डेटा पॉइंट्स.",
+  "Key article summaries, government committee recommendations, and statistical data points compiled for Mains General Studies and Essay papers.":
+    "मुख्य लेखाचे सारांश, सरकारी समितीच्या शिफारशी आणि मुख्य सामान्य अध्ययन आणि निबंध पेपरसाठी संकलित केलेले सांख्यिकीय डेटा पॉइंट्स.",
   "Get Yojana": "योजना मिळवा",
   "Infrastructure & Energy": "पायाभूत सुविधा आणि ऊर्जा",
-  "Yojana Special Issue: Sustainable Energy & Infrastructure": "योजना विशेष समस्या: शाश्वत ऊर्जा आणि पायाभूत सुविधा",
-  "Digest covering India's renewable energy transition, PM Gati Shakti National Master Plan, and urban infrastructure developments.": "भारताचे अक्षय ऊर्जा संक्रमण, पीएम गति शक्ती राष्ट्रीय मास्टर प्लॅन आणि शहरी पायाभूत सुविधांच्या विकासाचा समावेश असलेले डायजेस्ट.",
+  "Yojana Special Issue: Sustainable Energy & Infrastructure":
+    "योजना विशेष समस्या: शाश्वत ऊर्जा आणि पायाभूत सुविधा",
+  "Digest covering India's renewable energy transition, PM Gati Shakti National Master Plan, and urban infrastructure developments.":
+    "भारताचे अक्षय ऊर्जा संक्रमण, पीएम गति शक्ती राष्ट्रीय मास्टर प्लॅन आणि शहरी पायाभूत सुविधांच्या विकासाचा समावेश असलेले डायजेस्ट.",
   "Annual Archive": "वार्षिक संग्रहण",
   "Yojana 12-Month Master Synthesis": "योजना 12-महिना मास्टर सिंथेसिस",
-  "Yearly compilation of all 12 Yojana editions synthesized into a single topic-wise reference book.": "सर्व 12 योजना आवृत्त्यांचे वार्षिक संकलन एकाच विषयानुसार संदर्भ पुस्तकात एकत्रित केले आहे.",
+  "Yearly compilation of all 12 Yojana editions synthesized into a single topic-wise reference book.":
+    "सर्व 12 योजना आवृत्त्यांचे वार्षिक संकलन एकाच विषयानुसार संदर्भ पुस्तकात एकत्रित केले आहे.",
   "Section 04": "कलम 04",
   "Kurukshetra (कुरुक्षेत्र)": "कुरुक्षेत्र (कुरुक्षेत्र)",
-  "Government of India's authoritative monthly publication on rural development, agriculture economics, panchayati raj institutions, water management, and rural technology.": "ग्रामीण विकास, कृषी अर्थशास्त्र, पंचायती राज संस्था, जल व्यवस्थापन आणि ग्रामीण तंत्रज्ञान यावर भारत सरकारचे अधिकृत मासिक प्रकाशन.",
+  "Government of India's authoritative monthly publication on rural development, agriculture economics, panchayati raj institutions, water management, and rural technology.":
+    "ग्रामीण विकास, कृषी अर्थशास्त्र, पंचायती राज संस्था, जल व्यवस्थापन आणि ग्रामीण तंत्रज्ञान यावर भारत सरकारचे अधिकृत मासिक प्रकाशन.",
   "Rural Development": "ग्रामीण विकास",
-  "Kurukshetra Rural Economy & Agrarian Policy Digest": "कुरुक्षेत्र ग्रामीण अर्थव्यवस्था आणि कृषी धोरण डायजेस्ट",
-  "In-depth articles on agricultural technology, irrigation projects, rural employment schemes (MGNREGA), and micro-finance institutions.": "कृषी तंत्रज्ञान, सिंचन प्रकल्प, ग्रामीण रोजगार योजना (MGNREGA) आणि सूक्ष्म-वित्त संस्थांवरील सखोल लेख.",
+  "Kurukshetra Rural Economy & Agrarian Policy Digest":
+    "कुरुक्षेत्र ग्रामीण अर्थव्यवस्था आणि कृषी धोरण डायजेस्ट",
+  "In-depth articles on agricultural technology, irrigation projects, rural employment schemes (MGNREGA), and micro-finance institutions.":
+    "कृषी तंत्रज्ञान, सिंचन प्रकल्प, ग्रामीण रोजगार योजना (MGNREGA) आणि सूक्ष्म-वित्त संस्थांवरील सखोल लेख.",
   "Rural Analysis": "ग्रामीण विश्लेषण",
   "Get Kurukshetra": "कुरुक्षेत्र मिळवा",
   "Panchayati Raj": "पंचायती राज",
-  "Panchayati Raj Governance & Digital Village Issue": "पंचायती राज प्रशासन आणि डिजिटल गाव समस्या",
-  "Analysis of 73rd Constitutional Amendment, decentralisation, Gram Sabha empowerment, and digital governance initiatives in rural India.": "ग्रामीण भारतातील ७३वी घटनादुरुस्ती, विकेंद्रीकरण, ग्रामसभा सक्षमीकरण आणि डिजिटल प्रशासन उपक्रमांचे विश्लेषण.",
+  "Panchayati Raj Governance & Digital Village Issue":
+    "पंचायती राज प्रशासन आणि डिजिटल गाव समस्या",
+  "Analysis of 73rd Constitutional Amendment, decentralisation, Gram Sabha empowerment, and digital governance initiatives in rural India.":
+    "ग्रामीण भारतातील ७३वी घटनादुरुस्ती, विकेंद्रीकरण, ग्रामसभा सक्षमीकरण आणि डिजिटल प्रशासन उपक्रमांचे विश्लेषण.",
   "Governance Focus": "गव्हर्नन्स फोकस",
   "Archive Bank": "संग्रहित बँक",
-  "Kurukshetra Agrarian Statistics Compendium": "कुरुक्षेत्र कृषी सांख्यिकी संकलन",
-  "Statistical data collection of agricultural yields, farm schemes, and rural survey reports.": "कृषी उत्पन्न, शेती योजना आणि ग्रामीण सर्वेक्षण अहवाल यांचा सांख्यिकीय डेटा संकलन.",
+  "Kurukshetra Agrarian Statistics Compendium":
+    "कुरुक्षेत्र कृषी सांख्यिकी संकलन",
+  "Statistical data collection of agricultural yields, farm schemes, and rural survey reports.":
+    "कृषी उत्पन्न, शेती योजना आणि ग्रामीण सर्वेक्षण अहवाल यांचा सांख्यिकीय डेटा संकलन.",
   "Section 05": "कलम 05",
   "Lok Rajya (लोकराज्य)": "लोकराज्य (लोकराज्य)",
-  "The official mouthpiece of the Maharashtra State Government providing authoritative data on departmental policies, social welfare initiatives, state budget stats, and historical commemorations.": "महाराष्ट्र राज्य सरकारचे अधिकृत मुखपत्र विभागीय धोरणे, समाजकल्याण उपक्रम, राज्य अर्थसंकल्पीय आकडेवारी आणि ऐतिहासिक स्मरणोत्सवांबद्दल अधिकृत डेटा प्रदान करते.",
+  "The official mouthpiece of the Maharashtra State Government providing authoritative data on departmental policies, social welfare initiatives, state budget stats, and historical commemorations.":
+    "महाराष्ट्र राज्य सरकारचे अधिकृत मुखपत्र विभागीय धोरणे, समाजकल्याण उपक्रम, राज्य अर्थसंकल्पीय आकडेवारी आणि ऐतिहासिक स्मरणोत्सवांबद्दल अधिकृत डेटा प्रदान करते.",
   "Govt of Maharashtra": "महाराष्ट्र शासन",
-  "Lokrajya State Policy & Scheme Compendiums": "लोकराज्य राज्य धोरण आणि योजना संग्रह",
-  "Official Marathi compilations detailing Maharashtra government decisions, cabinet approvals, irrigation projects, and social welfare schemes.": "महाराष्ट्र सरकारचे निर्णय, मंत्रिमंडळाच्या मंजुरी, सिंचन प्रकल्प आणि समाजकल्याण योजनांचे तपशील देणारे अधिकृत मराठी संकलन.",
+  "Lokrajya State Policy & Scheme Compendiums":
+    "लोकराज्य राज्य धोरण आणि योजना संग्रह",
+  "Official Marathi compilations detailing Maharashtra government decisions, cabinet approvals, irrigation projects, and social welfare schemes.":
+    "महाराष्ट्र सरकारचे निर्णय, मंत्रिमंडळाच्या मंजुरी, सिंचन प्रकल्प आणि समाजकल्याण योजनांचे तपशील देणारे अधिकृत मराठी संकलन.",
   "Official Marathi": "अधिकृत मराठी",
   "Get Lok Rajya": "लोकराज्य मिळवा",
-  "Maharashtra Icons & Cultural Heritage Special Issue": "महाराष्ट्राचे प्रतीक आणि सांस्कृतिक वारसा विशेषांक",
-  "Special Lokrajya editions commemorating Chhatrapati Shivaji Maharaj, Mahatma Phule, Dr. B.R. Ambedkar, and Rajarshi Shahu Maharaj.": "छत्रपती शिवाजी महाराज, महात्मा फुले, डॉ. बी.आर. यांच्या स्मरणार्थ विशेष लोकराज्य आवृत्त्या. आंबेडकर आणि राजर्षी शाहू महाराज.",
+  "Maharashtra Icons & Cultural Heritage Special Issue":
+    "महाराष्ट्राचे प्रतीक आणि सांस्कृतिक वारसा विशेषांक",
+  "Special Lokrajya editions commemorating Chhatrapati Shivaji Maharaj, Mahatma Phule, Dr. B.R. Ambedkar, and Rajarshi Shahu Maharaj.":
+    "छत्रपती शिवाजी महाराज, महात्मा फुले, डॉ. बी.आर. यांच्या स्मरणार्थ विशेष लोकराज्य आवृत्त्या. आंबेडकर आणि राजर्षी शाहू महाराज.",
   "Heritage & Reformers": "वारसा आणि सुधारक",
   "PDF Digital Library": "PDF डिजिटल लायब्ररी",
   "Lokrajya Monthly PDF Archives": "लोकराज्य मासिक PDF संग्रह",
-  "Searchable digital PDF repository of past 24 months of Lokrajya magazine.": "लोकराज्य मासिकाच्या मागील 24 महिन्यांचा शोधण्यायोग्य डिजिटल PDF भांडार.",
+  "Searchable digital PDF repository of past 24 months of Lokrajya magazine.":
+    "लोकराज्य मासिकाच्या मागील 24 महिन्यांचा शोधण्यायोग्य डिजिटल PDF भांडार.",
   "Section 06": "कलम 06",
   "Previous Year Question Papers (PYQ)": "मागील वर्षाच्या प्रश्नपत्रिका (PYQ)",
-  "12-Year topic-wise sorted previous year question bank with official answer keys, recurring topic weights, and trend analysis for MPSC Prelims and Mains.": "12-वर्षाच्या विषयानुसार क्रमवारी लावलेली मागील वर्षाची प्रश्न बँक अधिकृत उत्तर की, आवर्ती विषयाचे वजन आणि MPSC प्रिलिम्स आणि मुख्य साठी कल विश्लेषण.",
+  "12-Year topic-wise sorted previous year question bank with official answer keys, recurring topic weights, and trend analysis for MPSC Prelims and Mains.":
+    "12-वर्षाच्या विषयानुसार क्रमवारी लावलेली मागील वर्षाची प्रश्न बँक अधिकृत उत्तर की, आवर्ती विषयाचे वजन आणि MPSC प्रिलिम्स आणि मुख्य साठी कल विश्लेषण.",
   "Question Bank": "प्रश्न बँक",
-  "MPSC Rajyaseva 12-Year Topicwise PYQ Bank": "MPSC राज्यसेवा 12-वर्षे विषयनिहाय PYQ बँक",
-  "Topic-by-topic categorization of MPSC Rajyaseva Prelims and Mains papers from 2012 to 2024 with detailed solution explanations.": "2012 ते 2024 पर्यंतच्या MPSC राज्यसेवा प्रिलिम्स आणि मुख्य पेपर्सचे विषयानुसार वर्गीकरण तपशीलवार समाधान स्पष्टीकरणासह.",
+  "MPSC Rajyaseva 12-Year Topicwise PYQ Bank":
+    "MPSC राज्यसेवा 12-वर्षे विषयनिहाय PYQ बँक",
+  "Topic-by-topic categorization of MPSC Rajyaseva Prelims and Mains papers from 2012 to 2024 with detailed solution explanations.":
+    "2012 ते 2024 पर्यंतच्या MPSC राज्यसेवा प्रिलिम्स आणि मुख्य पेपर्सचे विषयानुसार वर्गीकरण तपशीलवार समाधान स्पष्टीकरणासह.",
   "12-Year Archive": "12-वर्ष संग्रहण",
   "Request PYQs": "PYQ ची विनंती करा",
-  "MPSC Combine Group B (PSI / STI / ASO) PYQ Book": "MPSC एकत्रित गट B (PSI/STI/ASO) PYQ पुस्तक",
-  "Subjectwise sorted past papers for PSI, STI, and ASO Preliminary and Mains examinations with subject weightage distribution charts.": "PSI, STI, आणि ASO प्राथमिक आणि मुख्य परीक्षांसाठी विषयवार क्रमवारी लावलेले मागील पेपर विषयाच्या वेटेज वितरण चार्टसह.",
+  "MPSC Combine Group B (PSI / STI / ASO) PYQ Book":
+    "MPSC एकत्रित गट B (PSI/STI/ASO) PYQ पुस्तक",
+  "Subjectwise sorted past papers for PSI, STI, and ASO Preliminary and Mains examinations with subject weightage distribution charts.":
+    "PSI, STI, आणि ASO प्राथमिक आणि मुख्य परीक्षांसाठी विषयवार क्रमवारी लावलेले मागील पेपर विषयाच्या वेटेज वितरण चार्टसह.",
   "PSI/STI/ASO Bank": "PSI/STI/ASO बँक",
   "Interactive Test Mode": "परस्पर चाचणी मोड",
-  "Online Interactive PYQ Practice Portal": "ऑनलाइन परस्परसंवादी PYQ सराव पोर्टल",
-  "Timed online PYQ practice portal with instant answer evaluation and explanation sheets.": "झटपट उत्तर मूल्यमापन आणि स्पष्टीकरण पत्रके असलेले ऑनलाइन PYQ सराव पोर्टल.",
+  "Online Interactive PYQ Practice Portal":
+    "ऑनलाइन परस्परसंवादी PYQ सराव पोर्टल",
+  "Timed online PYQ practice portal with instant answer evaluation and explanation sheets.":
+    "झटपट उत्तर मूल्यमापन आणि स्पष्टीकरण पत्रके असलेले ऑनलाइन PYQ सराव पोर्टल.",
   "Section 07": "कलम ०७",
   "Syllabus & Examination Pattern": "अभ्यासक्रम आणि परीक्षा पॅटर्न",
-  "Official bilingual syllabi and detailed examination scheme breakdowns for MPSC State Services (Rajyaseva), UPSC Civil Services, Combine Group B, and Saralseva recruitment.": "MPSC राज्य सेवा (राज्यसेवा), UPSC नागरी सेवा, एकत्रित गट B आणि सरलसेवा भरतीसाठी अधिकृत द्विभाषिक अभ्यासक्रम आणि तपशीलवार परीक्षा योजना ब्रेकडाउन.",
+  "Official bilingual syllabi and detailed examination scheme breakdowns for MPSC State Services (Rajyaseva), UPSC Civil Services, Combine Group B, and Saralseva recruitment.":
+    "MPSC राज्य सेवा (राज्यसेवा), UPSC नागरी सेवा, एकत्रित गट B आणि सरलसेवा भरतीसाठी अधिकृत द्विभाषिक अभ्यासक्रम आणि तपशीलवार परीक्षा योजना ब्रेकडाउन.",
   "State Services": "राज्य सेवा",
   "MPSC Rajyaseva Official Syllabus": "MPSC राज्यसेवा अधिकृत अभ्यासक्रम",
-  "Official bilingual syllabus for Prelims (GS & CSAT) and Mains (GS 1 to 4 & Languages) with topicwise weightages.": "प्रिलिम्स (GS आणि CSAT) आणि मुख्य (GS 1 ते 4 आणि भाषा) विषयवार वेटेजसह अधिकृत द्विभाषिक अभ्यासक्रम.",
+  "Official bilingual syllabus for Prelims (GS & CSAT) and Mains (GS 1 to 4 & Languages) with topicwise weightages.":
+    "प्रिलिम्स (GS आणि CSAT) आणि मुख्य (GS 1 ते 4 आणि भाषा) विषयवार वेटेजसह अधिकृत द्विभाषिक अभ्यासक्रम.",
   "Bilingual PDF": "द्विभाषिक PDF",
   "Request Syllabus": "अभ्यासक्रमाची विनंती करा",
-  "MPSC Combine Group B (PSI / STI / ASO) Syllabus": "MPSC एकत्रित गट B (PSI/STI/ASO) अभ्यासक्रम",
-  "Comprehensive joint preliminary exam syllabus and individual Mains paper syllabus for PSI, STI, and ASO cadres.": "PSI, STI आणि ASO संवर्गासाठी सर्वसमावेशक संयुक्त प्राथमिक परीक्षेचा अभ्यासक्रम आणि वैयक्तिक मुख्य पेपर अभ्यासक्रम.",
+  "MPSC Combine Group B (PSI / STI / ASO) Syllabus":
+    "MPSC एकत्रित गट B (PSI/STI/ASO) अभ्यासक्रम",
+  "Comprehensive joint preliminary exam syllabus and individual Mains paper syllabus for PSI, STI, and ASO cadres.":
+    "PSI, STI आणि ASO संवर्गासाठी सर्वसमावेशक संयुक्त प्राथमिक परीक्षेचा अभ्यासक्रम आणि वैयक्तिक मुख्य पेपर अभ्यासक्रम.",
   "UPSC CSE": "UPSC CSE",
-  "UPSC Civil Services Examination (CSE) Syllabus": "UPSC नागरी सेवा परीक्षा (CSE) अभ्यासक्रम",
-  "Complete syllabus decomposition for IAS/IPS/IFS preparation covering Prelims, Mains GS 1-4, Essay, and Optional subjects.": "IAS/IPS/IFS तयारीसाठी पूर्ण अभ्यासक्रम विघटन ज्यामध्ये प्रिलिम्स, मुख्य GS 1-4, निबंध आणि वैकल्पिक विषय समाविष्ट आहेत.",
+  "UPSC Civil Services Examination (CSE) Syllabus":
+    "UPSC नागरी सेवा परीक्षा (CSE) अभ्यासक्रम",
+  "Complete syllabus decomposition for IAS/IPS/IFS preparation covering Prelims, Mains GS 1-4, Essay, and Optional subjects.":
+    "IAS/IPS/IFS तयारीसाठी पूर्ण अभ्यासक्रम विघटन ज्यामध्ये प्रिलिम्स, मुख्य GS 1-4, निबंध आणि वैकल्पिक विषय समाविष्ट आहेत.",
   "Official UPSC Copy": "अधिकृत UPSC प्रत",
   "Official Examination Schemes": "अधिकृत परीक्षा योजना",
-  "UPSC & MPSC State Services Examination Pattern": "UPSC आणि MPSC राज्य सेवा परीक्षा नमुना",
-  "A comprehensive comparison and structural guide to the Preliminary, Mains, Qualifying Papers, General Studies, Optional Subjects, Interview stage, and Merit Marks calculation.": "प्राथमिक, मुख्य, पात्रता पेपर, सामान्य अध्ययन, पर्यायी विषय, मुलाखतीचा टप्पा आणि गुणवत्तेचे गुण गणनेसाठी सर्वसमावेशक तुलना आणि संरचनात्मक मार्गदर्शक.",
+  "UPSC & MPSC State Services Examination Pattern":
+    "UPSC आणि MPSC राज्य सेवा परीक्षा नमुना",
+  "A comprehensive comparison and structural guide to the Preliminary, Mains, Qualifying Papers, General Studies, Optional Subjects, Interview stage, and Merit Marks calculation.":
+    "प्राथमिक, मुख्य, पात्रता पेपर, सामान्य अध्ययन, पर्यायी विषय, मुलाखतीचा टप्पा आणि गुणवत्तेचे गुण गणनेसाठी सर्वसमावेशक तुलना आणि संरचनात्मक मार्गदर्शक.",
   "MPSC State Services (Rajyaseva)": "MPSC राज्य सेवा (राज्यसेवा)",
   "State Cadres": "राज्य संवर्ग",
-  "Paper I (General Studies): 200 Marks | 100 MCQs | 2 Hours": "पेपर I (सामान्य अध्ययन): 200 गुण | 100 MCQ | 2 तास",
-  "Paper II (CSAT Aptitude): 200 Marks | 80 MCQs | 2 Hours (Qualifying at 33%)": "पेपर II (CSAT योग्यता): 200 गुण | 80 MCQs | 2 तास (33% वर पात्र)",
-  "Negative Marking: One-fourth (1/4th) of the marks assigned to a question.": "नकारात्मक चिन्हांकन: प्रश्नासाठी नियुक्त केलेल्या गुणांपैकी एक चतुर्थांश (1/4 था).",
-  "Qualifying Language Papers: Marathi (300 Marks) & English (300 Marks) — Minimum 25% required (Excluded from final merit total).": "पात्र भाषा पेपर: मराठी (300 गुण) आणि इंग्रजी (300 गुण) - किमान 25% आवश्यक (अंतिम गुणवत्तेतून वगळलेले).",
-  "7 Merit Papers (1,750 Marks): – Paper I: Essay Writing (250 Marks) – Papers II to V: General Studies I, II, III & IV (4 x 250 = 1,000 Marks) – Papers VI & VII: Optional Subject Paper 1 & 2 (2 x 250 = 500 Marks)": "7 मेरिट पेपर्स (1,750 गुण): – पेपर I: निबंध लेखन (250 गुण) – पेपर II ते पाचवी: सामान्य अध्ययन I, II, III आणि IV (4 x 250 = 1,000 गुण) – पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 0 x 5 = 025 गुण)",
-  "Personality Test / Interview: 275 Marks": "व्यक्तिमत्व चाचणी / मुलाखत: 275 गुण",
-  "Final Merit Total: 2,025 Marks (Mains 1,750 + Interview 275)": "अंतिम गुणवत्ता एकूण: 2,025 गुण (मुख्य 1,750 + मुलाखत 275)",
+  "Paper I (General Studies): 200 Marks | 100 MCQs | 2 Hours":
+    "पेपर I (सामान्य अध्ययन): 200 गुण | 100 MCQ | 2 तास",
+  "Paper II (CSAT Aptitude): 200 Marks | 80 MCQs | 2 Hours (Qualifying at 33%)":
+    "पेपर II (CSAT योग्यता): 200 गुण | 80 MCQs | 2 तास (33% वर पात्र)",
+  "Negative Marking: One-fourth (1/4th) of the marks assigned to a question.":
+    "नकारात्मक चिन्हांकन: प्रश्नासाठी नियुक्त केलेल्या गुणांपैकी एक चतुर्थांश (1/4 था).",
+  "Qualifying Language Papers: Marathi (300 Marks) & English (300 Marks) — Minimum 25% required (Excluded from final merit total).":
+    "पात्र भाषा पेपर: मराठी (300 गुण) आणि इंग्रजी (300 गुण) - किमान 25% आवश्यक (अंतिम गुणवत्तेतून वगळलेले).",
+  "7 Merit Papers (1,750 Marks): – Paper I: Essay Writing (250 Marks) – Papers II to V: General Studies I, II, III & IV (4 x 250 = 1,000 Marks) – Papers VI & VII: Optional Subject Paper 1 & 2 (2 x 250 = 500 Marks)":
+    "7 मेरिट पेपर्स (1,750 गुण): – पेपर I: निबंध लेखन (250 गुण) – पेपर II ते पाचवी: सामान्य अध्ययन I, II, III आणि IV (4 x 250 = 1,000 गुण) – पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 0 x 5 = 025 गुण)",
+  "Personality Test / Interview: 275 Marks":
+    "व्यक्तिमत्व चाचणी / मुलाखत: 275 गुण",
+  "Final Merit Total: 2,025 Marks (Mains 1,750 + Interview 275)":
+    "अंतिम गुणवत्ता एकूण: 2,025 गुण (मुख्य 1,750 + मुलाखत 275)",
   "From 2027": "2027 पासून",
   "Objective format screening test.": "वस्तुनिष्ठ स्वरूप स्क्रीनिंग चाचणी.",
-  "Qualifying Papers: Marathi & English language papers (Excluded from final merit total).": "पात्रता पेपर: मराठी आणि इंग्रजी भाषेचे पेपर (अंतिम गुणवत्तेतून वगळलेले).",
-  "5 Compulsory Merit Papers (1,250 Marks): Essay (250 Marks) + GS I, II, III & IV (4 x 250 = 1,000 Marks).": "5 अनिवार्य मेरिट पेपर्स (1,250 गुण): निबंध (250 गुण) + GS I, II, III आणि IV (4 x 250 = 1,000 गुण).",
-  "Note: Optional subjects removed from the 2027 cycle onwards.": "टीप: 2027 च्या सायकलमधून पर्यायी विषय काढून टाकले आहेत.",
-  "Personality Test / Interview: 175 Marks": "व्यक्तिमत्व चाचणी / मुलाखत: 175 गुण",
-  "Final Merit Total: 1,525 Marks (Mains 1,250 + Interview 175)": "अंतिम गुणवत्ता एकूण: 1,525 गुण (मुख्य 1,250 + मुलाखत 175)",
+  "Qualifying Papers: Marathi & English language papers (Excluded from final merit total).":
+    "पात्रता पेपर: मराठी आणि इंग्रजी भाषेचे पेपर (अंतिम गुणवत्तेतून वगळलेले).",
+  "5 Compulsory Merit Papers (1,250 Marks): Essay (250 Marks) + GS I, II, III & IV (4 x 250 = 1,000 Marks).":
+    "5 अनिवार्य मेरिट पेपर्स (1,250 गुण): निबंध (250 गुण) + GS I, II, III आणि IV (4 x 250 = 1,000 गुण).",
+  "Note: Optional subjects removed from the 2027 cycle onwards.":
+    "टीप: 2027 च्या सायकलमधून पर्यायी विषय काढून टाकले आहेत.",
+  "Personality Test / Interview: 175 Marks":
+    "व्यक्तिमत्व चाचणी / मुलाखत: 175 गुण",
+  "Final Merit Total: 1,525 Marks (Mains 1,250 + Interview 175)":
+    "अंतिम गुणवत्ता एकूण: 1,525 गुण (मुख्य 1,250 + मुलाखत 175)",
   "UPSC Civil Services Examination (CSE)": "UPSC नागरी सेवा परीक्षा (CSE)",
   "All India Services": "अखिल भारतीय सेवा",
-  "Total Marks: 400 Marks (Objective MCQs)": "एकूण गुण: 400 गुण (वस्तुनिष्ठ MCQ)",
-  "Paper I (General Studies 1): 200 Marks | 100 MCQs | 2 Hours (Determines Cutoff for Mains)": "पेपर I (सामान्य अध्ययन 1): 200 गुण | 100 MCQ | 2 तास (मुख्यांसाठी कटऑफ निर्धारित करते)",
-  "Paper II (CSAT General Studies 2): 200 Marks | 80 MCQs | 2 Hours (Qualifying: Minimum 33% / 66 Marks required)": "पेपर II (CSAT सामान्य अध्ययन 2): 200 गुण | 80 MCQs | 2 तास (पात्रता: किमान 33% / 66 गुण आवश्यक)",
-  "Negative Marking: One-third (1/3rd) of the marks assigned to a question.": "नकारात्मक चिन्हांकन: प्रश्नासाठी नियुक्त केलेल्या गुणांपैकी एक तृतीयांश (1/3) गुण.",
-  "Qualifying Papers (Excluded from merit total): • Paper A: Indian Language (300 Marks – Min 25%) • Paper B: English Language (300 Marks – Min 25%)": "पात्रता पेपर (एकूण गुणवत्तेतून वगळलेले): • पेपर A: भारतीय भाषा (300 गुण - किमान 25%) • पेपर B: इंग्रजी भाषा (300 गुण - किमान 25%)",
-  "7 Papers Counted for Merit (1,750 Marks): • Paper I: Essay Writing (250 Marks) • Paper II: General Studies I (Indian Heritage, History, Geo & Society — 250 Marks) • Paper III: General Studies II (Governance, Polity & IR — 250 Marks) • Paper IV: General Studies III (Econ, Sci-Tech, Security — 250 Marks) • Paper V: General Studies IV (Ethics, Integrity & Aptitude — 250 Marks) • Paper VI & VII: Optional Subject Paper 1 & 2 (2 x 250 = 500 Marks)": "गुणवत्तेसाठी 7 पेपर मोजले गेले (1,750 गुण): • पेपर I: निबंध लेखन (250 गुण) • पेपर II: सामान्य अध्ययन I (भारतीय वारसा, इतिहास, भू आणि समाज - 250 गुण) • पेपर III: सामान्य अध्ययन II (शासन, राज्य आणि IR) सामान्य अभ्यास II (शासन, राज्य आणि IR) - 250 मार्क्स, IV. विज्ञान-तंत्रज्ञान, सुरक्षा - 250 गुण) • पेपर V: सामान्य अध्ययन IV (नीतीशास्त्र, सचोटी आणि योग्यता - 250 गुण) • पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 (2 x 250 = 500 गुण)",
-  "Personality Test / Interview: 275 Marks (Dholpur House, New Delhi)": "व्यक्तिमत्व चाचणी / मुलाखत: 275 गुण (धोलपूर हाऊस, नवी दिल्ली)",
-  "Final All India Rank (AIR) list generated out of 2,025 total marks.": "एकूण 2,025 गुणांपैकी अंतिम अखिल भारतीय रँक (AIR) यादी तयार झाली.",
+  "Total Marks: 400 Marks (Objective MCQs)":
+    "एकूण गुण: 400 गुण (वस्तुनिष्ठ MCQ)",
+  "Paper I (General Studies 1): 200 Marks | 100 MCQs | 2 Hours (Determines Cutoff for Mains)":
+    "पेपर I (सामान्य अध्ययन 1): 200 गुण | 100 MCQ | 2 तास (मुख्यांसाठी कटऑफ निर्धारित करते)",
+  "Paper II (CSAT General Studies 2): 200 Marks | 80 MCQs | 2 Hours (Qualifying: Minimum 33% / 66 Marks required)":
+    "पेपर II (CSAT सामान्य अध्ययन 2): 200 गुण | 80 MCQs | 2 तास (पात्रता: किमान 33% / 66 गुण आवश्यक)",
+  "Negative Marking: One-third (1/3rd) of the marks assigned to a question.":
+    "नकारात्मक चिन्हांकन: प्रश्नासाठी नियुक्त केलेल्या गुणांपैकी एक तृतीयांश (1/3) गुण.",
+  "Qualifying Papers (Excluded from merit total): • Paper A: Indian Language (300 Marks – Min 25%) • Paper B: English Language (300 Marks – Min 25%)":
+    "पात्रता पेपर (एकूण गुणवत्तेतून वगळलेले): • पेपर A: भारतीय भाषा (300 गुण - किमान 25%) • पेपर B: इंग्रजी भाषा (300 गुण - किमान 25%)",
+  "7 Papers Counted for Merit (1,750 Marks): • Paper I: Essay Writing (250 Marks) • Paper II: General Studies I (Indian Heritage, History, Geo & Society — 250 Marks) • Paper III: General Studies II (Governance, Polity & IR — 250 Marks) • Paper IV: General Studies III (Econ, Sci-Tech, Security — 250 Marks) • Paper V: General Studies IV (Ethics, Integrity & Aptitude — 250 Marks) • Paper VI & VII: Optional Subject Paper 1 & 2 (2 x 250 = 500 Marks)":
+    "गुणवत्तेसाठी 7 पेपर मोजले गेले (1,750 गुण): • पेपर I: निबंध लेखन (250 गुण) • पेपर II: सामान्य अध्ययन I (भारतीय वारसा, इतिहास, भू आणि समाज - 250 गुण) • पेपर III: सामान्य अध्ययन II (शासन, राज्य आणि IR) सामान्य अभ्यास II (शासन, राज्य आणि IR) - 250 मार्क्स, IV. विज्ञान-तंत्रज्ञान, सुरक्षा - 250 गुण) • पेपर V: सामान्य अध्ययन IV (नीतीशास्त्र, सचोटी आणि योग्यता - 250 गुण) • पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 (2 x 250 = 500 गुण)",
+  "Personality Test / Interview: 275 Marks (Dholpur House, New Delhi)":
+    "व्यक्तिमत्व चाचणी / मुलाखत: 275 गुण (धोलपूर हाऊस, नवी दिल्ली)",
+  "Final All India Rank (AIR) list generated out of 2,025 total marks.":
+    "एकूण 2,025 गुणांपैकी अंतिम अखिल भारतीय रँक (AIR) यादी तयार झाली.",
   "UPSC Official Website (upsc.gov.in)": "UPSC अधिकृत वेबसाइट (upsc.gov.in)",
-  "MPSC Official Website (mpsc.gov.in)": "एमपीएससीची अधिकृत वेबसाइट (mpsc.gov.in)",
+  "MPSC Official Website (mpsc.gov.in)":
+    "एमपीएससीची अधिकृत वेबसाइट (mpsc.gov.in)",
   "Request Reference Material": "संदर्भ सामग्रीची विनंती करा",
   "Order Study Material & Syllabi": "ऑर्डर स्टडी मटेरियल आणि अभ्यासक्रम",
-  "Connect with our academic library desk to receive study material booklets, NCERT compendiums, and official syllabus copies.": "अभ्यास साहित्य पुस्तिका, NCERT संकलने आणि अधिकृत अभ्यासक्रमाच्या प्रती प्राप्त करण्यासाठी आमच्या शैक्षणिक लायब्ररी डेस्कशी कनेक्ट व्हा.",
+  "Connect with our academic library desk to receive study material booklets, NCERT compendiums, and official syllabus copies.":
+    "अभ्यास साहित्य पुस्तिका, NCERT संकलने आणि अधिकृत अभ्यासक्रमाच्या प्रती प्राप्त करण्यासाठी आमच्या शैक्षणिक लायब्ररी डेस्कशी कनेक्ट व्हा.",
   "State Board School Books Digest": "स्टेट बोर्ड स्कूल बुक्स डायजेस्ट",
   "NCERT Master Compendium": "NCERT मास्टर कॉम्पेंडिअम",
   "Lokrajya / Yojana / Kurukshetra": "लोकराज्य/योजना/कुरुक्षेत्र",
@@ -1357,14 +1821,19 @@ window.LAKSHYA_I18N = {
   "03 Class Material →": "03 वर्ग साहित्य →",
   "Merit Roster • Proven Officer Cadre": "मेरिट रोस्टर • सिद्ध अधिकारी संवर्ग",
   "HALL OF FAME": "हॉल ऑफ फेम",
-  "500+ Officers In ServiceState Administration & Police": "सेवा राज्य प्रशासन आणि पोलिसांमध्ये 500+ अधिकारी",
-  "Authentic Aspirant Journeys15-Day Mentorship Legacy": "अस्सल आकांक्षी प्रवास १५-दिवसीय मार्गदर्शन वारसा",
+  "500+ Officers In ServiceState Administration & Police":
+    "सेवा राज्य प्रशासन आणि पोलिसांमध्ये 500+ अधिकारी",
+  "Authentic Aspirant Journeys15-Day Mentorship Legacy":
+    "अस्सल आकांक्षी प्रवास १५-दिवसीय मार्गदर्शन वारसा",
   "The Living Proof": "जिवंत पुरावा",
-  "\"Results are not accidents. They are the calculated outcome of daily answer reviews, small batch focus, and unwavering discipline.\"": "\"परिणाम अपघात नसतात. ते दैनंदिन उत्तर पुनरावलोकने, लहान बॅच फोकस आणि अटूट शिस्तीचे गणना केलेले परिणाम आहेत.\"",
-  "Every year, aspirants from all over Maharashtra arrive at our Pandit Colony campus in Nashik with a singular dream: to serve the state as administrative leaders. Here are authentic testimonials, official merit results, and verified records of candidates who conquered competitive examinations through Lakshya's dedicated guidance.": "दरवर्षी, संपूर्ण महाराष्ट्रातील इच्छुक नाशिकमधील आमच्या पंडित कॉलनी कॅम्पसमध्ये एकच स्वप्न घेऊन येतात: प्रशासकीय नेते म्हणून राज्याची सेवा करण्याचे. येथे अस्सल प्रशस्तिपत्रे, अधिकृत गुणवत्तेचे निकाल आणि लक्ष्याच्या समर्पित मार्गदर्शनाद्वारे स्पर्धा परीक्षा जिंकलेल्या उमेदवारांच्या सत्यापित नोंदी आहेत.",
+  '"Results are not accidents. They are the calculated outcome of daily answer reviews, small batch focus, and unwavering discipline."':
+    '"परिणाम अपघात नसतात. ते दैनंदिन उत्तर पुनरावलोकने, लहान बॅच फोकस आणि अटूट शिस्तीचे गणना केलेले परिणाम आहेत."',
+  "Every year, aspirants from all over Maharashtra arrive at our Pandit Colony campus in Nashik with a singular dream: to serve the state as administrative leaders. Here are authentic testimonials, official merit results, and verified records of candidates who conquered competitive examinations through Lakshya's dedicated guidance.":
+    "दरवर्षी, संपूर्ण महाराष्ट्रातील इच्छुक नाशिकमधील आमच्या पंडित कॉलनी कॅम्पसमध्ये एकच स्वप्न घेऊन येतात: प्रशासकीय नेते म्हणून राज्याची सेवा करण्याचे. येथे अस्सल प्रशस्तिपत्रे, अधिकृत गुणवत्तेचे निकाल आणि लक्ष्याच्या समर्पित मार्गदर्शनाद्वारे स्पर्धा परीक्षा जिंकलेल्या उमेदवारांच्या सत्यापित नोंदी आहेत.",
   "Official Merit Roster": "अधिकृत मेरिट रोस्टर",
   "Selected Officers & Felicitations": "निवडक अधिकारी व सत्कार",
-  "Authentic results, topper rank certificates, and felicitation ceremonies directly from the Lakshya Career Academy alumni records.": "लक्ष्य करिअर अकादमीच्या माजी विद्यार्थ्यांच्या नोंदींमधून प्रामाणिक निकाल, टॉपर रँक प्रमाणपत्रे आणि सत्कार समारंभ.",
+  "Authentic results, topper rank certificates, and felicitation ceremonies directly from the Lakshya Career Academy alumni records.":
+    "लक्ष्य करिअर अकादमीच्या माजी विद्यार्थ्यांच्या नोंदींमधून प्रामाणिक निकाल, टॉपर रँक प्रमाणपत्रे आणि सत्कार समारंभ.",
   "All Results (18)": "सर्व परिणाम (18)",
   "Combine Gr. B (PSI / STI / ASO)": "Gr एकत्र करा. B (PSI/STI/ASO)",
   "Technical Services & MES": "तांत्रिक सेवा आणि MES",
@@ -1372,78 +1841,113 @@ window.LAKSHYA_I18N = {
   "Class-1 Selection": "वर्ग-1 निवड",
   "🔍 Expand": "🔍 विस्तृत करा",
   "State Administration Officer Selection": "राज्य प्रशासन अधिकारी निवड",
-  "Lakshya Academy candidate qualified for Maharashtra State Administrative Cadre through MPSC Rajyaseva.": "लक्ष्य अकादमी उमेदवार MPSC राज्यसेवा मार्फत महाराष्ट्र राज्य प्रशासकीय संवर्गासाठी पात्र ठरला आहे.",
+  "Lakshya Academy candidate qualified for Maharashtra State Administrative Cadre through MPSC Rajyaseva.":
+    "लक्ष्य अकादमी उमेदवार MPSC राज्यसेवा मार्फत महाराष्ट्र राज्य प्रशासकीय संवर्गासाठी पात्र ठरला आहे.",
   "STI Qualified": "STI पात्र",
-  "Sales Tax Inspector (STI) Merit List": "विक्रीकर निरीक्षक (STI) गुणवत्ता यादी",
-  "Successful candidate securing state selection in Finance and Sales Tax administration under Combine Group B.": "कम्बाईन ग्रुप बी अंतर्गत वित्त आणि विक्रीकर प्रशासनात राज्य निवड मिळवणारे यशस्वी उमेदवार.",
+  "Sales Tax Inspector (STI) Merit List":
+    "विक्रीकर निरीक्षक (STI) गुणवत्ता यादी",
+  "Successful candidate securing state selection in Finance and Sales Tax administration under Combine Group B.":
+    "कम्बाईन ग्रुप बी अंतर्गत वित्त आणि विक्रीकर प्रशासनात राज्य निवड मिळवणारे यशस्वी उमेदवार.",
   "PSI Selected": "PSI निवडले",
   "Police Sub-Inspector (PSI) Cadre": "पोलीस उपनिरीक्षक (PSI) संवर्ग",
-  "Selected officer completing rigorous Prelims, Law Mains, and 100-mark Physical ground coaching at Lakshya.": "लक्ष्य येथे कठोर प्रीलिम्स, लॉ मेन्स आणि 100 मार्कांचे फिजिकल ग्राउंड कोचिंग पूर्ण करणारे निवडलेले अधिकारी.",
+  "Selected officer completing rigorous Prelims, Law Mains, and 100-mark Physical ground coaching at Lakshya.":
+    "लक्ष्य येथे कठोर प्रीलिम्स, लॉ मेन्स आणि 100 मार्कांचे फिजिकल ग्राउंड कोचिंग पूर्ण करणारे निवडलेले अधिकारी.",
   "ASO Mantralaya": "ASO मंत्रालय",
-  "Selected for Mantralaya State Secretariat administration following top descriptive scores.": "शीर्ष वर्णनात्मक गुणांनंतर मंत्रालय राज्य सचिवालय प्रशासनासाठी निवड.",
+  "Selected for Mantralaya State Secretariat administration following top descriptive scores.":
+    "शीर्ष वर्णनात्मक गुणांनंतर मंत्रालय राज्य सचिवालय प्रशासनासाठी निवड.",
   "MES Class-2": "एमईएस वर्ग-2",
-  "Maharashtra Engineering Services (MES)": "महाराष्ट्र अभियांत्रिकी सेवा (एमईएस)",
-  "Qualified for State Public Works & Technical Services cadre through focused technical guidance.": "केंद्रीत तांत्रिक मार्गदर्शनाद्वारे राज्य सार्वजनिक बांधकाम आणि तांत्रिक सेवा संवर्गासाठी पात्र.",
+  "Maharashtra Engineering Services (MES)":
+    "महाराष्ट्र अभियांत्रिकी सेवा (एमईएस)",
+  "Qualified for State Public Works & Technical Services cadre through focused technical guidance.":
+    "केंद्रीत तांत्रिक मार्गदर्शनाद्वारे राज्य सार्वजनिक बांधकाम आणि तांत्रिक सेवा संवर्गासाठी पात्र.",
   "Revenue & Tahsildar Merit Selection": "महसूल व तहसीलदार गुणवत्ता निवड",
-  "Candidate achieving high rank across GS Papers 1 to 4 and interview board evaluation.": "GS पेपर 1 ते 4 आणि मुलाखत मंडळाच्या मूल्यांकनामध्ये उच्च श्रेणी प्राप्त करणारा उमेदवार.",
+  "Candidate achieving high rank across GS Papers 1 to 4 and interview board evaluation.":
+    "GS पेपर 1 ते 4 आणि मुलाखत मंडळाच्या मूल्यांकनामध्ये उच्च श्रेणी प्राप्त करणारा उमेदवार.",
   "Director Felicitation": "संचालकांचा सत्कार",
   "Officer Felicitation Ceremony": "अधिकारी सत्कार समारंभ",
-  "Founder directors Atul Nikumbh & Nishant Pawar honoring newly selected civil servant at Nashik campus.": "संस्थापक संचालक अतुल निकुंभ आणि निशांत पवार नाशिक कॅम्पसमध्ये नवनियुक्त नागरी सेवकांचा सत्कार करताना.",
+  "Founder directors Atul Nikumbh & Nishant Pawar honoring newly selected civil servant at Nashik campus.":
+    "संस्थापक संचालक अतुल निकुंभ आणि निशांत पवार नाशिक कॅम्पसमध्ये नवनियुक्त नागरी सेवकांचा सत्कार करताना.",
   "Kar Sahayak": "कर सहाय्यक",
-  "Kar Sahayak (कर सहायक / Tax Assistant)": "कर सहाय्यक (कर सहायक / कर सहाय्यक)",
-  "Selected in State Tax and Revenue Department with top marks in GS and Marathi-English papers.": "राज्य कर आणि महसूल विभागात GS आणि मराठी-इंग्रजी पेपर्समध्ये अव्वल गुणांसह निवड.",
+  "Kar Sahayak (कर सहायक / Tax Assistant)":
+    "कर सहाय्यक (कर सहायक / कर सहाय्यक)",
+  "Selected in State Tax and Revenue Department with top marks in GS and Marathi-English papers.":
+    "राज्य कर आणि महसूल विभागात GS आणि मराठी-इंग्रजी पेपर्समध्ये अव्वल गुणांसह निवड.",
   "Merit Selection": "गुणवत्ता निवड",
   "State Competitive Merit Selection": "राज्य स्पर्धात्मक गुणवत्ता निवड",
-  "Aspirant securing verified selection in Maharashtra administrative departments.": "महाराष्ट्र प्रशासकीय विभागांमध्ये सत्यापित निवड मिळवणारे इच्छुक.",
-  "Police Service & Uniform Cadre Selection": "पोलीस सेवा आणि एकसमान संवर्ग निवड",
-  "Proven result in Maharashtra State Police recruitment through disciplined test evaluation.": "शिस्तबद्ध चाचणी मूल्यमापनाद्वारे महाराष्ट्र राज्य पोलीस भरतीमध्ये सिद्ध झालेले निकाल.",
+  "Aspirant securing verified selection in Maharashtra administrative departments.":
+    "महाराष्ट्र प्रशासकीय विभागांमध्ये सत्यापित निवड मिळवणारे इच्छुक.",
+  "Police Service & Uniform Cadre Selection":
+    "पोलीस सेवा आणि एकसमान संवर्ग निवड",
+  "Proven result in Maharashtra State Police recruitment through disciplined test evaluation.":
+    "शिस्तबद्ध चाचणी मूल्यमापनाद्वारे महाराष्ट्र राज्य पोलीस भरतीमध्ये सिद्ध झालेले निकाल.",
   "Mains Qualifier": "मुख्य पात्रता",
   "MPSC Descriptive Mains High Scorer": "MPSC वर्णनात्मक मुख्य उच्च स्कोअरर",
-  "Candidate mastering daily answer review cycles to score top marks in written descriptive papers.": "लेखी वर्णनात्मक पेपर्समध्ये उच्च गुण मिळविण्यासाठी उमेदवार दररोज उत्तर पुनरावलोकन चक्रात प्रभुत्व मिळवतो.",
+  "Candidate mastering daily answer review cycles to score top marks in written descriptive papers.":
+    "लेखी वर्णनात्मक पेपर्समध्ये उच्च गुण मिळविण्यासाठी उमेदवार दररोज उत्तर पुनरावलोकन चक्रात प्रभुत्व मिळवतो.",
   "Merit Felicitation": "गुणवंतांचा सत्कार",
   "Merit Felicitation at Pandit Colony": "पंडित कॉलनी येथे गुणवंतांचा सत्कार",
-  "Celebrating candidate appointments with faculty mentors, parents, and fellow aspirants.": "फॅकल्टी मार्गदर्शक, पालक आणि सहकारी इच्छुकांसह उमेदवारांच्या भेटी साजरी करणे.",
+  "Celebrating candidate appointments with faculty mentors, parents, and fellow aspirants.":
+    "फॅकल्टी मार्गदर्शक, पालक आणि सहकारी इच्छुकांसह उमेदवारांच्या भेटी साजरी करणे.",
   "Grand Felicitation": "भव्य सत्कार",
   "Grand Officer Felicitation Ceremony": "भव्य अधिकारी सत्कार समारंभ",
-  "Annual stage ceremony honoring batch rank holders across Class-1, Class-2, and Police services.": "वर्ग-1, वर्ग-2, आणि पोलिस सेवांमधील बॅच रँक धारकांचा सन्मान करणारा वार्षिक स्टेज समारंभ.",
+  "Annual stage ceremony honoring batch rank holders across Class-1, Class-2, and Police services.":
+    "वर्ग-1, वर्ग-2, आणि पोलिस सेवांमधील बॅच रँक धारकांचा सन्मान करणारा वार्षिक स्टेज समारंभ.",
   "Study Ecosystem": "इकोसिस्टमचा अभ्यास करा",
-  "Intensive Study & Answer Review Cohort": "गहन अभ्यास आणि उत्तर पुनरावलोकन गट",
-  "Quiet, focused library environment where aspirants prepare for state competitive ranks.": "शांत, केंद्रित लायब्ररी वातावरण जेथे इच्छुक राज्य स्पर्धात्मक रँकसाठी तयारी करतात.",
+  "Intensive Study & Answer Review Cohort":
+    "गहन अभ्यास आणि उत्तर पुनरावलोकन गट",
+  "Quiet, focused library environment where aspirants prepare for state competitive ranks.":
+    "शांत, केंद्रित लायब्ररी वातावरण जेथे इच्छुक राज्य स्पर्धात्मक रँकसाठी तयारी करतात.",
   "Officer Guidance": "अधिकारी मार्गदर्शन",
   "Serving Officer Mentorship Seminar": "सर्व्हिंग ऑफिसर मेंटरशिप सेमिनार",
-  "Selected alumni returning to guide the next generation of Maharashtra civil service leaders.": "निवडक माजी विद्यार्थी महाराष्ट्र नागरी सेवा नेत्यांच्या पुढच्या पिढीला मार्गदर्शन करण्यासाठी परतत आहेत.",
+  "Selected alumni returning to guide the next generation of Maharashtra civil service leaders.":
+    "निवडक माजी विद्यार्थी महाराष्ट्र नागरी सेवा नेत्यांच्या पुढच्या पिढीला मार्गदर्शन करण्यासाठी परतत आहेत.",
   "Batch Celebration": "बॅच सेलिब्रेशन",
   "Achievers Batch Felicitation Gathering": "अचिव्हर्स बॅचचा सत्कार मेळावा",
-  "Memorable celebration acknowledging the dedication, discipline, and success of our aspirants.": "आमच्या इच्छुकांच्या समर्पण, शिस्त आणि यशाची कबुली देणारा संस्मरणीय उत्सव.",
+  "Memorable celebration acknowledging the dedication, discipline, and success of our aspirants.":
+    "आमच्या इच्छुकांच्या समर्पण, शिस्त आणि यशाची कबुली देणारा संस्मरणीय उत्सव.",
   "Strategy Masterclass": "स्ट्रॅटेजी मास्टरक्लास",
   "Administrative Strategy Masterclass": "प्रशासकीय रणनीती मास्टरक्लास",
-  "Interactive session on Mains paper analysis, question choice, and time management.": "मुख्य पेपर विश्लेषण, प्रश्न निवड आणि वेळ व्यवस्थापन यावर परस्परसंवादी सत्र.",
+  "Interactive session on Mains paper analysis, question choice, and time management.":
+    "मुख्य पेपर विश्लेषण, प्रश्न निवड आणि वेळ व्यवस्थापन यावर परस्परसंवादी सत्र.",
   "Director Citation": "संचालक प्रशस्तीपत्र",
-  "Merit Citation & Award Presentation": "गुणवत्ता प्रशस्तीपत्र आणि पुरस्कार सादरीकरण",
-  "Official commendation awarded to outstanding candidates for consistent test series performance.": "सातत्यपूर्ण चाचणी मालिका कामगिरीसाठी उत्कृष्ट उमेदवारांना अधिकृत प्रशंसा देण्यात आली.",
+  "Merit Citation & Award Presentation":
+    "गुणवत्ता प्रशस्तीपत्र आणि पुरस्कार सादरीकरण",
+  "Official commendation awarded to outstanding candidates for consistent test series performance.":
+    "सातत्यपूर्ण चाचणी मालिका कामगिरीसाठी उत्कृष्ट उमेदवारांना अधिकृत प्रशंसा देण्यात आली.",
   "Candidate Experiences": "उमेदवाराचे अनुभव",
   "Verified Reviews Across Cadres": "संपूर्ण संवर्गातील सत्यापित पुनरावलोकने",
-  "Hear directly from candidates who transformed their scores under Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh's mentorship.": "अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांच्या मार्गदर्शनाखाली त्यांच्या गुणांमध्ये बदल करणाऱ्या उमेदवारांकडून थेट ऐका.",
-  "\"The personalized attention and daily CSAT & GS practice sessions at Lakshya transformed my preparation. Atul Sir's subject analysis and regular motivational mentoring gave me the confidence to secure my selection as Kar Sahayak.\"": "\"लक्ष्य येथे वैयक्तिक लक्ष आणि दैनंदिन CSAT आणि GS सराव सत्रांनी माझ्या तयारीला कलाटणी दिली. अतुल सरांच्या विषयाचे विश्लेषण आणि नियमित प्रेरक मार्गदर्शनामुळे मला कार सहाय्यक म्हणून माझी निवड निश्चित करण्याचा आत्मविश्वास मिळाला.\"",
+  "Hear directly from candidates who transformed their scores under Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh's mentorship.":
+    "अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांच्या मार्गदर्शनाखाली त्यांच्या गुणांमध्ये बदल करणाऱ्या उमेदवारांकडून थेट ऐका.",
+  '"The personalized attention and daily CSAT & GS practice sessions at Lakshya transformed my preparation. Atul Sir\'s subject analysis and regular motivational mentoring gave me the confidence to secure my selection as Kar Sahayak."':
+    '"लक्ष्य येथे वैयक्तिक लक्ष आणि दैनंदिन CSAT आणि GS सराव सत्रांनी माझ्या तयारीला कलाटणी दिली. अतुल सरांच्या विषयाचे विश्लेषण आणि नियमित प्रेरक मार्गदर्शनामुळे मला कार सहाय्यक म्हणून माझी निवड निश्चित करण्याचा आत्मविश्वास मिळाला."',
   "Kar Sahayak (कर सहायक)": "कर सहाय्यक (कर सहायक)",
   "State Tax & Revenue Cadre": "राज्य कर आणि महसूल संवर्ग",
-  "\"The quality of study notes, current affairs analysis, and continuous performance tracking at Lakshya is unmatched. The faculty's guidance helped me stay disciplined and achieve my rank as Special Technical Officer.\"": "\"लक्ष्य मधील अभ्यासाच्या नोंदी, चालू घडामोडींचे विश्लेषण आणि सतत कामगिरीचा मागोवा घेणे या गुणवत्तेचा अतुलनीय आहे. शिक्षकांच्या मार्गदर्शनामुळे मला शिस्तबद्ध राहण्यास आणि विशेष तांत्रिक अधिकारी म्हणून माझी श्रेणी प्राप्त करण्यास मदत झाली.\"",
+  '"The quality of study notes, current affairs analysis, and continuous performance tracking at Lakshya is unmatched. The faculty\'s guidance helped me stay disciplined and achieve my rank as Special Technical Officer."':
+    '"लक्ष्य मधील अभ्यासाच्या नोंदी, चालू घडामोडींचे विश्लेषण आणि सतत कामगिरीचा मागोवा घेणे या गुणवत्तेचा अतुलनीय आहे. शिक्षकांच्या मार्गदर्शनामुळे मला शिस्तबद्ध राहण्यास आणि विशेष तांत्रिक अधिकारी म्हणून माझी श्रेणी प्राप्त करण्यास मदत झाली."',
   "Special Technical Officer": "विशेष तांत्रिक अधिकारी",
   "State Technical Services": "राज्य तांत्रिक सेवा",
-  "\"The 15-day test evaluation system and direct faculty mentorship gave me the exact analytical depth needed for technical civil services. Lakshya's library and small batch focus are unparalleled in Nashik.\"": "\"15-दिवसीय चाचणी मूल्यमापन प्रणाली आणि थेट शिक्षक मार्गदर्शनामुळे मला तांत्रिक नागरी सेवांसाठी आवश्यक विश्लेषणात्मक सखोलता मिळाली. नाशिकमध्ये लक्ष्याची लायब्ररी आणि लहान बॅच फोकस अतुलनीय आहेत.\"",
+  '"The 15-day test evaluation system and direct faculty mentorship gave me the exact analytical depth needed for technical civil services. Lakshya\'s library and small batch focus are unparalleled in Nashik."':
+    '"15-दिवसीय चाचणी मूल्यमापन प्रणाली आणि थेट शिक्षक मार्गदर्शनामुळे मला तांत्रिक नागरी सेवांसाठी आवश्यक विश्लेषणात्मक सखोलता मिळाली. नाशिकमध्ये लक्ष्याची लायब्ररी आणि लहान बॅच फोकस अतुलनीय आहेत."',
   "Selected Officer (MES)": "निवडलेले अधिकारी (एमईएस)",
   "Maharashtra Engineering Services": "महाराष्ट्र अभियांत्रिकी सेवा",
   "Join the Legacy": "लेगसीमध्ये सामील व्हा",
   "Start Your Officer Journey": "तुमचा अधिकारी प्रवास सुरू करा",
-  "Book an individual strategy session with founder directors Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh.": "संस्थापक संचालक अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांच्यासोबत वैयक्तिक रणनीती सत्र बुक करा.",
-  "The Lakshya Career Academy | Maharashtra's Premier MPSC Mentorship Institute": "द लक्ष्य करिअर अकॅडमी | महाराष्ट्राची अग्रगण्य MPSC मार्गदर्शन संस्था",
+  "Book an individual strategy session with founder directors Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh.":
+    "संस्थापक संचालक अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांच्यासोबत वैयक्तिक रणनीती सत्र बुक करा.",
+  "The Lakshya Career Academy | Maharashtra's Premier MPSC Mentorship Institute":
+    "द लक्ष्य करिअर अकॅडमी | महाराष्ट्राची अग्रगण्य MPSC मार्गदर्शन संस्था",
   "CAREER ACADEMY • NASHIK": "करिअर अकॅडमी • नाशिक",
-  "Established in 2010 in Nashik, Lakshya Career Academy is dedicated to guiding aspirants towards their goals in competitive examinations. Founded under the academic leadership of": "२०१० मध्ये नाशिक येथे स्थापन झालेली लक्ष्य करिअर अकॅडमी स्पर्धा परीक्षांमधील यशासाठी विद्यार्थ्यांना मार्गदर्शन करण्यासाठी समर्पित आहे. यांच्या शैक्षणिक नेतृत्वाखाली स्थापन:",
+  "Established in 2010 in Nashik, Lakshya Career Academy is dedicated to guiding aspirants towards their goals in competitive examinations. Founded under the academic leadership of":
+    "२०१० मध्ये नाशिक येथे स्थापन झालेली लक्ष्य करिअर अकॅडमी स्पर्धा परीक्षांमधील यशासाठी विद्यार्थ्यांना मार्गदर्शन करण्यासाठी समर्पित आहे. यांच्या शैक्षणिक नेतृत्वाखाली स्थापन:",
   ", and": " आणि ",
-  ", the academy focuses on quality education, structured preparation, and personalised academic guidance.": ", अकॅडमी दर्जेदार शिक्षण, सुनियोजित तयारी आणि वैयक्तिक शैक्षणिक मार्गदर्शनावर भर देते.",
-  "2nd Floor, Bhaskar Android, Opp. Sindhusagar Academy, Near Lane No. 4, Pandit Colony, Nashik, 422002": "दुसरा मजला, भास्कर अँड्रॉइड, सिंधूसागर अकॅडमी समोर, लेन क्र. ४ जवळ, पंडित कॉलनी, नाशिक, ४२२००२",
-  "2026 The Lakshya Career Academy. All Rights Reserved.": "२०२६ द लक्ष्य करिअर अकॅडमी. सर्व हक्क सुरक्षित.",
-  "Near Prasad Circle, Gangapur Road / Pandit Colony,": "प्रसाद सर्कल जवळ, गंगापूर रोड / पंडित कॉलनी,",
+  ", the academy focuses on quality education, structured preparation, and personalised academic guidance.":
+    ", अकॅडमी दर्जेदार शिक्षण, सुनियोजित तयारी आणि वैयक्तिक शैक्षणिक मार्गदर्शनावर भर देते.",
+  "2nd Floor, Bhaskar Android, Opp. Sindhusagar Academy, Near Lane No. 4, Pandit Colony, Nashik, 422002":
+    "दुसरा मजला, भास्कर अँड्रॉइड, सिंधूसागर अकॅडमी समोर, लेन क्र. ४ जवळ, पंडित कॉलनी, नाशिक, ४२२००२",
+  "2026 The Lakshya Career Academy. All Rights Reserved.":
+    "२०२६ द लक्ष्य करिअर अकॅडमी. सर्व हक्क सुरक्षित.",
+  "Near Prasad Circle, Gangapur Road / Pandit Colony,":
+    "प्रसाद सर्कल जवळ, गंगापूर रोड / पंडित कॉलनी,",
   "Nashik, Maharashtra – 422002": "नाशिक, महाराष्ट्र – ४२२००२",
   "Mon – Sat: 8:00 AM – 8:00 PM": "सोम – शनि: सकाळी ८:०० ते रात्री ८:००",
   "Mon - Sat: 8:00 AM - 8:00 PM": "सोम - शनि: सकाळी ८:०० ते रात्री ८:००",
@@ -1468,59 +1972,81 @@ window.LAKSHYA_I18N = {
   "Send Message": "संदेश पाठवा",
   "Submit Application": "अर्ज सादर करा",
   "2. Examination Structure Pane": "2. परीक्षा संरचना फलक",
-  "MPSC PSI Mains Examination Coaching | The Lakshya Career Academy Nashik": "MPSC PSI मुख्य परीक्षा प्रशिक्षण | लक्ष्य करिअर ॲकॅडमी नाशिक",
-  "======================================================================== 5. FLAGSHIP CTA ========================================================================": "========================================================================== 5. फ्लॅगशिप CTA ==============================================================",
-  "======================================================================== 2. OUR VISION & MISSION (UNIFIED SIDE-BY-SIDE LAYOUT) ========================================================================": "======================================================================================== 2. आमची दृष्टी आणि मिशन (एकत्रित बाजू) ==============================================================",
+  "MPSC PSI Mains Examination Coaching | The Lakshya Career Academy Nashik":
+    "MPSC PSI मुख्य परीक्षा प्रशिक्षण | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "======================================================================== 5. FLAGSHIP CTA ========================================================================":
+    "========================================================================== 5. फ्लॅगशिप CTA ==============================================================",
+  "======================================================================== 2. OUR VISION & MISSION (UNIFIED SIDE-BY-SIDE LAYOUT) ========================================================================":
+    "======================================================================================== 2. आमची दृष्टी आणि मिशन (एकत्रित बाजू) ==============================================================",
   "16. Social Events": "16. सामाजिक कार्यक्रम",
-  "======================================================================== 11. FOOTER WITH STRAPLINE BANNER ========================================================================": "======================================================================= 11. स्ट्रॅपलाइन बॅनरसह फूटर ==============================================================",
+  "======================================================================== 11. FOOTER WITH STRAPLINE BANNER ========================================================================":
+    "======================================================================= 11. स्ट्रॅपलाइन बॅनरसह फूटर ==============================================================",
   "Tab Navigation": "टॅब नेव्हिगेशन",
   "Centered Subtitle": "केंद्रीत उपशीर्षक",
   "Prelims • Mains • Interview": "प्रिलिम्स • मुख्य • मुलाखत",
   "4. Main Exam Pane": "4. मुख्य परीक्षा फलक",
-  "Event Photo 4: Other Academy Events - Annual Gathering": "कार्यक्रम फोटो 4: इतर अकादमी कार्यक्रम - वार्षिक मेळावा",
-  "Rotating Hero Slideshow (High-Resolution Authentic Academy Photos)": "फिरवत हिरो स्लाइडशो (उच्च-रिझोल्यूशन ऑथेंटिक अकादमी फोटो)",
-  "======================================================================== INTRO NARRATIVE ========================================================================": "======================================================================= परिचय कथन ==============================================================",
-  "======================================================================== 7. 4-COLUMN IMAGE LINKS STRIP ========================================================================": "========================================================================= 7. 4-स्तंभ प्रतिमा लिंक्स स्ट्रिप ==============================================================",
+  "Event Photo 4: Other Academy Events - Annual Gathering":
+    "कार्यक्रम फोटो 4: इतर अकादमी कार्यक्रम - वार्षिक मेळावा",
+  "Rotating Hero Slideshow (High-Resolution Authentic Academy Photos)":
+    "फिरवत हिरो स्लाइडशो (उच्च-रिझोल्यूशन ऑथेंटिक अकादमी फोटो)",
+  "======================================================================== INTRO NARRATIVE ========================================================================":
+    "======================================================================= परिचय कथन ==============================================================",
+  "======================================================================== 7. 4-COLUMN IMAGE LINKS STRIP ========================================================================":
+    "========================================================================= 7. 4-स्तंभ प्रतिमा लिंक्स स्ट्रिप ==============================================================",
   "Cohort Size:": "समूह आकार:",
   "General Studies": "सामान्य अध्ययन",
   "15. Free Wi-Fi": "15. मोफत वाय-फाय",
   "8. Human Rights & Responsibilities:": "8. मानवी हक्क आणि जबाबदाऱ्या:",
   "Upper body muscular endurance": "वरच्या शरीराची स्नायू सहनशक्ती",
   "📌 Note:": "📌 टीप:",
-  "10. Special Lectures on Current Affairs": "10. चालू घडामोडींवर विशेष व्याख्याने",
+  "10. Special Lectures on Current Affairs":
+    "10. चालू घडामोडींवर विशेष व्याख्याने",
   "Explosive lower body power and agility": "स्फोटक कमी शरीर शक्ती आणि चपळता",
-  "Item 11: Website Gallery - Discussion Group": "आयटम 11: वेबसाइट गॅलरी - चर्चा गट",
+  "Item 11: Website Gallery - Discussion Group":
+    "आयटम 11: वेबसाइट गॅलरी - चर्चा गट",
   "8. Maths & Reasoning": "8. गणित आणि तर्क",
   "City:": "शहर:",
-  "Campus Photo Gallery & Archives | The Lakshya Career Academy Nashik": "कॅम्पस फोटो गॅलरी आणि संग्रहण | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "Campus Photo Gallery & Archives | The Lakshya Career Academy Nashik":
+    "कॅम्पस फोटो गॅलरी आणि संग्रहण | लक्ष्य करिअर ॲकॅडमी नाशिक",
   "Award Presentation": "पुरस्कार सादरीकरण",
-  "Left / Right Circular Glass Navigation Arrows": "डावे/उजवे वर्तुळाकार काचेचे नेव्हिगेशन बाण",
+  "Left / Right Circular Glass Navigation Arrows":
+    "डावे/उजवे वर्तुळाकार काचेचे नेव्हिगेशन बाण",
   "Medium:": "मध्यम:",
-  "======================================================================== 6. COMPARATIVE EXAM BLUEPRINT TABLE ========================================================================": "============================================================================================================================================= 6. तौलनिक परीक्षेचे ब्ल्यू प्रिंट टेबल ==============================================================",
-  "MPSC Combine Group B Exam Coaching | The Lakshya Career Academy Nashik": "MPSC एकत्रित गट ब परीक्षा प्रशिक्षण | लक्ष्य करिअर ॲकॅडमी नाशिक",
-  "FOOTER": "तळटीप",
-  "• Paper III: General Studies II (Governance, Polity & IR — 250 Marks)": "• पेपर III: सामान्य अध्ययन II (शासन, राजकारण आणि IR - 250 गुण)",
+  "======================================================================== 6. COMPARATIVE EXAM BLUEPRINT TABLE ========================================================================":
+    "============================================================================================================================================= 6. तौलनिक परीक्षेचे ब्ल्यू प्रिंट टेबल ==============================================================",
+  "MPSC Combine Group B Exam Coaching | The Lakshya Career Academy Nashik":
+    "MPSC एकत्रित गट ब परीक्षा प्रशिक्षण | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  FOOTER: "तळटीप",
+  "• Paper III: General Studies II (Governance, Polity & IR — 250 Marks)":
+    "• पेपर III: सामान्य अध्ययन II (शासन, राजकारण आणि IR - 250 गुण)",
   "State Level Guidance Seminars": "राज्यस्तरीय मार्गदर्शन सेमिनार",
   "Item 5: Felicitation Award": "आयटम 5: सत्कार पुरस्कार",
   "275 Marks (Dholpur House, New Delhi)": "२७५ गुण (धोलपूर हाऊस, नवी दिल्ली)",
   "Card 13: assets/img/gallery/1.jpg": "कार्ड 13: assets/img/gallery/1.jpg",
   "Card 16: assets/img/gallery/4.jpg": "कार्ड 16: assets/img/gallery/4.jpg",
-  "======================================================================== 6. INTERACTIVE LINK-CARDS ACCORDION TABS (THE 7 PROGRAMS) ========================================================================": "========================================================================== 6. परस्परसंवादी लिंक-कार्ड ॲकॉर्डिअन टॅब (रॅम 7) ==============================================================",
+  "======================================================================== 6. INTERACTIVE LINK-CARDS ACCORDION TABS (THE 7 PROGRAMS) ========================================================================":
+    "========================================================================== 6. परस्परसंवादी लिंक-कार्ड ॲकॉर्डिअन टॅब (रॅम 7) ==============================================================",
   "Category Filter Bar": "श्रेणी फिल्टर बार",
-  "magazine focusing on socioeconomic development, infrastructure, tribal welfare, industrial policy, and fiscal planning for Mains GS papers.": "सामाजिक आर्थिक विकास, पायाभूत सुविधा, आदिवासी कल्याण, औद्योगिक धोरण आणि मुख्य GS पेपर्ससाठी वित्तीय नियोजन यावर लक्ष केंद्रित करणारी मासिके.",
-  "7 Papers Counted for Merit (1,750 Marks):": "गुणवत्तेसाठी 7 पेपर मोजले गेले (1,750 गुण):",
+  "magazine focusing on socioeconomic development, infrastructure, tribal welfare, industrial policy, and fiscal planning for Mains GS papers.":
+    "सामाजिक आर्थिक विकास, पायाभूत सुविधा, आदिवासी कल्याण, औद्योगिक धोरण आणि मुख्य GS पेपर्ससाठी वित्तीय नियोजन यावर लक्ष केंद्रित करणारी मासिके.",
+  "7 Papers Counted for Merit (1,750 Marks):":
+    "गुणवत्तेसाठी 7 पेपर मोजले गेले (1,750 गुण):",
   "Scheme 2: 2027 Cycle Onwards": "योजना 2: 2027 सायकल पुढे",
-  "Success Stories & Alumni Hall of Fame | The Lakshya Career Academy Nashik": "यशोगाथा आणि माजी विद्यार्थी हॉल ऑफ फेम | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "Success Stories & Alumni Hall of Fame | The Lakshya Career Academy Nashik":
+    "यशोगाथा आणि माजी विद्यार्थी हॉल ऑफ फेम | लक्ष्य करिअर ॲकॅडमी नाशिक",
   "Qualifying Language Papers:": "पात्र भाषा पेपर:",
-  "======================================================================== 3. FEATURES OF LAKSHYA CAREER ACADEMY (ACADEMIC LEARNING PLATFORM ARCHITECTURE) ========================================================================": "======================================================================== 3. FEATURES OF LAKSHYA CAREER ACADEMY (ACADEMIC LEARNING PLATFORM आर्किटेक्चर) ===============================================================",
+  "======================================================================== 3. FEATURES OF LAKSHYA CAREER ACADEMY (ACADEMIC LEARNING PLATFORM ARCHITECTURE) ========================================================================":
+    "======================================================================== 3. FEATURES OF LAKSHYA CAREER ACADEMY (ACADEMIC LEARNING PLATFORM आर्किटेक्चर) ===============================================================",
   "2. Intelligence & Reasoning Test:": "2. बुद्धिमत्ता आणि तर्क चाचणी:",
   "Floating Sticky WhatsApp Pill": "फ्लोटिंग स्टिकी व्हॉट्सॲप पिल",
   "Atul Nikumbh & Panel": "अतुल निकुंभ आणि पॅनल",
   "GST, State Budgets & Planning": "जीएसटी, राज्य अर्थसंकल्प आणि नियोजन",
-  "DUPLICATED SET FOR INFINITE SEAMLESS LOOP": "अनंत सीमलेस लूपसाठी डुप्लिकेटेड सेट",
+  "DUPLICATED SET FOR INFINITE SEAMLESS LOOP":
+    "अनंत सीमलेस लूपसाठी डुप्लिकेटेड सेट",
   "Stage 3: Interview & Merit": "स्टेज 3: मुलाखत आणि गुणवत्ता",
   "Official Verification Disclaimer Box": "अधिकृत सत्यापन अस्वीकरण बॉक्स",
-  "======================================================================== 3. FLAGSHIP BANNER (HERO) - GENUINE LAKSHYA CAMPUS ASSET ========================================================================": "========================================================================= 3. फ्लॅगशिप बॅनर (हीरो) - अस्सल लाकशी ==============================================================",
+  "======================================================================== 3. FLAGSHIP BANNER (HERO) - GENUINE LAKSHYA CAMPUS ASSET ========================================================================":
+    "========================================================================= 3. फ्लॅगशिप बॅनर (हीरो) - अस्सल लाकशी ==============================================================",
   "Monthly Current Affairs Magazines": "मासिक चालू घडामोडी मासिके",
   "Item 21: Website Gallery - Felicitation": "आयटम 21: वेबसाइट गॅलरी - सत्कार",
   "Paper II (CSAT Aptitude):": "पेपर II (CSAT योग्यता):",
@@ -1536,69 +2062,88 @@ window.LAKSHYA_I18N = {
   "Cadre Note": "कॅडर नोट",
   "Polity Focus:": "राजकीय फोकस:",
   "Article 5: PSI Physical 100-Mark Prep": "कलम 5: PSI शारीरिक 100-मार्क तयारी",
-  "5. Free Study-Room Access (Highlighted)": "5. मोफत अभ्यास-खोली प्रवेश (हायलाइट केलेले)",
+  "5. Free Study-Room Access (Highlighted)":
+    "5. मोफत अभ्यास-खोली प्रवेश (हायलाइट केलेले)",
   "Item 9: Seminar Hall": "आयटम 9: सेमिनार हॉल",
   "19. Revision Sessions": "19. पुनरावृत्ती सत्रे",
   "Language Passages": "भाषा परिच्छेद",
   "Individual progress review cycle": "वैयक्तिक प्रगती पुनरावलोकन चक्र",
-  "Economic Survey of Maharashtra Mastery:": "महाराष्ट्राची आर्थिक पाहणी मास्टरी:",
+  "Economic Survey of Maharashtra Mastery:":
+    "महाराष्ट्राची आर्थिक पाहणी मास्टरी:",
   "Economy Focus:": "इकॉनॉमी फोकस:",
   "2. NCERT SECTION": "2. NCERT विभाग",
   "Economic Survey Focus": "आर्थिक सर्वेक्षण फोकस",
   "📌 Important Cadre Note:": "📌 महत्वाची संवर्ग सूचना:",
-  "Candidates must follow the official notifications issued for their specific examination year. Please verify the latest official schemes directly on the Commission websites:": "उमेदवारांनी त्यांच्या विशिष्ट परीक्षेच्या वर्षासाठी जारी केलेल्या अधिकृत सूचनांचे पालन करणे आवश्यक आहे. कृपया आयोगाच्या वेबसाइटवर थेट नवीनतम अधिकृत योजनांची पडताळणी करा:",
-  "======================================================================== 8. 4-COLUMN IMAGE LINKS ACCORDION (GENUINE LAKSHYA ASSETS) ========================================================================": "======================================================================================================================================== 8. 4-स्तंभ प्रतिमा लिंक्स ॲकॉर्डियन (सामान्य सहाय्यक) ==============================================================",
+  "Candidates must follow the official notifications issued for their specific examination year. Please verify the latest official schemes directly on the Commission websites:":
+    "उमेदवारांनी त्यांच्या विशिष्ट परीक्षेच्या वर्षासाठी जारी केलेल्या अधिकृत सूचनांचे पालन करणे आवश्यक आहे. कृपया आयोगाच्या वेबसाइटवर थेट नवीनतम अधिकृत योजनांची पडताळणी करा:",
+  "======================================================================== 8. 4-COLUMN IMAGE LINKS ACCORDION (GENUINE LAKSHYA ASSETS) ========================================================================":
+    "======================================================================================================================================== 8. 4-स्तंभ प्रतिमा लिंक्स ॲकॉर्डियन (सामान्य सहाय्यक) ==============================================================",
   "21. Digital Classroom": "21. डिजिटल क्लासरूम",
   "Quick Structure Highlights": "द्रुत संरचना हायलाइट्स",
   "Direct State Recruitment": "थेट राज्य भरती",
   "Director 1: Pranjal Nikumbh": "दिग्दर्शक 1: प्रांजल निकुंभ",
-  "Marathi & English language papers (Excluded from final merit total).": "मराठी आणि इंग्रजी भाषेचे पेपर (अंतिम गुणवत्तेतून वगळलेले).",
-  "Contact & Admissions Office | The Lakshya Career Academy Nashik": "संपर्क आणि प्रवेश कार्यालय | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "Marathi & English language papers (Excluded from final merit total).":
+    "मराठी आणि इंग्रजी भाषेचे पेपर (अंतिम गुणवत्तेतून वगळलेले).",
+  "Contact & Admissions Office | The Lakshya Career Academy Nashik":
+    "संपर्क आणि प्रवेश कार्यालय | लक्ष्य करिअर ॲकॅडमी नाशिक",
   "Group Activity": "गट क्रियाकलाप",
   "1-on-1 Academic Counseling": "1-ऑन-1 शैक्षणिक समुपदेशन",
   "11. Free Current Affairs Magazine": "11. मोफत चालू घडामोडी मासिक",
   "English Language": "इंग्रजी भाषा",
-  "• Paper II: General Studies I (Indian Heritage, History, Geo & Society — 250 Marks)": "• पेपर II: सामान्य अध्ययन I (भारतीय वारसा, इतिहास, भू आणि समाज - 250 गुण)",
-  "Header": "शीर्षलेख",
+  "• Paper II: General Studies I (Indian Heritage, History, Geo & Society — 250 Marks)":
+    "• पेपर II: सामान्य अध्ययन I (भारतीय वारसा, इतिहास, भू आणि समाज - 250 गुण)",
+  Header: "शीर्षलेख",
   "17. Personality Development": "17. व्यक्तिमत्व विकास",
   "Item 6: Mentorship & Workshop": "आयटम 6: मार्गदर्शन आणि कार्यशाळा",
   "Card 3 Duplicate": "कार्ड 3 डुप्लिकेट",
   "Article 1: MPSC Descriptive Writing": "कलम 1: MPSC वर्णनात्मक लेखन",
   "Law Acts:": "कायद्याचे कायदे:",
   "2. Mains Exam Scheme Pane": "2. मुख्य परीक्षा योजना फलक",
-  "======================================================================== 5. DETAILED SYLLABUS & SCHEME ========================================================================": "5. तपशीलवार अभ्यासक्रम आणि योजना ==============================================================",
+  "======================================================================== 5. DETAILED SYLLABUS & SCHEME ========================================================================":
+    "5. तपशीलवार अभ्यासक्रम आणि योजना ==============================================================",
   "Tab 3: PSI Mains & Law": "टॅब 3: PSI मुख्य आणि कायदा",
   "3. TEST SERIES SECTION": "3. चाचणी मालिका विभाग",
   "FLAGSHIP HERO BANNER": "फ्लॅगशिप हीरो बॅनर",
-  "– Papers VI & VII: Optional Subject Paper 1 & 2 (2 x 250 = 500 Marks)": "– पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 (2 x 250 = 500 गुण)",
+  "– Papers VI & VII: Optional Subject Paper 1 & 2 (2 x 250 = 500 Marks)":
+    "– पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 (2 x 250 = 500 गुण)",
   "Sayali Mali": "सायली माळी",
   "Sticky Sidebar": "चिकट साइडबार",
   "Modal 2: Nishant Pawar": "मॉडेल 2: निशांत पवार",
-  "======================================================================== 6. INSET STRATEGY CONSULTATION FORM ========================================================================": "======================================================================== 6. इनसेट स्ट्रॅटेजी कन्सल्टेशन फॉर्म ==============================================================",
-  "======================================================================== 4. NEWSLETTER / WHATSAPP BROADCAST SECTION ========================================================================": "======================================================================== 4. वृत्तपत्र / व्हॉट्सॲप प्रसारण विभाग ==============================================================",
+  "======================================================================== 6. INSET STRATEGY CONSULTATION FORM ========================================================================":
+    "======================================================================== 6. इनसेट स्ट्रॅटेजी कन्सल्टेशन फॉर्म ==============================================================",
+  "======================================================================== 4. NEWSLETTER / WHATSAPP BROADCAST SECTION ========================================================================":
+    "======================================================================== 4. वृत्तपत्र / व्हॉट्सॲप प्रसारण विभाग ==============================================================",
   "Official Syllabi & Exam Patterns": "अधिकृत अभ्यासक्रम आणि परीक्षा पद्धती",
   "400 Marks (Objective MCQs)": "400 गुण (वस्तुनिष्ठ MCQ)",
   ", as shown in the image.": ", इमेजमध्ये दाखवल्याप्रमाणे.",
   "Card 17: assets/img/gallery/5.jpg": "कार्ड 17: assets/img/gallery/5.jpg",
-  "======================================================================== 7. VERIFIED ALUMNI REVIEWS ACROSS CADRES ========================================================================": "======================================================================== 7. VERIFIED ALUMNI REVIEWS ACROSS CADRES ==============================================================",
+  "======================================================================== 7. VERIFIED ALUMNI REVIEWS ACROSS CADRES ========================================================================":
+    "======================================================================== 7. VERIFIED ALUMNI REVIEWS ACROSS CADRES ==============================================================",
   "Card 10: 21.jpeg": "कार्ड 10: 21.jpeg",
-  "======================================================================== HERO BANNER ========================================================================": "========================================================================= हिरो बॅनर ==============================================================",
+  "======================================================================== HERO BANNER ========================================================================":
+    "========================================================================= हिरो बॅनर ==============================================================",
   "5. Indian Constitution:": "5. भारतीय संविधान:",
   "Main Content Column": "मुख्य सामग्री स्तंभ",
   "Address Card": "पत्ता कार्ड",
   "Class I Leadership Cadre": "वर्ग I नेतृत्व संवर्ग",
-  "Courses & Programs | The Lakshya Career Academy Nashik": "अभ्यासक्रम आणि कार्यक्रम | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "Courses & Programs | The Lakshya Career Academy Nashik":
+    "अभ्यासक्रम आणि कार्यक्रम | लक्ष्य करिअर ॲकॅडमी नाशिक",
   "Focused Cohorts of 30": "30 च्या फोकस्ड कॉहोर्ट्स",
-  "Strict cohort cap for focused learning": "केंद्रित शिक्षणासाठी कठोर कोहोर्ट कॅप",
-  "GST & Maharashtra State Tax Legal Updates:": "GST आणि महाराष्ट्र राज्य कर कायदेशीर अद्यतने:",
+  "Strict cohort cap for focused learning":
+    "केंद्रित शिक्षणासाठी कठोर कोहोर्ट कॅप",
+  "GST & Maharashtra State Tax Legal Updates:":
+    "GST आणि महाराष्ट्र राज्य कर कायदेशीर अद्यतने:",
   "Subjectwise Master Notes": "विषयानुसार मास्टर नोट्स",
-  "• Paper V: General Studies IV (Ethics, Integrity & Aptitude — 250 Marks)": "• पेपर V: सामान्य अध्ययन IV (नीतिशास्त्र, सचोटी आणि योग्यता - 250 गुण)",
-  "Nashik": "नाशिक",
+  "• Paper V: General Studies IV (Ethics, Integrity & Aptitude — 250 Marks)":
+    "• पेपर V: सामान्य अध्ययन IV (नीतिशास्त्र, सचोटी आणि योग्यता - 250 गुण)",
+  Nashik: "नाशिक",
   "Card 1 Duplicate": "कार्ड 1 डुप्लिकेट",
   "Preliminary Subjects Breakdown": "प्राथमिक विषयांचे ब्रेकडाउन",
-  "7. Information Technology (IT) & Cyber Laws:": "7. माहिती तंत्रज्ञान (IT) आणि सायबर कायदे:",
-  "Sales Tax Inspector (STI) Mains Coaching | The Lakshya Career Academy Nashik": "विक्रीकर निरीक्षक (STI) मुख्य प्रशिक्षण | लक्ष्य करिअर ॲकॅडमी नाशिक",
-  "Seminar": "परिसंवाद",
+  "7. Information Technology (IT) & Cyber Laws:":
+    "7. माहिती तंत्रज्ञान (IT) आणि सायबर कायदे:",
+  "Sales Tax Inspector (STI) Mains Coaching | The Lakshya Career Academy Nashik":
+    "विक्रीकर निरीक्षक (STI) मुख्य प्रशिक्षण | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  Seminar: "परिसंवाद",
   "IPC • CrPC • Evidence • Police Act": "IPC • CrPC • पुरावा • पोलिस कायदा",
   "Mains 200 Marks Blueprint": "मुख्य 200 गुणांची ब्लू प्रिंट",
   "Stage A Prelims Scheme": "स्टेज अ प्रिलिम्स योजना",
@@ -1606,17 +2151,22 @@ window.LAKSHYA_I18N = {
   "Card 7: 18.jpeg": "कार्ड 7: 18.jpeg",
   "• Current Affairs:": "• चालू घडामोडी:",
   "Single Stage Merit Selection": "सिंगल स्टेज मेरिट सिलेक्शन",
-  "======================================================================== 5. DETAILED SCHEME & 4-SUBJECT MATRIX ========================================================================": "========================================================================= 5. तपशीलवार योजना आणि 4-विषय मॅट्रिक्स ==============================================================",
-  "======================================================================== EXAMINATION PATTERN COMPONENT (UPSC & MPSC STATE SERVICES) ========================================================================": "========================================================================= परीक्षेचा नमुना घटक (UPSC आणि MPSC) राज्य सेवक ==============================================================",
-  "======================================================================== 8. INSET STRATEGY CONSULTATION FORM ========================================================================": "======================================================================== 8. इनसेट स्ट्रॅटेजी कन्सल्टेशन फॉर्म ==============================================================",
-  "Bottom Row Controls & Text (Counter, Mouse Scroll Indicator, Tagline)": "तळाशी पंक्ती नियंत्रणे आणि मजकूर (काउंटर, माउस स्क्रोल इंडिकेटर, टॅगलाइन)",
+  "======================================================================== 5. DETAILED SCHEME & 4-SUBJECT MATRIX ========================================================================":
+    "========================================================================= 5. तपशीलवार योजना आणि 4-विषय मॅट्रिक्स ==============================================================",
+  "======================================================================== EXAMINATION PATTERN COMPONENT (UPSC & MPSC STATE SERVICES) ========================================================================":
+    "========================================================================= परीक्षेचा नमुना घटक (UPSC आणि MPSC) राज्य सेवक ==============================================================",
+  "======================================================================== 8. INSET STRATEGY CONSULTATION FORM ========================================================================":
+    "======================================================================== 8. इनसेट स्ट्रॅटेजी कन्सल्टेशन फॉर्म ==============================================================",
+  "Bottom Row Controls & Text (Counter, Mouse Scroll Indicator, Tagline)":
+    "तळाशी पंक्ती नियंत्रणे आणि मजकूर (काउंटर, माउस स्क्रोल इंडिकेटर, टॅगलाइन)",
   "District Wise Test Series": "जिल्हानिहाय चाचणी मालिका",
   "Card 2: Sayali Mali": "कार्ड 2: सायली माळी",
   "Authentic Aspirant Journeys": "अस्सल इच्छुक प्रवास",
   "Item 7: Classroom Batch": "आयटम 7: वर्ग बॅच",
   "Card 1: Parag Wagh": "कार्ड 1: पराग वाघ",
   "Village Revenue Administration": "गाव महसूल प्रशासन",
-  "Article 4: State Board & NCERT Foundation": "कलम ४: स्टेट बोर्ड आणि एनसीईआरटी फाउंडेशन",
+  "Article 4: State Board & NCERT Foundation":
+    "कलम ४: स्टेट बोर्ड आणि एनसीईआरटी फाउंडेशन",
   "Ground Physical Test": "ग्राउंड फिजिकल टेस्ट",
   "1. Rajyaseva Examination": "1. राज्यसेवा परीक्षा",
   "2. Examination Pattern Pane": "2. परीक्षा नमुना फलक",
@@ -1624,55 +2174,68 @@ window.LAKSHYA_I18N = {
   "500+ Officers In Service": "500+ अधिकारी सेवेत",
   "Batch Size Capped at 30": "बॅचचा आकार 30 वर मर्यादित आहे",
   "• Age Limitations:": "• वयोमर्यादा:",
-  "• Indian Constitution & Constitutional Amendments:": "• भारतीय संविधान आणि घटनादुरुस्ती:",
-  "html": "html",
-  "Item 13: Website Gallery - Officer Felicitation": "आयटम 13: वेबसाइट गॅलरी - अधिकारी सत्कार",
+  "• Indian Constitution & Constitutional Amendments:":
+    "• भारतीय संविधान आणि घटनादुरुस्ती:",
+  html: "html",
+  "Item 13: Website Gallery - Officer Felicitation":
+    "आयटम 13: वेबसाइट गॅलरी - अधिकारी सत्कार",
   "Descriptive & Objective Formats": "वर्णनात्मक आणि वस्तुनिष्ठ स्वरूप",
-  "200 Marks | 80 MCQs | 2 Hours (Qualifying: Minimum 33% / 66 Marks required)": "200 गुण | 80 MCQs | 2 तास (पात्रता: किमान 33% / 66 गुण आवश्यक)",
-  "• Main Examination (Descriptive Written): 1,750 Merit Marks": "• मुख्य परीक्षा (वर्णनात्मक लिखित): 1,750 गुणवत्ता गुण",
+  "200 Marks | 80 MCQs | 2 Hours (Qualifying: Minimum 33% / 66 Marks required)":
+    "200 गुण | 80 MCQs | 2 तास (पात्रता: किमान 33% / 66 गुण आवश्यक)",
+  "• Main Examination (Descriptive Written): 1,750 Merit Marks":
+    "• मुख्य परीक्षा (वर्णनात्मक लिखित): 1,750 गुणवत्ता गुण",
   "Integrated Mentorship": "एकात्मिक मार्गदर्शन",
-  "Left Column: Detailed Information Cards": "डावा स्तंभ: तपशीलवार माहिती कार्ड",
+  "Left Column: Detailed Information Cards":
+    "डावा स्तंभ: तपशीलवार माहिती कार्ड",
   "Personality Interview": "व्यक्तिमत्व मुलाखत",
   "Desktop Primary Nav Links": "डेस्कटॉप प्राथमिक एनएव्ही लिंक्स",
   "1. CLASS NOTES SECTION": "1. वर्ग नोट्स विभाग",
-  "Talathi Bharti Examination Coaching | The Lakshya Career Academy Nashik": "तलाठी भारती परीक्षा प्रशिक्षण | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "Talathi Bharti Examination Coaching | The Lakshya Career Academy Nashik":
+    "तलाठी भारती परीक्षा प्रशिक्षण | लक्ष्य करिअर ॲकॅडमी नाशिक",
   "Director 3: Atul Shashikant Nikumbh": "दिग्दर्शक 3: अतुल शशिकांत निकुंभ",
   "Officer Mock Panels": "अधिकारी मॉक पॅनेल",
-  "Felicitation": "सत्कार",
-  "======================================================================== 5. DETAILED SCHEME & CURRICULUM BLUEPRINT ========================================================================": "========================================================================= 5. तपशीलवार योजना आणि अभ्यासक्रमाचा खाका ==============================================================",
+  Felicitation: "सत्कार",
+  "======================================================================== 5. DETAILED SCHEME & CURRICULUM BLUEPRINT ========================================================================":
+    "========================================================================= 5. तपशीलवार योजना आणि अभ्यासक्रमाचा खाका ==============================================================",
   "Pandit Colony, Nashik": "पंडित कॉलनी, नाशिक",
   "Cohort:": "समूह:",
   "6. Essay Practice": "6. निबंध सराव",
   "Deputy Collector & DySP": "उपजिल्हाधिकारी आणि DySP",
   "4. Test Series (Highlighted)": "4. चाचणी मालिका (हायलाइट केलेली)",
   "Card 5: 16.jpeg": "कार्ड 5: 16.jpeg",
-  "======================================================================== 14. FLAGSHIP CONVERSION CTA (\"Your Goal Needs a Plan.\") ========================================================================": "========================================================================== 14. फ्लॅगशिप कन्व्हर्जन सीटीए (\"तुमचे ध्येय आवश्यक आहे.\") ==============================================================",
+  '======================================================================== 14. FLAGSHIP CONVERSION CTA ("Your Goal Needs a Plan.") ========================================================================':
+    '========================================================================== 14. फ्लॅगशिप कन्व्हर्जन सीटीए ("तुमचे ध्येय आवश्यक आहे.") ==============================================================',
   "Header Actions": "शीर्षलेख क्रिया",
   "Qualifying Papers:": "पात्रता पेपर:",
   "PRIMARY SET": "प्राथमिक संच",
   "To Increase Maharashtra's Share": "महाराष्ट्राचा वाटा वाढवण्यासाठी",
   "INSET CONSULTATION FORM": "इनसेट कन्सल्टेशन फॉर्म",
-  "======================================================================== 10. 4-COLUMN IMAGE LINKS ACCORDION (GENUINE LAKSHYA ASSETS) ========================================================================": "=========================================================================== 10. 4-स्तंभ प्रतिमा लिंक्स ACCORDION (आश्रय) ==============================================================",
+  "======================================================================== 10. 4-COLUMN IMAGE LINKS ACCORDION (GENUINE LAKSHYA ASSETS) ========================================================================":
+    "=========================================================================== 10. 4-स्तंभ प्रतिमा लिंक्स ACCORDION (आश्रय) ==============================================================",
   "• Age Parameters:": "• वय पॅरामीटर्स:",
   "Total: 2 × 250 = 500 marks": "एकूण: 2 × 250 = 500 गुण",
   "Golden Curved Brush Stroke Flourish": "गोल्डन वक्र ब्रश स्ट्रोक भरभराट",
   "School Books & NCERT Digests": "शालेय पुस्तके आणि NCERT डायजेस्ट",
   "5. Interview Pane": "5. मुलाखत फलक",
-  "Note": "नोंद",
-  "Item 20: Website Gallery - Seminar Presentation": "आयटम 20: वेबसाइट गॅलरी - परिसंवाद सादरीकरण",
+  Note: "नोंद",
+  "Item 20: Website Gallery - Seminar Presentation":
+    "आयटम 20: वेबसाइट गॅलरी - परिसंवाद सादरीकरण",
   "15-Day Mentorship Legacy": "15-दिवसीय मार्गदर्शन वारसा",
   "Card 1: 12.jpeg": "कार्ड 1: 12.jpeg",
   "Tab 1: Rajyaseva": "टॅब 1: राज्यसेवा",
   "7. Talathi Examination": "7. तलाठी परीक्षा",
-  "Tests": "चाचण्या",
+  Tests: "चाचण्या",
   "4. KURUKSHETRA SECTION": "4. कुरुक्षेत्र विभाग",
-  "Study Material & Reference Archives | The Lakshya Career Academy Nashik": "अभ्यास साहित्य आणि संदर्भ संग्रह | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "Study Material & Reference Archives | The Lakshya Career Academy Nashik":
+    "अभ्यास साहित्य आणि संदर्भ संग्रह | लक्ष्य करिअर ॲकॅडमी नाशिक",
   "Modal 1: Pranjal Nikumbh": "मॉडेल १: प्रांजल निकुंभ",
   "11 Criminal Law Acts & GS": "11 फौजदारी कायदा कायदा आणि GS",
   "Test Series:": "चाचणी मालिका:",
   "Stage 3: Interview Board": "स्टेज 3: मुलाखत मंडळ",
-  "======================================================================== 5. ALL 7 COURSES WITH FILTERING & LIONHEART CARDS ========================================================================": "========================================================================================= 5. सर्व 7 कोर्सेस फिल्टरिंग आणि लायनहार्ट कार ==============================================================",
-  "Marathi (300 Marks) & English (300 Marks) — Minimum 25% required (Excluded from final merit total).": "मराठी (300 गुण) आणि इंग्रजी (300 गुण) - किमान 25% आवश्यक (अंतिम गुणवत्तेतून वगळलेले).",
+  "======================================================================== 5. ALL 7 COURSES WITH FILTERING & LIONHEART CARDS ========================================================================":
+    "========================================================================================= 5. सर्व 7 कोर्सेस फिल्टरिंग आणि लायनहार्ट कार ==============================================================",
+  "Marathi (300 Marks) & English (300 Marks) — Minimum 25% required (Excluded from final merit total).":
+    "मराठी (300 गुण) आणि इंग्रजी (300 गुण) - किमान 25% आवश्यक (अंतिम गुणवत्तेतून वगळलेले).",
   "Strength and throwing technique": "ताकद आणि फेकण्याचे तंत्र",
   "15-Day Milestone Tracking": "15-दिवस माइलस्टोन ट्रॅकिंग",
   "अंकगणित व बुद्धिमत्ता चाचणी": "अंकगणित व बुद्धिमत्ता चाचणी",
@@ -1680,32 +2243,43 @@ window.LAKSHYA_I18N = {
   "ASO:": "ASO:",
   "Age Limit (Open Category):": "वयोमर्यादा (खुली प्रवर्ग):",
   "• Interview & Final Merit Calculation": "• मुलाखत आणि अंतिम गुणवत्ता गणना",
-  "Opposite Sindhusagar Academy, Near Lane No. 4,": "सिंधुसागर अकादमी समोर, गल्ली क्रमांक 4 जवळ,",
+  "Opposite Sindhusagar Academy, Near Lane No. 4,":
+    "सिंधुसागर अकादमी समोर, गल्ली क्रमांक 4 जवळ,",
   "Language Proficiency:": "भाषा प्रवीणता:",
-  "Saralseva Direct Recruitment Coaching | The Lakshya Career Academy Nashik": "सरलसेवा थेट भर्ती प्रशिक्षण | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "Saralseva Direct Recruitment Coaching | The Lakshya Career Academy Nashik":
+    "सरलसेवा थेट भर्ती प्रशिक्षण | लक्ष्य करिअर ॲकॅडमी नाशिक",
   "Main Navigation Bar": "मुख्य नेव्हिगेशन बार",
   "6. Saralseva Examination": "6. सरलसेवा परीक्षा",
   "Personality Test / Interview:": "व्यक्तिमत्व चाचणी / मुलाखत:",
-  "Item 18: Website Gallery - Mentorship": "आयटम 18: वेबसाइट गॅलरी - मार्गदर्शन",
+  "Item 18: Website Gallery - Mentorship":
+    "आयटम 18: वेबसाइट गॅलरी - मार्गदर्शन",
   "Blog Grid": "ब्लॉग ग्रिड",
-  "======================================================================== REQUEST CLASS MATERIAL FORM ========================================================================": "======================================================================= रिक्वेस्ट क्लास मटेरियल फॉर्म ==============================================================",
+  "======================================================================== REQUEST CLASS MATERIAL FORM ========================================================================":
+    "======================================================================= रिक्वेस्ट क्लास मटेरियल फॉर्म ==============================================================",
   "Academic Commitment Guarantee Bar": "शैक्षणिक वचनबद्धता हमी बार",
-  "======================================================================== 7. 4-COLUMN IMAGE LINKS STRIP (GENUINE LAKSHYA ASSETS) ========================================================================": "========================================================================== 7. 4-स्तंभ प्रतिमा लिंक्स स्ट्रिप (वास्तविक आधार) ==============================================================",
-  "Post availability and eligibility requirements may vary by recruitment cycle. Candidates should refer to the latest official MPSC notification for the applicable examination.": "पोस्टची उपलब्धता आणि पात्रता आवश्यकता भरती चक्रानुसार बदलू शकतात. उमेदवारांनी लागू परीक्षेसाठी नवीनतम अधिकृत MPSC अधिसूचना पहा.",
-  "Item 14: Website Gallery - Classroom Hall": "आयटम 14: वेबसाइट गॅलरी - वर्ग हॉल",
-  "Protective Dark Vignette Overlay: Keeps photo vivid & crisp while ensuring strong text contrast": "संरक्षक गडद विनेट आच्छादन: मजकूर तीव्रता सुनिश्चित करताना फोटो ज्वलंत आणि कुरकुरीत ठेवते",
+  "======================================================================== 7. 4-COLUMN IMAGE LINKS STRIP (GENUINE LAKSHYA ASSETS) ========================================================================":
+    "========================================================================== 7. 4-स्तंभ प्रतिमा लिंक्स स्ट्रिप (वास्तविक आधार) ==============================================================",
+  "Post availability and eligibility requirements may vary by recruitment cycle. Candidates should refer to the latest official MPSC notification for the applicable examination.":
+    "पोस्टची उपलब्धता आणि पात्रता आवश्यकता भरती चक्रानुसार बदलू शकतात. उमेदवारांनी लागू परीक्षेसाठी नवीनतम अधिकृत MPSC अधिसूचना पहा.",
+  "Item 14: Website Gallery - Classroom Hall":
+    "आयटम 14: वेबसाइट गॅलरी - वर्ग हॉल",
+  "Protective Dark Vignette Overlay: Keeps photo vivid & crisp while ensuring strong text contrast":
+    "संरक्षक गडद विनेट आच्छादन: मजकूर तीव्रता सुनिश्चित करताना फोटो ज्वलंत आणि कुरकुरीत ठेवते",
   "STI:": "STI:",
   "Modal 3: Atul Shashikant Nikumbh": "मोडल 3: अतुल शशिकांत निकुंभ",
   "1. SCHOOL BOOKS SECTION": "1. शालेय पुस्तके विभाग",
   "3. Notes": "3. नोट्स",
-  "2. Announced Revised Scheme (2027 Cycle Onwards)": "2. घोषित सुधारित योजना (2027 सायकल पुढे)",
-  "Days": "दिवस",
+  "2. Announced Revised Scheme (2027 Cycle Onwards)":
+    "2. घोषित सुधारित योजना (2027 सायकल पुढे)",
+  Days: "दिवस",
   "Stage 2: Mains": "स्टेज 2: मुख्य",
   "Exam Format:": "परीक्षेचे स्वरूप:",
   "3. Preliminary Exam Pane": "3. प्राथमिक परीक्षा फलक",
-  "======================================================================== 8. FOOTER WITH STRAPLINE BANNER ========================================================================": "======================================================================== 8. स्ट्रॅपलाइन बॅनरसह फूटर ==============================================================",
+  "======================================================================== 8. FOOTER WITH STRAPLINE BANNER ========================================================================":
+    "======================================================================== 8. स्ट्रॅपलाइन बॅनरसह फूटर ==============================================================",
   "Common Prelims Gateway": "कॉमन प्रिलिम्स गेटवे",
-  "• Paper A: Indian Language (300 Marks – Min 25%)": "• पेपर A: भारतीय भाषा (300 गुण - किमान 25%)",
+  "• Paper A: Indian Language (300 Marks – Min 25%)":
+    "• पेपर A: भारतीय भाषा (300 गुण - किमान 25%)",
   "2. Examination Scheme Pane": "2. परीक्षा योजना फलक",
   "Item 3: Guidance Seminar": "आयटम 3: मार्गदर्शन सेमिनार",
   "Direct Cadre Merit Focus": "डायरेक्ट कॅडर मेरिट फोकस",
@@ -1714,23 +2288,31 @@ window.LAKSHYA_I18N = {
   "Paper II (CSAT General Studies 2):": "पेपर II (CSAT सामान्य अध्ययन 2):",
   "Academy Event": "अकादमी कार्यक्रम",
   "Card 11: 22.jpeg": "कार्ड 11: 22.jpeg",
-  "Item 17: Website Gallery - Felicitation Trophy": "आयटम 17: वेबसाइट गॅलरी - सत्कार करंडक",
+  "Item 17: Website Gallery - Felicitation Trophy":
+    "आयटम 17: वेबसाइट गॅलरी - सत्कार करंडक",
   "Event Photo 2: Classroom Gatherings": "इव्हेंट फोटो 2: वर्ग संमेलने",
-  "• Preliminary Examination (Screening Stage): 400 Marks": "• प्राथमिक परीक्षा (स्क्रीनिंग स्टेज): 400 गुण",
+  "• Preliminary Examination (Screening Stage): 400 Marks":
+    "• प्राथमिक परीक्षा (स्क्रीनिंग स्टेज): 400 गुण",
   "Interview Panel": "मुलाखत पॅनेल",
-  "======================================================================== 4. EDITORIAL INTRO NARRATIVE ========================================================================": "4. संपादकीय परिचय ==============================================================",
-  "1. About Exam Pane (Active by default)": "1. परीक्षा फलकाबद्दल (डीफॉल्टनुसार सक्रिय)",
+  "======================================================================== 4. EDITORIAL INTRO NARRATIVE ========================================================================":
+    "4. संपादकीय परिचय ==============================================================",
+  "1. About Exam Pane (Active by default)":
+    "1. परीक्षा फलकाबद्दल (डीफॉल्टनुसार सक्रिय)",
   "Daily Speed & Accuracy Drills": "दैनंदिन गती आणि अचूकता कवायती",
   "(Mains 1,250 + Interview 175)": "(मुख्य 1,250 + मुलाखत 175)",
-  "======================================================================== 2. MAIN STICKY NAVIGATION HEADER ========================================================================": "========================================================================= 2. मुख्य चिकट नेव्हिगेशन हेडर ==============================================================",
-  "and": "आणि",
+  "======================================================================== 2. MAIN STICKY NAVIGATION HEADER ========================================================================":
+    "========================================================================= 2. मुख्य चिकट नेव्हिगेशन हेडर ==============================================================",
+  and: "आणि",
   "Marathi (मराठी व्याकरण)": "मराठी (मराठी व्याकरण)",
   "3. PSI Mains": "3. PSI मुख्य",
   "10. Indian Penal Code (IPC):": "10. भारतीय दंड संहिता (IPC):",
-  "LIGHTBOX MODAL CONTAINER FOR SUCCESS STORIES": "यशोगाथा साठी लाइटबॉक्स मोडल कंटेनर",
-  "======================================================================== REQUEST STUDY MATERIAL FORM ========================================================================": "================================================================================ अभ्यास साहित्य फॉर्म ==============================================================",
+  "LIGHTBOX MODAL CONTAINER FOR SUCCESS STORIES":
+    "यशोगाथा साठी लाइटबॉक्स मोडल कंटेनर",
+  "======================================================================== REQUEST STUDY MATERIAL FORM ========================================================================":
+    "================================================================================ अभ्यास साहित्य फॉर्म ==============================================================",
   "General Knowledge (सामान्य ज्ञान)": "सामान्य ज्ञान (सामान्य ज्ञान)",
-  "Item 10: Website Gallery - Lecture Session": "आयटम 10: वेबसाइट गॅलरी - व्याख्यान सत्र",
+  "Item 10: Website Gallery - Lecture Session":
+    "आयटम 10: वेबसाइट गॅलरी - व्याख्यान सत्र",
   "LIGHTBOX MODAL CONTAINER": "लाइटबॉक्स मोडल कंटेनर",
   "Paper 2": "पेपर २",
   "Structured Test Series": "संरचित चाचणी मालिका",
@@ -1741,90 +2323,125 @@ window.LAKSHYA_I18N = {
   "2. Eligibility Pane": "2. पात्रता फलक",
   "Books:": "पुस्तके:",
   "Quick Contact & WhatsApp Bar": "द्रुत संपर्क आणि व्हॉट्सॲप बार",
-  "======================================================================== 5B. SOCIAL EVENTS & GROUP ACTIVITIES (ACADEMY COMMUNITY GATHERINGS) ========================================================================": "5B. सामाजिक कार्यक्रम आणि गट उपक्रम (अकादमी सामुदायिक मेळावे) ================================================================",
+  "======================================================================== 5B. SOCIAL EVENTS & GROUP ACTIVITIES (ACADEMY COMMUNITY GATHERINGS) ========================================================================":
+    "5B. सामाजिक कार्यक्रम आणि गट उपक्रम (अकादमी सामुदायिक मेळावे) ================================================================",
   "40 Marks Board Interview": "40 गुणांची बोर्ड मुलाखत",
   "100 Questions • 200 Marks": "100 प्रश्न • 200 गुण",
   "Age Limit (Reserved Group):": "वयोमर्यादा (राखीव गट):",
-  "About Us & Academic Faculty | The Lakshya Career Academy Nashik": "आमच्याबद्दल आणि शैक्षणिक विद्याशाखा | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "About Us & Academic Faculty | The Lakshya Career Academy Nashik":
+    "आमच्याबद्दल आणि शैक्षणिक विद्याशाखा | लक्ष्य करिअर ॲकॅडमी नाशिक",
   "11. CrPC & Indian Evidence Act:": "11. CrPC आणि भारतीय पुरावा कायदा:",
   "• Language Requirement:": "• भाषेची आवश्यकता:",
   "– Paper I: Essay Writing (250 Marks)": "- पेपर I: निबंध लेखन (250 गुण)",
-  "1. Preliminary Examination (Screening Stage)": "1. प्राथमिक परीक्षा (स्क्रीनिंग स्टेज)",
-  "======================================================================== 4. BOARD OF DIRECTORS ========================================================================": "4. संचालक मंडळ ==============================================================",
+  "1. Preliminary Examination (Screening Stage)":
+    "1. प्राथमिक परीक्षा (स्क्रीनिंग स्टेज)",
+  "======================================================================== 4. BOARD OF DIRECTORS ========================================================================":
+    "4. संचालक मंडळ ==============================================================",
   "The Lakshya Career Academy": "लक्ष्य करिअर अकादमी",
-  "======================================================================== 5. DETAILED SCHEME & ALL CORE MODULES ========================================================================": "======================================================================== 5. तपशीलवार योजना आणि सर्व कोर मोड्यूल ==============================================================",
+  "======================================================================== 5. DETAILED SCHEME & ALL CORE MODULES ========================================================================":
+    "======================================================================== 5. तपशीलवार योजना आणि सर्व कोर मोड्यूल ==============================================================",
   "Director & Test Series Lead": "दिग्दर्शक आणि चाचणी मालिका लीड",
   "• Intelligence & Reasoning:": "• बुद्धिमत्ता आणि तर्कशक्ती:",
-  "======================================================================== 5. ASYMMETRIC 2-COLUMN CONTACT DETAILS & FORM ========================================================================": "======================================================================== 5. असममित 2-स्तंभ संपर्क तपशील आणि ==============================================================",
+  "======================================================================== 5. ASYMMETRIC 2-COLUMN CONTACT DETAILS & FORM ========================================================================":
+    "======================================================================== 5. असममित 2-स्तंभ संपर्क तपशील आणि ==============================================================",
   "Batch Capped at 30 Aspirants": "30 इच्छुकांची बॅच मर्यादित",
   "Age Limit (Open Group):": "वयोमर्यादा (खुला गट):",
   "Coverage:": "कव्हरेज:",
-  "Event Photo 5: Group Discussion & Peer Interaction": "इव्हेंट फोटो 5: गट चर्चा आणि समवयस्क संवाद",
+  "Event Photo 5: Group Discussion & Peer Interaction":
+    "इव्हेंट फोटो 5: गट चर्चा आणि समवयस्क संवाद",
   "• Talathi / Revenue Assistant:": "• तलाठी / महसूल सहाय्यक:",
   "Platform Header": "प्लॅटफॉर्म शीर्षलेख",
   "MPSC State Services & Combine": "MPSC राज्य सेवा आणि एकत्र",
   "200 Marks Written Mastery": "200 गुण लेखी प्रभुत्व",
   "Milestone Cycles": "माइलस्टोन सायकल्स",
-  "CTAs": "CTAs",
+  CTAs: "CTAs",
   "Content Narrative Column": "सामग्री कथा स्तंभ",
-  "======================================================================== 6. 4-COLUMN IMAGE LINKS STRIP ========================================================================": "========================================================================= 6. 4-स्तंभ प्रतिमा लिंक्स स्ट्रिप ==============================================================",
+  "======================================================================== 6. 4-COLUMN IMAGE LINKS STRIP ========================================================================":
+    "========================================================================= 6. 4-स्तंभ प्रतिमा लिंक्स स्ट्रिप ==============================================================",
   "Total: 2 × 300 = 600 marks": "एकूण: 2 × 300 = 600 गुण",
-  "200 Marks | 100 MCQs | 2 Hours (Determines Cutoff for Mains)": "200 गुण | 100 MCQ | 2 तास (मुख्यांसाठी कटऑफ निर्धारित करते)",
+  "200 Marks | 100 MCQs | 2 Hours (Determines Cutoff for Mains)":
+    "200 गुण | 100 MCQ | 2 तास (मुख्यांसाठी कटऑफ निर्धारित करते)",
   "PYQ Bank:": "PYQ बँक:",
-  "Qualifying Papers (Excluded from merit total):": "पात्रता पेपर (एकूण गुणवत्तेतून वगळलेले):",
+  "Qualifying Papers (Excluded from merit total):":
+    "पात्रता पेपर (एकूण गुणवत्तेतून वगळलेले):",
   "3. Syllabus & Statutes Pane": "3. अभ्यासक्रम आणि कायदे उपखंड",
-  "• Paper IV: General Studies III (Econ, Sci-Tech, Security — 250 Marks)": "• पेपर IV: सामान्य अध्ययन III (इकॉन, साय-टेक, सिक्युरिटी - 250 गुण)",
-  "The interview requirement and physical test parameters must be verified against the latest official notification for the relevant post.": "संबंधित पोस्टसाठी नवीनतम अधिकृत अधिसूचनेनुसार मुलाखतीची आवश्यकता आणि शारीरिक चाचणी पॅरामीटर्स सत्यापित करणे आवश्यक आहे.",
-  "6. Right to Information Act - 2005 (RTI):": "6. माहिती अधिकार कायदा - 2005 (RTI):",
-  "======================================================================== 5. DETAILED SYLLABUS & CURRICULUM BLUEPRINT ========================================================================": "========================================================================== 5. तपशीलवार अभ्यासक्रम आणि अभ्यासक्रमाचा खाका ==============================================================",
-  "======================================================================== 11. ASYMMETRIC INSET ADMISSIONS FORM (.form-alt) ========================================================================": "===================================================================================================================================================== 11. असिममेट्रिक इनसेट ऍडमिशन-ॲलफॉर्म. ==============================================================",
+  "• Paper IV: General Studies III (Econ, Sci-Tech, Security — 250 Marks)":
+    "• पेपर IV: सामान्य अध्ययन III (इकॉन, साय-टेक, सिक्युरिटी - 250 गुण)",
+  "The interview requirement and physical test parameters must be verified against the latest official notification for the relevant post.":
+    "संबंधित पोस्टसाठी नवीनतम अधिकृत अधिसूचनेनुसार मुलाखतीची आवश्यकता आणि शारीरिक चाचणी पॅरामीटर्स सत्यापित करणे आवश्यक आहे.",
+  "6. Right to Information Act - 2005 (RTI):":
+    "6. माहिती अधिकार कायदा - 2005 (RTI):",
+  "======================================================================== 5. DETAILED SYLLABUS & CURRICULUM BLUEPRINT ========================================================================":
+    "========================================================================== 5. तपशीलवार अभ्यासक्रम आणि अभ्यासक्रमाचा खाका ==============================================================",
+  "======================================================================== 11. ASYMMETRIC INSET ADMISSIONS FORM (.form-alt) ========================================================================":
+    "===================================================================================================================================================== 11. असिममेट्रिक इनसेट ऍडमिशन-ॲलफॉर्म. ==============================================================",
   "Card 4: Parag Wagh": "कार्ड 4: पराग वाघ",
-  "======================================================================== 1. ABOUT LAKSHYA CAREER ACADEMY (OFFICIAL INTRODUCTION & NARRATIVE) ========================================================================": "======================================================================== 1. ABOUT LAKSHYA CAREER ACADEMY (OFFICIAL INTRODUCTION & NARRATIVE) ==============================================================",
-  "Article 6: Mock Interview & Personality Guidance": "कलम 6: मॉक इंटरव्ह्यू आणि व्यक्तिमत्व मार्गदर्शन",
+  "======================================================================== 1. ABOUT LAKSHYA CAREER ACADEMY (OFFICIAL INTRODUCTION & NARRATIVE) ========================================================================":
+    "======================================================================== 1. ABOUT LAKSHYA CAREER ACADEMY (OFFICIAL INTRODUCTION & NARRATIVE) ==============================================================",
+  "Article 6: Mock Interview & Personality Guidance":
+    "कलम 6: मॉक इंटरव्ह्यू आणि व्यक्तिमत्व मार्गदर्शन",
   "Interview Board Preparation": "मुलाखत मंडळाची तयारी",
   "Comprehensive Notes": "सर्वसमावेशक नोट्स",
   "Card 3: Ankita Wagh": "कार्ड 3: अंकिता वाघ",
-  "Phone Card (Both numbers clickable tel:)": "फोन कार्ड (दोन्ही नंबर क्लिक करण्यायोग्य दूरध्वनी :)",
-  "12. Personal Counselling (Highlighted)": "12. वैयक्तिक समुपदेशन (हायलाइट केलेले)",
+  "Phone Card (Both numbers clickable tel:)":
+    "फोन कार्ड (दोन्ही नंबर क्लिक करण्यायोग्य दूरध्वनी :)",
+  "12. Personal Counselling (Highlighted)":
+    "12. वैयक्तिक समुपदेशन (हायलाइट केलेले)",
   "Secretariat Manual & RTI Acts": "सचिवालय मॅन्युअल आणि आरटीआय कायदे",
-  "Monthly theme-based compilations of Government of India's": "भारत सरकारचे मासिक थीम-आधारित संकलन",
+  "Monthly theme-based compilations of Government of India's":
+    "भारत सरकारचे मासिक थीम-आधारित संकलन",
   "• Clerk-cum-Typist / Tax Assistant:": "• लिपिक-सह-टंकलेखक / कर सहाय्यक:",
   "3. Mains Syllabus & Acts Pane": "3. मुख्य अभ्यासक्रम आणि कायदे उपखंड",
   "Paper I (General Studies 1):": "पेपर I (सामान्य अभ्यास 1):",
-  "• Paper VI & VII: Optional Subject Paper 1 & 2 (2 x 250 = 500 Marks)": "• पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 (2 x 250 = 500 गुण)",
+  "• Paper VI & VII: Optional Subject Paper 1 & 2 (2 x 250 = 500 Marks)":
+    "• पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 (2 x 250 = 500 गुण)",
   "• Educational Requirement:": "• शैक्षणिक आवश्यकता:",
-  "2. Main Examination (Descriptive Written)": "2. मुख्य परीक्षा (वर्णनात्मक लिखित)",
+  "2. Main Examination (Descriptive Written)":
+    "2. मुख्य परीक्षा (वर्णनात्मक लिखित)",
   "175 Marks": "175 गुण",
   "Director & GS Mentor": "संचालक आणि जीएस मेंटर",
-  "Academic Tracks: Two Distinct Architectural Pillars": "शैक्षणिक ट्रॅक: दोन वेगळे वास्तुशिल्प स्तंभ",
-  "Right Column: Consultation Booking Form": "उजवा स्तंभ: सल्लामसलत बुकिंग फॉर्म",
+  "Academic Tracks: Two Distinct Architectural Pillars":
+    "शैक्षणिक ट्रॅक: दोन वेगळे वास्तुशिल्प स्तंभ",
+  "Right Column: Consultation Booking Form":
+    "उजवा स्तंभ: सल्लामसलत बुकिंग फॉर्म",
   "9. Mumbai Police Act:": "9. मुंबई पोलीस कायदा:",
   "Language Requirement:": "भाषेची आवश्यकता:",
   "Vision Card": "व्हिजन कार्ड",
   "2. Combine Group B": "2. गट बी एकत्र करा",
-  "======================================================================== FOOTER WITH STRAPLINE BANNER ========================================================================": "====================================================================== स्ट्रॅपलाइन बॅनरसह तळटीप ==============================================================",
-  "======================================================================== 12. THE KNOWLEDGE HUB / ARTICLE SLIDER ========================================================================": "======================================================================== 12. नॉलेज हब / आर्टिकल स्लाइडर ==============================================================",
+  "======================================================================== FOOTER WITH STRAPLINE BANNER ========================================================================":
+    "====================================================================== स्ट्रॅपलाइन बॅनरसह तळटीप ==============================================================",
+  "======================================================================== 12. THE KNOWLEDGE HUB / ARTICLE SLIDER ========================================================================":
+    "======================================================================== 12. नॉलेज हब / आर्टिकल स्लाइडर ==============================================================",
   "Guidance:": "मार्गदर्शन:",
-  "======================================================================== 5. KEY HIGHLIGHTS OF OUR COACHING ECOSYSTEM ========================================================================": "======================================================================== 5. KEY HIGHLIGHTS OF OUR COACHING ECOSYSTEM ==============================================================",
+  "======================================================================== 5. KEY HIGHLIGHTS OF OUR COACHING ECOSYSTEM ========================================================================":
+    "======================================================================== 5. KEY HIGHLIGHTS OF OUR COACHING ECOSYSTEM ==============================================================",
   "Shot Put (गोळाफेक):": "शॉट पुट (गोळाफेक):",
   "Saralseva & Talathi Bharti": "सरलसेवा आणि तलाठी भारती",
   "Free Study Room": "मोफत अभ्यास कक्ष",
-  "• State Government & Secretariat Administration:": "• राज्य सरकार आणि सचिवालय प्रशासन:",
+  "• State Government & Secretariat Administration:":
+    "• राज्य सरकार आणि सचिवालय प्रशासन:",
   "Single-Stage 200M Selection": "सिंगल-स्टेज 200M निवड",
   "2. Target Exams": "2. लक्ष्य परीक्षा",
-  "======================================================================== 7 STUDY MATERIAL SECTIONS ========================================================================": "========================================================================= 7 अभ्यास साहित्य विभाग ==============================================================",
+  "======================================================================== 7 STUDY MATERIAL SECTIONS ========================================================================":
+    "========================================================================= 7 अभ्यास साहित्य विभाग ==============================================================",
   "Founder & Chief Academic Director": "संस्थापक आणि मुख्य शैक्षणिक संचालक",
   "Rigorous Prelims & Mains drills": "कठोर प्रिलिम्स आणि मुख्य कवायती",
   "Category Filter Pills": "श्रेणी फिल्टर गोळ्या",
-  "ASO Mains Examination Coaching | The Lakshya Career Academy Nashik": "ASO मुख्य परीक्षा प्रशिक्षण | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "ASO Mains Examination Coaching | The Lakshya Career Academy Nashik":
+    "ASO मुख्य परीक्षा प्रशिक्षण | लक्ष्य करिअर ॲकॅडमी नाशिक",
   "Card 9: 20.jpeg": "कार्ड 9: 20.jpeg",
   "Core Stylesheets": "कोर स्टाइलशीट्स",
-  "Clerk-Typist • Vanrakshak • ZP Staff": "लिपिक-टंकलेखक • वनरक्षक • झेडपी कर्मचारी",
-  "Academy library & Wi-Fi access included": "अकादमी लायब्ररी आणि वाय-फाय प्रवेश समाविष्ट आहे",
-  "Metric Billboard Strip: Highlights of Core Platform Deliverables": "मेट्रिक बिलबोर्ड स्ट्रिप: मुख्य प्लॅटफॉर्म डिलिवरेबल्सची हायलाइट्स",
+  "Clerk-Typist • Vanrakshak • ZP Staff":
+    "लिपिक-टंकलेखक • वनरक्षक • झेडपी कर्मचारी",
+  "Academy library & Wi-Fi access included":
+    "अकादमी लायब्ररी आणि वाय-फाय प्रवेश समाविष्ट आहे",
+  "Metric Billboard Strip: Highlights of Core Platform Deliverables":
+    "मेट्रिक बिलबोर्ड स्ट्रिप: मुख्य प्लॅटफॉर्म डिलिवरेबल्सची हायलाइट्स",
   "6. PYQ SECTION": "6. PYQ विभाग",
-  "======================================================================== 7. INSET STRATEGY CONSULTATION FORM ========================================================================": "======================================================================= 7. इनसेट स्ट्रॅटेजी कन्सल्टेशन फॉर्म ==============================================================",
-  "7. SYLLABUS & EXAMINATION PATTERN SECTION": "7. अभ्यासक्रम आणि परीक्षा पॅटर्न विभाग",
+  "======================================================================== 7. INSET STRATEGY CONSULTATION FORM ========================================================================":
+    "======================================================================= 7. इनसेट स्ट्रॅटेजी कन्सल्टेशन फॉर्म ==============================================================",
+  "7. SYLLABUS & EXAMINATION PATTERN SECTION":
+    "7. अभ्यासक्रम आणि परीक्षा पॅटर्न विभाग",
   "Sliding Navigation Drawer": "स्लाइडिंग नेव्हिगेशन ड्रॉवर",
   "275 Marks": "275 गुण",
   "Speed & Accuracy Training": "गती आणि अचूकता प्रशिक्षण",
@@ -1832,101 +2449,134 @@ window.LAKSHYA_I18N = {
   "Card 3: 14.jpeg": "कार्ड 3: 14.jpeg",
   "3. Eligibility & Cadres Pane": "3. पात्रता आणि संवर्ग फलक",
   "Card 15: assets/img/gallery/3.jpg": "कार्ड 15: assets/img/gallery/3.jpg",
-  "======================================================================== 15. EDITORIAL FOOTER ========================================================================": "15. संपादकीय तळटीप ==============================================================",
-  "======================================================================== 6. OFFICIAL MERIT ROSTER & PROVEN OFFICER RESULTS (FROM SUCCESS_STORIES.PHP) ========================================================================": "======================================================================== 6. अधिकृत मेरिट रोस्टर आणि सिद्ध अधिकारी (पीएचसी अधिकारी) ==============================================================",
+  "======================================================================== 15. EDITORIAL FOOTER ========================================================================":
+    "15. संपादकीय तळटीप ==============================================================",
+  "======================================================================== 6. OFFICIAL MERIT ROSTER & PROVEN OFFICER RESULTS (FROM SUCCESS_STORIES.PHP) ========================================================================":
+    "======================================================================== 6. अधिकृत मेरिट रोस्टर आणि सिद्ध अधिकारी (पीएचसी अधिकारी) ==============================================================",
   "Long Jump:": "लांब उडी:",
   "Meet Founder Directors": "संस्थापक संचालकांना भेटा",
-  "Past 10 Years Question Bank (PYQ) Breakdown:": "मागील 10 वर्षांची प्रश्न बँक (PYQ) ब्रेकडाउन:",
+  "Past 10 Years Question Bank (PYQ) Breakdown:":
+    "मागील 10 वर्षांची प्रश्न बँक (PYQ) ब्रेकडाउन:",
   "(Mains 1,750 + Interview 275)": "(मुख्य 1,750 + मुलाखत 275)",
   "Interview Mentorship Board": "मुलाखत मार्गदर्शन मंडळ",
   "Navigation Drawer": "नेव्हिगेशन ड्रॉवर",
   "Single Stage Selection": "सिंगल स्टेज निवड",
-  "======================================================================== 4. CINEMATIC TEXT-OVER-IMAGE FOCUS (MISSION & VISION) ========================================================================": "========================================================================== 4. सिनेमॅटिक टेक्स्ट-ओव्हर-इमेज फोकस (मिशन आणि कार्य) ==============================================================",
+  "======================================================================== 4. CINEMATIC TEXT-OVER-IMAGE FOCUS (MISSION & VISION) ========================================================================":
+    "========================================================================== 4. सिनेमॅटिक टेक्स्ट-ओव्हर-इमेज फोकस (मिशन आणि कार्य) ==============================================================",
   "Pattern:": "नमुना:",
   "Minimum qualifying marks:": "किमान पात्रता गुण:",
-  "======================================================================== FOOTER ========================================================================": "=> ==============================================================",
+  "======================================================================== FOOTER ========================================================================":
+    "=> ==============================================================",
   "• Vanrakshak (Forest Guard):": "• वनरक्षक (वनरक्षक):",
-  "======================================================================== HEADER / NAVIGATION BAR ========================================================================": "=> ==============================================================",
-  "• Right to Information Act - 2005 (RTI):": "• माहिती अधिकार कायदा - 2005 (RTI):",
+  "======================================================================== HEADER / NAVIGATION BAR ========================================================================":
+    "=> ==============================================================",
+  "• Right to Information Act - 2005 (RTI):":
+    "• माहिती अधिकार कायदा - 2005 (RTI):",
   "15-Day Milestone Tests:": "१५-दिवसीय माइलस्टोन चाचण्या:",
   "Pull-Ups:": "पुल-अप:",
   "Card 4 Duplicate": "कार्ड 4 डुप्लिकेट",
   "The Aim & Mission": "ध्येय आणि मिशन",
-  "📌 Official Examination Notification Note:": "📌 अधिकृत परीक्षा अधिसूचना सूचना:",
+  "📌 Official Examination Notification Note:":
+    "📌 अधिकृत परीक्षा अधिसूचना सूचना:",
   "5. LOK RAJYA SECTION": "5. लोकराज्य विभाग",
   "4. History of Modern Maharashtra:": "4. आधुनिक महाराष्ट्राचा इतिहास:",
-  "• Main Examination (Compulsory Papers): 1,250 Merit Marks": "• मुख्य परीक्षा (अनिवार्य पेपर): 1,250 गुणवत्ता गुण",
-  "======================================================================== 2. BLOG HERO BANNER ========================================================================": "========================================================================== 2. ब्लॉग हिरो बॅनर ==============================================================",
-  "Item 15: Website Gallery - Mentorship Seminar": "आयटम 15: वेबसाइट गॅलरी - मेंटरशिप सेमिनार",
-  "======================================================================== 3. EDITORIAL ABOUT LAKSHYA ACADEMY (HERITAGE & CORE PILLARS) ========================================================================": "======================================================================== 3. EDITORIAL ABOUT LAKSHYA ACADEMY (HERITAGE & CORE PILLARS) ==============================================================",
+  "• Main Examination (Compulsory Papers): 1,250 Merit Marks":
+    "• मुख्य परीक्षा (अनिवार्य पेपर): 1,250 गुणवत्ता गुण",
+  "======================================================================== 2. BLOG HERO BANNER ========================================================================":
+    "========================================================================== 2. ब्लॉग हिरो बॅनर ==============================================================",
+  "Item 15: Website Gallery - Mentorship Seminar":
+    "आयटम 15: वेबसाइट गॅलरी - मेंटरशिप सेमिनार",
+  "======================================================================== 3. EDITORIAL ABOUT LAKSHYA ACADEMY (HERITAGE & CORE PILLARS) ========================================================================":
+    "======================================================================== 3. EDITORIAL ABOUT LAKSHYA ACADEMY (HERITAGE & CORE PILLARS) ==============================================================",
   "Mains Written Examination": "मुख्य लेखी परीक्षा",
   "Tab 2: Combine Group B": "टॅब 2: गट B एकत्र करा",
   "12-Year PYQ Topic Banks": "12-वर्ष PYQ विषय बँका",
   "State Administration & Police": "राज्य प्रशासन आणि पोलीस",
-  "======================================================================== 4-COLUMN IMAGE LINKS ACCORDION ========================================================================": "* ==============================================================",
+  "======================================================================== 4-COLUMN IMAGE LINKS ACCORDION ========================================================================":
+    "* ==============================================================",
   "Direct WhatsApp Concierge": "थेट WhatsApp द्वारपाल",
   "Officer Felicitations": "अधिकाऱ्यांचा सत्कार",
   "100M Ground Training": "100M ग्राउंड प्रशिक्षण",
   "Rajyaseva, PSI, STI & ASO": "राज्यसेवा, PSI, STI आणि ASO",
   "2. CLASS MAGAZINE SECTION": "2. वर्ग मासिक विभाग",
-  "======================================================================== 3. FLAGSHIP BANNER (HERO) - GENUINE LAKSHYA FELICITATION ASSET ========================================================================": "========================================================================== 3. फ्लॅगशिप बॅनर (हीरो) - अस्सल सुविधा ==============================================================",
-  "200 Marks | 80 MCQs | 2 Hours (Qualifying at 33%)": "200 गुण | 80 MCQs | 2 तास (33% वर पात्र)",
+  "======================================================================== 3. FLAGSHIP BANNER (HERO) - GENUINE LAKSHYA FELICITATION ASSET ========================================================================":
+    "========================================================================== 3. फ्लॅगशिप बॅनर (हीरो) - अस्सल सुविधा ==============================================================",
+  "200 Marks | 80 MCQs | 2 Hours (Qualifying at 33%)":
+    "200 गुण | 80 MCQs | 2 तास (33% वर पात्र)",
   "Stage 1: Prelims": "स्टेज 1: प्रिलिम्स",
   "Police Sub Inspector": "पोलीस उपनिरीक्षक",
-  "This is a translation of the information visible in the provided image. The examination pattern and marks may change, so candidates should verify the current official MPSC Rajyaseva notification.": "प्रदान केलेल्या प्रतिमेमध्ये दृश्यमान असलेल्या माहितीचे हे भाषांतर आहे. परीक्षा पद्धती आणि गुण बदलू शकतात, त्यामुळे उमेदवारांनी सध्याच्या अधिकृत MPSC राज्यसेवा अधिसूचनेची पडताळणी करावी.",
+  "This is a translation of the information visible in the provided image. The examination pattern and marks may change, so candidates should verify the current official MPSC Rajyaseva notification.":
+    "प्रदान केलेल्या प्रतिमेमध्ये दृश्यमान असलेल्या माहितीचे हे भाषांतर आहे. परीक्षा पद्धती आणि गुण बदलू शकतात, त्यामुळे उमेदवारांनी सध्याच्या अधिकृत MPSC राज्यसेवा अधिसूचनेची पडताळणी करावी.",
   "TCS / IBPS Standard Tests": "TCS/IBPS मानक चाचण्या",
-  "======================================================================== 13. 4-COLUMN VERTICAL IMAGE LINKS ACCORDION (GENUINE LAKSHYA ASSETS) ========================================================================": "========================================================================== 13. 4-स्तंभ अनुलंब प्रतिमा (सहयोगी दुवे) ==============================================================",
+  "======================================================================== 13. 4-COLUMN VERTICAL IMAGE LINKS ACCORDION (GENUINE LAKSHYA ASSETS) ========================================================================":
+    "========================================================================== 13. 4-स्तंभ अनुलंब प्रतिमा (सहयोगी दुवे) ==============================================================",
   "Classroom Gathering": "वर्ग मेळावा",
   "Complete 11 Law Acts": "11 कायद्याचे कायदे पूर्ण करा",
   "• Paper I: Essay Writing (250 Marks)": "• पेपर I: निबंध लेखन (250 गुण)",
   "3. Interview & Final Merit Marks": "3. मुलाखत आणि अंतिम गुणवत्ता गुण",
   "Total Mains Written": "एकूण मुख्य लेखी",
   "Physical Training Cell": "शारीरिक प्रशिक्षण कक्ष",
-  "Timed stamina test on standardized track": "प्रमाणित ट्रॅकवर कालबद्ध तग धरण्याची चाचणी",
+  "Timed stamina test on standardized track":
+    "प्रमाणित ट्रॅकवर कालबद्ध तग धरण्याची चाचणी",
   "Language Selector for Mobile Drawer": "मोबाइल ड्रॉवरसाठी भाषा निवडक",
-  "======================================================================== 1. HEADER ========================================================================": "1. शीर्षलेख ==============================================================",
+  "======================================================================== 1. HEADER ========================================================================":
+    "1. शीर्षलेख ==============================================================",
   "मराठी भाषा व व्याकरण": "मराठी भाषा व व्याकरण",
   "2,025 Marks": "2,025 गुण",
-  "Essay (250 Marks) + GS I, II, III & IV (4 x 250 = 1,000 Marks).": "निबंध (250 गुण) + GS I, II, III आणि IV (4 x 250 = 1,000 गुण).",
-  "Item 19: Website Gallery - Interactive Hall": "आयटम 19: वेबसाइट गॅलरी - परस्परसंवादी हॉल",
-  "Item 12: Website Gallery - State Seminar": "आयटम 12: वेबसाइट गॅलरी - राज्य सेमिनार",
+  "Essay (250 Marks) + GS I, II, III & IV (4 x 250 = 1,000 Marks).":
+    "निबंध (250 गुण) + GS I, II, III आणि IV (4 x 250 = 1,000 गुण).",
+  "Item 19: Website Gallery - Interactive Hall":
+    "आयटम 19: वेबसाइट गॅलरी - परस्परसंवादी हॉल",
+  "Item 12: Website Gallery - State Seminar":
+    "आयटम 12: वेबसाइट गॅलरी - राज्य सेमिनार",
   "1. All Stages Preparation": "1. सर्व टप्पे तयारी",
   "Note:": "टीप:",
-  "Academy Overview & Examination Profile Card": "अकादमी विहंगावलोकन आणि परीक्षा प्रोफाइल कार्ड",
-  "======================================================================== 9. FOOTER WITH STRAPLINE BANNER ========================================================================": "======================================================================== 9. स्ट्रॅपलाइन बॅनरसह फूटर ==============================================================",
+  "Academy Overview & Examination Profile Card":
+    "अकादमी विहंगावलोकन आणि परीक्षा प्रोफाइल कार्ड",
+  "======================================================================== 9. FOOTER WITH STRAPLINE BANNER ========================================================================":
+    "======================================================================== 9. स्ट्रॅपलाइन बॅनरसह फूटर ==============================================================",
   "Popover Consultation Modal Drawer": "पॉपओव्हर कन्सल्टेशन मॉडेल ड्रॉवर",
   "Stage 1: Prelims Mastery": "स्टेज 1: प्रिलिम्स मास्टरी",
   "1-Year Comprehensive Track": "1-वर्षाचा सर्वसमावेशक ट्रॅक",
-  "Centered Brand Composition (LAKSHYA + Golden Brush Arc Flourish + Subtitle)": "मध्यवर्ती ब्रँड रचना (लक्ष्य + गोल्डन ब्रश आर्क फ्लोरिश + उपशीर्षक)",
+  "Centered Brand Composition (LAKSHYA + Golden Brush Arc Flourish + Subtitle)":
+    "मध्यवर्ती ब्रँड रचना (लक्ष्य + गोल्डन ब्रश आर्क फ्लोरिश + उपशीर्षक)",
   "Police • Finance • Secretariat": "पोलीस • वित्त • सचिवालय",
-  "COLUMN 1: MPSC STATE SERVICES (RAJYASEVA)": "स्तंभ 1: MPSC राज्य सेवा (राज्यसेवा)",
+  "COLUMN 1: MPSC STATE SERVICES (RAJYASEVA)":
+    "स्तंभ 1: MPSC राज्य सेवा (राज्यसेवा)",
   "Item 23: Website Gallery - Felicitation": "आयटम 23: वेबसाइट गॅलरी - सत्कार",
   "Card 12: 23.jpeg": "कार्ड 12: 23.jpeg",
   "Marathi • English • GK • Maths": "मराठी • इंग्रजी • GK • गणित",
-  "======================================================================== 9. FLAGSHIP CONVERSION CTA (\"Your Goal Needs a Plan.\") ========================================================================": "========================================================================== 9. फ्लॅगशिप कन्व्हर्जन CTA (\"तुमचे ध्येय) योजना आवश्यक आहे.\" ==============================================================",
+  '======================================================================== 9. FLAGSHIP CONVERSION CTA ("Your Goal Needs a Plan.") ========================================================================':
+    '========================================================================== 9. फ्लॅगशिप कन्व्हर्जन CTA ("तुमचे ध्येय) योजना आवश्यक आहे." ==============================================================',
   "Economics & Public Finance": "अर्थशास्त्र आणि सार्वजनिक वित्त",
   "15-Day": "15-दिवस",
-  "======================================================================== 1. TOP UTILITY TICKER BAR & HEADER ========================================================================": "========================================================================= 1. टॉप युटिलिटी टिकर बार आणि हेडर ==============================================================",
+  "======================================================================== 1. TOP UTILITY TICKER BAR & HEADER ========================================================================":
+    "========================================================================= 1. टॉप युटिलिटी टिकर बार आणि हेडर ==============================================================",
   "Item 8: Felicitation Stage": "आयटम 8: सत्कार स्टेज",
-  "Yojana": "योजना",
+  Yojana: "योजना",
   "Scheme 1: 2025-2026 Cycle": "योजना 1: 2025-2026 सायकल",
   "Card 2 Duplicate": "कार्ड 2 डुप्लिकेट",
   "Stage 2: Mains Descriptive": "स्टेज 2: मुख्य वर्णनात्मक",
   "Card 18: assets/img/gallery/6.jpg": "कार्ड 18: assets/img/gallery/6.jpg",
   "Indian Constitution & Governance": "भारतीय राज्यघटना आणि शासन",
-  "• Paper B: English Language (300 Marks – Min 25%)": "• पेपर B: इंग्रजी भाषा (300 गुण - किमान 25%)",
+  "• Paper B: English Language (300 Marks – Min 25%)":
+    "• पेपर B: इंग्रजी भाषा (300 गुण - किमान 25%)",
   "Card 2: 13.jpeg": "कार्ड 2: 13.jpeg",
   "Total: 4 × 250 = 1,000 marks": "एकूण: 4 × 250 = 1,000 गुण",
   "Unified Common Prelims (100M)": "युनिफाइड कॉमन प्रिलिम्स (100M)",
-  "Mentorship": "मेंटरशिप",
+  Mentorship: "मेंटरशिप",
   "Lakshya Academy Nashik": "लक्ष्य अकादमी नाशिक",
   "Visual Column with Floating Badge": "फ्लोटिंग बॅजसह व्हिज्युअल स्तंभ",
   "Tab Panes": "टॅब पॅन्स",
-  "1. Applicable Scheme (2025–2026 Examination Cycle)": "1. लागू योजना (2025-2026 परीक्षा चक्र)",
+  "1. Applicable Scheme (2025–2026 Examination Cycle)":
+    "1. लागू योजना (2025-2026 परीक्षा चक्र)",
   "Article 3: Combine Group B Blueprint": "कलम 3: गट B ब्लूप्रिंट एकत्र करा",
-  "20. Weekly Answer-Writing (Highlighted)": "20. साप्ताहिक उत्तर-लेखन (हायलाइट केलेले)",
-  "MPSC Rajyaseva Examination Coaching | The Lakshya Career Academy Nashik": "MPSC राज्यसेवा परीक्षा प्रशिक्षण | लक्ष्य करिअर ॲकॅडमी नाशिक",
-  "======================================================================== 10. QUOTE SLIDER (AUTHENTIC OFFICER REVIEWS WITH VERIFIED ACHIEVER PHOTOS) ========================================================================": "========================================================================= 10. कोट स्लाइडर (ऑथेंटिक ऑफिसर वायव्हर रीव्हीव्हर) ==============================================================",
+  "20. Weekly Answer-Writing (Highlighted)":
+    "20. साप्ताहिक उत्तर-लेखन (हायलाइट केलेले)",
+  "MPSC Rajyaseva Examination Coaching | The Lakshya Career Academy Nashik":
+    "MPSC राज्यसेवा परीक्षा प्रशिक्षण | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "======================================================================== 10. QUOTE SLIDER (AUTHENTIC OFFICER REVIEWS WITH VERIFIED ACHIEVER PHOTOS) ========================================================================":
+    "========================================================================= 10. कोट स्लाइडर (ऑथेंटिक ऑफिसर वायव्हर रीव्हीव्हर) ==============================================================",
   "Students per Batch": "प्रति बॅच विद्यार्थी",
   "Final Merit Total:": "अंतिम गुणवत्ता एकूण:",
   "Assistant Section Officer": "सहाय्यक विभाग अधिकारी",
@@ -1941,69 +2591,98 @@ window.LAKSHYA_I18N = {
   "3. YOJNA SECTION": "3. योजना विभाग",
   "Atul Nikumbh": "अतुल निकुंभ",
   "Tab 4: Saralseva & Talathi": "टॅब 4: सरलसेवा आणि तलाठी",
-  "======================================================================== 5. DETAILED SCHEME & ALL 11 ACTS ========================================================================": "========================================================================== 5. तपशीलवार योजना आणि सर्व 11 कायदे ==============================================================",
+  "======================================================================== 5. DETAILED SCHEME & ALL 11 ACTS ========================================================================":
+    "========================================================================== 5. तपशीलवार योजना आणि सर्व 11 कायदे ==============================================================",
   "Card 3: Shrutika Dhatrak": "कार्ड 3: श्रुतिका धात्रक",
-  "Consultation Slide-out Popover Modal (FIXED DRAWER - OUT OF DOCUMENT FLOW)": "सल्लामसलत स्लाइड-आउट पॉपओव्हर मॉडेल (फिक्स्ड ड्रॉवर - दस्तऐवज प्रवाहाच्या बाहेर)",
+  "Consultation Slide-out Popover Modal (FIXED DRAWER - OUT OF DOCUMENT FLOW)":
+    "सल्लामसलत स्लाइड-आउट पॉपओव्हर मॉडेल (फिक्स्ड ड्रॉवर - दस्तऐवज प्रवाहाच्या बाहेर)",
   "Card 4: 15.jpeg": "कार्ड 4: 15.jpeg",
-  "Event Photo 1: Group Activities & Field Assembly": "इव्हेंट फोटो 1: गट क्रियाकलाप आणि फील्ड असेंब्ली",
-  "COLUMN 2: UPSC CIVIL SERVICES EXAMINATION (CSE)": "स्तंभ २: UPSC नागरी सेवा परीक्षा (CSE)",
-  "Blog & Academic Insights | The Lakshya Career Academy Nashik": "ब्लॉग आणि शैक्षणिक अंतर्दृष्टी | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "Event Photo 1: Group Activities & Field Assembly":
+    "इव्हेंट फोटो 1: गट क्रियाकलाप आणि फील्ड असेंब्ली",
+  "COLUMN 2: UPSC CIVIL SERVICES EXAMINATION (CSE)":
+    "स्तंभ २: UPSC नागरी सेवा परीक्षा (CSE)",
+  "Blog & Academic Insights | The Lakshya Career Academy Nashik":
+    "ब्लॉग आणि शैक्षणिक अंतर्दृष्टी | लक्ष्य करिअर ॲकॅडमी नाशिक",
   "Specialized Mains Blueprint": "विशेष मुख्य ब्लूप्रिंट",
-  "Item 24: Website Gallery - Achievement Celebration": "आयटम 24: वेबसाइट गॅलरी - अचिव्हमेंट सेलिब्रेशन",
-  "======================================================================== 5. MASONRY PHOTO GALLERY WITH FILTER TABS (ACTUAL LAKSHYA PHOTOS) ========================================================================": "=========================================================================================================================================================================================================================== ==============================================================",
+  "Item 24: Website Gallery - Achievement Celebration":
+    "आयटम 24: वेबसाइट गॅलरी - अचिव्हमेंट सेलिब्रेशन",
+  "======================================================================== 5. MASONRY PHOTO GALLERY WITH FILTER TABS (ACTUAL LAKSHYA PHOTOS) ========================================================================":
+    "=========================================================================================================================================================================================================================== ==============================================================",
   "Official Syllabus Copies Grid": "अधिकृत अभ्यासक्रम कॉपी ग्रिड",
   "Track A: Preparation and Study Support": "ट्रॅक A: तयारी आणि अभ्यास समर्थन",
   "7. Translation & Précis": "7. भाषांतर आणि अचूक",
   "Side-by-Side Blueprint Grid": "साइड-बाय-साइड ब्लूप्रिंट ग्रिड",
-  "Pandit Colony, Nashik, Maharashtra - 422002": "पंडित कॉलनी, नाशिक, महाराष्ट्र - ४२२००२",
-  "======================================================================== 7. FOOTER WITH STRAPLINE BANNER ========================================================================": "======================================================================= 7. स्ट्रॅपलाइन बॅनरसह फूटर ==============================================================",
-  "2nd Floor, Bhaskar Android Building,": "दुसरा मजला, भास्कर अँड्रॉइड बिल्डिंग,",
-  "======================================================================== 5. THE 3-STAGE PREPARATION BLUEPRINT (MEANINGFUL SECTION AFTER MISSION) ========================================================================": "======================================================================== 5. 3-टप्पी तयारी ब्ल्यूप्रिंट (मध्यमरण) ==============================================================",
-  "Item 22: Website Gallery - Guidance Session": "आयटम 22: वेबसाइट गॅलरी - मार्गदर्शन सत्र",
-  "======================================================================== 6. FOOTER ========================================================================": "=========================================================================== 6. तळ ==============================================================",
+  "Pandit Colony, Nashik, Maharashtra - 422002":
+    "पंडित कॉलनी, नाशिक, महाराष्ट्र - ४२२००२",
+  "======================================================================== 7. FOOTER WITH STRAPLINE BANNER ========================================================================":
+    "======================================================================= 7. स्ट्रॅपलाइन बॅनरसह फूटर ==============================================================",
+  "2nd Floor, Bhaskar Android Building,":
+    "दुसरा मजला, भास्कर अँड्रॉइड बिल्डिंग,",
+  "======================================================================== 5. THE 3-STAGE PREPARATION BLUEPRINT (MEANINGFUL SECTION AFTER MISSION) ========================================================================":
+    "======================================================================== 5. 3-टप्पी तयारी ब्ल्यूप्रिंट (मध्यमरण) ==============================================================",
+  "Item 22: Website Gallery - Guidance Session":
+    "आयटम 22: वेबसाइट गॅलरी - मार्गदर्शन सत्र",
+  "======================================================================== 6. FOOTER ========================================================================":
+    "=========================================================================== 6. तळ ==============================================================",
   "Faculty:": "विद्याशाखा:",
   "• Computer Literacy:": "• संगणक साक्षरता:",
-  "Item 16: Website Gallery - Faculty Class": "आयटम 16: वेबसाइट गॅलरी - फॅकल्टी वर्ग",
+  "Item 16: Website Gallery - Faculty Class":
+    "आयटम 16: वेबसाइट गॅलरी - फॅकल्टी वर्ग",
   "5. ASO Mains": "5. ASO मुख्य",
   "200 Marks | 100 MCQs | 2 Hours": "200 गुण | 100 MCQ | 2 तास",
   "PSI:": "PSI:",
   "Tax Laws & Accounts": "कर कायदे आणि खाती",
-  "======================================================================== 4-COLUMN IMAGE LINKS ACCORDION (GENUINE LAKSHYA ASSETS) ========================================================================": "========================================================================== 4-स्तंभ प्रतिमा लिंक्स ॲकॉर्डियन (वास्तविक लाइक) ==============================================================",
+  "======================================================================== 4-COLUMN IMAGE LINKS ACCORDION (GENUINE LAKSHYA ASSETS) ========================================================================":
+    "========================================================================== 4-स्तंभ प्रतिमा लिंक्स ॲकॉर्डियन (वास्तविक लाइक) ==============================================================",
   "Card 14: assets/img/gallery/2.jpg": "कार्ड 14: assets/img/gallery/2.jpg",
   "9. Newspaper Reading": "9. वर्तमानपत्र वाचन",
-  "Track B: Individual Guidance and Facilities": "ट्रॅक बी: वैयक्तिक मार्गदर्शन आणि सुविधा",
+  "Track B: Individual Guidance and Facilities":
+    "ट्रॅक बी: वैयक्तिक मार्गदर्शन आणि सुविधा",
   "1,525 Marks": "1,525 गुण",
   "Popover Modal": "पॉपओव्हर मॉडेल",
   "Class Notes:": "वर्ग नोट्स:",
   "14. Separate Experienced Teacher": "14. वेगळे अनुभवी शिक्षक",
-  "4 Core Pillars Compact Feature Strip": "4 कोर खांब कॉम्पॅक्ट वैशिष्ट्य पट्टी",
+  "4 Core Pillars Compact Feature Strip":
+    "4 कोर खांब कॉम्पॅक्ट वैशिष्ट्य पट्टी",
   "7 Merit Papers (1,750 Marks):": "7 मेरिट पेपर (1,750 गुण):",
   "Card 6: 17.jpeg": "कार्ड 6: 17.jpeg",
-  "======================================================================== 3. FLAGSHIP BANNER (HERO) ========================================================================": "============> ==============================================================",
-  "– Papers II to V: General Studies I, II, III & IV (4 x 250 = 1,000 Marks)": "– पेपर II ते पाचवी: सामान्य अध्ययन I, II, III आणि IV (4 x 250 = 1,000 गुण)",
-  "Event Photo 6: Felicitation & Award Gathering": "इव्हेंट फोटो 6: सत्कार आणि पुरस्कार मेळावा",
+  "======================================================================== 3. FLAGSHIP BANNER (HERO) ========================================================================":
+    "============> ==============================================================",
+  "– Papers II to V: General Studies I, II, III & IV (4 x 250 = 1,000 Marks)":
+    "– पेपर II ते पाचवी: सामान्य अध्ययन I, II, III आणि IV (4 x 250 = 1,000 गुण)",
+  "Event Photo 6: Felicitation & Award Gathering":
+    "इव्हेंट फोटो 6: सत्कार आणि पुरस्कार मेळावा",
   "Maths & Reasoning (अंकगणित)": "गणित आणि तर्क (अंकगणित)",
-  "• Interview & Revised Merit Calculation": "• मुलाखत आणि सुधारित गुणवत्तेची गणना",
-  "======================================================================== FLAGSHIP CONVERSION CTA (\"Your Goal Needs a Plan.\") ========================================================================": "========================================================================= FLAGSHIP CONVERSION CTA (\"तुमचे ध्येय एक योजना आवश्यक आहे.\") ==============================================================",
+  "• Interview & Revised Merit Calculation":
+    "• मुलाखत आणि सुधारित गुणवत्तेची गणना",
+  '======================================================================== FLAGSHIP CONVERSION CTA ("Your Goal Needs a Plan.") ========================================================================':
+    '========================================================================= FLAGSHIP CONVERSION CTA ("तुमचे ध्येय एक योजना आवश्यक आहे.") ==============================================================',
   "Weekly Diagnostic Test Series": "साप्ताहिक निदान चाचणी मालिका",
   "Article 2: Current Affairs Decoding": "कलम २: चालू घडामोडी डीकोडिंग",
   "Direct Faculty Engagement": "डायरेक्ट फॅकल्टी एंगेजमेंट",
   "3. Geography of Maharashtra:": "3. महाराष्ट्राचा भूगोल:",
   "MPSC, UPSC, PSI, STI and ASO": "MPSC, UPSC, PSI, STI आणि ASO",
-  "5 Compulsory Merit Papers (1,250 Marks):": "5 अनिवार्य मेरिट पेपर्स (1,250 गुण):",
-  "======================================================================== CLASSROOM MATERIAL SECTIONS ========================================================================": "======================================================================= वर्ग साहित्य विभाग ==============================================================",
+  "5 Compulsory Merit Papers (1,250 Marks):":
+    "5 अनिवार्य मेरिट पेपर्स (1,250 गुण):",
+  "======================================================================== CLASSROOM MATERIAL SECTIONS ========================================================================":
+    "======================================================================= वर्ग साहित्य विभाग ==============================================================",
   "1. Current Developments:": "1. चालू घडामोडी:",
   "Director 2: Nishant Pawar": "दिग्दर्शक 2: निशांत पवार",
   "Mantralaya Postings": "मंत्रालय पोस्टिंग",
   "Item 1: Classroom Lecture": "आयटम 1: वर्ग व्याख्यान",
   "18. Discussion Session After Test": "18. चाचणी नंतर चर्चा सत्र",
-  "======================================================================== 2. FLAGSHIP HERO BANNER (ROTATING AUTHENTIC LAKSHYA SLIDESHOW) ========================================================================": "================================================================================================================================== 2. फ्लॅगशिप हीरो बॅनर (रोटेटिंग औल्या औल्या) ==============================================================",
+  "======================================================================== 2. FLAGSHIP HERO BANNER (ROTATING AUTHENTIC LAKSHYA SLIDESHOW) ========================================================================":
+    "================================================================================================================================== 2. फ्लॅगशिप हीरो बॅनर (रोटेटिंग औल्या औल्या) ==============================================================",
   "Item 4: Classroom Focus": "आयटम 4: वर्गात फोकस",
-  "13. Only 40 Students / Batch (Highlighted)": "13. फक्त 40 विद्यार्थी / बॅच (हायलाइट केलेले)",
-  "WhatsApp Direct Chat Card (Both lines clickable)": "WhatsApp डायरेक्ट चॅट कार्ड (दोन्ही ओळी क्लिक करण्यायोग्य)",
+  "13. Only 40 Students / Batch (Highlighted)":
+    "13. फक्त 40 विद्यार्थी / बॅच (हायलाइट केलेले)",
+  "WhatsApp Direct Chat Card (Both lines clickable)":
+    "WhatsApp डायरेक्ट चॅट कार्ड (दोन्ही ओळी क्लिक करण्यायोग्य)",
   "Educational Qualification:": "शैक्षणिक पात्रता:",
-  "Class Material & Classroom Resources | The Lakshya Career Academy Nashik": "वर्ग साहित्य आणि वर्ग संसाधने | लक्ष्य करिअर ॲकॅडमी नाशिक",
-  "======================================================================== 3. ARTICLES DIRECTORY & CATEGORY FILTERS ========================================================================": "======================================================================== 3. ARTICLES DIRECTORY & CATEGORY FILTERS ==============================================================",
+  "Class Material & Classroom Resources | The Lakshya Career Academy Nashik":
+    "वर्ग साहित्य आणि वर्ग संसाधने | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "======================================================================== 3. ARTICLES DIRECTORY & CATEGORY FILTERS ========================================================================":
+    "======================================================================== 3. ARTICLES DIRECTORY & CATEGORY FILTERS ==============================================================",
   "40 Marks": "40 गुण",
   "Direct Helpline &amp; WhatsApp": "थेट हेल्पलाइन आणि व्हॉट्सॲप",
   "PSI Mains &amp; Physical": "PSI मुख्य परीक्षा व शारीरिक चाचणी",
@@ -2019,118 +2698,180 @@ window.LAKSHYA_I18N = {
   "Admission &amp; Batches": "प्रवेश व बॅच वेळापत्रक",
   "Our Vision &amp; Mission": "आमचे ध्येय व उद्दिष्ट (Vision & Mission)",
   "Social Events &amp; Gatherings": "सामाजिक कार्यक्रम व स्नेहसंमेलन",
-  "• Rajyaseva Examination • UPSC Civil Services • Combine Group B (PSI/STI/ASO) • PSI Mains &amp; Physical • Sales Tax Inspector (STI) • ASO Mains Examination • Saralseva Direct Recruitment • Talathi Bharti Examination": "• राज्यसेवा परीक्षा • UPSC नागरी सेवा • गट B (PSI/STI/ASO) एकत्र करा • PSI मुख्य आणि शारीरिक • विक्रीकर निरीक्षक (STI) • ASO मुख्य परीक्षा • सरलसेवा थेट भरती • तलाठी भारती परीक्षा",
+  "• Rajyaseva Examination • UPSC Civil Services • Combine Group B (PSI/STI/ASO) • PSI Mains &amp; Physical • Sales Tax Inspector (STI) • ASO Mains Examination • Saralseva Direct Recruitment • Talathi Bharti Examination":
+    "• राज्यसेवा परीक्षा • UPSC नागरी सेवा • गट B (PSI/STI/ASO) एकत्र करा • PSI मुख्य आणि शारीरिक • विक्रीकर निरीक्षक (STI) • ASO मुख्य परीक्षा • सरलसेवा थेट भरती • तलाठी भारती परीक्षा",
   "• PSI Mains &amp; Physical": "• PSI मुख्य आणि शारीरिक",
   "08. Blog &amp; Insights →": "08. ब्लॉग आणि अंतर्दृष्टी →",
   "08. Blog &amp; Insights": "08. ब्लॉग आणि अंतर्दृष्टी",
-  "The Aim &amp; MissionTo Increase Maharashtra's Share": "महाराष्ट्राचा वाटा वाढवण्याचे उद्दिष्ट आणि मिशन",
+  "The Aim &amp; MissionTo Increase Maharashtra's Share":
+    "महाराष्ट्राचा वाटा वाढवण्याचे उद्दिष्ट आणि मिशन",
   "Vision &amp; Mission ↓": "व्हिजन आणि मिशन ↓",
   "Purpose &amp; Directive": "उद्देश आणि निर्देश",
-  "Curriculum, examination scope, printed notes &amp; rigorous practice": "अभ्यासक्रम, परीक्षेची व्याप्ती, छापील नोट्स आणि कठोर सराव",
+  "Curriculum, examination scope, printed notes &amp; rigorous practice":
+    "अभ्यासक्रम, परीक्षेची व्याप्ती, छापील नोट्स आणि कठोर सराव",
   "Printed &amp; Classroom Notes": "मुद्रित आणि वर्गातील नोट्स",
   "Translation &amp; Précis-Writing": "भाषांतर आणि अचूक लेखन",
   "Maths &amp; Reasoning Drills": "गणित आणि तर्क अभ्यास",
-  "Mentorship, small cohorts, infrastructure &amp; personal progress review": "मार्गदर्शन, लहान गट, पायाभूत सुविधा आणि वैयक्तिक प्रगती पुनरावलोकन",
+  "Mentorship, small cohorts, infrastructure &amp; personal progress review":
+    "मार्गदर्शन, लहान गट, पायाभूत सुविधा आणि वैयक्तिक प्रगती पुनरावलोकन",
   "Social &amp; Interactive Events": "सामाजिक आणि परस्परसंवादी कार्यक्रम",
   "Daily Editorial &amp; News Digest": "दैनिक संपादकीय आणि बातम्या डायजेस्ट",
   "PSI Mains &amp; Physical Coaching": "PSI मुख्य आणि शारीरिक प्रशिक्षण",
-  "MPSC Exam Strategies, Insights &amp; Analytical Digests": "MPSC परीक्षा धोरणे, अंतर्दृष्टी आणि विश्लेषणात्मक डायजेस्ट",
-  "Curated guidance from Atul Nikumbh, Nishant Pawar, Pranjal Nikumbh, and guest civil servants to sharpen your preparation for Maharashtra State Services &amp; Combined Group B.": "अतुल निकुंभ, निशांत पवार, प्रांजल निकुंभ आणि पाहुणे नागरी सेवकांकडून तयार केलेले मार्गदर्शन महाराष्ट्र राज्य सेवा आणि एकत्रित गट ब साठी तुमची तयारी अधिक तीव्र करण्यासाठी.",
+  "MPSC Exam Strategies, Insights &amp; Analytical Digests":
+    "MPSC परीक्षा धोरणे, अंतर्दृष्टी आणि विश्लेषणात्मक डायजेस्ट",
+  "Curated guidance from Atul Nikumbh, Nishant Pawar, Pranjal Nikumbh, and guest civil servants to sharpen your preparation for Maharashtra State Services &amp; Combined Group B.":
+    "अतुल निकुंभ, निशांत पवार, प्रांजल निकुंभ आणि पाहुणे नागरी सेवकांकडून तयार केलेले मार्गदर्शन महाराष्ट्र राज्य सेवा आणि एकत्रित गट ब साठी तुमची तयारी अधिक तीव्र करण्यासाठी.",
   "Current Affairs &amp; Lokrajya": "चालू घडामोडी आणि लोकराज्य",
   "Answer Writing &amp; Interview": "उत्तर लेखन आणि मुलाखत",
-  "Connecting Lokrajya &amp; State Schemes with Prelims GS Paper I": "लोकराज्य आणि राज्य योजनांना प्रिलिम्स GS पेपर I सह जोडणे",
-  "PSI, STI &amp; ASO Joint Prelims: The 100-Day Micro Timetable": "PSI, STI आणि ASO संयुक्त प्रिलिम्स: 100-दिवसांचे सूक्ष्म वेळापत्रक",
-  "Which State Board (6th-12th) &amp; NCERT Books are Essential for MPSC?": "MPSC साठी कोणते राज्य मंडळ (6वी-12वी) आणि NCERT पुस्तके आवश्यक आहेत?",
-  "Cracking the PSI Physical Test: Running, Pull-ups &amp; Shot Put Strategy": "PSI शारीरिक चाचणी क्रॅक करणे: धावणे, पुल-अप आणि शॉट पुट धोरण",
-  "The MPSC Interview Panel: Addressing DAF, Hobbies &amp; Situation Questions": "MPSC मुलाखत पॅनेल: DAF, छंद आणि परिस्थिती प्रश्नांना संबोधित करणे",
+  "Connecting Lokrajya &amp; State Schemes with Prelims GS Paper I":
+    "लोकराज्य आणि राज्य योजनांना प्रिलिम्स GS पेपर I सह जोडणे",
+  "PSI, STI &amp; ASO Joint Prelims: The 100-Day Micro Timetable":
+    "PSI, STI आणि ASO संयुक्त प्रिलिम्स: 100-दिवसांचे सूक्ष्म वेळापत्रक",
+  "Which State Board (6th-12th) &amp; NCERT Books are Essential for MPSC?":
+    "MPSC साठी कोणते राज्य मंडळ (6वी-12वी) आणि NCERT पुस्तके आवश्यक आहेत?",
+  "Cracking the PSI Physical Test: Running, Pull-ups &amp; Shot Put Strategy":
+    "PSI शारीरिक चाचणी क्रॅक करणे: धावणे, पुल-अप आणि शॉट पुट धोरण",
+  "The MPSC Interview Panel: Addressing DAF, Hobbies &amp; Situation Questions":
+    "MPSC मुलाखत पॅनेल: DAF, छंद आणि परिस्थिती प्रश्नांना संबोधित करणे",
   "MPSC Rajyaseva Class I &amp; II": "MPSC राज्यसेवा वर्ग I आणि II",
   "Blog &amp; Insights": "ब्लॉग आणि अंतर्दृष्टी",
-  "Subjectwise Master NotesDescriptive &amp; Objective Formats": "विषयानुसार मास्टर नोट्स वर्णनात्मक आणि वस्तुनिष्ठ स्वरूप",
-  "Lakshya Academy Class Material &amp; Resources": "लक्ष्य अकादमी वर्ग साहित्य आणि संसाधने",
+  "Subjectwise Master NotesDescriptive &amp; Objective Formats":
+    "विषयानुसार मास्टर नोट्स वर्णनात्मक आणि वस्तुनिष्ठ स्वरूप",
+  "Lakshya Academy Class Material &amp; Resources":
+    "लक्ष्य अकादमी वर्ग साहित्य आणि संसाधने",
   "Polity &amp; Governance": "राजकारण आणि शासन",
-  "Indian Constitution &amp; Maharashtra Governance": "भारतीय राज्यघटना आणि महाराष्ट्र शासन",
-  "Master notes covering constitutional articles, landmark Supreme Court &amp; High Court judgments, statutory commissions, and Maharashtra state administrative framework.": "संवैधानिक लेख, ऐतिहासिक सर्वोच्च न्यायालय आणि उच्च न्यायालयाचे निकाल, वैधानिक आयोग आणि महाराष्ट्र राज्य प्रशासकीय चौकट समाविष्ट असलेल्या मास्टर नोट्स.",
+  "Indian Constitution &amp; Maharashtra Governance":
+    "भारतीय राज्यघटना आणि महाराष्ट्र शासन",
+  "Master notes covering constitutional articles, landmark Supreme Court &amp; High Court judgments, statutory commissions, and Maharashtra state administrative framework.":
+    "संवैधानिक लेख, ऐतिहासिक सर्वोच्च न्यायालय आणि उच्च न्यायालयाचे निकाल, वैधानिक आयोग आणि महाराष्ट्र राज्य प्रशासकीय चौकट समाविष्ट असलेल्या मास्टर नोट्स.",
   "History &amp; Culture": "इतिहास आणि संस्कृती",
-  "Modern Indian History &amp; Social Reformers of Maharashtra": "आधुनिक भारतीय इतिहास आणि महाराष्ट्राचे समाजसुधारक",
+  "Modern Indian History &amp; Social Reformers of Maharashtra":
+    "आधुनिक भारतीय इतिहास आणि महाराष्ट्राचे समाजसुधारक",
   "Geography &amp; Agri": "भूगोल आणि कृषी",
-  "Geography of Maharashtra &amp; Agricultural Economics": "महाराष्ट्राचा भूगोल आणि कृषी अर्थशास्त्र",
+  "Geography of Maharashtra &amp; Agricultural Economics":
+    "महाराष्ट्राचा भूगोल आणि कृषी अर्थशास्त्र",
   "Marathi &amp; English": "मराठी आणि इंग्रजी",
-  "Maharashtra State Budget &amp; Economic Survey Issue": "महाराष्ट्र राज्य अर्थसंकल्प आणि आर्थिक सर्वेक्षण समस्या",
-  "Rajyaseva &amp; Combine Prelims OMR Test Series": "राज्यसेवा आणि एकत्रित प्रिलिम्स OMR चाचणी मालिका",
-  "Order Class Material &amp; Test Series": "ऑर्डर वर्ग साहित्य आणि चाचणी मालिका",
-  "MPSC Rajyaseva (State Services Class I &amp; II)": "MPSC राज्यसेवा (राज्य सेवा वर्ग I आणि II)",
+  "Maharashtra State Budget &amp; Economic Survey Issue":
+    "महाराष्ट्र राज्य अर्थसंकल्प आणि आर्थिक सर्वेक्षण समस्या",
+  "Rajyaseva &amp; Combine Prelims OMR Test Series":
+    "राज्यसेवा आणि एकत्रित प्रिलिम्स OMR चाचणी मालिका",
+  "Order Class Material &amp; Test Series":
+    "ऑर्डर वर्ग साहित्य आणि चाचणी मालिका",
+  "MPSC Rajyaseva (State Services Class I &amp; II)":
+    "MPSC राज्यसेवा (राज्य सेवा वर्ग I आणि II)",
   "PSI Mains &amp; 100M Ground Physical": "PSI मुख्य आणि 100M ग्राउंड फिजिकल",
   "Submit &amp; Connect on WhatsApp": "WhatsApp वर सबमिट करा आणि कनेक्ट करा",
   "CONTACT &amp; VISIT": "संपर्क आणि भेट द्या",
   "Admissions &amp; Consultation": "प्रवेश आणि सल्ला",
   "Admissions Office &amp; Reading Hall": "प्रवेश कार्यालय आणि वाचन हॉल",
   "Admissions &amp; Student Helpline": "प्रवेश आणि विद्यार्थी हेल्पलाइन",
-  "Indian Constitution &amp; GovernanceSecretariat Manual &amp; RTI Acts": "भारतीय राज्यघटना आणि शासन सचिवालय नियमावली आणि आरटीआय कायदे",
+  "Indian Constitution &amp; GovernanceSecretariat Manual &amp; RTI Acts":
+    "भारतीय राज्यघटना आणि शासन सचिवालय नियमावली आणि आरटीआय कायदे",
   "Syllabus &amp; Statutes": "अभ्यासक्रम आणि कायदे",
-  "Paper 1 (100M Languages) + Paper 2 (100M Polity, Governance &amp; GS)": "पेपर 1 (100M भाषा) + पेपर 2 (100M पोलिटी, गव्हर्नन्स आणि GS)",
-  "All Core Subjects &amp; Statutes Covered": "सर्व मुख्य विषय आणि नियम समाविष्ट आहेत",
-  "Union &amp; State Executive, Legislative procedure, Governor powers, and landmark judicial cases.": "संघ आणि राज्य कार्यकारिणी, विधान प्रक्रिया, राज्यपालांचे अधिकार आणि ऐतिहासिक न्यायालयीन प्रकरणे.",
-  "Master Constitution, Governance &amp; Secretariat laws with senior faculty at Pandit Colony.": "पंडित कॉलनी येथील वरिष्ठ प्राध्यापकांसह मास्टर कॉन्स्टिट्यूशन, गव्हर्नन्स आणि सचिवालय कायदे.",
-  "Meet founder directors Atul Nikumbh &amp; Nishant Pawar for a diagnostic syllabus discussion and course roadmap.": "डायग्नोस्टिक अभ्यासक्रम चर्चा आणि कोर्स रोडमॅपसाठी संस्थापक संचालक अतुल निकुंभ आणि निशांत पवार यांना भेटा.",
-  "MPSC Combine Group B &amp; Group C Examination": "MPSC एकत्रित गट ब आणि गट क परीक्षा",
+  "Paper 1 (100M Languages) + Paper 2 (100M Polity, Governance &amp; GS)":
+    "पेपर 1 (100M भाषा) + पेपर 2 (100M पोलिटी, गव्हर्नन्स आणि GS)",
+  "All Core Subjects &amp; Statutes Covered":
+    "सर्व मुख्य विषय आणि नियम समाविष्ट आहेत",
+  "Union &amp; State Executive, Legislative procedure, Governor powers, and landmark judicial cases.":
+    "संघ आणि राज्य कार्यकारिणी, विधान प्रक्रिया, राज्यपालांचे अधिकार आणि ऐतिहासिक न्यायालयीन प्रकरणे.",
+  "Master Constitution, Governance &amp; Secretariat laws with senior faculty at Pandit Colony.":
+    "पंडित कॉलनी येथील वरिष्ठ प्राध्यापकांसह मास्टर कॉन्स्टिट्यूशन, गव्हर्नन्स आणि सचिवालय कायदे.",
+  "Meet founder directors Atul Nikumbh &amp; Nishant Pawar for a diagnostic syllabus discussion and course roadmap.":
+    "डायग्नोस्टिक अभ्यासक्रम चर्चा आणि कोर्स रोडमॅपसाठी संस्थापक संचालक अतुल निकुंभ आणि निशांत पवार यांना भेटा.",
+  "MPSC Combine Group B &amp; Group C Examination":
+    "MPSC एकत्रित गट ब आणि गट क परीक्षा",
   "Age Criteria &amp; Eligibility": "वय निकष आणि पात्रता",
-  "Current Affairs (National &amp; Maharashtra)": "चालू घडामोडी (राष्ट्रीय आणि महाराष्ट्र)",
-  "Modern Indian History &amp; National Movement": "आधुनिक भारतीय इतिहास आणि राष्ट्रीय चळवळ",
+  "Current Affairs (National &amp; Maharashtra)":
+    "चालू घडामोडी (राष्ट्रीय आणि महाराष्ट्र)",
+  "Modern Indian History &amp; National Movement":
+    "आधुनिक भारतीय इतिहास आणि राष्ट्रीय चळवळ",
   "Geography of Maharashtra &amp; India": "महाराष्ट्र आणि भारताचा भूगोल",
-  "Indian Polity, Constitution &amp; Panchayati Raj": "भारतीय राजकारण, राज्यघटना आणि पंचायती राज",
+  "Indian Polity, Constitution &amp; Panchayati Raj":
+    "भारतीय राजकारण, राज्यघटना आणि पंचायती राज",
   "Economic &amp; Social Development": "आर्थिक आणि सामाजिक विकास",
-  "Environmental Ecology &amp; Biodiversity": "पर्यावरणीय पर्यावरणशास्त्र आणि जैवविविधता",
+  "Environmental Ecology &amp; Biodiversity":
+    "पर्यावरणीय पर्यावरणशास्त्र आणि जैवविविधता",
   "CSAT &amp; Aptitude": "CSAT आणि योग्यता",
-  "Logical Reasoning &amp; Analytical Ability": "तार्किक तर्क आणि विश्लेषणात्मक क्षमता",
+  "Logical Reasoning &amp; Analytical Ability":
+    "तार्किक तर्क आणि विश्लेषणात्मक क्षमता",
   "Arithmetic &amp; Quantitative Aptitude": "अंकगणित आणि परिमाणात्मक योग्यता",
-  "Reading Comprehension (Marathi &amp; English)": "वाचन आकलन (मराठी आणि इंग्रजी)",
+  "Reading Comprehension (Marathi &amp; English)":
+    "वाचन आकलन (मराठी आणि इंग्रजी)",
   "Data Interpretation &amp; Tables": "डेटा इंटरप्रिटेशन आणि टेबल्स",
   "Mental Ability &amp; Pattern Identification": "मानसिक क्षमता आणि नमुना ओळख",
-  "Decision Making &amp; Situational Problem Solving": "निर्णय घेणे आणि परिस्थितीजन्य समस्या सोडवणे",
+  "Decision Making &amp; Situational Problem Solving":
+    "निर्णय घेणे आणि परिस्थितीजन्य समस्या सोडवणे",
   "Speed Calculation Drills &amp; Shortcuts": "गती गणना कवायती आणि शॉर्टकट",
   "Interview &amp; Physical Test": "मुलाखत आणि शारीरिक चाचणी",
-  "Posts Offered in Group B &amp; Group C": "गट ब आणि गट क मध्ये ऑफर केलेल्या पोस्ट",
+  "Posts Offered in Group B &amp; Group C":
+    "गट ब आणि गट क मध्ये ऑफर केलेल्या पोस्ट",
   "Technical &amp; Clerical": "तांत्रिक आणि कारकुनी",
   "PSI MAINS &amp; PHYSICAL": "पीएसआय मेन्स आणि फिजिकल",
-  "11 Criminal Law Acts &amp; GSIPC • CrPC • Evidence • Police Act": "11 फौजदारी कायदा आणि GSIPC • CrPC • पुरावा • पोलिस कायदा",
+  "11 Criminal Law Acts &amp; GSIPC • CrPC • Evidence • Police Act":
+    "11 फौजदारी कायदा आणि GSIPC • CrPC • पुरावा • पोलिस कायदा",
   "Mains Syllabus &amp; Acts": "मुख्य अभ्यासक्रम आणि कायदे",
   "Physical Test &amp; Interview": "शारीरिक चाचणी आणि मुलाखत",
-  "Paper 1 (100M Marathi &amp; English) + Paper 2 (100M GS &amp; Law Acts)": "पेपर 1 (100M मराठी आणि इंग्रजी) + पेपर 2 (100M GS आणि कायदा कायदे)",
-  "800m running, pull-ups, shot put &amp; long jump standard drills": "800 मीटर धावणे, पुल-अप, शॉट पुट आणि लांब उडी मानक ड्रिल",
-  "Board personality &amp; departmental aptitude assessment": "बोर्ड व्यक्तिमत्व आणि विभागीय योग्यता मूल्यांकन",
-  "All 11 Core Subjects &amp; Special Acts": "सर्व 11 मुख्य विषय आणि विशेष कायदे",
-  "FIR, investigation, arrest procedures, search &amp; seizure, bail, and relevancy of judicial evidence.": "एफआयआर, तपास, अटक प्रक्रिया, शोध आणि जप्ती, जामीन आणि न्यायालयीन पुराव्याची प्रासंगिकता.",
-  "• Rajyaseva Examination • Combine Group B (PSI/STI/ASO) • PSI Mains &amp; Physical • Sales Tax Inspector (STI) • ASO Mains Examination • Saralseva Direct Recruitment • Talathi Bharti Examination": "• राज्यसेवा परीक्षा • एकत्रित गट ब (PSI/STI/ASO) • PSI मुख्य आणि शारीरिक • विक्रीकर निरीक्षक (STI) • ASO मुख्य परीक्षा • सरलसेवा थेट भरती • तलाठी भारती परीक्षा",
-  "State Administrative Services • Class I &amp; II": "राज्य प्रशासकीय सेवा • वर्ग I आणि II",
-  "Deputy Collector &amp; DySPClass I Leadership Cadre": "उपजिल्हाधिकारी आणि DySPClass I नेतृत्व संवर्ग",
+  "Paper 1 (100M Marathi &amp; English) + Paper 2 (100M GS &amp; Law Acts)":
+    "पेपर 1 (100M मराठी आणि इंग्रजी) + पेपर 2 (100M GS आणि कायदा कायदे)",
+  "800m running, pull-ups, shot put &amp; long jump standard drills":
+    "800 मीटर धावणे, पुल-अप, शॉट पुट आणि लांब उडी मानक ड्रिल",
+  "Board personality &amp; departmental aptitude assessment":
+    "बोर्ड व्यक्तिमत्व आणि विभागीय योग्यता मूल्यांकन",
+  "All 11 Core Subjects &amp; Special Acts":
+    "सर्व 11 मुख्य विषय आणि विशेष कायदे",
+  "FIR, investigation, arrest procedures, search &amp; seizure, bail, and relevancy of judicial evidence.":
+    "एफआयआर, तपास, अटक प्रक्रिया, शोध आणि जप्ती, जामीन आणि न्यायालयीन पुराव्याची प्रासंगिकता.",
+  "• Rajyaseva Examination • Combine Group B (PSI/STI/ASO) • PSI Mains &amp; Physical • Sales Tax Inspector (STI) • ASO Mains Examination • Saralseva Direct Recruitment • Talathi Bharti Examination":
+    "• राज्यसेवा परीक्षा • एकत्रित गट ब (PSI/STI/ASO) • PSI मुख्य आणि शारीरिक • विक्रीकर निरीक्षक (STI) • ASO मुख्य परीक्षा • सरलसेवा थेट भरती • तलाठी भारती परीक्षा",
+  "State Administrative Services • Class I &amp; II":
+    "राज्य प्रशासकीय सेवा • वर्ग I आणि II",
+  "Deputy Collector &amp; DySPClass I Leadership Cadre":
+    "उपजिल्हाधिकारी आणि DySPClass I नेतृत्व संवर्ग",
   "Pedagogy &amp; Mentorship": "अध्यापनशास्त्र आणि मार्गदर्शन",
   "Age &amp; Educational Criteria": "वय आणि शैक्षणिक निकष",
   "Fluent Marathi &amp; English": "अस्खलित मराठी आणि इंग्रजी",
   "Marathi &amp; Semi-English": "मराठी आणि सेमी-इंग्रजी",
-  "Maharashtra Direct Recruitment • TCS &amp; IBPS Pattern": "महाराष्ट्र थेट भरती • TCS आणि IBPS पॅटर्न",
-  "Marathi • English • GK • MathsDaily Speed &amp; Accuracy Drills": "मराठी • इंग्रजी • GK • MathsDaily Speed & Accuracy Drills",
+  "Maharashtra Direct Recruitment • TCS &amp; IBPS Pattern":
+    "महाराष्ट्र थेट भरती • TCS आणि IBPS पॅटर्न",
+  "Marathi • English • GK • MathsDaily Speed &amp; Accuracy Drills":
+    "मराठी • इंग्रजी • GK • MathsDaily Speed & Accuracy Drills",
   "Eligibility &amp; Cadres": "पात्रता आणि संवर्ग",
-  "25 Questions: Grammar, Sandhi, Samas, vocabulary, idioms, sentence correction &amp; comprehension.": "25 प्रश्न: व्याकरण, संधि, समास, शब्दसंग्रह, मुहावरे, वाक्य सुधारणा आणि आकलन.",
-  "25 Questions: Tenses, voice, vocabulary, synonyms/antonyms, prepositions &amp; error spotting.": "25 प्रश्न: काल, आवाज, शब्दसंग्रह, समानार्थी/विपरीत शब्द, पूर्वसर्ग आणि त्रुटी शोधणे.",
-  "25 Questions: Maharashtra History, Geography, Indian Polity, Current Affairs &amp; General Science.": "25 प्रश्न: महाराष्ट्र इतिहास, भूगोल, भारतीय राजकारण, चालू घडामोडी आणि सामान्य विज्ञान.",
-  "25 Questions: Quantitative aptitude, number series, coding-decoding, percentage &amp; speed maths.": "25 प्रश्न: परिमाणात्मक योग्यता, संख्या मालिका, कोडिंग-डिकोडिंग, टक्केवारी आणि गती गणिते.",
+  "25 Questions: Grammar, Sandhi, Samas, vocabulary, idioms, sentence correction &amp; comprehension.":
+    "25 प्रश्न: व्याकरण, संधि, समास, शब्दसंग्रह, मुहावरे, वाक्य सुधारणा आणि आकलन.",
+  "25 Questions: Tenses, voice, vocabulary, synonyms/antonyms, prepositions &amp; error spotting.":
+    "25 प्रश्न: काल, आवाज, शब्दसंग्रह, समानार्थी/विपरीत शब्द, पूर्वसर्ग आणि त्रुटी शोधणे.",
+  "25 Questions: Maharashtra History, Geography, Indian Polity, Current Affairs &amp; General Science.":
+    "25 प्रश्न: महाराष्ट्र इतिहास, भूगोल, भारतीय राजकारण, चालू घडामोडी आणि सामान्य विज्ञान.",
+  "25 Questions: Quantitative aptitude, number series, coding-decoding, percentage &amp; speed maths.":
+    "25 प्रश्न: परिमाणात्मक योग्यता, संख्या मालिका, कोडिंग-डिकोडिंग, टक्केवारी आणि गती गणिते.",
   "Cadre Requirements &amp; Eligibility": "कॅडर आवश्यकता आणि पात्रता",
   "TCS &amp; IBPS Drills": "TCS आणि IBPS कवायती",
-  "Economics &amp; Public FinanceGST, State Budgets &amp; Planning": "अर्थशास्त्र आणि सार्वजनिक वित्त जीएसटी, राज्य अर्थसंकल्प आणि नियोजन",
-  "Marathi Grammar, Sandhi, Samas &amp; Vocabulary (50 Marks)": "मराठी व्याकरण, संधि, समास आणि शब्दसंग्रह (५० गुण)",
-  "English Grammar, Sentence Structure &amp; Usage (50 Marks)": "इंग्रजी व्याकरण, वाक्य रचना आणि वापर (५० गुण)",
-  "General Studies, Intelligence &amp; Aptitude (30 Marks)": "सामान्य अध्ययन, बुद्धिमत्ता आणि योग्यता (३० गुण)",
-  "Bookkeeping &amp; Accountancy Fundamentals (30 Marks)": "बुककीपिंग आणि अकाउंटन्सीची मूलभूत तत्त्वे (३० गुण)",
-  "Indian Economy, Planning &amp; Sales Tax Acts (40 Marks)": "भारतीय अर्थव्यवस्था, नियोजन आणि विक्रीकर कायदे (४० गुण)",
+  "Economics &amp; Public FinanceGST, State Budgets &amp; Planning":
+    "अर्थशास्त्र आणि सार्वजनिक वित्त जीएसटी, राज्य अर्थसंकल्प आणि नियोजन",
+  "Marathi Grammar, Sandhi, Samas &amp; Vocabulary (50 Marks)":
+    "मराठी व्याकरण, संधि, समास आणि शब्दसंग्रह (५० गुण)",
+  "English Grammar, Sentence Structure &amp; Usage (50 Marks)":
+    "इंग्रजी व्याकरण, वाक्य रचना आणि वापर (५० गुण)",
+  "General Studies, Intelligence &amp; Aptitude (30 Marks)":
+    "सामान्य अध्ययन, बुद्धिमत्ता आणि योग्यता (३० गुण)",
+  "Bookkeeping &amp; Accountancy Fundamentals (30 Marks)":
+    "बुककीपिंग आणि अकाउंटन्सीची मूलभूत तत्त्वे (३० गुण)",
+  "Indian Economy, Planning &amp; Sales Tax Acts (40 Marks)":
+    "भारतीय अर्थव्यवस्था, नियोजन आणि विक्रीकर कायदे (४० गुण)",
   "Full GST &amp; Survey": "संपूर्ण GST आणि सर्वेक्षण",
   "Atul Nikumbh &amp; Team": "अतुल निकुंभ आणि टीम",
   "Eligibility &amp; Criteria": "पात्रता आणि निकष",
-  "25 Questions: Vocabulary, idioms, grammar rules, spelling checks, prepositions &amp; sentence completion.": "25 प्रश्न: शब्दसंग्रह, मुहावरे, व्याकरणाचे नियम, शब्दलेखन तपासणे, पूर्वसर्ग आणि वाक्य पूर्ण करणे.",
-  "25 Questions: Maharashtra History, Geography, Indian Constitution, RTI Act &amp; Current Affairs.": "25 प्रश्न: महाराष्ट्राचा इतिहास, भूगोल, भारतीय राज्यघटना, RTI कायदा आणि चालू घडामोडी.",
+  "25 Questions: Vocabulary, idioms, grammar rules, spelling checks, prepositions &amp; sentence completion.":
+    "25 प्रश्न: शब्दसंग्रह, मुहावरे, व्याकरणाचे नियम, शब्दलेखन तपासणे, पूर्वसर्ग आणि वाक्य पूर्ण करणे.",
+  "25 Questions: Maharashtra History, Geography, Indian Constitution, RTI Act &amp; Current Affairs.":
+    "25 प्रश्न: महाराष्ट्राचा इतिहास, भूगोल, भारतीय राज्यघटना, RTI कायदा आणि चालू घडामोडी.",
   "Eligibility &amp; Qualification Criteria": "पात्रता आणि पात्रता निकष",
-  "MPSC State Services &amp; CombineRajyaseva, PSI, STI &amp; ASO": "MPSC राज्य सेवा आणि एकत्रित राज्यसेवा, PSI, STI आणि ASO",
-  "Direct State RecruitmentSaralseva &amp; Talathi Bharti": "थेट राज्य भरतीसरलसेवा आणि तलाठी भारती",
-  "The Lakshya Career Academy delivers structured coaching for all 7 major competitive examination streams in Maharashtra. Every course is rooted in our core framework: limited batches of 30 students, 15-day syllabus &amp; test cycles, complete printed study materials, and direct personal guidance from founder directors Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh.": "लक्ष्य करिअर अकादमी महाराष्ट्रातील सर्व 7 प्रमुख स्पर्धा परीक्षा प्रवाहांसाठी संरचित कोचिंग प्रदान करते. प्रत्येक अभ्यासक्रम आमच्या मूळ फ्रेमवर्कमध्ये रुजलेला आहे: 30 विद्यार्थ्यांच्या मर्यादित तुकड्या, 15 दिवसांचा अभ्यासक्रम आणि चाचणी चक्र, संपूर्ण छापील अभ्यास साहित्य आणि संस्थापक संचालक अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांचे थेट वैयक्तिक मार्गदर्शन.",
+  "MPSC State Services &amp; CombineRajyaseva, PSI, STI &amp; ASO":
+    "MPSC राज्य सेवा आणि एकत्रित राज्यसेवा, PSI, STI आणि ASO",
+  "Direct State RecruitmentSaralseva &amp; Talathi Bharti":
+    "थेट राज्य भरतीसरलसेवा आणि तलाठी भारती",
+  "The Lakshya Career Academy delivers structured coaching for all 7 major competitive examination streams in Maharashtra. Every course is rooted in our core framework: limited batches of 30 students, 15-day syllabus &amp; test cycles, complete printed study materials, and direct personal guidance from founder directors Atul Nikumbh, Nishant Pawar, and Pranjal Nikumbh.":
+    "लक्ष्य करिअर अकादमी महाराष्ट्रातील सर्व 7 प्रमुख स्पर्धा परीक्षा प्रवाहांसाठी संरचित कोचिंग प्रदान करते. प्रत्येक अभ्यासक्रम आमच्या मूळ फ्रेमवर्कमध्ये रुजलेला आहे: 30 विद्यार्थ्यांच्या मर्यादित तुकड्या, 15 दिवसांचा अभ्यासक्रम आणि चाचणी चक्र, संपूर्ण छापील अभ्यास साहित्य आणि संस्थापक संचालक अतुल निकुंभ, निशांत पवार आणि प्रांजल निकुंभ यांचे थेट वैयक्तिक मार्गदर्शन.",
   "Saralseva &amp; Talathi": "सरलसेवा आणि तलाठी",
   "100M (Marathi &amp; English)": "100M (मराठी आणि इंग्रजी)",
   "100M (GS &amp; Special Acts)": "100M (GS आणि विशेष कायदे)",
@@ -2139,186 +2880,285 @@ window.LAKSHYA_I18N = {
   "100M (General Studies &amp; Eco)": "100M (सामान्य अभ्यास आणि पर्यावरण)",
   "100M (Polity &amp; Governance)": "100M (राजकारण आणि शासन)",
   "RTI &amp; Information Tech": "RTI आणि माहिती तंत्रज्ञान",
-  "Structured preparation for state-level direct recruitment exams: Clerk/Typist, Tax Assistant, Vanrakshak, and departmental recruitment under TCS &amp; IBPS patterns.": "राज्यस्तरीय थेट भरती परीक्षांसाठी संरचित तयारी: लिपिक/टंकलेखक, कर सहाय्यक, वनरक्षक, आणि TCS आणि IBPS पॅटर्न अंतर्गत विभागीय भरती.",
+  "Structured preparation for state-level direct recruitment exams: Clerk/Typist, Tax Assistant, Vanrakshak, and departmental recruitment under TCS &amp; IBPS patterns.":
+    "राज्यस्तरीय थेट भरती परीक्षांसाठी संरचित तयारी: लिपिक/टंकलेखक, कर सहाय्यक, वनरक्षक, आणि TCS आणि IBPS पॅटर्न अंतर्गत विभागीय भरती.",
   "Marathi &amp; Eng:": "मराठी आणि इंजी:",
   "GK &amp; Maths:": "GK आणि गणित:",
   "50M GK + 50M Maths &amp; Logic": "50M GK + 50M गणित आणि तर्कशास्त्र",
   "TCS &amp; IBPS Computer Pattern": "TCS आणि IBPS संगणक नमुना",
-  "MPSC &amp; State Services Examination Matrix": "MPSC आणि राज्य सेवा परीक्षा मॅट्रिक्स",
+  "MPSC &amp; State Services Examination Matrix":
+    "MPSC आणि राज्य सेवा परीक्षा मॅट्रिक्स",
   "200 Marks (Paper 1 &amp; Paper 2)": "200 गुण (पेपर 1 आणि पेपर 2)",
   "200 Marks (GS, Laws &amp; Acts)": "200 गुण (GS, कायदे आणि कायदे)",
   "200 Marks (Economics &amp; GS)": "200 गुण (अर्थशास्त्र आणि जीएस)",
   "200 Marks (Polity &amp; Secretariat)": "200 गुण (राज्य आणि सचिवालय)",
-  "Meet founder directors Atul Nikumbh &amp; Nishant Pawar for a diagnostic syllabus discussion and course selection roadmap.": "डायग्नोस्टिक अभ्यासक्रम चर्चा आणि अभ्यासक्रम निवड रोडमॅपसाठी संस्थापक संचालक अतुल निकुंभ आणि निशांत पवार यांना भेटा.",
+  "Meet founder directors Atul Nikumbh &amp; Nishant Pawar for a diagnostic syllabus discussion and course selection roadmap.":
+    "डायग्नोस्टिक अभ्यासक्रम चर्चा आणि अभ्यासक्रम निवड रोडमॅपसाठी संस्थापक संचालक अतुल निकुंभ आणि निशांत पवार यांना भेटा.",
   "PSI Mains &amp; Physical Drills": "PSI मुख्य आणि शारीरिक कवायती",
   "Classroom &amp; Lectures": "वर्ग आणि व्याख्याने",
   "Felicitations &amp; Achievers": "सत्कार आणि यशवंत",
   "Seminars &amp; Mentorship": "सेमिनार आणि मार्गदर्शन",
-  "Honoring successful officers selected for Maharashtra State Administration &amp; Police.": "महाराष्ट्र राज्य प्रशासन आणि पोलिसांसाठी निवड झालेल्या यशस्वी अधिकाऱ्यांचा सत्कार.",
+  "Honoring successful officers selected for Maharashtra State Administration &amp; Police.":
+    "महाराष्ट्र राज्य प्रशासन आणि पोलिसांसाठी निवड झालेल्या यशस्वी अधिकाऱ्यांचा सत्कार.",
   "Concept Mastery &amp; Note Making": "संकल्पना मास्टरी आणि नोट मेकिंग",
   "Aspirant Motivation &amp; Strategy Camp": "इच्छुक प्रेरणा आणि रणनीती शिबिर",
   "Daily Answer Writing &amp; Evaluation": "दैनिक उत्तर लेखन आणि मूल्यमापन",
   "Peer Study Circle &amp; Discussion": "पीअर स्टडी सर्कल आणि चर्चा",
   "CSAT &amp; Logical Reasoning Hall": "CSAT आणि लॉजिकल रिझनिंग हॉल",
   "Indian Polity &amp; Law Modules": "भारतीय राजकारण आणि कायदा मॉड्यूल्स",
-  "Open Q&amp;A addressing exam syllabus changes and high-yield scoring strategies.": "प्रश्नोत्तरे संबोधित करणाऱ्या परीक्षेच्या अभ्यासक्रमातील बदल आणि उच्च-उत्पन्न स्कोअरिंग धोरणे उघडा.",
+  "Open Q&amp;A addressing exam syllabus changes and high-yield scoring strategies.":
+    "प्रश्नोत्तरे संबोधित करणाऱ्या परीक्षेच्या अभ्यासक्रमातील बदल आणि उच्च-उत्पन्न स्कोअरिंग धोरणे उघडा.",
   "Academy Community &amp; Student Life": "अकादमी समुदाय आणि विद्यार्थी जीवन",
   "Our Story &amp; 14 Pillars →": "आमची कथा आणि १४ स्तंभ →",
   "Our Aim &amp; Mission": "आमचे ध्येय आणि ध्येय",
-  "To Increase Maharashtra’s Share in Direct Decision Making Process &amp; Governance.": "थेट निर्णय घेण्याची प्रक्रिया आणि प्रशासनात महाराष्ट्राचा वाटा वाढवण्यासाठी.",
+  "To Increase Maharashtra’s Share in Direct Decision Making Process &amp; Governance.":
+    "थेट निर्णय घेण्याची प्रक्रिया आणि प्रशासनात महाराष्ट्राचा वाटा वाढवण्यासाठी.",
   "Read Full Mission &amp; Aim →": "संपूर्ण मिशन आणि ध्येय वाचा →",
   "Stage 01 • Foundation &amp; Speed": "टप्पा 01 • पाया आणि गती",
-  "CSAT Logical Reasoning &amp; Data Interpretation": "CSAT लॉजिकल रिझनिंग आणि डेटा इंटरप्रिटेशन",
-  "Daily Descriptive Answer Writing &amp; Feedback": "दैनिक वर्णनात्मक उत्तर लेखन आणि अभिप्राय",
-  "Marathi &amp; English Grammar &amp; Essay Writing": "मराठी आणि इंग्रजी व्याकरण आणि निबंध लेखन",
-  "Maharashtra Economic Survey &amp; Budgets": "महाराष्ट्र आर्थिक सर्वेक्षण आणि अंदाजपत्रक",
-  "Interview &amp; Board Guidance (मुलाखत)": "मुलाखत आणि मंडळाचे मार्गदर्शन (मुलाखत)",
-  "Mock Panels with Serving &amp; Retired Officers": "सेवानिवृत्त आणि सेवानिवृत्त अधिकाऱ्यांसह मॉक पॅनेल",
-  "Video Performance Review &amp; Tone Correction": "व्हिडिओ कार्यप्रदर्शन पुनरावलोकन आणि टोन सुधारणा",
-  "Psychological &amp; Confidence Counseling": "मानसशास्त्रीय आणि आत्मविश्वास समुपदेशन",
+  "CSAT Logical Reasoning &amp; Data Interpretation":
+    "CSAT लॉजिकल रिझनिंग आणि डेटा इंटरप्रिटेशन",
+  "Daily Descriptive Answer Writing &amp; Feedback":
+    "दैनिक वर्णनात्मक उत्तर लेखन आणि अभिप्राय",
+  "Marathi &amp; English Grammar &amp; Essay Writing":
+    "मराठी आणि इंग्रजी व्याकरण आणि निबंध लेखन",
+  "Maharashtra Economic Survey &amp; Budgets":
+    "महाराष्ट्र आर्थिक सर्वेक्षण आणि अंदाजपत्रक",
+  "Interview &amp; Board Guidance (मुलाखत)":
+    "मुलाखत आणि मंडळाचे मार्गदर्शन (मुलाखत)",
+  "Mock Panels with Serving &amp; Retired Officers":
+    "सेवानिवृत्त आणि सेवानिवृत्त अधिकाऱ्यांसह मॉक पॅनेल",
+  "Video Performance Review &amp; Tone Correction":
+    "व्हिडिओ कार्यप्रदर्शन पुनरावलोकन आणि टोन सुधारणा",
+  "Psychological &amp; Confidence Counseling":
+    "मानसशास्त्रीय आणि आत्मविश्वास समुपदेशन",
   "Class I &amp; II Services": "वर्ग I आणि II सेवा",
-  "200-mark 4-subject speed test mastery (Marathi, English, GK, Maths &amp; Reasoning) tailored for District Talathi and State departmental recruitment.": "जिल्हा तलाठी आणि राज्य विभागीय भरतीसाठी 200-गुणांचे 4-विषय वेग चाचणी प्रभुत्व (मराठी, इंग्रजी, GK, गणित आणि तर्क)",
+  "200-mark 4-subject speed test mastery (Marathi, English, GK, Maths &amp; Reasoning) tailored for District Talathi and State departmental recruitment.":
+    "जिल्हा तलाठी आणि राज्य विभागीय भरतीसाठी 200-गुणांचे 4-विषय वेग चाचणी प्रभुत्व (मराठी, इंग्रजी, GK, गणित आणि तर्क)",
   "Success Stories &amp; Testimonials": "यशोगाथा आणि प्रशंसापत्रे",
-  "The personalized attention and daily CSAT &amp; GS practice sessions at Lakshya transformed my preparation. Atul Sir's subject analysis and regular motivational mentoring gave me the confidence to secure my selection as Kar Sahayak.": "लक्ष्य येथे वैयक्तिक लक्ष आणि दैनंदिन CSAT आणि GS सराव सत्रांमुळे माझ्या तयारीत बदल झाला. अतुल सरांच्या विषयाचे विश्लेषण आणि नियमित प्रेरक मार्गदर्शनामुळे मला कार सहाय्यक म्हणून माझी निवड निश्चित करण्याचा आत्मविश्वास मिळाला.",
-  "View Complete Merit Roster &amp; Success Stories (18+) →": "संपूर्ण मेरिट रोस्टर आणि यशोगाथा पहा (18+) →",
+  "The personalized attention and daily CSAT &amp; GS practice sessions at Lakshya transformed my preparation. Atul Sir's subject analysis and regular motivational mentoring gave me the confidence to secure my selection as Kar Sahayak.":
+    "लक्ष्य येथे वैयक्तिक लक्ष आणि दैनंदिन CSAT आणि GS सराव सत्रांमुळे माझ्या तयारीत बदल झाला. अतुल सरांच्या विषयाचे विश्लेषण आणि नियमित प्रेरक मार्गदर्शनामुळे मला कार सहाय्यक म्हणून माझी निवड निश्चित करण्याचा आत्मविश्वास मिळाला.",
+  "View Complete Merit Roster &amp; Success Stories (18+) →":
+    "संपूर्ण मेरिट रोस्टर आणि यशोगाथा पहा (18+) →",
   "Admissions &amp; Guidance": "प्रवेश आणि मार्गदर्शन",
-  "Insights &amp; Strategy from Academic Faculty": "शैक्षणिक विद्याशाखेकडून अंतर्दृष्टी आणि धोरण",
-  "How to Master MPSC Descriptive GS &amp; Essay Papers": "MPSC वर्णनात्मक GS आणि निबंध पेपर्समध्ये कसे मास्टर करावे",
-  "Synthesizing Lokrajya &amp; Yojana for High-Scoring Answers": "उच्च स्कोअरिंग उत्तरांसाठी लोकराज्य आणि योजना संश्लेषित करणे",
+  "Insights &amp; Strategy from Academic Faculty":
+    "शैक्षणिक विद्याशाखेकडून अंतर्दृष्टी आणि धोरण",
+  "How to Master MPSC Descriptive GS &amp; Essay Papers":
+    "MPSC वर्णनात्मक GS आणि निबंध पेपर्समध्ये कसे मास्टर करावे",
+  "Synthesizing Lokrajya &amp; Yojana for High-Scoring Answers":
+    "उच्च स्कोअरिंग उत्तरांसाठी लोकराज्य आणि योजना संश्लेषित करणे",
   "Study Material &amp; Notes": "अभ्यास साहित्य आणि नोट्स",
-  "Reference Repository • Study Material &amp; Syllabi": "संदर्भ भांडार • अभ्यास साहित्य आणि अभ्यासक्रम",
-  "School Books &amp; NCERT DigestsOfficial Syllabi &amp; Exam Patterns": "शालेय पुस्तके आणि एनसीईआरटी डायजेस्ट ऑफिशियल अभ्यासक्रम आणि परीक्षेचे नमुने",
-  "12-Year PYQ Topic BanksLokrajya, Yojana &amp; Kurukshetra": "12-वर्ष PYQ विषय बँक्स लोकराज्य, योजना आणि कुरुक्षेत्र",
-  "Study Material &amp; Examination Blueprint Archives": "अभ्यास साहित्य आणि परीक्षा ब्ल्यूप्रिंट संग्रह",
-  "Balbharati Core Science &amp; History Digests": "बालभारती कोर सायन्स अँड हिस्ट्री डायजेट्स",
+  "Reference Repository • Study Material &amp; Syllabi":
+    "संदर्भ भांडार • अभ्यास साहित्य आणि अभ्यासक्रम",
+  "School Books &amp; NCERT DigestsOfficial Syllabi &amp; Exam Patterns":
+    "शालेय पुस्तके आणि एनसीईआरटी डायजेस्ट ऑफिशियल अभ्यासक्रम आणि परीक्षेचे नमुने",
+  "12-Year PYQ Topic BanksLokrajya, Yojana &amp; Kurukshetra":
+    "12-वर्ष PYQ विषय बँक्स लोकराज्य, योजना आणि कुरुक्षेत्र",
+  "Study Material &amp; Examination Blueprint Archives":
+    "अभ्यास साहित्य आणि परीक्षा ब्ल्यूप्रिंट संग्रह",
+  "Balbharati Core Science &amp; History Digests":
+    "बालभारती कोर सायन्स अँड हिस्ट्री डायजेट्स",
   "State Board 11th &amp; 12th": "राज्य मंडळ 11वी आणि 12वी",
-  "Maharashtra History &amp; Geography (11th-12th)": "महाराष्ट्र इतिहास आणि भूगोल (11वी-12वी)",
+  "Maharashtra History &amp; Geography (11th-12th)":
+    "महाराष्ट्र इतिहास आणि भूगोल (11वी-12वी)",
   "Class 11th &amp; 12th": "इयत्ता 11वी आणि 12वी",
   "Polity &amp; Economy": "राजकारण आणि अर्थव्यवस्था",
-  "NCERT Polity &amp; Economic Development Compendium": "एनसीईआरटी पॉलिटी आणि आर्थिक विकास संकलन",
+  "NCERT Polity &amp; Economic Development Compendium":
+    "एनसीईआरटी पॉलिटी आणि आर्थिक विकास संकलन",
   "Geography &amp; Science": "भूगोल आणि विज्ञान",
-  "NCERT Physical Geography &amp; Environment Summaries": "NCERT भौतिक भूगोल आणि पर्यावरण सारांश",
-  "Chapterwise digests from NCERT Class 11th Fundamentals of Physical Geography and Class 12th India People &amp; Economy.": "NCERT वर्ग 11वी भौतिक भूगोल आणि इयत्ता 12वी भारत लोक आणि अर्थव्यवस्था मधून अध्यायानुसार पचते.",
+  "NCERT Physical Geography &amp; Environment Summaries":
+    "NCERT भौतिक भूगोल आणि पर्यावरण सारांश",
+  "Chapterwise digests from NCERT Class 11th Fundamentals of Physical Geography and Class 12th India People &amp; Economy.":
+    "NCERT वर्ग 11वी भौतिक भूगोल आणि इयत्ता 12वी भारत लोक आणि अर्थव्यवस्था मधून अध्यायानुसार पचते.",
   "Infrastructure &amp; Energy": "पायाभूत सुविधा आणि ऊर्जा",
-  "Yojana Special Issue: Sustainable Energy &amp; Infrastructure": "योजना विशेष समस्या: शाश्वत ऊर्जा आणि पायाभूत सुविधा",
-  "Kurukshetra Rural Economy &amp; Agrarian Policy Digest": "कुरुक्षेत्र ग्रामीण अर्थव्यवस्था आणि कृषी धोरण डायजेस्ट",
-  "Panchayati Raj Governance &amp; Digital Village Issue": "पंचायती राज प्रशासन आणि डिजिटल गाव समस्या",
-  "Lokrajya State Policy &amp; Scheme Compendiums": "लोकराज्य राज्य धोरण आणि योजना संग्रह",
-  "Maharashtra Icons &amp; Cultural Heritage Special Issue": "महाराष्ट्राचे प्रतीक आणि सांस्कृतिक वारसा विशेषांक",
+  "Yojana Special Issue: Sustainable Energy &amp; Infrastructure":
+    "योजना विशेष समस्या: शाश्वत ऊर्जा आणि पायाभूत सुविधा",
+  "Kurukshetra Rural Economy &amp; Agrarian Policy Digest":
+    "कुरुक्षेत्र ग्रामीण अर्थव्यवस्था आणि कृषी धोरण डायजेस्ट",
+  "Panchayati Raj Governance &amp; Digital Village Issue":
+    "पंचायती राज प्रशासन आणि डिजिटल गाव समस्या",
+  "Lokrajya State Policy &amp; Scheme Compendiums":
+    "लोकराज्य राज्य धोरण आणि योजना संग्रह",
+  "Maharashtra Icons &amp; Cultural Heritage Special Issue":
+    "महाराष्ट्राचे प्रतीक आणि सांस्कृतिक वारसा विशेषांक",
   "Heritage &amp; Reformers": "वारसा आणि सुधारक",
   "Syllabus &amp; Examination Pattern": "अभ्यासक्रम आणि परीक्षा पॅटर्न",
-  "Official bilingual syllabus for Prelims (GS &amp; CSAT) and Mains (GS 1 to 4 &amp; Languages) with topicwise weightages.": "प्रिलिम्स (GS आणि CSAT) आणि मुख्य (GS 1 ते 4 आणि भाषा) विषयवार वेटेजसह अधिकृत द्विभाषिक अभ्यासक्रम.",
-  "UPSC &amp; MPSC State Services Examination Pattern": "UPSC आणि MPSC राज्य सेवा परीक्षा नमुना",
-  "Qualifying Language Papers: Marathi (300 Marks) &amp; English (300 Marks) — Minimum 25% required (Excluded from final merit total).": "पात्र भाषा पेपर: मराठी (300 गुण) आणि इंग्रजी (300 गुण) - किमान 25% आवश्यक (अंतिम गुणवत्तेतून वगळलेले).",
-  "7 Merit Papers (1,750 Marks): – Paper I: Essay Writing (250 Marks) – Papers II to V: General Studies I, II, III &amp; IV (4 x 250 = 1,000 Marks) – Papers VI &amp; VII: Optional Subject Paper 1 &amp; 2 (2 x 250 = 500 Marks)": "7 मेरिट पेपर्स (1,750 गुण): – पेपर I: निबंध लेखन (250 गुण) – पेपर II ते पाचवी: सामान्य अध्ययन I, II, III आणि IV (4 x 250 = 1,000 गुण) – पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 0 x 5 = 025 गुण)",
-  "Qualifying Papers: Marathi &amp; English language papers (Excluded from final merit total).": "पात्रता पेपर: मराठी आणि इंग्रजी भाषेचे पेपर (अंतिम गुणवत्तेतून वगळलेले).",
-  "5 Compulsory Merit Papers (1,250 Marks): Essay (250 Marks) + GS I, II, III &amp; IV (4 x 250 = 1,000 Marks).": "5 अनिवार्य मेरिट पेपर्स (1,250 गुण): निबंध (250 गुण) + GS I, II, III आणि IV (4 x 250 = 1,000 गुण).",
-  "7 Papers Counted for Merit (1,750 Marks): • Paper I: Essay Writing (250 Marks) • Paper II: General Studies I (Indian Heritage, History, Geo &amp; Society — 250 Marks) • Paper III: General Studies II (Governance, Polity &amp; IR — 250 Marks) • Paper IV: General Studies III (Econ, Sci-Tech, Security — 250 Marks) • Paper V: General Studies IV (Ethics, Integrity &amp; Aptitude — 250 Marks) • Paper VI &amp; VII: Optional Subject Paper 1 &amp; 2 (2 x 250 = 500 Marks)": "गुणवत्तेसाठी 7 पेपर मोजले गेले (1,750 गुण): • पेपर I: निबंध लेखन (250 गुण) • पेपर II: सामान्य अध्ययन I (भारतीय वारसा, इतिहास, भू आणि समाज - 250 गुण) • पेपर III: सामान्य अध्ययन II (शासन, राज्य आणि IR) सामान्य अभ्यास II (शासन, राज्य आणि IR) - 250 मार्क्स, IV. विज्ञान-तंत्रज्ञान, सुरक्षा - 250 गुण) • पेपर V: सामान्य अध्ययन IV (नीतीशास्त्र, सचोटी आणि योग्यता - 250 गुण) • पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 (2 x 250 = 500 गुण)",
+  "Official bilingual syllabus for Prelims (GS &amp; CSAT) and Mains (GS 1 to 4 &amp; Languages) with topicwise weightages.":
+    "प्रिलिम्स (GS आणि CSAT) आणि मुख्य (GS 1 ते 4 आणि भाषा) विषयवार वेटेजसह अधिकृत द्विभाषिक अभ्यासक्रम.",
+  "UPSC &amp; MPSC State Services Examination Pattern":
+    "UPSC आणि MPSC राज्य सेवा परीक्षा नमुना",
+  "Qualifying Language Papers: Marathi (300 Marks) &amp; English (300 Marks) — Minimum 25% required (Excluded from final merit total).":
+    "पात्र भाषा पेपर: मराठी (300 गुण) आणि इंग्रजी (300 गुण) - किमान 25% आवश्यक (अंतिम गुणवत्तेतून वगळलेले).",
+  "7 Merit Papers (1,750 Marks): – Paper I: Essay Writing (250 Marks) – Papers II to V: General Studies I, II, III &amp; IV (4 x 250 = 1,000 Marks) – Papers VI &amp; VII: Optional Subject Paper 1 &amp; 2 (2 x 250 = 500 Marks)":
+    "7 मेरिट पेपर्स (1,750 गुण): – पेपर I: निबंध लेखन (250 गुण) – पेपर II ते पाचवी: सामान्य अध्ययन I, II, III आणि IV (4 x 250 = 1,000 गुण) – पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 0 x 5 = 025 गुण)",
+  "Qualifying Papers: Marathi &amp; English language papers (Excluded from final merit total).":
+    "पात्रता पेपर: मराठी आणि इंग्रजी भाषेचे पेपर (अंतिम गुणवत्तेतून वगळलेले).",
+  "5 Compulsory Merit Papers (1,250 Marks): Essay (250 Marks) + GS I, II, III &amp; IV (4 x 250 = 1,000 Marks).":
+    "5 अनिवार्य मेरिट पेपर्स (1,250 गुण): निबंध (250 गुण) + GS I, II, III आणि IV (4 x 250 = 1,000 गुण).",
+  "7 Papers Counted for Merit (1,750 Marks): • Paper I: Essay Writing (250 Marks) • Paper II: General Studies I (Indian Heritage, History, Geo &amp; Society — 250 Marks) • Paper III: General Studies II (Governance, Polity &amp; IR — 250 Marks) • Paper IV: General Studies III (Econ, Sci-Tech, Security — 250 Marks) • Paper V: General Studies IV (Ethics, Integrity &amp; Aptitude — 250 Marks) • Paper VI &amp; VII: Optional Subject Paper 1 &amp; 2 (2 x 250 = 500 Marks)":
+    "गुणवत्तेसाठी 7 पेपर मोजले गेले (1,750 गुण): • पेपर I: निबंध लेखन (250 गुण) • पेपर II: सामान्य अध्ययन I (भारतीय वारसा, इतिहास, भू आणि समाज - 250 गुण) • पेपर III: सामान्य अध्ययन II (शासन, राज्य आणि IR) सामान्य अभ्यास II (शासन, राज्य आणि IR) - 250 मार्क्स, IV. विज्ञान-तंत्रज्ञान, सुरक्षा - 250 गुण) • पेपर V: सामान्य अध्ययन IV (नीतीशास्त्र, सचोटी आणि योग्यता - 250 गुण) • पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 (2 x 250 = 500 गुण)",
   "Order Study Material &amp; Syllabi": "ऑर्डर स्टडी मटेरियल आणि अभ्यासक्रम",
   "Official Syllabus &amp; PYQ Bank": "अधिकृत अभ्यासक्रम आणि PYQ बँक",
-  "500+ Officers In ServiceState Administration &amp; Police": "सेवा राज्य प्रशासन आणि पोलिसांमध्ये 500+ अधिकारी",
+  "500+ Officers In ServiceState Administration &amp; Police":
+    "सेवा राज्य प्रशासन आणि पोलिसांमध्ये 500+ अधिकारी",
   "Selected Officers &amp; Felicitations": "निवडक अधिकारी व सत्कार",
   "Technical Services &amp; MES": "तांत्रिक सेवा आणि MES",
   "Felicitations &amp; Honors": "सत्कार आणि सन्मान",
-  "Qualified for State Public Works &amp; Technical Services cadre through focused technical guidance.": "केंद्रीत तांत्रिक मार्गदर्शनाद्वारे राज्य सार्वजनिक बांधकाम आणि तांत्रिक सेवा संवर्गासाठी पात्र.",
+  "Qualified for State Public Works &amp; Technical Services cadre through focused technical guidance.":
+    "केंद्रीत तांत्रिक मार्गदर्शनाद्वारे राज्य सार्वजनिक बांधकाम आणि तांत्रिक सेवा संवर्गासाठी पात्र.",
   "Revenue &amp; Tahsildar Merit Selection": "महसूल व तहसीलदार गुणवत्ता निवड",
-  "Founder directors Atul Nikumbh &amp; Nishant Pawar honoring newly selected civil servant at Nashik campus.": "संस्थापक संचालक अतुल निकुंभ आणि निशांत पवार नाशिक कॅम्पसमध्ये नवनियुक्त नागरी सेवकांचा सत्कार करताना.",
-  "Police Service &amp; Uniform Cadre Selection": "पोलीस सेवा आणि एकसमान संवर्ग निवड",
-  "Intensive Study &amp; Answer Review Cohort": "गहन अभ्यास आणि उत्तर पुनरावलोकन गट",
-  "Merit Citation &amp; Award Presentation": "गुणवत्ता प्रशस्तीपत्र आणि पुरस्कार सादरीकरण",
-  "\"The personalized attention and daily CSAT &amp; GS practice sessions at Lakshya transformed my preparation. Atul Sir's subject analysis and regular motivational mentoring gave me the confidence to secure my selection as Kar Sahayak.\"": "\"लक्ष्य येथे वैयक्तिक लक्ष आणि दैनंदिन CSAT आणि GS सराव सत्रांनी माझ्या तयारीला कलाटणी दिली. अतुल सरांच्या विषयाचे विश्लेषण आणि नियमित प्रेरक मार्गदर्शनामुळे मला कार सहाय्यक म्हणून माझी निवड निश्चित करण्याचा आत्मविश्वास मिळाला.\"",
+  "Founder directors Atul Nikumbh &amp; Nishant Pawar honoring newly selected civil servant at Nashik campus.":
+    "संस्थापक संचालक अतुल निकुंभ आणि निशांत पवार नाशिक कॅम्पसमध्ये नवनियुक्त नागरी सेवकांचा सत्कार करताना.",
+  "Police Service &amp; Uniform Cadre Selection":
+    "पोलीस सेवा आणि एकसमान संवर्ग निवड",
+  "Intensive Study &amp; Answer Review Cohort":
+    "गहन अभ्यास आणि उत्तर पुनरावलोकन गट",
+  "Merit Citation &amp; Award Presentation":
+    "गुणवत्ता प्रशस्तीपत्र आणि पुरस्कार सादरीकरण",
+  '"The personalized attention and daily CSAT &amp; GS practice sessions at Lakshya transformed my preparation. Atul Sir\'s subject analysis and regular motivational mentoring gave me the confidence to secure my selection as Kar Sahayak."':
+    '"लक्ष्य येथे वैयक्तिक लक्ष आणि दैनंदिन CSAT आणि GS सराव सत्रांनी माझ्या तयारीला कलाटणी दिली. अतुल सरांच्या विषयाचे विश्लेषण आणि नियमित प्रेरक मार्गदर्शनामुळे मला कार सहाय्यक म्हणून माझी निवड निश्चित करण्याचा आत्मविश्वास मिळाला."',
   "State Tax &amp; Revenue Cadre": "राज्य कर आणि महसूल संवर्ग",
-  "======================================================================== 2. OUR VISION &amp; MISSION (UNIFIED SIDE-BY-SIDE LAYOUT) ========================================================================": "======================================================================================== 2. आमची दृष्टी आणि मिशन (एकत्रित बाजू) ==============================================================",
+  "======================================================================== 2. OUR VISION &amp; MISSION (UNIFIED SIDE-BY-SIDE LAYOUT) ========================================================================":
+    "======================================================================================== 2. आमची दृष्टी आणि मिशन (एकत्रित बाजू) ==============================================================",
   "8. Human Rights &amp; Responsibilities:": "8. मानवी हक्क आणि जबाबदाऱ्या:",
   "8. Maths &amp; Reasoning": "8. गणित आणि तर्क",
-  "Campus Photo Gallery &amp; Archives | The Lakshya Career Academy Nashik": "कॅम्पस फोटो गॅलरी आणि संग्रहण | लक्ष्य करिअर ॲकॅडमी नाशिक",
-  "• Paper III: General Studies II (Governance, Polity &amp; IR — 250 Marks)": "• पेपर III: सामान्य अध्ययन II (शासन, राजकारण आणि IR - 250 गुण)",
-  "Success Stories &amp; Alumni Hall of Fame | The Lakshya Career Academy Nashik": "यशोगाथा आणि माजी विद्यार्थी हॉल ऑफ फेम | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "Campus Photo Gallery &amp; Archives | The Lakshya Career Academy Nashik":
+    "कॅम्पस फोटो गॅलरी आणि संग्रहण | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "• Paper III: General Studies II (Governance, Polity &amp; IR — 250 Marks)":
+    "• पेपर III: सामान्य अध्ययन II (शासन, राजकारण आणि IR - 250 गुण)",
+  "Success Stories &amp; Alumni Hall of Fame | The Lakshya Career Academy Nashik":
+    "यशोगाथा आणि माजी विद्यार्थी हॉल ऑफ फेम | लक्ष्य करिअर ॲकॅडमी नाशिक",
   "2. Intelligence &amp; Reasoning Test:": "2. बुद्धिमत्ता आणि तर्क चाचणी:",
   "Atul Nikumbh &amp; Panel": "अतुल निकुंभ आणि पॅनल",
   "GST, State Budgets &amp; Planning": "जीएसटी, राज्य अर्थसंकल्प आणि नियोजन",
   "Stage 3: Interview &amp; Merit": "स्टेज 3: मुलाखत आणि गुणवत्ता",
   "4. Physical Test &amp; Interview Pane": "4. शारीरिक चाचणी आणि मुलाखत फलक",
-  "Marathi &amp; English language papers (Excluded from final merit total).": "मराठी आणि इंग्रजी भाषेचे पेपर (अंतिम गुणवत्तेतून वगळलेले).",
-  "Contact &amp; Admissions Office | The Lakshya Career Academy Nashik": "संपर्क आणि प्रवेश कार्यालय | लक्ष्य करिअर ॲकॅडमी नाशिक",
-  "• Paper II: General Studies I (Indian Heritage, History, Geo &amp; Society — 250 Marks)": "• पेपर II: सामान्य अध्ययन I (भारतीय वारसा, इतिहास, भू आणि समाज - 250 गुण)",
+  "Marathi &amp; English language papers (Excluded from final merit total).":
+    "मराठी आणि इंग्रजी भाषेचे पेपर (अंतिम गुणवत्तेतून वगळलेले).",
+  "Contact &amp; Admissions Office | The Lakshya Career Academy Nashik":
+    "संपर्क आणि प्रवेश कार्यालय | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "• Paper II: General Studies I (Indian Heritage, History, Geo &amp; Society — 250 Marks)":
+    "• पेपर II: सामान्य अध्ययन I (भारतीय वारसा, इतिहास, भू आणि समाज - 250 गुण)",
   "Item 6: Mentorship &amp; Workshop": "आयटम 6: मार्गदर्शन आणि कार्यशाळा",
-  "======================================================================== 5. DETAILED SYLLABUS &amp; SCHEME ========================================================================": "5. तपशीलवार अभ्यासक्रम आणि योजना ==============================================================",
+  "======================================================================== 5. DETAILED SYLLABUS &amp; SCHEME ========================================================================":
+    "5. तपशीलवार अभ्यासक्रम आणि योजना ==============================================================",
   "Tab 3: PSI Mains &amp; Law": "टॅब 3: PSI मुख्य आणि कायदा",
-  "– Papers VI &amp; VII: Optional Subject Paper 1 &amp; 2 (2 x 250 = 500 Marks)": "– पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 (2 x 250 = 500 गुण)",
-  "Official Syllabi &amp; Exam Patterns": "अधिकृत अभ्यासक्रम आणि परीक्षा पद्धती",
-  "Courses &amp; Programs | The Lakshya Career Academy Nashik": "अभ्यासक्रम आणि कार्यक्रम | लक्ष्य करिअर ॲकॅडमी नाशिक",
-  "GST &amp; Maharashtra State Tax Legal Updates:": "GST आणि महाराष्ट्र राज्य कर कायदेशीर अद्यतने:",
-  "• Paper V: General Studies IV (Ethics, Integrity &amp; Aptitude — 250 Marks)": "• पेपर V: सामान्य अध्ययन IV (नीतिशास्त्र, सचोटी आणि योग्यता - 250 गुण)",
-  "7. Information Technology (IT) &amp; Cyber Laws:": "7. माहिती तंत्रज्ञान (IT) आणि सायबर कायदे:",
-  "======================================================================== 5. DETAILED SCHEME &amp; 4-SUBJECT MATRIX ========================================================================": "========================================================================= 5. तपशीलवार योजना आणि 4-विषय मॅट्रिक्स ==============================================================",
-  "======================================================================== EXAMINATION PATTERN COMPONENT (UPSC &amp; MPSC STATE SERVICES) ========================================================================": "========================================================================= परीक्षेचा नमुना घटक (UPSC आणि MPSC) राज्य सेवक ==============================================================",
-  "Bottom Row Controls &amp; Text (Counter, Mouse Scroll Indicator, Tagline)": "तळाशी पंक्ती नियंत्रणे आणि मजकूर (काउंटर, माउस स्क्रोल इंडिकेटर, टॅगलाइन)",
-  "Article 4: State Board &amp; NCERT Foundation": "कलम ४: स्टेट बोर्ड आणि एनसीईआरटी फाउंडेशन",
-  "• Indian Constitution &amp; Constitutional Amendments:": "• भारतीय संविधान आणि घटनादुरुस्ती:",
+  "– Papers VI &amp; VII: Optional Subject Paper 1 &amp; 2 (2 x 250 = 500 Marks)":
+    "– पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 (2 x 250 = 500 गुण)",
+  "Official Syllabi &amp; Exam Patterns":
+    "अधिकृत अभ्यासक्रम आणि परीक्षा पद्धती",
+  "Courses &amp; Programs | The Lakshya Career Academy Nashik":
+    "अभ्यासक्रम आणि कार्यक्रम | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "GST &amp; Maharashtra State Tax Legal Updates:":
+    "GST आणि महाराष्ट्र राज्य कर कायदेशीर अद्यतने:",
+  "• Paper V: General Studies IV (Ethics, Integrity &amp; Aptitude — 250 Marks)":
+    "• पेपर V: सामान्य अध्ययन IV (नीतिशास्त्र, सचोटी आणि योग्यता - 250 गुण)",
+  "7. Information Technology (IT) &amp; Cyber Laws:":
+    "7. माहिती तंत्रज्ञान (IT) आणि सायबर कायदे:",
+  "======================================================================== 5. DETAILED SCHEME &amp; 4-SUBJECT MATRIX ========================================================================":
+    "========================================================================= 5. तपशीलवार योजना आणि 4-विषय मॅट्रिक्स ==============================================================",
+  "======================================================================== EXAMINATION PATTERN COMPONENT (UPSC &amp; MPSC STATE SERVICES) ========================================================================":
+    "========================================================================= परीक्षेचा नमुना घटक (UPSC आणि MPSC) राज्य सेवक ==============================================================",
+  "Bottom Row Controls &amp; Text (Counter, Mouse Scroll Indicator, Tagline)":
+    "तळाशी पंक्ती नियंत्रणे आणि मजकूर (काउंटर, माउस स्क्रोल इंडिकेटर, टॅगलाइन)",
+  "Article 4: State Board &amp; NCERT Foundation":
+    "कलम ४: स्टेट बोर्ड आणि एनसीईआरटी फाउंडेशन",
+  "• Indian Constitution &amp; Constitutional Amendments:":
+    "• भारतीय संविधान आणि घटनादुरुस्ती:",
   "Descriptive &amp; Objective Formats": "वर्णनात्मक आणि वस्तुनिष्ठ स्वरूप",
-  "======================================================================== 5. DETAILED SCHEME &amp; CURRICULUM BLUEPRINT ========================================================================": "========================================================================= 5. तपशीलवार योजना आणि अभ्यासक्रमाचा खाका ==============================================================",
+  "======================================================================== 5. DETAILED SCHEME &amp; CURRICULUM BLUEPRINT ========================================================================":
+    "========================================================================= 5. तपशीलवार योजना आणि अभ्यासक्रमाचा खाका ==============================================================",
   "Deputy Collector &amp; DySP": "उपजिल्हाधिकारी आणि DySP",
   "School Books &amp; NCERT Digests": "शालेय पुस्तके आणि NCERT डायजेस्ट",
-  "Study Material &amp; Reference Archives | The Lakshya Career Academy Nashik": "अभ्यास साहित्य आणि संदर्भ संग्रह | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "Study Material &amp; Reference Archives | The Lakshya Career Academy Nashik":
+    "अभ्यास साहित्य आणि संदर्भ संग्रह | लक्ष्य करिअर ॲकॅडमी नाशिक",
   "11 Criminal Law Acts &amp; GS": "11 फौजदारी कायदा कायदा आणि GS",
-  "======================================================================== 5. ALL 7 COURSES WITH FILTERING &amp; LIONHEART CARDS ========================================================================": "========================================================================================= 5. सर्व 7 कोर्सेस फिल्टरिंग आणि लायनहार्ट कार ==============================================================",
-  "Marathi (300 Marks) &amp; English (300 Marks) — Minimum 25% required (Excluded from final merit total).": "मराठी (300 गुण) आणि इंग्रजी (300 गुण) - किमान 25% आवश्यक (अंतिम गुणवत्तेतून वगळलेले).",
-  "• Interview &amp; Final Merit Calculation": "• मुलाखत आणि अंतिम गुणवत्ता गणना",
-  "Protective Dark Vignette Overlay: Keeps photo vivid &amp; crisp while ensuring strong text contrast": "संरक्षक गडद विनेट आच्छादन: मजकूर तीव्रता सुनिश्चित करताना फोटो ज्वलंत आणि कुरकुरीत ठेवते",
+  "======================================================================== 5. ALL 7 COURSES WITH FILTERING &amp; LIONHEART CARDS ========================================================================":
+    "========================================================================================= 5. सर्व 7 कोर्सेस फिल्टरिंग आणि लायनहार्ट कार ==============================================================",
+  "Marathi (300 Marks) &amp; English (300 Marks) — Minimum 25% required (Excluded from final merit total).":
+    "मराठी (300 गुण) आणि इंग्रजी (300 गुण) - किमान 25% आवश्यक (अंतिम गुणवत्तेतून वगळलेले).",
+  "• Interview &amp; Final Merit Calculation":
+    "• मुलाखत आणि अंतिम गुणवत्ता गणना",
+  "Protective Dark Vignette Overlay: Keeps photo vivid &amp; crisp while ensuring strong text contrast":
+    "संरक्षक गडद विनेट आच्छादन: मजकूर तीव्रता सुनिश्चित करताना फोटो ज्वलंत आणि कुरकुरीत ठेवते",
   "Daily Speed &amp; Accuracy Drills": "दैनंदिन गती आणि अचूकता कवायती",
   "3. Eligibility &amp; Criteria Pane": "3. पात्रता आणि निकष फलक",
   "Quick Contact &amp; WhatsApp Bar": "द्रुत संपर्क आणि व्हॉट्सॲप बार",
-  "======================================================================== 5B. SOCIAL EVENTS &amp; GROUP ACTIVITIES (ACADEMY COMMUNITY GATHERINGS) ========================================================================": "5B. सामाजिक कार्यक्रम आणि गट उपक्रम (अकादमी सामुदायिक मेळावे) ================================================================",
-  "About Us &amp; Academic Faculty | The Lakshya Career Academy Nashik": "आमच्याबद्दल आणि शैक्षणिक विद्याशाखा | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "======================================================================== 5B. SOCIAL EVENTS &amp; GROUP ACTIVITIES (ACADEMY COMMUNITY GATHERINGS) ========================================================================":
+    "5B. सामाजिक कार्यक्रम आणि गट उपक्रम (अकादमी सामुदायिक मेळावे) ================================================================",
+  "About Us &amp; Academic Faculty | The Lakshya Career Academy Nashik":
+    "आमच्याबद्दल आणि शैक्षणिक विद्याशाखा | लक्ष्य करिअर ॲकॅडमी नाशिक",
   "11. CrPC &amp; Indian Evidence Act:": "11. CrPC आणि भारतीय पुरावा कायदा:",
-  "======================================================================== 5. DETAILED SCHEME &amp; ALL CORE MODULES ========================================================================": "======================================================================== 5. तपशीलवार योजना आणि सर्व कोर मोड्यूल ==============================================================",
+  "======================================================================== 5. DETAILED SCHEME &amp; ALL CORE MODULES ========================================================================":
+    "======================================================================== 5. तपशीलवार योजना आणि सर्व कोर मोड्यूल ==============================================================",
   "Director &amp; Test Series Lead": "दिग्दर्शक आणि चाचणी मालिका लीड",
   "• Intelligence &amp; Reasoning:": "• बुद्धिमत्ता आणि तर्कशक्ती:",
-  "======================================================================== 5. ASYMMETRIC 2-COLUMN CONTACT DETAILS &amp; FORM ========================================================================": "======================================================================== 5. असममित 2-स्तंभ संपर्क तपशील आणि ==============================================================",
-  "Event Photo 5: Group Discussion &amp; Peer Interaction": "इव्हेंट फोटो 5: गट चर्चा आणि समवयस्क संवाद",
+  "======================================================================== 5. ASYMMETRIC 2-COLUMN CONTACT DETAILS &amp; FORM ========================================================================":
+    "======================================================================== 5. असममित 2-स्तंभ संपर्क तपशील आणि ==============================================================",
+  "Event Photo 5: Group Discussion &amp; Peer Interaction":
+    "इव्हेंट फोटो 5: गट चर्चा आणि समवयस्क संवाद",
   "MPSC State Services &amp; Combine": "MPSC राज्य सेवा आणि एकत्र",
   "3. Syllabus &amp; Statutes Pane": "3. अभ्यासक्रम आणि कायदे उपखंड",
-  "======================================================================== 5. DETAILED SYLLABUS &amp; CURRICULUM BLUEPRINT ========================================================================": "========================================================================== 5. तपशीलवार अभ्यासक्रम आणि अभ्यासक्रमाचा खाका ==============================================================",
-  "======================================================================== 1. ABOUT LAKSHYA CAREER ACADEMY (OFFICIAL INTRODUCTION &amp; NARRATIVE) ========================================================================": "======================================================================== 1. ABOUT LAKSHYA CAREER ACADEMY (OFFICIAL INTRODUCTION & NARRATIVE) ==============================================================",
-  "Article 6: Mock Interview &amp; Personality Guidance": "कलम 6: मॉक इंटरव्ह्यू आणि व्यक्तिमत्व मार्गदर्शन",
+  "======================================================================== 5. DETAILED SYLLABUS &amp; CURRICULUM BLUEPRINT ========================================================================":
+    "========================================================================== 5. तपशीलवार अभ्यासक्रम आणि अभ्यासक्रमाचा खाका ==============================================================",
+  "======================================================================== 1. ABOUT LAKSHYA CAREER ACADEMY (OFFICIAL INTRODUCTION &amp; NARRATIVE) ========================================================================":
+    "======================================================================== 1. ABOUT LAKSHYA CAREER ACADEMY (OFFICIAL INTRODUCTION & NARRATIVE) ==============================================================",
+  "Article 6: Mock Interview &amp; Personality Guidance":
+    "कलम 6: मॉक इंटरव्ह्यू आणि व्यक्तिमत्व मार्गदर्शन",
   "Secretariat Manual &amp; RTI Acts": "सचिवालय मॅन्युअल आणि आरटीआय कायदे",
   "3. Mains Syllabus &amp; Acts Pane": "3. मुख्य अभ्यासक्रम आणि कायदे उपखंड",
-  "• Paper VI &amp; VII: Optional Subject Paper 1 &amp; 2 (2 x 250 = 500 Marks)": "• पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 (2 x 250 = 500 गुण)",
+  "• Paper VI &amp; VII: Optional Subject Paper 1 &amp; 2 (2 x 250 = 500 Marks)":
+    "• पेपर VI आणि VII: पर्यायी विषय पेपर 1 आणि 2 (2 x 250 = 500 गुण)",
   "Director &amp; GS Mentor": "संचालक आणि जीएस मेंटर",
   "Saralseva &amp; Talathi Bharti": "सरलसेवा आणि तलाठी भारती",
-  "• State Government &amp; Secretariat Administration:": "• राज्य सरकार आणि सचिवालय प्रशासन:",
+  "• State Government &amp; Secretariat Administration:":
+    "• राज्य सरकार आणि सचिवालय प्रशासन:",
   "Founder &amp; Chief Academic Director": "संस्थापक आणि मुख्य शैक्षणिक संचालक",
   "Rigorous Prelims &amp; Mains drills": "कठोर प्रिलिम्स आणि मुख्य कवायती",
-  "Academy library &amp; Wi-Fi access included": "अकादमी लायब्ररी आणि वाय-फाय प्रवेश समाविष्ट आहे",
-  "7. SYLLABUS &amp; EXAMINATION PATTERN SECTION": "7. अभ्यासक्रम आणि परीक्षा पॅटर्न विभाग",
+  "Academy library &amp; Wi-Fi access included":
+    "अकादमी लायब्ररी आणि वाय-फाय प्रवेश समाविष्ट आहे",
+  "7. SYLLABUS &amp; EXAMINATION PATTERN SECTION":
+    "7. अभ्यासक्रम आणि परीक्षा पॅटर्न विभाग",
   "Speed &amp; Accuracy Training": "गती आणि अचूकता प्रशिक्षण",
   "3. Eligibility &amp; Cadres Pane": "3. पात्रता आणि संवर्ग फलक",
-  "======================================================================== 6. OFFICIAL MERIT ROSTER &amp; PROVEN OFFICER RESULTS (FROM SUCCESS_STORIES.PHP) ========================================================================": "======================================================================== 6. अधिकृत मेरिट रोस्टर आणि सिद्ध अधिकारी (पीएचसी अधिकारी) ==============================================================",
-  "======================================================================== 4. CINEMATIC TEXT-OVER-IMAGE FOCUS (MISSION &amp; VISION) ========================================================================": "========================================================================== 4. सिनेमॅटिक टेक्स्ट-ओव्हर-इमेज फोकस (मिशन आणि कार्य) ==============================================================",
+  "======================================================================== 6. OFFICIAL MERIT ROSTER &amp; PROVEN OFFICER RESULTS (FROM SUCCESS_STORIES.PHP) ========================================================================":
+    "======================================================================== 6. अधिकृत मेरिट रोस्टर आणि सिद्ध अधिकारी (पीएचसी अधिकारी) ==============================================================",
+  "======================================================================== 4. CINEMATIC TEXT-OVER-IMAGE FOCUS (MISSION &amp; VISION) ========================================================================":
+    "========================================================================== 4. सिनेमॅटिक टेक्स्ट-ओव्हर-इमेज फोकस (मिशन आणि कार्य) ==============================================================",
   "The Aim &amp; Mission": "ध्येय आणि मिशन",
-  "======================================================================== 3. EDITORIAL ABOUT LAKSHYA ACADEMY (HERITAGE &amp; CORE PILLARS) ========================================================================": "======================================================================== 3. EDITORIAL ABOUT LAKSHYA ACADEMY (HERITAGE & CORE PILLARS) ==============================================================",
+  "======================================================================== 3. EDITORIAL ABOUT LAKSHYA ACADEMY (HERITAGE &amp; CORE PILLARS) ========================================================================":
+    "======================================================================== 3. EDITORIAL ABOUT LAKSHYA ACADEMY (HERITAGE & CORE PILLARS) ==============================================================",
   "State Administration &amp; Police": "राज्य प्रशासन आणि पोलीस",
   "Rajyaseva, PSI, STI &amp; ASO": "राज्यसेवा, PSI, STI आणि ASO",
   "3. Interview &amp; Final Merit Marks": "3. मुलाखत आणि अंतिम गुणवत्ता गुण",
-  "Essay (250 Marks) + GS I, II, III &amp; IV (4 x 250 = 1,000 Marks).": "निबंध (250 गुण) + GS I, II, III आणि IV (4 x 250 = 1,000 गुण).",
-  "Academy Overview &amp; Examination Profile Card": "अकादमी विहंगावलोकन आणि परीक्षा प्रोफाइल कार्ड",
+  "Essay (250 Marks) + GS I, II, III &amp; IV (4 x 250 = 1,000 Marks).":
+    "निबंध (250 गुण) + GS I, II, III आणि IV (4 x 250 = 1,000 गुण).",
+  "Academy Overview &amp; Examination Profile Card":
+    "अकादमी विहंगावलोकन आणि परीक्षा प्रोफाइल कार्ड",
   "Economics &amp; Public Finance": "अर्थशास्त्र आणि सार्वजनिक वित्त",
-  "======================================================================== 1. TOP UTILITY TICKER BAR &amp; HEADER ========================================================================": "========================================================================= 1. टॉप युटिलिटी टिकर बार आणि हेडर ==============================================================",
+  "======================================================================== 1. TOP UTILITY TICKER BAR &amp; HEADER ========================================================================":
+    "========================================================================= 1. टॉप युटिलिटी टिकर बार आणि हेडर ==============================================================",
   "Indian Constitution &amp; Governance": "भारतीय राज्यघटना आणि शासन",
   "Lokrajya, Yojana &amp; Kurukshetra": "लोकराज्य, योजना आणि कुरुक्षेत्र",
   "Translation &amp; Précis exercises": "भाषांतर आणि अचूक व्यायाम",
   "Polity &amp; RTI Focus": "राजकारण आणि आरटीआय फोकस",
   "Tab 4: Saralseva &amp; Talathi": "टॅब 4: सरलसेवा आणि तलाठी",
-  "======================================================================== 5. DETAILED SCHEME &amp; ALL 11 ACTS ========================================================================": "========================================================================== 5. तपशीलवार योजना आणि सर्व 11 कायदे ==============================================================",
-  "Event Photo 1: Group Activities &amp; Field Assembly": "इव्हेंट फोटो 1: गट क्रियाकलाप आणि फील्ड असेंब्ली",
-  "Blog &amp; Academic Insights | The Lakshya Career Academy Nashik": "ब्लॉग आणि शैक्षणिक अंतर्दृष्टी | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "======================================================================== 5. DETAILED SCHEME &amp; ALL 11 ACTS ========================================================================":
+    "========================================================================== 5. तपशीलवार योजना आणि सर्व 11 कायदे ==============================================================",
+  "Event Photo 1: Group Activities &amp; Field Assembly":
+    "इव्हेंट फोटो 1: गट क्रियाकलाप आणि फील्ड असेंब्ली",
+  "Blog &amp; Academic Insights | The Lakshya Career Academy Nashik":
+    "ब्लॉग आणि शैक्षणिक अंतर्दृष्टी | लक्ष्य करिअर ॲकॅडमी नाशिक",
   "7. Translation &amp; Précis": "7. भाषांतर आणि अचूक",
   "Tax Laws &amp; Accounts": "कर कायदे आणि खाती",
-  "– Papers II to V: General Studies I, II, III &amp; IV (4 x 250 = 1,000 Marks)": "– पेपर II ते पाचवी: सामान्य अध्ययन I, II, III आणि IV (4 x 250 = 1,000 गुण)",
-  "Event Photo 6: Felicitation &amp; Award Gathering": "इव्हेंट फोटो 6: सत्कार आणि पुरस्कार मेळावा",
+  "– Papers II to V: General Studies I, II, III &amp; IV (4 x 250 = 1,000 Marks)":
+    "– पेपर II ते पाचवी: सामान्य अध्ययन I, II, III आणि IV (4 x 250 = 1,000 गुण)",
+  "Event Photo 6: Felicitation &amp; Award Gathering":
+    "इव्हेंट फोटो 6: सत्कार आणि पुरस्कार मेळावा",
   "Maths &amp; Reasoning (अंकगणित)": "गणित आणि तर्क (अंकगणित)",
-  "• Interview &amp; Revised Merit Calculation": "• मुलाखत आणि सुधारित गुणवत्तेची गणना",
-  "Class Material &amp; Classroom Resources | The Lakshya Career Academy Nashik": "वर्ग साहित्य आणि वर्ग संसाधने | लक्ष्य करिअर ॲकॅडमी नाशिक",
-  "======================================================================== 3. ARTICLES DIRECTORY &amp; CATEGORY FILTERS ========================================================================": "======================================================================== 3. ARTICLES DIRECTORY & CATEGORY FILTERS =============================================================="
+  "• Interview &amp; Revised Merit Calculation":
+    "• मुलाखत आणि सुधारित गुणवत्तेची गणना",
+  "Class Material &amp; Classroom Resources | The Lakshya Career Academy Nashik":
+    "वर्ग साहित्य आणि वर्ग संसाधने | लक्ष्य करिअर ॲकॅडमी नाशिक",
+  "======================================================================== 3. ARTICLES DIRECTORY &amp; CATEGORY FILTERS ========================================================================":
+    "======================================================================== 3. ARTICLES DIRECTORY & CATEGORY FILTERS ==============================================================",
 };
