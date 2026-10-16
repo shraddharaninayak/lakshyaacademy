@@ -3,6 +3,11 @@
  */
 
 window.LAKSHYA_I18N = {
+  "Explore Our Academy Brochure": "आमचे अकॅडमी माहितीपत्रक पहा",
+  "Discover more about Lakshya Career Academy, our courses, examination patterns, teaching facilities, and student achievements. Download our brochure to explore the information in detail.": "लक्ष्य करिअर अकॅडमी, आमचे अभ्यासक्रम, परीक्षा पद्धती, अध्यापन सुविधा आणि विद्यार्थ्यांचे यश याबद्दल सविस्तर माहिती जाणून घ्या. माहिती सविस्तरपणे वाचण्यासाठी आमचे माहितीपत्रक डाउनलोड करा.",
+  "Download Academy Brochure": "अकॅडमी माहितीपत्रक डाउनलोड करा",
+  "View Brochure": "माहितीपत्रक पहा",
+  "Official Prospectus • PDF Edition": "अधिकृत माहितीपत्रक • PDF आवृत्ती",
   Home: "मुख्यपृष्ठ",
   "About Us": "आमच्याबद्दल",
   Courses: "अभ्यासक्रम",

@@ -4639,3 +4639,47 @@ body {
   background-color: transparent !important;
   box-shadow: none !important;
 }
+
+
+/* ==========================================================================
+   ACADEMY BROCHURE DOWNLOAD SECTION (.brochure-card)
+   ========================================================================== */
+.section-brochure {
+  position: relative;
+  width: 100%;
+}
+
+.brochure-card {
+  transition: transform var(--duration-fast, 0.3s) var(--ease-lionheart, ease), box-shadow var(--duration-fast, 0.3s) var(--ease-lionheart, ease);
+}
+
+.brochure-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 48px rgba(13, 27, 42, 0.18) !important;
+}
+
+@media (max-width: 820px) {
+  .brochure-card__grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .brochure-card__actions {
+    min-width: 100% !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+  }
+  
+  .brochure-card__actions .btn {
+    flex: 1 1 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .brochure-card__actions {
+    flex-direction: column !important;
+  }
+  
+  .brochure-card__actions .btn {
+    width: 100%;
+  }
+}
