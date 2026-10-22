@@ -716,13 +716,48 @@ function initNavbarDropdowns() {
     trigger.setAttribute('aria-haspopup', 'true');
     trigger.setAttribute('aria-expanded', 'false');
 
-    // Handle touch / mobile click
+    // Check if this dropdown is the Courses dropdown
+    const isCoursesDropdown = trigger.textContent.trim().toLowerCase().includes('courses') ||
+                              (trigger.getAttribute('href') && trigger.getAttribute('href').includes('courses'));
+
+    if (isCoursesDropdown) {
+      trigger.setAttribute('role', 'button');
+      trigger.setAttribute('href', 'javascript:void(0);');
+    }
+
+    // Handle click/tap interaction on the trigger
     trigger.addEventListener('click', function(e) {
+      // Always prevent direct navigation for Courses dropdown
+      if (isCoursesDropdown) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        const isOpen = item.classList.contains('is-active');
+
+        // Close all other dropdowns
+        dropdownItems.forEach(other => {
+          if (other !== item) {
+            other.classList.remove('is-active');
+            other.querySelector(':scope > .nav-link-subtle')?.setAttribute('aria-expanded', 'false');
+          }
+        });
+
+        // Toggle this dropdown
+        if (isOpen) {
+          item.classList.remove('is-active');
+          trigger.setAttribute('aria-expanded', 'false');
+        } else {
+          item.classList.add('is-active');
+          trigger.setAttribute('aria-expanded', 'true');
+        }
+        return;
+      }
+
+      // Touch / mobile click handling for other dropdowns
       const isTouchOrSmall = window.matchMedia('(hover: none), (max-width: 1024px)').matches;
       if (isTouchOrSmall) {
         if (!item.classList.contains('is-active')) {
           e.preventDefault();
-          // Close other dropdowns
           dropdownItems.forEach(other => {
             if (other !== item) {
               other.classList.remove('is-active');
@@ -733,6 +768,14 @@ function initNavbarDropdowns() {
           trigger.setAttribute('aria-expanded', 'true');
         }
       }
+    });
+
+    // Close dropdown when clicking any individual course link inside
+    dropdown.querySelectorAll('.dropdown-link').forEach(link => {
+      link.addEventListener('click', function() {
+        item.classList.remove('is-active');
+        trigger.setAttribute('aria-expanded', 'false');
+      });
     });
 
     // Keyboard navigation: Enter / Space / ArrowDown
@@ -794,6 +837,33 @@ function initNavbarDropdowns() {
             trigger.setAttribute('aria-expanded', 'false');
             trigger.focus();
           }
+        }
+      });
+    }
+  });
+
+  // Mobile Drawer: Courses item accordion toggle (prevents direct navigation to courses page)
+  const drawerCoursesLinks = document.querySelectorAll('.main-menu a[href*="courses"], .main-menu .menu-item-link--courses');
+  drawerCoursesLinks.forEach(dLink => {
+    if (dLink.closest('.main-menu__subitems')) return;
+
+    dLink.setAttribute('href', 'javascript:void(0);');
+    dLink.setAttribute('role', 'button');
+
+    const subitems = dLink.parentElement.nextElementSibling;
+    if (subitems && subitems.classList.contains('main-menu__subitems')) {
+      dLink.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        const isCollapsed = subitems.classList.contains('is-collapsed');
+        if (isCollapsed) {
+          subitems.classList.remove('is-collapsed');
+          dLink.classList.remove('is-collapsed');
+          dLink.setAttribute('aria-expanded', 'true');
+        } else {
+          subitems.classList.add('is-collapsed');
+          dLink.classList.add('is-collapsed');
+          dLink.setAttribute('aria-expanded', 'false');
         }
       });
     }

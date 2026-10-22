@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -451,12 +451,11 @@
               <li class="nav-item"><a href="/" class="nav-link-subtle">Home</a></li>
               <li class="nav-item"><a href="about" class="nav-link-subtle active">About Us</a></li>
                             <li class="nav-item has-dropdown">
-                <a href="courses" class="nav-link-subtle">
+                <a href="javascript:void(0);" class="nav-link-subtle" role="button" aria-haspopup="true" aria-expanded="false">
                   Courses <span class="nav-arrow">∨</span>
                 </a>
                 <ul class="nav-dropdown">
                   <li><a href="course-rajyaseva" class="dropdown-link">Rajyaseva Examination</a></li>
-                  <li><a href="study-material#syllabus" class="dropdown-link">UPSC Civil Services</a></li>
                   <li><a href="course-combine" class="dropdown-link">Combine Group B (PSI/STI/ASO)</a></li>
                   <li><a href="course-psi" class="dropdown-link">PSI Mains &amp; Physical</a></li>
                   <li><a href="course-sti" class="dropdown-link">Sales Tax Inspector (STI)</a></li>
@@ -491,7 +490,6 @@
               </li>
               <li class="nav-item"><a href="success-stories" class="nav-link-subtle">Success Stories</a></li>
               <li class="nav-item"><a href="gallery" class="nav-link-subtle">Gallery</a></li>
-              <li class="nav-item"><a href="blog" class="nav-link-subtle">Blog</a></li>
               <li class="nav-item"><a href="contact" class="nav-link-subtle">Contact Us</a></li>
             </ul>
           </nav>
@@ -534,10 +532,9 @@
         <ul class="main-menu__items">
           <li><a href="/" class="menu-item-link"><span>01. Home</span> <span>→</span></a></li>
           <li><a href="about" class="menu-item-link" style="color: var(--color-gold);"><span>02. About Us</span> <span>→</span></a></li>
-          <li><a href="courses" class="menu-item-link"><span>03. Courses</span> <span>→</span></a></li>
+          <li><a href="javascript:void(0);" class="menu-item-link menu-item-link--courses" role="button" aria-expanded="true"><span>03. Courses</span> <span class="drawer-arrow">∨</span></a></li>
           <li class="main-menu__subitems">
             <a href="course-rajyaseva" class="main-menu__sublink">• Rajyaseva Examination</a>
-            <a href="study-material#syllabus" class="main-menu__sublink">• UPSC Civil Services</a>
             <a href="course-combine" class="main-menu__sublink">• Combine Group B (PSI/STI/ASO)</a>
             <a href="course-psi" class="main-menu__sublink">• PSI Mains &amp; Physical</a>
             <a href="course-sti" class="main-menu__sublink">• Sales Tax Inspector (STI)</a>
@@ -563,8 +560,7 @@
           </li>
           <li><a href="success-stories" class="menu-item-link"><span>06. Success Stories</span> <span>→</span></a></li>
           <li><a href="gallery" class="menu-item-link"><span>07. Gallery</span> <span>→</span></a></li>
-          <li><a href="blog" class="menu-item-link"><span>08. Blog &amp; Insights</span> <span>→</span></a></li>
-          <li><a href="contact" class="menu-item-link"><span>09. Contact Us</span> <span>→</span></a></li>
+          <li><a href="contact" class="menu-item-link"><span>08. Contact Us</span> <span>→</span></a></li>
         </ul>
         <!-- Quick Contact & WhatsApp Bar -->
         <div class="drawer-contact-bar">
@@ -573,16 +569,8 @@
             <a href="tel:+917887878001" class="drawer-contact-btn drawer-contact-btn--tel" aria-label="Call Admissions 7887878001">
               📞 7887878001
             </a>
-            <a href="tel:+917887878002" class="drawer-contact-btn drawer-contact-btn--tel" aria-label="Call Admissions 7887878002">
-              📞 7887878002
-            </a>
-          </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 0.25rem;">
-            <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp Line 1">
-              💬 WhatsApp 1
-            </a>
-            <a href="https://wa.me/917887878002?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp Line 2">
-              💬 WhatsApp 2
+            <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp">
+              💬 WhatsApp
             </a>
           </div>
         </div>
@@ -597,9 +585,9 @@
 
     <!-- FLAGSHIP HERO BANNER -->
     <section class="section-flagship-banner">
-      <div class="flagship-banner" data-parallax>
-        <picture class="flagship-banner__img">
-          <img class="img-full" src="assets/img/gallery/updated/15.JPG" alt="About The Lakshya Career Academy">
+      <div class="flagship-banner flagship-banner--about" data-parallax>
+        <picture class="flagship-banner__img flagship-banner__img--about">
+          <img class="img-full flagship-banner__img-about" src="assets/img/about/about-hero.png" alt="About The Lakshya Career Academy - MPSC Preparation, Education and Public Service in Nashik" fetchpriority="high">
         </picture>
 
         <span class="flagship-banner__header-txt">
@@ -1631,9 +1619,6 @@
             <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--large" style="color: #25D366; border-color: #25D366; font-weight: 700;">
               <span class="btn__txt"><span class="btn__txt-inner" data-txt="💬 Chat on WhatsApp">💬 Chat on WhatsApp</span></span>
             </a>
-            <a href="courses" class="btn btn--outline btn--large" style="color: var(--color-gold); border-color: var(--color-gold);">
-              <span class="btn__txt"><span class="btn__txt-inner" data-txt="Explore All 7 Programs →">Explore All 7 Programs →</span></span>
-            </a>
           </div>
           
         </div>
@@ -1642,19 +1627,9 @@
 
     <!-- FOOTER -->
         <!-- ========================================================================
-         FOOTER WITH STRAPLINE BANNER
+         FOOTER
          ======================================================================== -->
     <footer class="footer">
-      <div class="footer__section--strapline">
-        <div class="footer__strapline">
-          <div class="footer__strapline-inner">
-            <span class="footer__strapline-item">ध्येयमेव जयते • THE LAKSHYA CAREER ACADEMY • NASHIK • EST. 2010 • </span>
-            <span class="footer__strapline-item">TO INCREASE MAHARASHTRA'S SHARE IN GOVERNANCE • </span>
-            <span class="footer__strapline-item">ध्येयमेव जयते • THE LAKSHYA CAREER ACADEMY • NASHIK • EST. 2010 • </span>
-            <span class="footer__strapline-item">TO INCREASE MAHARASHTRA'S SHARE IN GOVERNANCE • </span>
-          </div>
-        </div>
-      </div>
 
       <div class="footer__section--main">
         <div class="section section--large">

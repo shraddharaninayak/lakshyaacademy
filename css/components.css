@@ -745,6 +745,273 @@
   object-position: center 25%;
 }
 
+/* About Us Hero Banner Custom Subject Positioning */
+.flagship-banner__img--about img,
+.flagship-banner__img-about {
+  object-fit: cover;
+  object-position: center 38%;
+}
+
+@media (max-width: 1024px) {
+  .flagship-banner__img--about img,
+  .flagship-banner__img-about {
+    object-position: center 38%;
+  }
+}
+
+@media (max-width: 768px) {
+  .flagship-banner__img--about img,
+  .flagship-banner__img-about {
+    object-position: 45% 38%;
+  }
+}
+
+@media (max-width: 480px) {
+  .flagship-banner__img--about img,
+  .flagship-banner__img-about {
+    object-position: 36% 38%;
+  }
+}
+
+/* Rajyaseva Hero Banner Custom Subject Positioning */
+.flagship-banner__img--rajyaseva img,
+.flagship-banner__img-rajyaseva {
+  object-fit: cover;
+  object-position: 50% 25%;
+}
+
+@media (max-width: 1024px) {
+  .flagship-banner__img--rajyaseva img,
+  .flagship-banner__img-rajyaseva {
+    object-position: 45% 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .flagship-banner__img--rajyaseva img,
+  .flagship-banner__img-rajyaseva {
+    object-position: 38% 25%;
+  }
+}
+
+/* Combine Group B Hero Banner Custom Subject Positioning */
+.flagship-banner__img--combine img,
+.flagship-banner__img-combine {
+  object-fit: cover;
+  object-position: center 38%;
+}
+
+@media (max-width: 1024px) {
+  .flagship-banner__img--combine img,
+  .flagship-banner__img-combine {
+    object-position: 40% 38%;
+  }
+}
+
+@media (max-width: 768px) {
+  .flagship-banner__img--combine img,
+  .flagship-banner__img-combine {
+    object-position: 36% 38%;
+  }
+}
+
+/* PSI Mains & Physical Hero Banner Custom Subject Positioning */
+.flagship-banner__img--psi img,
+.flagship-banner__img-psi {
+  object-fit: cover;
+  object-position: 55% 25%;
+}
+
+@media (max-width: 1024px) {
+  .flagship-banner__img--psi img,
+  .flagship-banner__img-psi {
+    object-position: 60% 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .flagship-banner__img--psi img,
+  .flagship-banner__img-psi {
+    object-position: 62% 25%;
+  }
+}
+
+/* Sales Tax Inspector (STI) Hero Banner Custom Subject Positioning */
+.flagship-banner__img--sti img,
+.flagship-banner__img-sti {
+  object-fit: cover;
+  object-position: 45% 25%;
+}
+
+@media (max-width: 1024px) {
+  .flagship-banner__img--sti img,
+  .flagship-banner__img-sti {
+    object-position: 40% 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .flagship-banner__img--sti img,
+  .flagship-banner__img-sti {
+    object-position: 38% 25%;
+  }
+}
+
+/* ASO Mains Hero Banner Custom Subject & Background Positioning */
+.flagship-banner__img--aso img,
+.flagship-banner__img-aso {
+  object-fit: cover;
+  object-position: center 46%;
+}
+
+@media (max-width: 1024px) {
+  .flagship-banner__img--aso img,
+  .flagship-banner__img-aso {
+    object-position: center 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .flagship-banner--aso {
+    min-height: clamp(500px, 75vh, 600px);
+  }
+
+  .flagship-banner__img--aso img,
+  .flagship-banner__img-aso {
+    object-position: center 44%;
+  }
+}
+
+@media (max-width: 480px) {
+  .flagship-banner--aso {
+    min-height: 480px;
+    padding: 2rem 1.25rem;
+  }
+
+  .flagship-banner__img--aso img,
+  .flagship-banner__img-aso {
+    object-position: center 42%;
+  }
+}
+
+/* Saralseva Bharti Hero Banner Custom Subject Positioning */
+.flagship-banner__img--saralseva img,
+.flagship-banner__img-saralseva {
+  object-fit: cover;
+  object-position: 48% 28%;
+}
+
+@media (max-width: 1024px) {
+  .flagship-banner__img--saralseva img,
+  .flagship-banner__img-saralseva {
+    object-position: 45% 28%;
+  }
+}
+
+@media (max-width: 768px) {
+  .flagship-banner__img--saralseva img,
+  .flagship-banner__img-saralseva {
+    object-position: 32% 28%;
+  }
+}
+
+/* Talathi Bharti Hero Banner Custom Subject Positioning */
+.flagship-banner__img--talathi img,
+.flagship-banner__img-talathi {
+  object-fit: cover;
+  object-position: 48% 26%;
+}
+
+@media (max-width: 1024px) {
+  .flagship-banner__img--talathi img,
+  .flagship-banner__img-talathi {
+    object-position: 45% 26%;
+  }
+}
+
+@media (max-width: 768px) {
+  .flagship-banner__img--talathi img,
+  .flagship-banner__img-talathi {
+    object-position: 42% 26%;
+  }
+}
+
+/* Class Material Hero Banner Custom Subject Positioning */
+.flagship-banner__img--class-material img,
+.flagship-banner__img-class-material {
+  object-fit: cover;
+  object-position: center 42%;
+}
+
+@media (max-width: 1024px) {
+  .flagship-banner__img--class-material img,
+  .flagship-banner__img-class-material {
+    object-position: center 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .flagship-banner__img--class-material img,
+  .flagship-banner__img-class-material {
+    object-position: center 38%;
+  }
+}
+
+/* Contact Us Hero Banner Custom Subject Positioning */
+.flagship-banner__img--contact img,
+.flagship-banner__img-contact {
+  object-fit: cover;
+  object-position: center center;
+}
+
+@media (max-width: 1024px) {
+  .flagship-banner__img--contact img,
+  .flagship-banner__img-contact {
+    object-position: center center;
+  }
+}
+
+@media (max-width: 768px) {
+  .flagship-banner__img--contact img,
+  .flagship-banner__img-contact {
+    object-position: 45% center;
+  }
+}
+
+/* Study Archives Hero Banner Custom Subject Positioning */
+.flagship-banner__img--study-archives img,
+.flagship-banner__img-study-archives {
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+@media (max-width: 1024px) {
+  .flagship-banner__img--study-archives img,
+  .flagship-banner__img-study-archives {
+    object-position: center 38%;
+  }
+}
+
+@media (max-width: 768px) {
+  .flagship-banner__img--study-archives img,
+  .flagship-banner__img-study-archives {
+    object-position: 35% 38%;
+  }
+}
+
+/* Accessible Visually Hidden Utility */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
 /* Slideshow Container for Rotating Hero */
 .flagship-banner__slides {
   position: absolute;
@@ -5390,4 +5657,780 @@ body {
 
 .footer__wa-link svg {
   display: block;
+}
+
+/* ==========================================================================
+   EXPLORE OUR COURSES (EDITORIAL DISCOVERY & BALANCED ASYMMETRIC GRID)
+   ========================================================================== */
+.section-courses-discovery {
+  position: relative;
+  width: 100%;
+  padding-top: clamp(4rem, 6.5vw, 6rem);
+  padding-bottom: clamp(4rem, 6.5vw, 6rem);
+  background-color: var(--color-beige);
+}
+
+.courses-discovery-container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 clamp(1.25rem, 4vw, 3.5rem);
+}
+
+/* Header & Search Bar */
+.courses-discovery__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1.5rem;
+  margin-bottom: clamp(2rem, 3.5vw, 2.75rem);
+  flex-wrap: wrap;
+}
+
+.courses-discovery__title-group {
+  flex: 1 1 500px;
+}
+
+.courses-discovery__badge {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-burgundy);
+  margin-bottom: 0.5rem;
+}
+
+.courses-discovery__title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 3.2vw, 2.75rem);
+  font-weight: 800;
+  color: var(--color-slate);
+  line-height: 1.15;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.02em;
+}
+
+.courses-discovery__subtitle {
+  font-size: clamp(0.95rem, 1.3vw, 1.05rem);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin: 0;
+  max-width: 580px;
+}
+
+/* Search Box */
+.courses-search-box {
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+}
+
+.courses-search-box__input {
+  width: 100%;
+  height: 48px;
+  padding: 0.75rem 2.5rem 0.75rem 2.75rem;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  color: var(--color-slate);
+  background: #ffffff;
+  border: 1.5px solid rgba(13, 27, 42, 0.12);
+  border-radius: 50px;
+  outline: none;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 8px rgba(13, 27, 42, 0.04);
+}
+
+.courses-search-box__input:focus {
+  border-color: var(--color-burgundy);
+  box-shadow: 0 0 0 4px var(--color-burgundy-glow);
+}
+
+.courses-search-box__input::placeholder {
+  color: #8c97a5;
+}
+
+.courses-search-box__icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  color: #7b8794;
+  pointer-events: none;
+}
+
+.courses-search-box__clear {
+  position: absolute;
+  right: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #e2e8f0;
+  border: none;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #4a5568;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  transition: background 0.2s ease;
+}
+
+.courses-search-box__clear:hover {
+  background: #cbd5e1;
+}
+
+/* Category Filter Tabs Bar */
+.courses-filter-bar {
+  display: none !important;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  margin-bottom: 2.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.courses-filter-btn {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 0.6rem 1.25rem;
+  border-radius: 50px;
+  background: #ffffff;
+  color: var(--color-slate);
+  border: 1px solid rgba(13, 27, 42, 0.1);
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  white-space: nowrap;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+}
+
+.courses-filter-btn:hover {
+  border-color: var(--color-burgundy);
+  color: var(--color-burgundy);
+  transform: translateY(-1px);
+}
+
+.courses-filter-btn.active {
+  background: var(--color-burgundy);
+  color: #ffffff;
+  border-color: var(--color-burgundy);
+  box-shadow: 0 4px 12px rgba(139, 30, 30, 0.25);
+}
+
+/* ==========================================================================
+   Courses Balanced Asymmetric Grid
+   Desktop: 1 Flagship Card (full width 1 / -1) + 6 Cards (3 columns x 2 rows)
+   Total: 7 Courses in perfect harmony with NO lonely cards!
+   ========================================================================== */
+.courses-discovery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.85rem;
+  margin-bottom: 0;
+}
+
+/* Base Course Card */
+.course-discovery-card {
+  background: #ffffff;
+  border: 1px solid rgba(13, 27, 42, 0.08);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+  box-shadow: 0 4px 18px rgba(13, 27, 42, 0.04);
+  position: relative;
+}
+
+.course-discovery-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 36px rgba(13, 27, 42, 0.09);
+  border-color: rgba(139, 30, 30, 0.25);
+}
+
+/* ==========================================================================
+   Featured Flagship Card (MPSC Rajyaseva)
+   Full-width horizontal spotlight layout with rich curricular highlights
+   ========================================================================== */
+.course-discovery-card--featured {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background: #ffffff;
+  border: 1.5px solid rgba(139, 30, 30, 0.2);
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(13, 27, 42, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.course-discovery-card--featured::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-burgundy) 0%, var(--color-gold) 100%);
+  z-index: 5;
+}
+
+.course-discovery-card--featured .course-discovery-card__media {
+  flex: 0 0 44%;
+  position: relative;
+  min-height: 400px;
+  overflow: hidden;
+  border-radius: 18px 0 0 18px;
+  background: #0d1b2a;
+}
+
+.course-discovery-card--featured .course-discovery-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.course-discovery-card--featured:hover .course-discovery-card__img {
+  transform: scale(1.04);
+}
+
+.course-discovery-card__badge--flagship {
+  background: linear-gradient(135deg, var(--color-burgundy) 0%, #520d0d 100%);
+  color: #fff;
+  border: 1px solid rgba(212, 175, 55, 0.6);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.45rem 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.course-discovery-card--featured .course-discovery-card__body {
+  flex: 1 1 56%;
+  padding: clamp(2rem, 3.2vw, 2.75rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.course-discovery-card__eyebrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+  align-items: center;
+}
+
+.course-discovery-card__cadre-pill {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-burgundy);
+  background: rgba(139, 30, 30, 0.08);
+  padding: 0.3rem 0.75rem;
+  border-radius: 50px;
+  border: 1px solid rgba(139, 30, 30, 0.16);
+}
+
+.course-discovery-card__batch-pill {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-slate-light);
+  background: rgba(13, 27, 42, 0.04);
+  padding: 0.3rem 0.75rem;
+  border-radius: 50px;
+  border: 1px solid rgba(13, 27, 42, 0.08);
+}
+
+.course-discovery-card--featured .course-discovery-card__title {
+  font-size: clamp(1.65rem, 2.4vw, 2.2rem);
+  font-weight: 800;
+  color: var(--color-slate);
+  line-height: 1.2;
+  margin: 0 0 0.85rem 0;
+  letter-spacing: -0.01em;
+  min-height: auto;
+}
+
+.course-discovery-card--featured .course-discovery-card__desc {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--color-text-secondary);
+  margin-bottom: 1.35rem;
+  max-width: 650px;
+  flex-grow: 0;
+}
+
+.course-discovery-card__pillars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+  background: rgba(13, 27, 42, 0.02);
+  border: 1px solid rgba(13, 27, 42, 0.06);
+  border-radius: 10px;
+  padding: 0.9rem 1.15rem;
+}
+
+.course-discovery-pillar {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--color-slate);
+}
+
+.course-discovery-pillar svg {
+  width: 17px;
+  height: 17px;
+  color: var(--color-burgundy);
+  flex-shrink: 0;
+}
+
+.course-discovery-card--featured .course-discovery-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(13, 27, 42, 0.08);
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+
+.course-discovery-card__btn {
+  box-shadow: 0 4px 15px rgba(139, 30, 30, 0.25);
+  transition: all 0.25s ease;
+}
+
+.course-discovery-card__btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(139, 30, 30, 0.35);
+}
+
+.course-discovery-card__meta {
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  letter-spacing: 0.02em;
+}
+
+/* ==========================================================================
+   Standard Course Cards (Cards 2 to 7)
+   ========================================================================== */
+.course-discovery-card:not(.course-discovery-card--featured) .course-discovery-card__media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #e2e8f0;
+  border-radius: 16px 16px 0 0;
+}
+
+.course-discovery-card:not(.course-discovery-card--featured) .course-discovery-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.course-discovery-card:hover .course-discovery-card__img {
+  transform: scale(1.04);
+}
+
+.course-discovery-card__badge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: rgba(13, 27, 42, 0.82);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.35rem 0.75rem;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 2;
+}
+
+.course-discovery-card__badge--burgundy {
+  background: rgba(139, 30, 30, 0.92);
+}
+
+/* Card Body */
+.course-discovery-card:not(.course-discovery-card--featured) .course-discovery-card__body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Specs pills */
+.course-discovery-card__specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 0.85rem;
+}
+
+.course-discovery-card__spec {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--color-slate-light);
+  background: rgba(13, 27, 42, 0.04);
+  border: 1px solid rgba(13, 27, 42, 0.06);
+  padding: 0.25rem 0.55rem;
+  border-radius: 6px;
+  letter-spacing: 0.01em;
+}
+
+.course-discovery-card:not(.course-discovery-card--featured) .course-discovery-card__title {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-slate);
+  line-height: 1.3;
+  margin: 0 0 0.65rem 0;
+  min-height: 2.6em; /* Ensures title baseline alignment across rows */
+  transition: color 0.2s ease;
+}
+
+.course-discovery-card:hover .course-discovery-card__title {
+  color: var(--color-burgundy);
+}
+
+.course-discovery-card:not(.course-discovery-card--featured) .course-discovery-card__desc {
+  font-size: 0.915rem;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+  margin: 0 0 1.25rem 0;
+  flex-grow: 1;
+}
+
+/* Card Footer */
+.course-discovery-card:not(.course-discovery-card--featured) .course-discovery-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(13, 27, 42, 0.06);
+  margin-top: auto;
+}
+
+.course-discovery-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--color-burgundy);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.course-discovery-card__link svg {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+}
+
+.course-discovery-card__link:hover {
+  color: var(--color-burgundy-dark);
+}
+
+.course-discovery-card:hover .course-discovery-card__link svg {
+  transform: translateX(4px);
+}
+
+/* No Results State */
+.courses-no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3.5rem 1.5rem;
+  background: #ffffff;
+  border: 1px dashed rgba(13, 27, 42, 0.18);
+  border-radius: 16px;
+  display: none;
+}
+
+.courses-no-results__title {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-slate);
+  margin-bottom: 0.5rem;
+}
+
+.courses-no-results__desc {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  margin-bottom: 1.25rem;
+}
+
+/* Responsiveness */
+@media (max-width: 1024px) {
+  .courses-discovery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .course-discovery-card--featured {
+    flex-direction: column;
+  }
+
+  .course-discovery-card--featured .course-discovery-card__media {
+    flex: none;
+    min-height: 260px;
+    height: 260px;
+    border-radius: 18px 18px 0 0;
+  }
+
+  .course-discovery-card--featured .course-discovery-card__body {
+    padding: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-courses-discovery {
+    padding-top: 2rem !important;
+    padding-bottom: 2.25rem !important;
+  }
+
+  .courses-discovery-container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .courses-discovery__header {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.75rem !important;
+    margin-bottom: 0.85rem !important;
+  }
+
+  /* CRITICAL FIX: Eliminate the 500px flex-basis height gap in column layout */
+  .courses-discovery__title-group {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    margin-bottom: 0 !important;
+  }
+
+  .courses-discovery__badge {
+    margin-bottom: 0.35rem !important;
+    font-size: 0.75rem !important;
+  }
+
+  .courses-discovery__title {
+    font-size: 1.85rem !important;
+    line-height: 1.2 !important;
+    margin: 0 0 0.35rem 0 !important;
+  }
+
+  .courses-discovery__subtitle {
+    font-size: 0.92rem !important;
+    line-height: 1.45 !important;
+    margin: 0 !important;
+  }
+
+  .courses-search-box {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .courses-search-box__input {
+    height: 44px !important;
+    font-size: 0.9rem !important;
+    padding: 0.65rem 2.25rem 0.65rem 2.6rem !important;
+  }
+
+  .courses-filter-bar {
+    gap: 0.5rem !important;
+    overflow-x: auto !important;
+    flex-wrap: nowrap !important;
+    margin-top: 0.25rem !important;
+    margin-bottom: 1.15rem !important;
+    padding-bottom: 0.4rem !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .courses-filter-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .courses-filter-btn {
+    font-size: 0.82rem !important;
+    padding: 0.45rem 0.95rem !important;
+    flex-shrink: 0 !important;
+    white-space: nowrap !important;
+  }
+
+  .courses-discovery-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.15rem !important;
+    margin-top: 0 !important;
+  }
+
+  /* Flagship Card in Mobile */
+  .course-discovery-card--featured {
+    flex-direction: column !important;
+    border-radius: 14px !important;
+    margin-top: 0 !important;
+  }
+
+  .course-discovery-card--featured .course-discovery-card__media {
+    flex: none !important;
+    width: 100% !important;
+    height: 200px !important;
+    min-height: 200px !important;
+    max-height: 215px !important;
+    border-radius: 14px 14px 0 0 !important;
+  }
+
+  .course-discovery-card--featured .course-discovery-card__img {
+    object-fit: cover !important;
+    object-position: center 20% !important;
+  }
+
+  .course-discovery-card--featured .course-discovery-card__body {
+    padding: 1.25rem 1rem !important;
+  }
+
+  .course-discovery-card--featured .course-discovery-card__title {
+    font-size: 1.35rem !important;
+    margin: 0 0 0.45rem 0 !important;
+  }
+
+  .course-discovery-card--featured .course-discovery-card__desc {
+    font-size: 0.88rem !important;
+    line-height: 1.5 !important;
+    margin-bottom: 0.85rem !important;
+  }
+
+  .course-discovery-card__pillars {
+    padding: 0.7rem 0.85rem !important;
+    gap: 0.35rem !important;
+    margin-bottom: 0.85rem !important;
+  }
+
+  .course-discovery-pillar {
+    font-size: 0.82rem !important;
+  }
+
+  .course-discovery-card--featured .course-discovery-card__footer {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.75rem !important;
+    padding-top: 0.85rem !important;
+  }
+
+  .course-discovery-card--featured .course-discovery-card__btn {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  .course-discovery-card__meta {
+    text-align: center !important;
+    font-size: 0.8rem !important;
+  }
+
+  /* Standard Course Cards in Mobile */
+  .course-discovery-card:not(.course-discovery-card--featured) {
+    border-radius: 14px !important;
+  }
+
+  .course-discovery-card:not(.course-discovery-card--featured) .course-discovery-card__media {
+    width: 100% !important;
+    height: 180px !important;
+    aspect-ratio: auto !important;
+    border-radius: 14px 14px 0 0 !important;
+  }
+
+  .course-discovery-card:not(.course-discovery-card--featured) .course-discovery-card__body {
+    padding: 1.15rem 1rem !important;
+  }
+
+  .course-discovery-card:not(.course-discovery-card--featured) .course-discovery-card__title {
+    font-size: 1.15rem !important;
+    min-height: auto !important;
+    margin-bottom: 0.35rem !important;
+  }
+
+  .course-discovery-card:not(.course-discovery-card--featured) .course-discovery-card__desc {
+    font-size: 0.86rem !important;
+    line-height: 1.5 !important;
+    margin-bottom: 0.85rem !important;
+  }
+
+  .course-discovery-card:not(.course-discovery-card--featured) .course-discovery-card__footer {
+    padding-top: 0.75rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-courses-discovery {
+    padding-top: 1.75rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .courses-discovery-container {
+    padding-left: 0.85rem !important;
+    padding-right: 0.85rem !important;
+  }
+
+  .courses-discovery__title {
+    font-size: 1.6rem !important;
+  }
+
+  .course-discovery-card--featured .course-discovery-card__media {
+    height: 185px !important;
+    min-height: 185px !important;
+  }
+}
+
+
+/* Mobile Drawer Courses Accordion Dropdown */
+.menu-item-link--courses {
+  cursor: pointer;
+  user-select: none;
+}
+
+.menu-item-link--courses .drawer-arrow {
+  display: inline-block;
+  font-size: 0.8rem;
+  transition: transform 0.25s ease;
+  margin-left: 0.5rem;
+  color: var(--color-gold);
+}
+
+.menu-item-link--courses.is-collapsed .drawer-arrow {
+  transform: rotate(-90deg);
+}
+
+.main-menu__subitems {
+  transition: all 0.3s ease;
+}
+
+.main-menu__subitems.is-collapsed {
+  display: none !important;
 }

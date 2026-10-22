@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -30,12 +30,11 @@
             <li class="nav-item"><a href="/" class="nav-link-subtle">Home</a></li>
             <li class="nav-item"><a href="about" class="nav-link-subtle">About Us</a></li>
                           <li class="nav-item has-dropdown">
-                <a href="courses" class="nav-link-subtle">
+                <a href="javascript:void(0);" class="nav-link-subtle" role="button" aria-haspopup="true" aria-expanded="false">
                   Courses <span class="nav-arrow">∨</span>
                 </a>
                 <ul class="nav-dropdown">
                   <li><a href="course-rajyaseva" class="dropdown-link">Rajyaseva Examination</a></li>
-                  <li><a href="study-material#syllabus" class="dropdown-link">UPSC Civil Services</a></li>
                   <li><a href="course-combine" class="dropdown-link">Combine Group B (PSI/STI/ASO)</a></li>
                   <li><a href="course-psi" class="dropdown-link">PSI Mains &amp; Physical</a></li>
                   <li><a href="course-sti" class="dropdown-link">Sales Tax Inspector (STI)</a></li>
@@ -70,7 +69,6 @@
             </li>
             <li class="nav-item"><a href="success-stories" class="nav-link-subtle">Success Stories</a></li>
             <li class="nav-item"><a href="gallery" class="nav-link-subtle">Gallery</a></li>
-            <li class="nav-item"><a href="blog" class="nav-link-subtle">Blog</a></li>
             <li class="nav-item"><a href="contact" class="nav-link-subtle">Contact Us</a></li>
           </ul>
         </nav>
@@ -112,10 +110,9 @@
         <ul class="main-menu__items">
           <li><a href="/" class="menu-item-link"><span>01. Home</span> <span>→</span></a></li>
           <li><a href="about" class="menu-item-link"><span>02. About Us</span> <span>→</span></a></li>
-          <li><a href="courses" class="menu-item-link"><span>03. Courses</span> <span>→</span></a></li>
+          <li><a href="javascript:void(0);" class="menu-item-link menu-item-link--courses" role="button" aria-expanded="true"><span>03. Courses</span> <span class="drawer-arrow">∨</span></a></li>
           <li class="main-menu__subitems">
             <a href="course-rajyaseva" class="main-menu__sublink">• Rajyaseva Examination</a>
-            <a href="study-material#syllabus" class="main-menu__sublink">• UPSC Civil Services</a>
             <a href="course-combine" class="main-menu__sublink">• Combine Group B (PSI/STI/ASO)</a>
             <a href="course-psi" class="main-menu__sublink">• PSI Mains &amp; Physical</a>
             <a href="course-sti" class="main-menu__sublink">• Sales Tax Inspector (STI)</a>
@@ -141,8 +138,7 @@
           </li>
           <li><a href="success-stories" class="menu-item-link"><span>06. Success Stories</span> <span>→</span></a></li>
           <li><a href="gallery" class="menu-item-link"><span>07. Gallery</span> <span>→</span></a></li>
-          <li><a href="blog" class="menu-item-link"><span>08. Blog &amp; Insights</span> <span>→</span></a></li>
-          <li><a href="contact" class="menu-item-link"><span>09. Contact Us</span> <span>→</span></a></li>
+          <li><a href="contact" class="menu-item-link"><span>08. Contact Us</span> <span>→</span></a></li>
         </ul>
         <!-- Quick Contact & WhatsApp Bar -->
         <div class="drawer-contact-bar">
@@ -151,16 +147,8 @@
             <a href="tel:+917887878001" class="drawer-contact-btn drawer-contact-btn--tel" aria-label="Call Admissions 7887878001">
               📞 7887878001
             </a>
-            <a href="tel:+917887878002" class="drawer-contact-btn drawer-contact-btn--tel" aria-label="Call Admissions 7887878002">
-              📞 7887878002
-            </a>
-          </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 0.25rem;">
-            <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp Line 1">
-              💬 WhatsApp 1
-            </a>
-            <a href="https://wa.me/917887878002?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp Line 2">
-              💬 WhatsApp 2
+            <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp">
+              💬 WhatsApp
             </a>
           </div>
         </div>
@@ -177,13 +165,16 @@
          HERO BANNER
          ======================================================================== -->
     <section class="section-flagship-banner">
-      <div class="flagship-banner" data-parallax>
-        <picture class="flagship-banner__img">
-          <img class="img-full" src="Website/Gallary-Photo/4.jpg" alt="Study Notes and Archives at Lakshya Academy">
+      <div class="flagship-banner flagship-banner--study-archives" data-parallax>
+        <picture class="flagship-banner__img flagship-banner__img--study-archives">
+          <img class="img-full flagship-banner__img-study-archives" src="assets/img/study-archives-hero.png" alt="Lakshya Career Academy Reference Repository - MPSC and UPSC Study Notes, Indian Polity, Economy, and Syllabus Archives" fetchpriority="high">
         </picture>
 
+        <!-- Protective Dark Vignette Overlay for Text Contrast -->
+        <div class="flagship-banner__overlay"></div>
+
         <span class="flagship-banner__header-txt">
-          <span class="pulse-indicator" style="margin-right: 6px;"></span> Reference Repository • Study Material &amp; Syllabi
+          <span class="pulse-indicator" style="margin-right: 6px;"></span> Reference Repository &bull; Study Material &amp; Syllabi
         </span>
 
         <div class="flagship-banner__content txt-colorway-light">
@@ -867,81 +858,11 @@
       </div>
     </section>
 
-    <!-- ========================================================================
-         4-COLUMN IMAGE LINKS ACCORDION
-         ======================================================================== -->
-    <section id="section-9" class="section-image-links">
-      <ul class="img-links">
-        
-        <li class="img-links__item active" data-img-link>
-          <a class="img-links__item-link" href="about">
-            <picture>
-              <img src="assets/img/about/1.jpg" alt="About Lakshya Academy">
-            </picture>
-            <div class="img-links__item-title">
-              <span class="img-link__num">01</span>
-              <h3 class="img-links__item-title-txt">About Lakshya</h3>
-              <span class="img-link__arrow">→</span>
-            </div>
-          </a>
-        </li>
-
-        <li class="img-links__item" data-img-link>
-          <a class="img-links__item-link" href="success-stories">
-            <picture>
-              <img src="assets/img/gallery/updated/1.JPG" alt="Success Stories &amp; Results">
-            </picture>
-            <div class="img-links__item-title">
-              <span class="img-link__num">02</span>
-              <h3 class="img-links__item-title-txt">Success Stories</h3>
-              <span class="img-link__arrow">→</span>
-            </div>
-          </a>
-        </li>
-
-        <li class="img-links__item" data-img-link>
-          <a class="img-links__item-link" href="class-material">
-            <picture>
-              <img src="Website/Gallary-Photo/4.jpg" alt="Class Notes &amp; Magazines">
-            </picture>
-            <div class="img-links__item-title">
-              <span class="img-link__num">03</span>
-              <h3 class="img-links__item-title-txt">Class Material</h3>
-              <span class="img-link__arrow">→</span>
-            </div>
-          </a>
-        </li>
-
-        <li class="img-links__item" data-img-link>
-          <a class="img-links__item-link" href="contact">
-            <picture>
-              <img src="assets/img/team/teacher2.jpg" alt="Admissions Office &amp; Contact">
-            </picture>
-            <div class="img-links__item-title">
-              <span class="img-link__num">04</span>
-              <h3 class="img-links__item-title-txt">Admissions Office</h3>
-              <span class="img-link__arrow">→</span>
-            </div>
-          </a>
-        </li>
-
-      </ul>
-    </section>
 
     <!-- ========================================================================
          FOOTER
          ======================================================================== -->
     <footer class="footer">
-      <div class="footer__section--strapline">
-        <div class="footer__strapline">
-          <div class="footer__strapline-inner">
-            <span class="footer__strapline-item">ध्येयमेव जयते • THE LAKSHYA CAREER ACADEMY • NASHIK • EST. 2010 • </span>
-            <span class="footer__strapline-item">TO INCREASE MAHARASHTRA'S SHARE IN GOVERNANCE • </span>
-            <span class="footer__strapline-item">ध्येयमेव जयते • THE LAKSHYA CAREER ACADEMY • NASHIK • EST. 2010 • </span>
-            <span class="footer__strapline-item">TO INCREASE MAHARASHTRA'S SHARE IN GOVERNANCE • </span>
-          </div>
-        </div>
-      </div>
 
       <div class="footer__section--main">
         <div class="section section--large">

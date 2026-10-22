@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -56,12 +56,11 @@
             <li class="nav-item"><a href="/" class="nav-link-subtle">Home</a></li>
             <li class="nav-item"><a href="about" class="nav-link-subtle">About Us</a></li>
                           <li class="nav-item has-dropdown">
-                <a href="courses" class="nav-link-subtle">
+                <a href="javascript:void(0);" class="nav-link-subtle" role="button" aria-haspopup="true" aria-expanded="false">
                   Courses <span class="nav-arrow">∨</span>
                 </a>
                 <ul class="nav-dropdown">
                   <li><a href="course-rajyaseva" class="dropdown-link">Rajyaseva Examination</a></li>
-                  <li><a href="study-material#syllabus" class="dropdown-link">UPSC Civil Services</a></li>
                   <li><a href="course-combine" class="dropdown-link">Combine Group B (PSI/STI/ASO)</a></li>
                   <li><a href="course-psi" class="dropdown-link">PSI Mains &amp; Physical</a></li>
                   <li><a href="course-sti" class="dropdown-link">Sales Tax Inspector (STI)</a></li>
@@ -96,7 +95,6 @@
             </li>
             <li class="nav-item"><a href="success-stories" class="nav-link-subtle active">Success Stories</a></li>
             <li class="nav-item"><a href="gallery" class="nav-link-subtle">Gallery</a></li>
-            <li class="nav-item"><a href="blog" class="nav-link-subtle">Blog</a></li>
             <li class="nav-item"><a href="contact" class="nav-link-subtle">Contact Us</a></li>
           </ul>
         </nav>
@@ -138,10 +136,9 @@
         <ul class="main-menu__items">
           <li><a href="/" class="menu-item-link"><span>01. Home</span> <span>→</span></a></li>
           <li><a href="about" class="menu-item-link"><span>02. About Us</span> <span>→</span></a></li>
-          <li><a href="courses" class="menu-item-link"><span>03. Courses</span> <span>→</span></a></li>
+          <li><a href="javascript:void(0);" class="menu-item-link menu-item-link--courses" role="button" aria-expanded="true"><span>03. Courses</span> <span class="drawer-arrow">∨</span></a></li>
           <li class="main-menu__subitems">
             <a href="course-rajyaseva" class="main-menu__sublink">• Rajyaseva Examination</a>
-            <a href="study-material#syllabus" class="main-menu__sublink">• UPSC Civil Services</a>
             <a href="course-combine" class="main-menu__sublink">• Combine Group B (PSI/STI/ASO)</a>
             <a href="course-psi" class="main-menu__sublink">• PSI Mains &amp; Physical</a>
             <a href="course-sti" class="main-menu__sublink">• Sales Tax Inspector (STI)</a>
@@ -167,8 +164,7 @@
           </li>
           <li><a href="success-stories" class="menu-item-link" style="color: var(--color-gold);"><span>06. Success Stories</span> <span>→</span></a></li>
           <li><a href="gallery" class="menu-item-link"><span>07. Gallery</span> <span>→</span></a></li>
-          <li><a href="blog" class="menu-item-link"><span>08. Blog &amp; Insights</span> <span>→</span></a></li>
-          <li><a href="contact" class="menu-item-link"><span>09. Contact Us</span> <span>→</span></a></li>
+          <li><a href="contact" class="menu-item-link"><span>08. Contact Us</span> <span>→</span></a></li>
         </ul>
         <!-- Quick Contact & WhatsApp Bar -->
         <div class="drawer-contact-bar">
@@ -177,16 +173,8 @@
             <a href="tel:+917887878001" class="drawer-contact-btn drawer-contact-btn--tel" aria-label="Call Admissions 7887878001">
               📞 7887878001
             </a>
-            <a href="tel:+917887878002" class="drawer-contact-btn drawer-contact-btn--tel" aria-label="Call Admissions 7887878002">
-              📞 7887878002
-            </a>
-          </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 0.25rem;">
-            <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp Line 1">
-              💬 WhatsApp 1
-            </a>
-            <a href="https://wa.me/917887878002?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp Line 2">
-              💬 WhatsApp 2
+            <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp">
+              💬 WhatsApp
             </a>
           </div>
         </div>
@@ -203,10 +191,13 @@
          3. FLAGSHIP BANNER (HERO) - GENUINE LAKSHYA FELICITATION ASSET
          ======================================================================== -->
     <section class="section-flagship-banner">
-      <div class="flagship-banner" data-parallax>
-        <picture class="flagship-banner__img">
-          <img class="img-full" src="assets/img/gallery/updated/1.JPG" alt="Officer Felicitation Ceremony at The Lakshya Career Academy">
+      <div class="flagship-banner flagship-banner--success-stories" data-parallax>
+        <picture class="flagship-banner__img flagship-banner__img--success-stories">
+          <img class="img-full" src="assets/img/hero-success-stories.jpg" alt="Lakshya Career Academy Hall of Fame - Selected Officers, Rank Holders, and Merit Felicitation Board" fetchpriority="high" style="object-position: center center;">
         </picture>
+
+        <!-- Protective Dark Vignette Overlay for Text Contrast -->
+        <div class="flagship-banner__overlay"></div>
 
         <span class="flagship-banner__header-txt">
           <span class="pulse-indicator" style="margin-right: 6px;"></span> Merit Roster • Proven Officer Cadre
@@ -250,21 +241,22 @@
 
    
 
-    <!-- ========================================================================
-         6. OFFICIAL MERIT ROSTER & PROVEN OFFICER RESULTS (FROM SUCCESS_STORIES.PHP)
+        <!-- ========================================================================
+         6. STUDENTS ACHIEVEMENTS & SUCCESS STORIES (MERGED UNIFIED ROSTER)
          ======================================================================== -->
     <section class="section-stories-grid pv-large bg-colorway-dark-beige" id="results-archive">
       <div class="section section--large">
         <div class="section-header" style="text-align: center; margin-bottom: 3.5rem;">
-          <span class="txt-uppercase-cap" style="color: var(--color-gold);">Official Merit Roster</span>
-          <h2 class="h3" style="color: var(--color-slate); margin-top: 0.5rem;">Selected Officers &amp; Felicitations</h2>
-          <p class="lead" style="max-width: 720px; margin: 0.5rem auto 2rem auto;">
-            Authentic results, topper rank certificates, and felicitation ceremonies directly from the Lakshya Career Academy alumni records.
+          <span class="txt-uppercase-cap" style="color: var(--color-gold);">Official Merit Roster • Proven Results</span>
+          <h2 class="h3" style="color: var(--color-slate); margin-top: 0.5rem;">Students Achievements and Success Stories</h2>
+          <p class="lead" style="max-width: 820px; margin: 0.5rem auto 2rem auto; font-size: 1.05rem; line-height: 1.6;">
+            Celebrating our proud achievers, selected officers, and felicitation ceremonies across Maharashtra State Civil Services, Subordinate Cadres, and Technical Examinations.
           </p>
 
           <!-- Category Filter Bar -->
           <div style="display: flex; justify-content: center; gap: 0.75rem; flex-wrap: wrap; margin-top: 1.5rem;">
-            <button class="btn btn--small btn--burgundy story-filter-btn active" data-story-filter="all">All Results (18)</button>
+            <button class="btn btn--small btn--burgundy story-filter-btn active" data-story-filter="all">All Records (46)</button>
+            <button class="btn btn--small btn--gold story-filter-btn" data-story-filter="posters">Appointment Posters (28)</button>
             <button class="btn btn--small btn--gold story-filter-btn" data-story-filter="rajyaseva">Rajyaseva (State Services)</button>
             <button class="btn btn--small btn--gold story-filter-btn" data-story-filter="combine">Combine Gr. B (PSI / STI / ASO)</button>
             <button class="btn btn--small btn--gold story-filter-btn" data-story-filter="technical">Technical Services &amp; MES</button>
@@ -273,8 +265,375 @@
         </div>
 
         <div class="grid grid-3" style="gap: 2rem;" id="storiesGridContainer">
-          
-          <!-- Card 1: 12.jpeg -->
+          <!-- Appointment Poster 1: Shrutika Dhatrak - Maharashtra Engineering Services (MES) -->
+          <article class="story-card" data-category="posters technical" data-img-src="assets/img/student-achievements/achievement-01-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-01-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-01-mr.jpg" data-img-title="Shrutika Dhatrak" data-img-cat="Maharashtra Engineering Services (MES)" tabindex="0" role="button" aria-label="View appointment poster for Shrutika Dhatrak">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-01-en.jpg" data-src-en="assets/img/student-achievements/achievement-01-en.jpg" data-src-mr="assets/img/student-achievements/achievement-01-mr.jpg" alt="Shrutika Dhatrak - Maharashtra Engineering Services (MES)" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Shrutika Dhatrak</h3>
+              <p class="story-card__desc">Maharashtra Engineering Services (MES)</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 2: Ankush Pingle - Sales Tax Inspector (STI) -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-02-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-02-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-02-mr.jpg" data-img-title="Ankush Pingle" data-img-cat="Sales Tax Inspector (STI)" tabindex="0" role="button" aria-label="View appointment poster for Ankush Pingle">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-02-en.jpg" data-src-en="assets/img/student-achievements/achievement-02-en.jpg" data-src-mr="assets/img/student-achievements/achievement-02-mr.jpg" alt="Ankush Pingle - Sales Tax Inspector (STI)" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Ankush Pingle</h3>
+              <p class="story-card__desc">Sales Tax Inspector (STI)</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 3: Ankita Wagh - Maharashtra Engineering Services (MES) -->
+          <article class="story-card" data-category="posters technical" data-img-src="assets/img/student-achievements/achievement-03-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-03-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-03-mr.jpg" data-img-title="Ankita Wagh" data-img-cat="Maharashtra Engineering Services (MES)" tabindex="0" role="button" aria-label="View appointment poster for Ankita Wagh">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-03-en.jpg" data-src-en="assets/img/student-achievements/achievement-03-en.jpg" data-src-mr="assets/img/student-achievements/achievement-03-mr.jpg" alt="Ankita Wagh - Maharashtra Engineering Services (MES)" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Ankita Wagh</h3>
+              <p class="story-card__desc">Maharashtra Engineering Services (MES)</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 4: Shrutika Dhatrak - Public Works Department (PWD) -->
+          <article class="story-card" data-category="posters technical" data-img-src="assets/img/student-achievements/achievement-04-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-04-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-04-mr.jpg" data-img-title="Shrutika Dhatrak" data-img-cat="Public Works Department (PWD)" tabindex="0" role="button" aria-label="View appointment poster for Shrutika Dhatrak">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-04-en.jpg" data-src-en="assets/img/student-achievements/achievement-04-en.jpg" data-src-mr="assets/img/student-achievements/achievement-04-mr.jpg" alt="Shrutika Dhatrak - Public Works Department (PWD)" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Shrutika Dhatrak</h3>
+              <p class="story-card__desc">Public Works Department (PWD)</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 5: Aakash Kuvara - Revenue Assistant -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-05-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-05-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-05-mr.jpg" data-img-title="Aakash Kuvara" data-img-cat="Revenue Assistant" tabindex="0" role="button" aria-label="View appointment poster for Aakash Kuvara">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-05-en.jpg" data-src-en="assets/img/student-achievements/achievement-05-en.jpg" data-src-mr="assets/img/student-achievements/achievement-05-mr.jpg" alt="Aakash Kuvara - Revenue Assistant" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Aakash Kuvara</h3>
+              <p class="story-card__desc">Revenue Assistant</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 6: Nikita Binnar - Revenue Assistant -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-06-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-06-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-06-mr.jpg" data-img-title="Nikita Binnar" data-img-cat="Revenue Assistant" tabindex="0" role="button" aria-label="View appointment poster for Nikita Binnar">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-06-en.jpg" data-src-en="assets/img/student-achievements/achievement-06-en.jpg" data-src-mr="assets/img/student-achievements/achievement-06-mr.jpg" alt="Nikita Binnar - Revenue Assistant" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Nikita Binnar</h3>
+              <p class="story-card__desc">Revenue Assistant</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 7: Parag Wagh - Tax Assistant -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-07-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-07-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-07-mr.jpg" data-img-title="Parag Wagh" data-img-cat="Tax Assistant" tabindex="0" role="button" aria-label="View appointment poster for Parag Wagh">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-07-en.jpg" data-src-en="assets/img/student-achievements/achievement-07-en.jpg" data-src-mr="assets/img/student-achievements/achievement-07-mr.jpg" alt="Parag Wagh - Tax Assistant" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Parag Wagh</h3>
+              <p class="story-card__desc">Tax Assistant</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 8: Aarti Jadhav - Senior Clerk, Pune Zilla Parishad -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-08-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-08-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-08-mr.jpg" data-img-title="Aarti Jadhav" data-img-cat="Senior Clerk, Pune Zilla Parishad" tabindex="0" role="button" aria-label="View appointment poster for Aarti Jadhav">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-08-en.jpg" data-src-en="assets/img/student-achievements/achievement-08-en.jpg" data-src-mr="assets/img/student-achievements/achievement-08-mr.jpg" alt="Aarti Jadhav - Senior Clerk, Pune Zilla Parishad" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Aarti Jadhav</h3>
+              <p class="story-card__desc">Senior Clerk, Pune Zilla Parishad</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 9: Bhushan Ahirrao - Class 2 Enforcement Officer, EPFO -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-09-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-09-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-09-mr.jpg" data-img-title="Bhushan Ahirrao" data-img-cat="Class 2 Enforcement Officer, EPFO" tabindex="0" role="button" aria-label="View appointment poster for Bhushan Ahirrao">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-09-en.jpg" data-src-en="assets/img/student-achievements/achievement-09-en.jpg" data-src-mr="assets/img/student-achievements/achievement-09-mr.jpg" alt="Bhushan Ahirrao - Class 2 Enforcement Officer, EPFO" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Bhushan Ahirrao</h3>
+              <p class="story-card__desc">Class 2 Enforcement Officer, EPFO</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 10: Nishant Pawar - Class 1 Officer -->
+          <article class="story-card" data-category="posters rajyaseva" data-img-src="assets/img/student-achievements/achievement-10-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-10-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-10-mr.jpg" data-img-title="Nishant Pawar" data-img-cat="Class 1 Officer" tabindex="0" role="button" aria-label="View appointment poster for Nishant Pawar">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-10-en.jpg" data-src-en="assets/img/student-achievements/achievement-10-en.jpg" data-src-mr="assets/img/student-achievements/achievement-10-mr.jpg" alt="Nishant Pawar - Class 1 Officer" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Nishant Pawar</h3>
+              <p class="story-card__desc">Class 1 Officer</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 11: Amol Pokharkar - Tax Assistant -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-11-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-11-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-11-mr.jpg" data-img-title="Amol Pokharkar" data-img-cat="Tax Assistant" tabindex="0" role="button" aria-label="View appointment poster for Amol Pokharkar">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-11-en.jpg" data-src-en="assets/img/student-achievements/achievement-11-en.jpg" data-src-mr="assets/img/student-achievements/achievement-11-mr.jpg" alt="Amol Pokharkar - Tax Assistant" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Amol Pokharkar</h3>
+              <p class="story-card__desc">Tax Assistant</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 12: Shrutika Dhatrak - Senior Engineer, PWD -->
+          <article class="story-card" data-category="posters technical" data-img-src="assets/img/student-achievements/achievement-12-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-12-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-12-mr.jpg" data-img-title="Shrutika Dhatrak" data-img-cat="Senior Engineer, PWD" tabindex="0" role="button" aria-label="View appointment poster for Shrutika Dhatrak">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-12-en.jpg" data-src-en="assets/img/student-achievements/achievement-12-en.jpg" data-src-mr="assets/img/student-achievements/achievement-12-mr.jpg" alt="Shrutika Dhatrak - Senior Engineer, PWD" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Shrutika Dhatrak</h3>
+              <p class="story-card__desc">Senior Engineer, PWD</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 13: Sayali Mali - Technical Officer -->
+          <article class="story-card" data-category="posters technical" data-img-src="assets/img/student-achievements/achievement-13-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-13-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-13-mr.jpg" data-img-title="Sayali Mali" data-img-cat="Technical Officer" tabindex="0" role="button" aria-label="View appointment poster for Sayali Mali">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-13-en.jpg" data-src-en="assets/img/student-achievements/achievement-13-en.jpg" data-src-mr="assets/img/student-achievements/achievement-13-mr.jpg" alt="Sayali Mali - Technical Officer" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Sayali Mali</h3>
+              <p class="story-card__desc">Technical Officer</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 14: Sudhakar Kore - Assistant Section Officer, Mantralaya (Rank 1) -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-14-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-14-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-14-mr.jpg" data-img-title="Sudhakar Kore" data-img-cat="Assistant Section Officer, Mantralaya (Rank 1)" tabindex="0" role="button" aria-label="View appointment poster for Sudhakar Kore">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-14-en.jpg" data-src-en="assets/img/student-achievements/achievement-14-en.jpg" data-src-mr="assets/img/student-achievements/achievement-14-mr.jpg" alt="Sudhakar Kore - Assistant Section Officer, Mantralaya (Rank 1)" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Sudhakar Kore</h3>
+              <p class="story-card__desc">Assistant Section Officer, Mantralaya (Rank 1)</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 15: Krishna Dhere - Revenue Assistant -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-15-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-15-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-15-mr.jpg" data-img-title="Krishna Dhere" data-img-cat="Revenue Assistant" tabindex="0" role="button" aria-label="View appointment poster for Krishna Dhere">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-15-en.jpg" data-src-en="assets/img/student-achievements/achievement-15-en.jpg" data-src-mr="assets/img/student-achievements/achievement-15-mr.jpg" alt="Krishna Dhere - Revenue Assistant" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Krishna Dhere</h3>
+              <p class="story-card__desc">Revenue Assistant</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 16: Madhukar Jadhav - Child Development Project Officer (CDPO) -->
+          <article class="story-card" data-category="posters rajyaseva" data-img-src="assets/img/student-achievements/achievement-16-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-16-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-16-mr.jpg" data-img-title="Madhukar Jadhav" data-img-cat="Child Development Project Officer (CDPO)" tabindex="0" role="button" aria-label="View appointment poster for Madhukar Jadhav">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-16-en.jpg" data-src-en="assets/img/student-achievements/achievement-16-en.jpg" data-src-mr="assets/img/student-achievements/achievement-16-mr.jpg" alt="Madhukar Jadhav - Child Development Project Officer (CDPO)" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Madhukar Jadhav</h3>
+              <p class="story-card__desc">Child Development Project Officer (CDPO)</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 17: Nishant Pawar - Maharashtra Finance &amp; Accounts Officer, Group A -->
+          <article class="story-card" data-category="posters rajyaseva" data-img-src="assets/img/student-achievements/achievement-17-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-17-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-17-mr.jpg" data-img-title="Nishant Pawar" data-img-cat="Maharashtra Finance &amp; Accounts Officer, Group A" tabindex="0" role="button" aria-label="View appointment poster for Nishant Pawar">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-17-en.jpg" data-src-en="assets/img/student-achievements/achievement-17-en.jpg" data-src-mr="assets/img/student-achievements/achievement-17-mr.jpg" alt="Nishant Pawar - Maharashtra Finance &amp; Accounts Officer, Group A" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Nishant Pawar</h3>
+              <p class="story-card__desc">Maharashtra Finance &amp; Accounts Officer, Group A</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 18: Sadhana Shendge - Accounts Clerk -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-18-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-18-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-18-mr.jpg" data-img-title="Sadhana Shendge" data-img-cat="Accounts Clerk" tabindex="0" role="button" aria-label="View appointment poster for Sadhana Shendge">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-18-en.jpg" data-src-en="assets/img/student-achievements/achievement-18-en.jpg" data-src-mr="assets/img/student-achievements/achievement-18-mr.jpg" alt="Sadhana Shendge - Accounts Clerk" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Sadhana Shendge</h3>
+              <p class="story-card__desc">Accounts Clerk</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 19: Chhaya Kshirsagar - IBPS PO, Bank of Maharashtra -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-19-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-19-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-19-mr.jpg" data-img-title="Chhaya Kshirsagar" data-img-cat="IBPS PO, Bank of Maharashtra" tabindex="0" role="button" aria-label="View appointment poster for Chhaya Kshirsagar">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-19-en.jpg" data-src-en="assets/img/student-achievements/achievement-19-en.jpg" data-src-mr="assets/img/student-achievements/achievement-19-mr.jpg" alt="Chhaya Kshirsagar - IBPS PO, Bank of Maharashtra" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Chhaya Kshirsagar</h3>
+              <p class="story-card__desc">IBPS PO, Bank of Maharashtra</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 20: Nilesh Wagh - Tax Assessment Officer -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-20-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-20-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-20-mr.jpg" data-img-title="Nilesh Wagh" data-img-cat="Tax Assessment Officer" tabindex="0" role="button" aria-label="View appointment poster for Nilesh Wagh">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-20-en.jpg" data-src-en="assets/img/student-achievements/achievement-20-en.jpg" data-src-mr="assets/img/student-achievements/achievement-20-mr.jpg" alt="Nilesh Wagh - Tax Assessment Officer" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Nilesh Wagh</h3>
+              <p class="story-card__desc">Tax Assessment Officer</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 21: Aarti Jadhav - Senior Clerk, Kolhapur Municipal Council -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-21-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-21-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-21-mr.jpg" data-img-title="Aarti Jadhav" data-img-cat="Senior Clerk, Kolhapur Municipal Council" tabindex="0" role="button" aria-label="View appointment poster for Aarti Jadhav">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-21-en.jpg" data-src-en="assets/img/student-achievements/achievement-21-en.jpg" data-src-mr="assets/img/student-achievements/achievement-21-mr.jpg" alt="Aarti Jadhav - Senior Clerk, Kolhapur Municipal Council" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Aarti Jadhav</h3>
+              <p class="story-card__desc">Senior Clerk, Kolhapur Municipal Council</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 22: Aboli Salve - Talathi, Nashik District -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-22-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-22-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-22-mr.jpg" data-img-title="Aboli Salve" data-img-cat="Talathi, Nashik District" tabindex="0" role="button" aria-label="View appointment poster for Aboli Salve">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-22-en.jpg" data-src-en="assets/img/student-achievements/achievement-22-en.jpg" data-src-mr="assets/img/student-achievements/achievement-22-mr.jpg" alt="Aboli Salve - Talathi, Nashik District" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Aboli Salve</h3>
+              <p class="story-card__desc">Talathi, Nashik District</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 23: Shraddha Patil - PWD Junior Engineer -->
+          <article class="story-card" data-category="posters technical" data-img-src="assets/img/student-achievements/achievement-23-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-23-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-23-mr.jpg" data-img-title="Shraddha Patil" data-img-cat="PWD Junior Engineer" tabindex="0" role="button" aria-label="View appointment poster for Shraddha Patil">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-23-en.jpg" data-src-en="assets/img/student-achievements/achievement-23-en.jpg" data-src-mr="assets/img/student-achievements/achievement-23-mr.jpg" alt="Shraddha Patil - PWD Junior Engineer" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Shraddha Patil</h3>
+              <p class="story-card__desc">PWD Junior Engineer</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 24: Shweta Narote - Forest Guard -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-24-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-24-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-24-mr.jpg" data-img-title="Shweta Narote" data-img-cat="Forest Guard" tabindex="0" role="button" aria-label="View appointment poster for Shweta Narote">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-24-en.jpg" data-src-en="assets/img/student-achievements/achievement-24-en.jpg" data-src-mr="assets/img/student-achievements/achievement-24-mr.jpg" alt="Shweta Narote - Forest Guard" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Shweta Narote</h3>
+              <p class="story-card__desc">Forest Guard</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 25: Suraj Kudale - Teacher, Brihanmumbai Municipal Corporation -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-25-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-25-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-25-mr.jpg" data-img-title="Suraj Kudale" data-img-cat="Teacher, Brihanmumbai Municipal Corporation" tabindex="0" role="button" aria-label="View appointment poster for Suraj Kudale">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-25-en.jpg" data-src-en="assets/img/student-achievements/achievement-25-en.jpg" data-src-mr="assets/img/student-achievements/achievement-25-mr.jpg" alt="Suraj Kudale - Teacher, Brihanmumbai Municipal Corporation" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Suraj Kudale</h3>
+              <p class="story-card__desc">Teacher, Brihanmumbai Municipal Corporation</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 26: Karunashil Pagare - SET Qualified -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-26-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-26-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-26-mr.jpg" data-img-title="Karunashil Pagare" data-img-cat="SET Qualified" tabindex="0" role="button" aria-label="View appointment poster for Karunashil Pagare">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-26-en.jpg" data-src-en="assets/img/student-achievements/achievement-26-en.jpg" data-src-mr="assets/img/student-achievements/achievement-26-mr.jpg" alt="Karunashil Pagare - SET Qualified" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Karunashil Pagare</h3>
+              <p class="story-card__desc">SET Qualified</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 27: Dinesh Gole - Assistant, Public Health Department -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-27-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-27-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-27-mr.jpg" data-img-title="Dinesh Gole" data-img-cat="Assistant, Public Health Department" tabindex="0" role="button" aria-label="View appointment poster for Dinesh Gole">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-27-en.jpg" data-src-en="assets/img/student-achievements/achievement-27-en.jpg" data-src-mr="assets/img/student-achievements/achievement-27-mr.jpg" alt="Dinesh Gole - Assistant, Public Health Department" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Dinesh Gole</h3>
+              <p class="story-card__desc">Assistant, Public Health Department</p>
+            </div>
+          </article>
+
+          <!-- Appointment Poster 28: Monika Dangle - Stenographer, Forest Department -->
+          <article class="story-card" data-category="posters combine" data-img-src="assets/img/student-achievements/achievement-28-en.jpg" data-img-src-en="assets/img/student-achievements/achievement-28-en.jpg" data-img-src-mr="assets/img/student-achievements/achievement-28-mr.jpg" data-img-title="Monika Dangle" data-img-cat="Stenographer, Forest Department" tabindex="0" role="button" aria-label="View appointment poster for Monika Dangle">
+            <div class="story-card__img-wrap">
+              <img src="assets/img/student-achievements/achievement-28-en.jpg" data-src-en="assets/img/student-achievements/achievement-28-en.jpg" data-src-mr="assets/img/student-achievements/achievement-28-mr.jpg" alt="Monika Dangle - Stenographer, Forest Department" class="story-card__img" loading="lazy">
+              <span class="story-card__badge">Appointment</span>
+              <span class="story-card__zoom-hint">🔍 Expand</span>
+            </div>
+            <div class="story-card__body">
+              <h3 class="story-card__title">Monika Dangle</h3>
+              <p class="story-card__desc">Stenographer, Forest Department</p>
+            </div>
+          </article>
+
+          <!-- ========================================================================
+               OFFICER RESULTS & FELICITATION CEREMONIES (18 RECORDS)
+               ======================================================================== -->
+
+<!-- Card 1: 12.jpeg -->
           <article class="story-card" data-category="rajyaseva" data-img-src="Website/Success-stories/12.jpeg" data-img-title="Class-1 State Administration Achiever" data-img-cat="MPSC Rajyaseva / State Services">
             <div class="story-card__img-wrap">
               <img src="Website/Success-stories/12.jpeg" alt="State Civil Services Selection" class="story-card__img" loading="lazy">
@@ -507,7 +866,6 @@
               <p class="story-card__desc">Official commendation awarded to outstanding candidates for consistent test series performance.</p>
             </div>
           </article>
-
         </div>
       </div>
     </section>
@@ -672,90 +1030,17 @@
             <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--large" style="color: #25D366; border-color: #25D366; font-weight: 700;">
               <span class="btn__txt"><span class="btn__txt-inner" data-txt="💬 Chat on WhatsApp">💬 Chat on WhatsApp</span></span>
             </a>
-            <a href="courses" class="btn btn--outline btn--large" style="color: var(--color-gold); border-color: var(--color-gold);">
-              <span class="btn__txt"><span class="btn__txt-inner" data-txt="Explore All 7 Programs →">Explore All 7 Programs →</span></span>
-            </a>
           </div>
           
         </div>
       </div>
     </section>
 
-    <!-- ========================================================================
-         10. 4-COLUMN IMAGE LINKS ACCORDION (GENUINE LAKSHYA ASSETS)
-         ======================================================================== -->
-    <section id="section-9" class="section-image-links">
-      <ul class="img-links">
-        
-        <li class="img-links__item active" data-img-link>
-          <a class="img-links__item-link" href="about">
-            <picture>
-              <img src="assets/img/about/1.jpg" alt="About Lakshya Academy">
-            </picture>
-            <div class="img-links__item-title">
-              <span class="img-link__num">01</span>
-              <h3 class="img-links__item-title-txt">About Lakshya</h3>
-              <span class="img-link__arrow">→</span>
-            </div>
-          </a>
-        </li>
-
-        <li class="img-links__item" data-img-link>
-          <a class="img-links__item-link" href="success-stories">
-            <picture>
-              <img src="assets/img/gallery/updated/1.JPG" alt="Success Stories &amp; Results">
-            </picture>
-            <div class="img-links__item-title">
-              <span class="img-link__num">02</span>
-              <h3 class="img-links__item-title-txt">Success Stories</h3>
-              <span class="img-link__arrow">→</span>
-            </div>
-          </a>
-        </li>
-
-        <li class="img-links__item" data-img-link>
-          <a class="img-links__item-link" href="study-material">
-            <picture>
-              <img src="Website/Gallary-Photo/4.jpg" alt="Study Notes &amp; Archives">
-            </picture>
-            <div class="img-links__item-title">
-              <span class="img-link__num">03</span>
-              <h3 class="img-links__item-title-txt">Study Notes</h3>
-              <span class="img-link__arrow">→</span>
-            </div>
-          </a>
-        </li>
-
-        <li class="img-links__item" data-img-link>
-          <a class="img-links__item-link" href="contact">
-            <picture>
-              <img src="assets/img/team/teacher2.jpg" alt="Admissions Office &amp; Contact">
-            </picture>
-            <div class="img-links__item-title">
-              <span class="img-link__num">04</span>
-              <h3 class="img-links__item-title-txt">Admissions Office</h3>
-              <span class="img-link__arrow">→</span>
-            </div>
-          </a>
-        </li>
-
-      </ul>
-    </section>
 
     <!-- ========================================================================
-         11. FOOTER WITH STRAPLINE BANNER
+         11. FOOTER
          ======================================================================== -->
     <footer class="footer">
-      <div class="footer__section--strapline">
-        <div class="footer__strapline">
-          <div class="footer__strapline-inner">
-            <span class="footer__strapline-item">ध्येयमेव जयते • THE LAKSHYA CAREER ACADEMY • NASHIK • EST. 2010 • </span>
-            <span class="footer__strapline-item">TO INCREASE MAHARASHTRA'S SHARE IN GOVERNANCE • </span>
-            <span class="footer__strapline-item">ध्येयमेव जयते • THE LAKSHYA CAREER ACADEMY • NASHIK • EST. 2010 • </span>
-            <span class="footer__strapline-item">TO INCREASE MAHARASHTRA'S SHARE IN GOVERNANCE • </span>
-          </div>
-        </div>
-      </div>
 
       <div class="footer__section--main">
         <div class="section section--large">
@@ -1073,7 +1358,8 @@
           currentVisibleCards = [];
 
           storyCards.forEach(card => {
-            if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            const cardCats = (card.getAttribute('data-category') || '').split(/\s+/);
+            if (filter === 'all' || cardCats.includes(filter)) {
               card.style.display = 'flex';
               currentVisibleCards.push(card);
             } else {
@@ -1097,8 +1383,10 @@
         if (!card || !lightbox) return;
 
         const src = card.getAttribute('data-img-src') || card.querySelector('img').src;
-        const title = card.getAttribute('data-img-title') || card.querySelector('.story-card__title').innerText;
-        const cat = card.getAttribute('data-img-cat') || '';
+        const titleEl = card.querySelector('.story-card__title');
+        const descEl = card.querySelector('.story-card__desc');
+        const title = (titleEl ? titleEl.innerText.trim() : '') || card.getAttribute('data-img-title') || '';
+        const cat = (descEl ? descEl.innerText.trim() : '') || card.getAttribute('data-img-cat') || '';
 
         lightboxImg.src = src;
         lightboxCaption.innerText = title;

@@ -269,10 +269,14 @@ window.LAKSHYA_I18N = {
   "07. Gallery": "07. गॅलरी",
   "08. Blog & Insights →": "08. ब्लॉग आणि अंतर्दृष्टी →",
   "08. Blog & Insights": "08. ब्लॉग आणि अंतर्दृष्टी",
+  "08. Contact Us →": "08. आमच्याशी संपर्क साधा →",
+  "08. Contact Us": "08. आमच्याशी संपर्क साधा",
   "09. Contact Us →": "09. आमच्याशी संपर्क साधा →",
   "09. Contact Us": "09. आमच्याशी संपर्क साधा",
   "📞 7887878001": "📞 ७८८७८७८००१",
   "📞 7887878002": "📞 ७८८७८७८००२",
+  "💬 WhatsApp": "💬 WhatsApp",
+  "WhatsApp (+91 7887878001)": "WhatsApp (+91 7887878001)",
   "💬 WhatsApp 1": "💬 WhatsApp 1",
   "💬 WhatsApp 2": "💬 WhatsApp 2",
   "Since 2010 • Nashik": "2010 पासून • नाशिक",
@@ -3266,4 +3270,123 @@ window.LAKSHYA_I18N = {
   "Seminar Highlights": "परिसंवाद क्षणचित्रे",
   "📞 +91 788 787 8001": "📞 +91 788 787 8001",
   "Get Admission Guidance": "प्रवेश मार्गदर्शन मिळवा",
+
+  // Unified Success Stories & Student Achievements Section
+  "Students Achievements and Success Stories": "विद्यार्थ्यांचे यश आणि यशोगाथा",
+  "Official Merit Roster • Proven Results": "अधिकृत गुणवत्ता यादी • प्रमाणित निकाल",
+  "All Records (46)": "सर्व नोंदी (४६)",
+  "Appointment Posters (28)": "शासकीय नियुक्ती पत्रके (२८)",
+  "All Achievements & Officers": "सर्व यश व अधिकारी",
+  "Appointment Posters": "शासकीय नियुक्ती पत्रके",
+  "Celebrating our proud achievers, selected officers, and felicitation ceremonies across Maharashtra State Civil Services, Subordinate Cadres, and Technical Examinations.": "महाराष्ट्र राज्य नागरी सेवा, संयुक्त दुय्यम संवर्ग व तांत्रिक परीक्षांमध्ये निवड झालेल्या आमच्या गुणवंत अधिकाऱ्यांचा आणि सत्कार सोहळ्यांचा सार्थ अभिमान.",
+
+  // Gallery Photo Captions Localization
+  "Academy Group Activity & Outdoor Session": "अकॅडमी गट उपक्रम व बाह्य सत्र",
+  "Classroom Gathering & Interactive Circle": "वर्गखोली संवाद व अभ्यास मंडळ",
+  "Academy Social Assembly": "अकॅडमी सामाजिक मेळावा",
+  "Interactive Classroom Session": "परस्परसंवादी वर्गखोली व्याख्यान",
+  "MPSC Concept Mastery Class": "MPSC संकल्पना दृढीकरण वर्ग",
+  "Daily Answer Writing Batch": "दैनिक उत्तर लेखन सराव तुकडी",
+  "General Studies Lecture Session": "सामान्य अध्ययन व्याख्यान सत्र",
+  "Study Circle & Discussion Group": "अभ्यास मंडळ व चर्चा गट",
+  "Intensive CSAT & Quantitative Class": "सखोल CSAT व अंकगणित वर्ग",
+  "Law & Constitution Class": "कायदा व संविधान वर्ग",
+  "Subject Specialization Class": "विषय विशेष सराव वर्ग",
+  "Lakshya Annual Convocation": "लक्ष्य वार्षिक दीक्षांत व सत्कार सोहळा",
+  "Officer Trophy & Shawl Presentation": "अधिकारी सन्मानचिन्ह व शाल सन्मान",
+  "Award Presentation Ceremony": "गुणगौरव व पुरस्कार वितरण समारंभ",
+  "Annual MPSC Guidance Seminar": "वार्षिक MPSC मार्गदर्शन परिसंवाद",
+  "Officer Interactive Seminar": "अधिकारी संवाद व मार्गदर्शन शिबिर",
+  "Strategy Roadmap Seminar": "अभ्यास रणनीती व दिशादर्शन परिसंवाद",
+  "15-Day Personal Review Session": "१५-दिवसीय वैयक्तिक मूल्यमापन सत्र",
+  "Interactive Doubts & Strategy Panel": "शंका समाधान व रणनीती मार्गदर्शन मंच",
+
+  // Knowledge Hub Card Meta Labels
+  "Strategy": "रणनीती",
+  "Analysis": "विश्लेषण",
+  "Foundation": "पायाभूत तयारी",
+  "Rajyaseva": "राज्यसेवा",
+  "Lokrajya": "लोकराज्य",
+
+  // ========================================================================
+  // HOMEPAGE EXPLORE OUR COURSES SECTION TRANSLATIONS
+  // ========================================================================
+  "Comprehensive Programs": "सर्वसमावेशक अभ्यासक्रम",
+  "Explore Our Courses": "आमचे अभ्यासक्रम एक्सप्लोर करा",
+  "Choose the right preparation program for your government service career.": "तुमच्या शासकीय सेवेतील कारकिर्दीसाठी योग्य तयारीचा अभ्यासक्रम निवडा.",
+  "Search courses (e.g. MPSC, PSI, Talathi)...": "अभ्यासक्रम शोधा (उदा. MPSC, PSI, तलाठी)...",
+  "Search courses by title, keywords or category": "शीर्षक, कीवर्ड किंवा श्रेणीनुसार अभ्यासक्रम शोधा",
+  "Clear search input": "शोध इनपुट साफ करा",
+  "No Courses Found": "कोणतेही अभ्यासक्रम आढळले नाहीत",
+  "We couldn't find any courses matching your search query. Try searching with another keyword or reset the filter.": "तुमच्या शोध क्वेरीशी जुळणारे कोणतेही अभ्यासक्रम आढळले नाहीत. दुसरा कीवर्ड वापरून शोधा किंवा फिल्टर रीसेट करा.",
+  "Reset Filters": "फिल्टर रीसेट करा",
+
+  // 1. MPSC Rajyaseva Examination
+  "★ Flagship Program • State Services": "★ फ्लॅगशिप प्रोग्राम • राज्यसेवा",
+  "Flagship Program • State Services": "फ्लॅगशिप प्रोग्राम • राज्यसेवा",
+  "Class I & II Cadres": "वर्ग १ व २ संवर्ग",
+  "Class I &amp; II Cadres": "वर्ग १ व २ संवर्ग",
+  "Prelims + Mains + Interview": "पूर्व + मुख्य + मुलाखत",
+  "MPSC Rajyaseva Examination": "एमपीएससी राज्यसेवा परीक्षा",
+  "Comprehensive foundation program for Maharashtra Civil Services officer posts (Deputy Collector, DySP, Tahasildar) covering Prelims, 6 Mains papers, and mock interview panels.": "महाराष्ट्र नागरी सेवा अधिकारी पदांसाठी (उपजिल्हाधिकारी, डीवायएसपी, तहसीलदार) पूर्वपरीक्षा, ६ मुख्य पेपर आणि सराव मुलाखत पॅनेल समाविष्ट असणारा सर्वसमावेशक फाउंडेशन अभ्यासक्रम.",
+  "Complete 6 Mains Papers Syllabus Coverage": "सर्व ६ मुख्य पेपर्सचा परिपूर्ण अभ्यासक्रम कव्हर",
+  "Daily Evaluated Mains Answer Writing & Mentoring": "दैनंदिन तपासणीसह मुख्य परीक्षा उत्तरलेखन व मार्गदर्शन",
+  "Daily Evaluated Mains Answer Writing &amp; Mentoring": "दैनंदिन तपासणीसह मुख्य परीक्षा उत्तरलेखन व मार्गदर्शन",
+  "Serving & Retired Officers Mock Interview Panel": "कार्यरत व निवृत्त अधिकाऱ्यांचे सराव मुलाखत पॅनेल",
+  "Serving &amp; Retired Officers Mock Interview Panel": "कार्यरत व निवृत्त अधिकाऱ्यांचे सराव मुलाखत पॅनेल",
+  "Explore Full Program →": "संपूर्ण अभ्यासक्रम एक्सप्लोर करा →",
+  "Explore Full Program": "संपूर्ण अभ्यासक्रम एक्सप्लोर करा",
+  "Annual Academic Foundation Batch • Nashik": "वार्षिक शैक्षणिक फाउंडेशन बॅच • नाशिक",
+
+  // 2. MPSC Combine Group B
+  "Joint Subordinate": "संयुक्त दुय्यम सेवा",
+  "PSI • STI • ASO": "PSI • STI • ASO",
+  "Integrated Curriculum": "एकात्मिक अभ्यासक्रम",
+  "MPSC Combine Group B": "एमपीएससी कम्बाईन गट ब",
+  "Unified joint preliminary coaching and specialized mains guidance for Police Sub-Inspector, Sales Tax Inspector, and Assistant Section Officer posts with 15-day review cycles.": "पोलीस उपनिरीक्षक (PSI), राज्य कर निरीक्षक (STI) आणि सहायक कक्ष अधिकारी (ASO) पदांसाठी एकत्रित पूर्वपरीक्षा आणि १५ दिवसांच्या पुनरावलोकन चक्रांसह विशेष मुख्य परीक्षा मार्गदर्शन.",
+  "Explore Course": "अभ्यासक्रम पहा",
+  "Explore Course →": "अभ्यासक्रम पहा →",
+
+  // 3. PSI Mains & Physical Coaching
+  "Police Cadre": "पोलीस संवर्ग",
+  "Law & Special Acts": "कायदा आणि विशेष कायदे",
+  "Law &amp; Special Acts": "कायदा आणि विशेष कायदे",
+  "100M Ground Training": "१०० गुण मैदानी प्रशिक्षण",
+  "PSI Mains & Physical": "PSI मुख्य परीक्षा व मैदानी चाचणी",
+  "PSI Mains &amp; Physical": "PSI मुख्य परीक्षा व मैदानी चाचणी",
+  "Specialized coaching for Police Sub-Inspector covering IPC, CrPC, Evidence Act, Maharashtra Police Act, alongside structured 100-mark ground fitness drills and interview boards.": "पोलीस उपनिरीक्षक पदासाठी आयपीसी, सीआरपीसी, पुरावा कायदा, महाराष्ट्र पोलीस कायद्याचे विशेष मार्गदर्शन, १०० गुणांचे मैदानी सराव आणि मुलाखत पॅनेल तयारी.",
+
+  // 4. Sales Tax Inspector (STI)
+  "Taxation & Finance": "कर आकारणी व वित्त",
+  "Taxation &amp; Finance": "कर आकारणी व वित्त",
+  "Economics & GST": "अर्थशास्त्र आणि जीएसटी",
+  "Economics &amp; GST": "अर्थशास्त्र आणि जीएसटी",
+  "Mains Papers 1 & 2": "मुख्य पेपर १ आणि २",
+  "Mains Papers 1 &amp; 2": "मुख्य पेपर १ आणि २",
+  "Sales Tax Inspector (STI)": "राज्य कर निरीक्षक (STI)",
+  "Targeted mains preparation focusing on Maharashtra economy, tax administration, GST jurisprudence, budget analysis, and rigorous answer writing reviews.": "महाराष्ट्राची अर्थव्यवस्था, कर प्रशासन, जीएसटी न्यायशास्त्र, अर्थसंकल्प विश्लेषण आणि सखोल उत्तरलेखन तपासणीवर केंद्रित विशेष मुख्य परीक्षा तयारी.",
+
+  // 5. Assistant Section Officer (ASO)
+  "Secretariat Cadre": "सचिवालय संवर्ग",
+  "Mantralaya Cadre": "मंत्रालय संवर्ग",
+  "RTI & IT Acts": "माहिती अधिकार व आयटी कायदे",
+  "RTI &amp; IT Acts": "माहिती अधिकार व आयटी कायदे",
+  "Assistant Section Officer (ASO)": "सहायक कक्ष अधिकारी (ASO)",
+  "Focused coaching for Mantralaya administrative posts covering Indian Constitution, RTI Act 2005, IT Act, and Secretariat Manual operating guidelines.": "मंत्रालयातील प्रशासकीय पदांसाठी भारतीय राज्यघटना, माहिती अधिकार कायदा २००५, माहिती तंत्रज्ञान कायदा आणि सचिवालय कार्यपद्धतीचे विशेष मार्गदर्शन.",
+
+  // 6. Saralseva Direct Recruitment
+  "Direct Recruitment": "सरळसेवा भरती",
+  "TCS & IBPS Pattern": "TCS व IBPS पॅटर्न",
+  "TCS &amp; IBPS Pattern": "TCS व IBPS पॅटर्न",
+  "200M Speed Mastery": "२०० गुण गती प्रभुत्व",
+  "Saralseva Direct Recruitment": "सरळसेवा थेट भरती",
+  "Structured preparation for state-level direct recruitment exams (Clerk/Typist, Tax Assistant, Vanrakshak) under TCS and IBPS computer-based testing patterns.": "TCS आणि IBPS ऑनलाइन परीक्षा पद्धतीनुसार राज्यस्तरीय सरळसेवा भरती (लिपिक-टंकलेखक, कर सहायक, वनरक्षक) परीक्षांची सुनियोजित तयारी.",
+
+  // 7. Talathi Bharti Examination
+  "Revenue Cadre": "महसूल संवर्ग",
+  "District Revenue Cadre": "जिल्हा महसूल संवर्ग",
+  "4-Subject Speed Tests": "४-विषय स्पीड टेस्ट्स",
+  "Talathi Bharti Examination": "तलाठी भरती परीक्षा",
+  "High-yield speed preparation for Maharashtra District Revenue Talathi examinations covering Marathi, English, General Knowledge, and Numerical/Logical Reasoning.": "महाराष्ट्र जिल्हा महसूल तलाठी परीक्षेसाठी मराठी, इंग्रजी, सामान्य ज्ञान आणि बौद्धिक/अंकगणित चाचणीची परिपूर्ण वेगवान तयारी.",
+
 };

@@ -36,12 +36,11 @@
               <li class="nav-item"><a href="/" class="nav-link-subtle active">Home</a></li>
               <li class="nav-item"><a href="about" class="nav-link-subtle">About Us</a></li>
                             <li class="nav-item has-dropdown">
-                <a href="courses" class="nav-link-subtle">
+                <a href="javascript:void(0);" class="nav-link-subtle" role="button" aria-haspopup="true" aria-expanded="false">
                   Courses <span class="nav-arrow">∨</span>
                 </a>
                 <ul class="nav-dropdown">
                   <li><a href="course-rajyaseva" class="dropdown-link">Rajyaseva Examination</a></li>
-                  <li><a href="study-material#syllabus" class="dropdown-link">UPSC Civil Services</a></li>
                   <li><a href="course-combine" class="dropdown-link">Combine Group B (PSI/STI/ASO)</a></li>
                   <li><a href="course-psi" class="dropdown-link">PSI Mains &amp; Physical</a></li>
                   <li><a href="course-sti" class="dropdown-link">Sales Tax Inspector (STI)</a></li>
@@ -76,7 +75,6 @@
               </li>
               <li class="nav-item"><a href="success-stories" class="nav-link-subtle">Success Stories</a></li>
               <li class="nav-item"><a href="gallery" class="nav-link-subtle">Gallery</a></li>
-              <li class="nav-item"><a href="blog" class="nav-link-subtle">Blog</a></li>
               <li class="nav-item"><a href="contact" class="nav-link-subtle">Contact Us</a></li>
             </ul>
           </nav>
@@ -120,10 +118,9 @@
         <ul class="main-menu__items">
           <li><a href="/" class="menu-item-link" style="color: var(--color-gold);"><span>01. Home</span> <span>→</span></a></li>
           <li><a href="about" class="menu-item-link"><span>02. About Us</span> <span>→</span></a></li>
-          <li><a href="courses" class="menu-item-link"><span>03. Courses</span> <span>→</span></a></li>
+          <li><a href="javascript:void(0);" class="menu-item-link menu-item-link--courses" role="button" aria-expanded="true"><span>03. Courses</span> <span class="drawer-arrow">∨</span></a></li>
           <li class="main-menu__subitems">
             <a href="course-rajyaseva" class="main-menu__sublink">• Rajyaseva Examination</a>
-            <a href="study-material#syllabus" class="main-menu__sublink">• UPSC Civil Services</a>
             <a href="course-combine" class="main-menu__sublink">• Combine Group B (PSI/STI/ASO)</a>
             <a href="course-psi" class="main-menu__sublink">• PSI Mains &amp; Physical</a>
             <a href="course-sti" class="main-menu__sublink">• Sales Tax Inspector (STI)</a>
@@ -149,8 +146,7 @@
           </li>
           <li><a href="success-stories" class="menu-item-link"><span>06. Success Stories</span> <span>→</span></a></li>
           <li><a href="gallery" class="menu-item-link"><span>07. Gallery</span> <span>→</span></a></li>
-          <li><a href="blog" class="menu-item-link"><span>08. Blog &amp; Insights</span> <span>→</span></a></li>
-          <li><a href="contact" class="menu-item-link"><span>09. Contact Us</span> <span>→</span></a></li>
+          <li><a href="contact" class="menu-item-link"><span>08. Contact Us</span> <span>→</span></a></li>
         </ul>
 
         <!-- Quick Contact & WhatsApp Bar -->
@@ -160,16 +156,8 @@
             <a href="tel:+917887878001" class="drawer-contact-btn drawer-contact-btn--tel" aria-label="Call Admissions 7887878001">
               📞 7887878001
             </a>
-            <a href="tel:+917887878002" class="drawer-contact-btn drawer-contact-btn--tel" aria-label="Call Admissions 7887878002">
-              📞 7887878002
-            </a>
-          </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 0.25rem;">
-            <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp Line 1">
-              💬 WhatsApp 1
-            </a>
-            <a href="https://wa.me/917887878002?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp Line 2">
-              💬 WhatsApp 2
+            <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="drawer-contact-btn drawer-contact-btn--wa" aria-label="Chat on WhatsApp">
+              💬 WhatsApp
             </a>
           </div>
         </div>
@@ -257,7 +245,7 @@
           </div>
 
           <div class="hero-bottom__col hero-bottom__col--center">
-            <a href="#about-academy" class="hero-scroll-indicator" aria-label="Scroll down to explore Lakshya Academy">
+            <a href="#section-courses" class="hero-scroll-indicator" aria-label="Scroll down to explore Lakshya Academy">
               <div class="hero-scroll-mouse">
                 <span class="hero-scroll-wheel"></span>
               </div>
@@ -276,227 +264,312 @@
       </div>
     </section>
 
-    <!-- ========================================================================
-         3. EDITORIAL ABOUT LAKSHYA ACADEMY (HERITAGE & CORE PILLARS)
+
+
+        <!-- ========================================================================
+         3. EXPLORE OUR COURSES (MODERN EDITORIAL DISCOVERY SECTION)
          ======================================================================== -->
-    <section id="about-academy" class="section-about-preview pv-large bg-colorway-dark-beige">
-      <div class="section section--large">
-        <div class="about-hero-grid">
-          
-          <!-- Visual Column with Floating Badge -->
-          <div class="about-hero-visual" style="position: relative;">
-            <div class="img-reveal-mask" style="border-radius: 4px; box-shadow: 0 20px 45px rgba(0,0,0,0.08); overflow: hidden;">
-              <img src="assets/img/about/1.jpg" alt="Classroom lecture and mentorship session at Lakshya Academy" style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/3;">
-            </div>
-            <div style="position: absolute; bottom: -1.25rem; right: 1rem; background: var(--color-burgundy); color: #fff; padding: 1rem 1.5rem; border-radius: 4px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); border: 2px solid var(--color-gold); text-align: center;">
-              <span style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; display: block; line-height: 1; color: var(--color-gold);">1,236+</span>
-              <span style="font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600;">Officers Mentored</span>
-            </div>
-          </div>
-
-          <!-- Content Narrative Column -->
-          <div class="about-hero-content content">
-            <span class="txt-script" style="color: var(--color-burgundy); font-size: 1.1rem; display: block; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.12em;">OUR LEGACY</span>
-            <h2 style="font-size: clamp(1.8rem, 3vw, 2.5rem); line-height: 1.2; margin-bottom: 1rem; color: var(--color-slate);">
-              Shaping Maharashtra's Next Generation of Civil Servants
-            </h2>
-            <p class="lead" style="font-size: 1.05rem; line-height: 1.7; color: var(--color-text-secondary); margin-bottom: 1rem;">
-              Established in 2010 in Nashik, Lakshya Career Academy is dedicated to guiding aspirants towards their goals in competitive examinations. Founded under the academic leadership of <strong>Atul Nikumbh</strong>, <strong>Nishant Pawar</strong>, and <strong>Pranjal Nikumbh</strong>, the academy focuses on quality education, structured preparation, and personalised academic guidance.
-            </p>
-            <p style="font-size: 0.95rem; line-height: 1.7; color: var(--color-text-secondary); margin-bottom: 1rem;">
-              With experienced faculty, comprehensive study materials, regular practice, and a supportive learning environment, Lakshya helps students strengthen their knowledge, develop confidence, and prepare for the challenges of competitive examinations.
-            </p>
-            <p style="font-size: 0.95rem; line-height: 1.7; color: var(--color-text-secondary); margin-bottom: 1.5rem;">
-              Our vision goes beyond examination preparation. We aim to nurture capable, responsible, and knowledgeable individuals who aspire to contribute to society through public service.
-            </p>
-
-            <!-- 4 Core Pillars Compact Feature Strip -->
-            <div class="feature-strip-bar">
-              <div class="feature-strip-item">
-                <div class="feature-strip-item__icon-wrap">
-                  <svg class="feature-strip-item__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
-                  </svg>
-                </div>
-                <div>
-                  <h4 class="feature-strip-item__title">30 Students Batch Cap</h4>
-                  <p class="feature-strip-item__desc">Strictly limited class size ensures every aspirant receives direct daily faculty interaction.</p>
-                </div>
-              </div>
-
-              <div class="feature-strip-item">
-                <div class="feature-strip-item__icon-wrap">
-                  <svg class="feature-strip-item__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
-                  </svg>
-                </div>
-                <div>
-                  <h4 class="feature-strip-item__title">15-Day Mentoring Cycle</h4>
-                  <p class="feature-strip-item__desc">Fortnightly 1-on-1 milestone reviews auditing daily Mains answer writing and test scores.</p>
-                </div>
-              </div>
-
-              <div class="feature-strip-item">
-                <div class="feature-strip-item__icon-wrap">
-                  <svg class="feature-strip-item__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M12 20h9"/><path d="M16.375 3.625a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.375 3.625z"/>
-                  </svg>
-                </div>
-                <div>
-                  <h4 class="feature-strip-item__title">Daily Mains Answer Writing</h4>
-                  <p class="feature-strip-item__desc">Structured descriptive evaluation for GS 1 to 4, essay writing, and high-scoring structure.</p>
-                </div>
-              </div>
-
-              <div class="feature-strip-item">
-                <div class="feature-strip-item__icon-wrap">
-                  <svg class="feature-strip-item__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-                    <line x1="2" y1="20" x2="22" y2="20"/><line x1="6" y1="9" x2="6" y2="20"/><line x1="10" y1="9" x2="10" y2="20"/><line x1="14" y1="9" x2="14" y2="20"/><line x1="18" y1="9" x2="18" y2="20"/><polygon points="12 2 2 7 22 7 12 2"/>
-                  </svg>
-                </div>
-                <div>
-                  <h4 class="feature-strip-item__title">24x7 AC Reading Hall</h4>
-                  <p class="feature-strip-item__desc">Equipped with 12-year PYQ archives, standard reference textbooks, and periodicals.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- CTAs -->
-            <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-top: 1.5rem;">
-              <a href="about" class="btn btn--burgundy btn--regular">
-                <span class="btn__txt"><span class="btn__txt-inner" data-txt="Our Story & 14 Pillars →">Our Story &amp; 14 Pillars →</span></span>
-              </a>
-              <a href="#popover-start-your-journey" class="btn btn--outline btn--regular">
-                <span class="btn__txt"><span class="btn__txt-inner" data-txt="Book Strategy Session">Book Strategy Session</span></span>
-              </a>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ========================================================================
-         4. CINEMATIC TEXT-OVER-IMAGE FOCUS (MISSION & VISION)
-         ======================================================================== -->
-    <section id="section-2" class="section-text-over-image">
-      <div class="content-over-img" data-parallax>
-        <picture class="content-over-img__img">
-          <img class="img-full" src="assets/img/gallery/updated/23.JPG" alt="Aspirants batch studying at Lakshya Career Academy">
-        </picture>
-
-        <div class="content-over-img__inner txt-colorway-light">
-          <div class="content-over-img__top">
-            <h2 class="txt-script">Our Aim &amp; Mission</h2>
-            <div class="content-over-img__cols">
-              <div class="content-over-img__col content">
-                <p><span class="h2">To Increase Maharashtra’s Share in Direct Decision Making Process &amp; Governance.</span></p>
-              </div>
-              <div class="content-over-img__col content">
-                <p><span class="h6">Maharashtra contributes 10% to India's population but less than 7% to administration. Lakshya Career Academy prepares trained, able administrators with a philanthropic vision who actively strengthen state and national governance.</span></p>
-                <div style="margin-top: 1rem;">
-                  <a href="about#aim" class="btn btn--small btn--gold" style="display: inline-block;">
-                    <span class="btn__txt"><span class="btn__txt-inner" data-txt="Read Full Mission & Aim →">Read Full Mission &amp; Aim →</span></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    
-
-    <!-- ========================================================================
-         6. INTERACTIVE LINK-CARDS ACCORDION TABS (THE 7 PROGRAMS)
-         ======================================================================== -->
-    <section id="section-3" class="section-link-cards bg-colorway-dark-beige">
-      <ul class="link-cards link-cards--tabs">
+    <section id="section-courses" class="section-courses-discovery" aria-label="Explore Our Courses">
+      <div class="courses-discovery-container">
         
-        <!-- Tab 1: Rajyaseva -->
-        <li class="link-cards__item active">
-          <div>
-            <span class="txt-uppercase-cap" style="color: var(--color-burgundy); display:block; margin-bottom: 0.5rem;">Class I &amp; II Services</span>
-            <h3 class="link-cards__item-title">Rajyaseva Examination</h3>
+        <!-- Header & Instant Search -->
+        <div class="courses-discovery__header" data-animate="fade">
+          <div class="courses-discovery__title-group">
+            <span class="courses-discovery__badge">Comprehensive Programs</span>
+            <h2 class="courses-discovery__title">Explore Our Courses</h2>
+            <p class="courses-discovery__subtitle">Choose the right preparation program for your government service career.</p>
           </div>
-          <div class="link-cards__item-body">
-            <p class="link-cards__item-txt txt-tiny">
-              State Civil Services foundation program covering Deputy Collector, DySP, and Tahasildar cadres. 400M Prelims, 800M Mains (6 papers), and 100M Interview panel.
-            </p>
-            <div class="link-cards__item-link">
-              <a href="course-rajyaseva" class="secondary-link secondary-link--full">
-                <span class="secondary-link__txt">Explore Rajyaseva</span>
-              </a>
-            </div>
+          
+          <div class="courses-search-box">
+            <svg class="courses-search-box__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="courseSearchInput" class="courses-search-box__input" placeholder="Search courses (e.g. MPSC, PSI, Talathi)..." aria-label="Search courses by title, keywords or category">
+            <button type="button" id="courseSearchClear" class="courses-search-box__clear" aria-label="Clear search input">&times;</button>
           </div>
-        </li>
+        </div>
 
-        <!-- Tab 2: Combine Group B -->
-        <li class="link-cards__item">
-          <div>
-            <span class="txt-uppercase-cap" style="color: var(--color-gold); display:block; margin-bottom: 0.5rem;">Joint Subordinate Cadre</span>
-            <h3 class="link-cards__item-title">Combine Group B</h3>
-          </div>
-          <div class="link-cards__item-body">
-            <p class="link-cards__item-txt txt-tiny">
-              Unified joint coaching for Police Sub-Inspector (PSI), Sales Tax Inspector (STI), and Assistant Section Officer (ASO). Integrated Prelims-cum-Mains curriculum.
-            </p>
-            <div class="link-cards__item-link">
-              <a href="course-combine" class="secondary-link secondary-link--full">
-                <span class="secondary-link__txt">Explore Combine</span>
-              </a>
+        <!-- Courses Discovery Grid (1 Flagship Feature + 6 Core Cadres = 7 Courses Balanced Layout) -->
+        <div class="courses-discovery-grid" id="coursesGrid" data-animate="fade">
+          
+          <!-- 1. MPSC Rajyaseva Examination (Flagship Lead Feature) -->
+          <article class="course-discovery-card course-discovery-card--featured" data-category="state-services" data-title="mpsc rajyaseva examination state services civil services deputy collector dysp flagship">
+            <div class="course-discovery-card__media">
+              <img src="assets/img/courses/rajyaseva-hero.png" alt="MPSC Rajyaseva Examination Coaching at Lakshya Academy" class="course-discovery-card__img" loading="lazy">
+              <span class="course-discovery-card__badge course-discovery-card__badge--flagship">★ Flagship Program • State Services</span>
             </div>
-          </div>
-        </li>
-
-        <!-- Tab 3: PSI Mains & Law -->
-        <li class="link-cards__item">
-          <div>
-            <span class="txt-uppercase-cap" style="color: var(--color-slate); display:block; margin-bottom: 0.5rem;">Police Department</span>
-            <h3 class="link-cards__item-title">PSI Mains &amp; Physical</h3>
-          </div>
-          <div class="link-cards__item-body">
-            <p class="link-cards__item-txt txt-tiny">
-              Specialized law coaching covering IPC, CrPC, Mumbai Police Act, RTI, and Human Rights, accompanied by 100-mark ground physical fitness guidance.
-            </p>
-            <div class="link-cards__item-link">
-              <a href="course-psi" class="secondary-link secondary-link--full">
-                <span class="secondary-link__txt">Explore PSI Batch</span>
-              </a>
+            <div class="course-discovery-card__body">
+              <div class="course-discovery-card__eyebrow">
+                <span class="course-discovery-card__cadre-pill">Class I &amp; II Cadres</span>
+                <span class="course-discovery-card__batch-pill">Prelims + Mains + Interview</span>
+              </div>
+              <h3 class="course-discovery-card__title">MPSC Rajyaseva Examination</h3>
+              <p class="course-discovery-card__desc">
+                Comprehensive foundation program for Maharashtra Civil Services officer posts (Deputy Collector, DySP, Tahasildar) covering Prelims, 6 Mains papers, and mock interview panels.
+              </p>
+              <div class="course-discovery-card__pillars">
+                <div class="course-discovery-pillar">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span>Complete 6 Mains Papers Syllabus Coverage</span>
+                </div>
+                <div class="course-discovery-pillar">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span>Daily Evaluated Mains Answer Writing &amp; Mentoring</span>
+                </div>
+                <div class="course-discovery-pillar">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                  <span>Serving &amp; Retired Officers Mock Interview Panel</span>
+                </div>
+              </div>
+              <div class="course-discovery-card__footer">
+                <a href="course-rajyaseva" class="btn btn--burgundy btn--regular course-discovery-card__btn">
+                  <span class="btn__txt"><span class="btn__txt-inner" data-txt="Explore Full Program →">Explore Full Program →</span></span>
+                </a>
+                <span class="course-discovery-card__meta">Annual Academic Foundation Batch • Nashik</span>
+              </div>
             </div>
-          </div>
-        </li>
+          </article>
 
-        <!-- Tab 4: Saralseva & Talathi -->
-        <li class="link-cards__item">
-          <div>
-            <span class="txt-uppercase-cap" style="color: var(--color-burgundy); display:block; margin-bottom: 0.5rem;">Direct Recruitment</span>
-            <h3 class="link-cards__item-title">Saralseva &amp; Talathi</h3>
-          </div>
-          <div class="link-cards__item-body">
-            <p class="link-cards__item-txt txt-tiny">
-              200-mark 4-subject speed test mastery (Marathi, English, GK, Maths &amp; Reasoning) tailored for District Talathi and State departmental recruitment.
-            </p>
-            <div class="link-cards__item-link">
-              <a href="course-talathi" class="secondary-link secondary-link--full">
-                <span class="secondary-link__txt">Explore Saralseva</span>
-              </a>
+          <!-- 2. MPSC Combine Group B -->
+          <article class="course-discovery-card" data-category="combine" data-title="mpsc combine group b joint subordinate cadre psi sti aso">
+            <div class="course-discovery-card__media">
+              <img src="assets/img/courses/combine-group-b-hero.jpg" alt="MPSC Combine Group B Coaching at Lakshya Academy" class="course-discovery-card__img" loading="lazy">
+              <span class="course-discovery-card__badge">Joint Subordinate</span>
             </div>
-          </div>
-        </li>
+            <div class="course-discovery-card__body">
+              <div class="course-discovery-card__specs">
+                <span class="course-discovery-card__spec">PSI • STI • ASO</span>
+                <span class="course-discovery-card__spec">Integrated Curriculum</span>
+              </div>
+              <h3 class="course-discovery-card__title">MPSC Combine Group B</h3>
+              <p class="course-discovery-card__desc">
+                Unified joint preliminary coaching and specialized mains guidance for Police Sub-Inspector, Sales Tax Inspector, and Assistant Section Officer posts with 15-day review cycles.
+              </p>
+              <div class="course-discovery-card__footer">
+                <a href="course-combine" class="course-discovery-card__link">
+                  <span>Explore Course</span>
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
 
-      </ul>
+          <!-- 3. PSI Mains & Physical Coaching -->
+          <article class="course-discovery-card" data-category="police combine" data-title="psi mains physical coaching police sub inspector criminal law ipc crpc ground drills">
+            <div class="course-discovery-card__media">
+              <img src="assets/img/courses/psi-mains-physical-hero.png" alt="PSI Mains and Physical Coaching at Lakshya Academy" class="course-discovery-card__img" loading="lazy">
+              <span class="course-discovery-card__badge course-discovery-card__badge--burgundy">Police Cadre</span>
+            </div>
+            <div class="course-discovery-card__body">
+              <div class="course-discovery-card__specs">
+                <span class="course-discovery-card__spec">Law &amp; Special Acts</span>
+                <span class="course-discovery-card__spec">100M Ground Training</span>
+              </div>
+              <h3 class="course-discovery-card__title">PSI Mains &amp; Physical</h3>
+              <p class="course-discovery-card__desc">
+                Specialized coaching for Police Sub-Inspector covering IPC, CrPC, Evidence Act, Maharashtra Police Act, alongside structured 100-mark ground fitness drills and interview boards.
+              </p>
+              <div class="course-discovery-card__footer">
+                <a href="course-psi" class="course-discovery-card__link">
+                  <span>Explore Course</span>
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Sales Tax Inspector (STI) -->
+          <article class="course-discovery-card" data-category="combine" data-title="sales tax inspector sti finance gst economics revenue budget planning">
+            <div class="course-discovery-card__media">
+              <img src="assets/img/courses/sti-hero.png" alt="Sales Tax Inspector STI Coaching at Lakshya Academy" class="course-discovery-card__img" loading="lazy">
+              <span class="course-discovery-card__badge">Taxation &amp; Finance</span>
+            </div>
+            <div class="course-discovery-card__body">
+              <div class="course-discovery-card__specs">
+                <span class="course-discovery-card__spec">Economics &amp; GST</span>
+                <span class="course-discovery-card__spec">Mains Papers 1 &amp; 2</span>
+              </div>
+              <h3 class="course-discovery-card__title">Sales Tax Inspector (STI)</h3>
+              <p class="course-discovery-card__desc">
+                Targeted mains preparation focusing on Maharashtra economy, tax administration, GST jurisprudence, budget analysis, and rigorous answer writing reviews.
+              </p>
+              <div class="course-discovery-card__footer">
+                <a href="course-sti" class="course-discovery-card__link">
+                  <span>Explore Course</span>
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. Assistant Section Officer (ASO) -->
+          <article class="course-discovery-card" data-category="combine" data-title="assistant section officer aso mantralaya administration rti secretariat guidelines">
+            <div class="course-discovery-card__media">
+              <img src="assets/img/courses/aso-mains-hero.png" alt="Assistant Section Officer ASO Coaching at Lakshya Academy" class="course-discovery-card__img" loading="lazy">
+              <span class="course-discovery-card__badge">Secretariat Cadre</span>
+            </div>
+            <div class="course-discovery-card__body">
+              <div class="course-discovery-card__specs">
+                <span class="course-discovery-card__spec">Mantralaya Cadre</span>
+                <span class="course-discovery-card__spec">RTI &amp; IT Acts</span>
+              </div>
+              <h3 class="course-discovery-card__title">Assistant Section Officer (ASO)</h3>
+              <p class="course-discovery-card__desc">
+                Focused coaching for Mantralaya administrative posts covering Indian Constitution, RTI Act 2005, IT Act, and Secretariat Manual operating guidelines.
+              </p>
+              <div class="course-discovery-card__footer">
+                <a href="course-aso" class="course-discovery-card__link">
+                  <span>Explore Course</span>
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6. Saralseva Direct Recruitment -->
+          <article class="course-discovery-card" data-category="direct-recruitment" data-title="saralseva direct recruitment bharti tcs ibps clerk typist vanrakshak speed test">
+            <div class="course-discovery-card__media">
+              <img src="assets/img/courses/saralseva-bharti-hero.png" alt="Saralseva Direct Recruitment Coaching at Lakshya Academy" class="course-discovery-card__img" loading="lazy">
+              <span class="course-discovery-card__badge">Direct Recruitment</span>
+            </div>
+            <div class="course-discovery-card__body">
+              <div class="course-discovery-card__specs">
+                <span class="course-discovery-card__spec">TCS &amp; IBPS Pattern</span>
+                <span class="course-discovery-card__spec">200M Speed Mastery</span>
+              </div>
+              <h3 class="course-discovery-card__title">Saralseva Direct Recruitment</h3>
+              <p class="course-discovery-card__desc">
+                Structured preparation for state-level direct recruitment exams (Clerk/Typist, Tax Assistant, Vanrakshak) under TCS and IBPS computer-based testing patterns.
+              </p>
+              <div class="course-discovery-card__footer">
+                <a href="course-saralseva" class="course-discovery-card__link">
+                  <span>Explore Course</span>
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 7. Talathi Bharti Examination -->
+          <article class="course-discovery-card" data-category="direct-recruitment" data-title="talathi bharti examination revenue department marathi english gk maths reasoning">
+            <div class="course-discovery-card__media">
+              <img src="assets/img/courses/talathi-bharti-hero.jpg" alt="Talathi Bharti Coaching at Lakshya Academy" class="course-discovery-card__img" loading="lazy">
+              <span class="course-discovery-card__badge course-discovery-card__badge--burgundy">Revenue Cadre</span>
+            </div>
+            <div class="course-discovery-card__body">
+              <div class="course-discovery-card__specs">
+                <span class="course-discovery-card__spec">District Revenue Cadre</span>
+                <span class="course-discovery-card__spec">4-Subject Speed Tests</span>
+              </div>
+              <h3 class="course-discovery-card__title">Talathi Bharti Examination</h3>
+              <p class="course-discovery-card__desc">
+                High-yield speed preparation for Maharashtra District Revenue Talathi examinations covering Marathi, English, General Knowledge, and Numerical/Logical Reasoning.
+              </p>
+              <div class="course-discovery-card__footer">
+                <a href="course-talathi" class="course-discovery-card__link">
+                  <span>Explore Course</span>
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Empty Search State -->
+          <div id="courseNoResults" class="courses-no-results">
+            <h4 class="courses-no-results__title">No Courses Found</h4>
+            <p class="courses-no-results__desc">We couldn't find any courses matching your search query. Try searching with another keyword or reset the filter.</p>
+            <button type="button" id="courseResetBtn" class="btn btn--small btn--burgundy">
+              <span class="btn__txt"><span class="btn__txt-inner" data-txt="Reset Filters">Reset Filters</span></span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
     </section>
 
+    <!-- Interactive Filtering & Search Script for Courses Section -->
+    <script>
+      (function() {
+        const filterBtns = document.querySelectorAll('.courses-filter-btn');
+        const searchInput = document.getElementById('courseSearchInput');
+        const clearBtn = document.getElementById('courseSearchClear');
+        const cards = document.querySelectorAll('.course-discovery-card');
+        const noResults = document.getElementById('courseNoResults');
+        const resetBtn = document.getElementById('courseResetBtn');
+        let currentFilter = 'all';
 
+        function filterCourses() {
+          const query = searchInput ? searchInput.value.trim().toLowerCase() : '';
+          let visibleCount = 0;
 
+          if (clearBtn) {
+            clearBtn.style.display = query.length > 0 ? 'inline-flex' : 'none';
+          }
 
+          cards.forEach(card => {
+            const categories = (card.getAttribute('data-category') || '').split(' ');
+            const cardText = (card.getAttribute('data-title') || '') + ' ' + (card.innerText || '').toLowerCase();
 
+            const matchesCategory = (currentFilter === 'all') || categories.includes(currentFilter);
+            const matchesSearch = query === '' || cardText.includes(query);
+
+            if (matchesCategory && matchesSearch) {
+              card.style.display = 'flex';
+              visibleCount++;
+            } else {
+              card.style.display = 'none';
+            }
+          });
+
+          if (noResults) {
+            noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+          }
+        }
+
+        filterBtns.forEach(btn => {
+          btn.addEventListener('click', function() {
+            filterBtns.forEach(b => {
+              b.classList.remove('active');
+              b.setAttribute('aria-selected', 'false');
+            });
+            this.classList.add('active');
+            this.setAttribute('aria-selected', 'true');
+            currentFilter = this.getAttribute('data-filter') || 'all';
+            filterCourses();
+          });
+        });
+
+        if (searchInput) {
+          searchInput.addEventListener('input', filterCourses);
+        }
+
+        if (clearBtn) {
+          clearBtn.addEventListener('click', function() {
+            searchInput.value = '';
+            filterCourses();
+            searchInput.focus();
+          });
+        }
+
+        if (resetBtn) {
+          resetBtn.addEventListener('click', function() {
+            currentFilter = 'all';
+            if (searchInput) searchInput.value = '';
+            filterBtns.forEach(b => {
+              const isAll = b.getAttribute('data-filter') === 'all';
+              b.classList.toggle('active', isAll);
+              b.setAttribute('aria-selected', isAll ? 'true' : 'false');
+            });
+            filterCourses();
+          });
+        }
+      })();
+    </script>
 
     <!-- ========================================================================
-         10. QUOTE SLIDER (AUTHENTIC OFFICER REVIEWS WITH VERIFIED ACHIEVER PHOTOS)
+         5. SUCCESS STORIES & TESTIMONIALS (VERIFIED OFFICER REVIEWS) (AUTHENTIC OFFICER REVIEWS WITH VERIFIED ACHIEVER PHOTOS)
          ======================================================================== -->
     <section id="section-5" class="section section-testimonial-marquee pv-large bg-colorway-beige-warm">
       <div class="txt-center content mb-medium" data-animate="fade">
@@ -667,201 +740,9 @@
     </section>
 
     <!-- ========================================================================
-         11. ASYMMETRIC INSET ADMISSIONS FORM (.form-alt)
+         6. FINAL CONVERSION CTA ("Your Goal Needs a Plan.") ("Your Goal Needs a Plan.")
          ======================================================================== -->
-    <section id="admission-guidance" class="section-form-alt bg-colorway-beige pv-large">
-      <div class="section section--large">
-        <div class="form-alt">
-          <div class="form-alt__img">
-            <div class="form-alt__img-inner">
-              <img src="Website/Gallary-Photo/2.jpg" alt="Student preparing at Lakshya Reading Room">
-            </div>
-          </div>
-
-          <div class="form-alt__main">
-            <div class="form-alt__main-txt content">
-              <h2><span class="txt-script">Admissions &amp; Guidance</span></h2>
-              <p><span class="h3">Plan Your Journey to Success</span></p>
-            </div>
-            <div class="form-alt__main-txt-small">
-              <p>Get expert guidance for your UPSC and MPSC preparation. Connect with our team to understand course options, examination patterns, study plans, and the right preparation strategy for your goals.</p>
-            </div>
-
-            <form class="js-whatsapp-form">
-              <div class="form-group-minimal">
-                <input type="text" name="name" class="form-control-minimal" placeholder="Your Full Name *" required>
-              </div>
-              <div class="form-group-minimal">
-                <input type="tel" name="phone" class="form-control-minimal" placeholder="WhatsApp / Phone Number *" required>
-              </div>
-              <div class="form-group-minimal">
-                <select name="course" class="form-select-minimal" required>
-                  <option value="" disabled selected>Select Target Examination *</option>
-                  <option value="Rajyaseva Examination (MPSC State Services)">Rajyaseva Examination (State Civil Services)</option>
-                  <option value="MPSC Combine Group B (PSI / STI / ASO)">MPSC Combine Group B (PSI / STI / ASO)</option>
-                  <option value="PSI Mains & Physical Coaching">PSI Mains &amp; Physical Coaching</option>
-                  <option value="Sales Tax Inspector (STI) Mains">Sales Tax Inspector (STI) Mains</option>
-                  <option value="ASO Mains Examination">ASO Mains Examination</option>
-                  <option value="Saralseva Direct Recruitment">Saralseva Direct Recruitment</option>
-                  <option value="Talathi Bharti Examination">Talathi Bharti Examination</option>
-                </select>
-              </div>
-              <button type="submit" class="btn btn--burgundy btn--regular btn--full" style="margin-top: 1rem;">
-                <span class="btn__txt"><span class="btn__txt-inner" data-txt="Connect on WhatsApp 💬">Connect on WhatsApp 💬</span></span>
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ========================================================================
-         12. THE KNOWLEDGE HUB / ARTICLE SLIDER
-         ======================================================================== -->
-    <section id="section-8" class="section-article-slider pv-large bg-colorway-dark-beige">
-      <div class="section section--small mb-medium">
-        <div class="txt-center content">
-          <h2><span class="txt-script">The Knowledge Hub</span></h2>
-          <h3>Insights &amp; Strategy from Academic Faculty</h3>
-        </div>
-      </div>
-
-      <div class="section section--large">
-        <div class="flickity--column">
-          
-          <article class="article">
-            <div class="meta-bar">
-              <span class="meta-bar__reading-time">6 min read</span>
-              <span class="meta-bar__date">Strategy</span>
-            </div>
-            <div class="article__content">
-              <div class="article__term">
-                <span class="btn btn--tiny btn--outline"><span class="btn__txt"><span class="btn__txt-inner" data-txt="Rajyaseva">Rajyaseva</span></span></span>
-              </div>
-              <p class="article__title">
-                <a href="course-rajyaseva">How to Master MPSC Descriptive GS &amp; Essay Papers</a>
-              </p>
-              <div class="article__link">
-                <a href="course-rajyaseva" class="secondary-link"><span class="secondary-link__txt">Read Guide</span></a>
-              </div>
-            </div>
-          </article>
-
-          <article class="article">
-            <div class="meta-bar">
-              <span class="meta-bar__reading-time">7 min read</span>
-              <span class="meta-bar__date">Analysis</span>
-            </div>
-            <div class="article__content">
-              <div class="article__term">
-                <span class="btn btn--tiny btn--outline"><span class="btn__txt"><span class="btn__txt-inner" data-txt="PYQ Trends">PYQ Trends</span></span></span>
-              </div>
-              <p class="article__title">
-                <a href="study-material">12-Year MPSC Topicwise Question Weightage Breakdown</a>
-              </p>
-              <div class="article__link">
-                <a href="study-material" class="secondary-link"><span class="secondary-link__txt">Read Guide</span></a>
-              </div>
-            </div>
-          </article>
-
-          <article class="article">
-            <div class="meta-bar">
-              <span class="meta-bar__reading-time">5 min read</span>
-              <span class="meta-bar__date">Foundation</span>
-            </div>
-            <div class="article__content">
-              <div class="article__term">
-                <span class="btn btn--tiny btn--outline"><span class="btn__txt"><span class="btn__txt-inner" data-txt="State Board">State Board</span></span></span>
-              </div>
-              <p class="article__title">
-                <a href="study-material">Standard 5th to 12th Maharashtra Textbooks Essential List</a>
-              </p>
-              <div class="article__link">
-                <a href="study-material" class="secondary-link"><span class="secondary-link__txt">Read Guide</span></a>
-              </div>
-            </div>
-          </article>
-
-          <article class="article">
-            <div class="meta-bar">
-              <span class="meta-bar__reading-time">8 min read</span>
-              <span class="meta-bar__date">Current Affairs</span>
-            </div>
-            <div class="article__content">
-              <div class="article__term">
-                <span class="btn btn--tiny btn--outline"><span class="btn__txt"><span class="btn__txt-inner" data-txt="Lokrajya">Lokrajya</span></span></span>
-              </div>
-              <p class="article__title">
-                <a href="study-material">Synthesizing Lokrajya &amp; Yojana for High-Scoring Answers</a>
-              </p>
-              <div class="article__link">
-                <a href="study-material" class="secondary-link"><span class="secondary-link__txt">Read Guide</span></a>
-              </div>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ========================================================================
-         13. 4-COLUMN VERTICAL IMAGE LINKS ACCORDION (GENUINE LAKSHYA ASSETS)
-         ======================================================================== -->
-    <section id="section-9" class="section-image-links">
-      <ul class="img-links">
-        
-        <li class="img-links__item active" data-img-link>
-          <a class="img-links__item-link" href="course-rajyaseva">
-            <picture>
-              <img src="assets/img/gallery/updated/15.JPG" alt="Rajyaseva">
-            </picture>
-            <div class="img-links__item-title">
-              <p class="img-links__item-title-txt">Rajyaseva Program</p>
-            </div>
-          </a>
-        </li>
-
-        <li class="img-links__item" data-img-link>
-          <a class="img-links__item-link" href="course-combine">
-            <picture>
-              <img src="assets/img/gallery/updated/26.JPG" alt="Combine Group B">
-            </picture>
-            <div class="img-links__item-title">
-              <p class="img-links__item-title-txt">Combine Group B</p>
-            </div>
-          </a>
-        </li>
-
-        <li class="img-links__item" data-img-link>
-          <a class="img-links__item-link" href="course-psi">
-            <picture>
-              <img src="assets/img/gallery/updated/18.JPG" alt="PSI Mains & Physical">
-            </picture>
-            <div class="img-links__item-title">
-              <p class="img-links__item-title-txt">PSI Mains &amp; Law</p>
-            </div>
-          </a>
-        </li>
-
-        <li class="img-links__item" data-img-link>
-          <a class="img-links__item-link" href="study-material">
-            <picture>
-              <img src="Website/Gallary-Photo/4.jpg" alt="Study Material">
-            </picture>
-            <div class="img-links__item-title">
-              <p class="img-links__item-title-txt">Study Material &amp; Notes</p>
-            </div>
-          </a>
-        </li>
-
-      </ul>
-    </section>
-
-    <!-- ========================================================================
-         14. FLAGSHIP CONVERSION CTA ("Your Goal Needs a Plan.")
-         ======================================================================== -->
-    <section class="section-flagship-cta pv-large">
+    <section id="admission-guidance" class="section-flagship-cta pv-large">
       <div class="section section--large">
         <div class="flagship-cta">
           <span class="flagship-cta__script">Begin Your Transformation</span>
@@ -879,9 +760,6 @@
             <a href="https://wa.me/917887878001?text=Hello%20Lakshya%20Career%20Academy%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--large" style="color: #25D366; border-color: #25D366; font-weight: 700;">
               <span class="btn__txt"><span class="btn__txt-inner" data-txt="💬 Chat on WhatsApp">💬 Chat on WhatsApp</span></span>
             </a>
-            <a href="courses" class="btn btn--outline btn--large" style="color: var(--color-gold); border-color: var(--color-gold);">
-              <span class="btn__txt"><span class="btn__txt-inner" data-txt="Explore All 7 Programs →">Explore All 7 Programs →</span></span>
-            </a>
           </div>
           
         </div>
@@ -889,22 +767,12 @@
     </section>
 
     <!-- ========================================================================
-         15. EDITORIAL FOOTER
+         7. EDITORIAL FOOTER
          ======================================================================== -->
         <!-- ========================================================================
-         FOOTER WITH STRAPLINE BANNER
+         FOOTER
          ======================================================================== -->
     <footer class="footer">
-      <div class="footer__section--strapline">
-        <div class="footer__strapline">
-          <div class="footer__strapline-inner">
-            <span class="footer__strapline-item">ध्येयमेव जयते • THE LAKSHYA CAREER ACADEMY • NASHIK • EST. 2010 • </span>
-            <span class="footer__strapline-item">TO INCREASE MAHARASHTRA'S SHARE IN GOVERNANCE • </span>
-            <span class="footer__strapline-item">ध्येयमेव जयते • THE LAKSHYA CAREER ACADEMY • NASHIK • EST. 2010 • </span>
-            <span class="footer__strapline-item">TO INCREASE MAHARASHTRA'S SHARE IN GOVERNANCE • </span>
-          </div>
-        </div>
-      </div>
 
       <div class="footer__section--main">
         <div class="section section--large">
