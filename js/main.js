@@ -23,57 +23,100 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* --------------------------------------------------------------------------
-   1. STICKY HEADER AUTO-HIDE SCROLL ENGINE
+   1. STICKY HEADER AUTO-HIDE SCROLL ENGINE (FLICKER-FREE SMART HEADER)
    -------------------------------------------------------------------------- */
 function initStickyHeader() {
   const header = document.querySelector('.header');
   if (!header) return;
 
-  let lastScrollY = window.pageYOffset || document.documentElement.scrollTop;
-  const scrollThreshold = 80;
-  let isScrolling = false;
+  let lastScrollY = Math.max(0, window.pageYOffset || document.documentElement.scrollTop);
+  let accumulatedDelta = 0;
+  let currentDirection = 'none';
+  let isTicking = false;
 
-  const handleScroll = () => {
-    const currentScrollY = window.pageYOffset || document.documentElement.scrollTop;
+  // Threshold constants for smooth, flicker-free movement
+  const TOP_THRESHOLD = 20;      // Always visible and un-scrolled at the very top
+  const HIDE_THRESHOLD = 80;     // Minimum scroll distance from top before header can hide
+  const HIDE_DELTA = 12;         // Accumulated downward scroll to slide header up out of view
+  const SHOW_DELTA = 8;          // Accumulated upward scroll to slide header down into view
 
-    // Add background blur and shadow when scrolled
-    if (currentScrollY > 20) {
-      header.classList.add('header--scrolled');
-    } else {
-      header.classList.remove('header--scrolled');
+  const updateHeader = () => {
+    const currentScrollY = Math.max(0, window.pageYOffset || document.documentElement.scrollTop);
+    const docHeight = document.documentElement.scrollHeight;
+    const winHeight = window.innerHeight;
+
+    // Do not hide if the mobile menu drawer or modal is open
+    const isMenuOpen = document.body.classList.contains('menu-open') || 
+                       Boolean(document.querySelector('.main-menu.is-active'));
+    if (isMenuOpen) {
+      header.classList.remove('header--hidden');
+      lastScrollY = currentScrollY;
+      isTicking = false;
+      return;
     }
 
-    // Auto-hide navigation on scroll down, show on scroll up
-    if (currentScrollY > scrollThreshold) {
-      const scrollDiff = currentScrollY - lastScrollY;
+    // Top region of the page: always keep navbar visible without scroll shadow
+    if (currentScrollY <= TOP_THRESHOLD) {
+      header.classList.remove('header--scrolled');
+      header.classList.remove('header--hidden');
+      accumulatedDelta = 0;
+      currentDirection = 'none';
+      lastScrollY = currentScrollY;
+      isTicking = false;
+      return;
+    }
 
-      // Scrolling down -> hide navbar
-      if (scrollDiff > 6) {
+    // Past top threshold: apply scrolled styling (subtle shadow and background)
+    header.classList.add('header--scrolled');
+
+    // Prevent hiding on iOS/macOS rubber-band bounce at bottom
+    if (currentScrollY + winHeight >= docHeight - 10) {
+      lastScrollY = currentScrollY;
+      isTicking = false;
+      return;
+    }
+
+    const diff = currentScrollY - lastScrollY;
+
+    if (diff > 0) {
+      // User is scrolling DOWN
+      if (currentDirection !== 'down') {
+        currentDirection = 'down';
+        accumulatedDelta = 0;
+      }
+      accumulatedDelta += diff;
+
+      // Smoothly hide navbar once scrolled past threshold with sufficient down movement
+      if (currentScrollY > HIDE_THRESHOLD && accumulatedDelta >= HIDE_DELTA) {
         header.classList.add('header--hidden');
       }
-      // Scrolling up -> reveal navbar
-      else if (scrollDiff < -6) {
+    } else if (diff < 0) {
+      // User is scrolling UP
+      if (currentDirection !== 'up') {
+        currentDirection = 'up';
+        accumulatedDelta = 0;
+      }
+      accumulatedDelta += Math.abs(diff);
+
+      // Smoothly reveal navbar on intentional upward scroll
+      if (accumulatedDelta >= SHOW_DELTA) {
         header.classList.remove('header--hidden');
       }
-    } else {
-      // Top region of page -> always visible
-      header.classList.remove('header--hidden');
     }
 
-    lastScrollY = currentScrollY <= 0 ? 0 : currentScrollY;
+    lastScrollY = currentScrollY;
+    isTicking = false;
   };
 
   window.addEventListener('scroll', () => {
-    if (!isScrolling) {
-      window.requestAnimationFrame(() => {
-        handleScroll();
-        isScrolling = false;
-      });
-      isScrolling = true;
+    if (!isTicking) {
+      window.requestAnimationFrame(updateHeader);
+      isTicking = true;
     }
   }, { passive: true });
 
-  handleScroll();
+  // Initial check on page load
+  updateHeader();
 }
 
 /* --------------------------------------------------------------------------
