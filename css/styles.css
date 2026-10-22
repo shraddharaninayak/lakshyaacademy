@@ -80,6 +80,9 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 [id] {
@@ -94,6 +97,9 @@ body {
   font-weight: 400;
   position: relative;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 img, picture, svg {
