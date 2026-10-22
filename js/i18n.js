@@ -147,6 +147,22 @@
     });
   }
 
+  function updateBilingualImages(lang) {
+    document.querySelectorAll('[data-src-mr][data-src-en]').forEach((el) => {
+      const targetSrc = lang === 'mr' ? el.getAttribute('data-src-mr') : el.getAttribute('data-src-en');
+      if (targetSrc && el.getAttribute('src') !== targetSrc) {
+        el.setAttribute('src', targetSrc);
+      }
+    });
+
+    document.querySelectorAll('[data-img-src-mr][data-img-src-en]').forEach((el) => {
+      const targetSrc = lang === 'mr' ? el.getAttribute('data-img-src-mr') : el.getAttribute('data-img-src-en');
+      if (targetSrc) {
+        el.setAttribute('data-img-src', targetSrc);
+      }
+    });
+  }
+
   function applyLanguage(lang) {
     const dict = window.LAKSHYA_I18N || {};
 
@@ -162,6 +178,7 @@
       restoreAttributes();
     }
 
+    updateBilingualImages(lang);
     updateSwitcherUI(lang);
     saveLanguage(lang);
 
@@ -199,6 +216,7 @@
   function init() {
     const currentLang = getSavedLanguage();
     updateSwitcherUI(currentLang);
+    updateBilingualImages(currentLang);
     if (currentLang === 'mr') {
       applyLanguage('mr');
     }

@@ -142,6 +142,13 @@ function initMainMenuDrawer() {
   if (overlay) overlay.addEventListener('click', closeMenu);
   closeBtns.forEach(btn => btn.addEventListener('click', closeMenu));
   
+  // Close menu when clicking on an in-page anchor link (e.g. #admission-guidance)
+  mainMenu.querySelectorAll('a[href*="#"]').forEach(a => {
+    a.addEventListener('click', () => {
+      closeMenu();
+    });
+  });
+  
   // Close menu on ESC key
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && mainMenu.classList.contains('is-active')) {
