@@ -898,6 +898,16 @@ function initCourseTabs() {
         pane.style.display = 'none';
       }
     });
+
+    // Keep active tab visible in horizontally scrollable tabs bar on mobile
+    if (activeTab && typeof activeTab.scrollIntoView === 'function') {
+      try {
+        activeTab.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+      } catch (err) {
+        // Fallback for older browsers
+        activeTab.scrollIntoView(false);
+      }
+    }
   }
 
   wrappers.forEach(wrapper => {

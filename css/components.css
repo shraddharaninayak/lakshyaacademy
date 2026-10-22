@@ -4305,31 +4305,197 @@
    !important is required to override inline style="" attributes.
    ========================================================================== */
 @media (max-width: 768px) {
-  /* 1. Collapse outer 2fr/1fr grid to single column.
-        Inline style="grid-template-columns: 2fr 1fr" requires !important. */
+  /* 1. Collapse outer 2fr/1fr grid to single column that can shrink */
   .section-blueprint .grid {
-    grid-template-columns: 1fr !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
     gap: 2rem !important;
   }
 
-  /* 2. Unstick the admission aside; stack it below main content. */
+  /* CRITICAL: Force every direct child of the grid to allow shrinking (min-width: 0) */
+  .section-blueprint .grid > * {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Main content wrapper */
+  .section-blueprint .course-tabs-wrapper {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    margin-bottom: 2rem !important;
+  }
+
+  /* Navigation tabs: horizontal scrolling within tabs only */
+  .section-blueprint .course-tabs-nav {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    -webkit-overflow-scrolling: touch !important;
+    overscroll-behavior-x: contain !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding-bottom: 0.5rem !important;
+    margin-bottom: 1.5rem !important;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-gold) transparent;
+  }
+
+  .section-blueprint .course-tabs-nav::-webkit-scrollbar {
+    height: 4px;
+    display: block;
+  }
+  .section-blueprint .course-tabs-nav::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+  }
+  .section-blueprint .course-tabs-nav::-webkit-scrollbar-thumb {
+    background: var(--color-gold);
+    border-radius: 4px;
+  }
+
+  .section-blueprint .course-tab-btn {
+    flex-shrink: 0 !important;
+    white-space: nowrap !important;
+    font-size: 0.85rem !important;
+    padding: 0.55rem 0.95rem !important;
+  }
+
+  /* Tab content & panes */
+  .section-blueprint .course-tabs-content,
+  .section-blueprint .course-tab-pane {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Tab pane inner containers and cards */
+  .section-blueprint .course-tab-pane > div,
+  .section-blueprint .course-tab-pane div[style*="background"],
+  .section-blueprint .course-tab-pane div[style*="padding"] {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Grids inside tab panes (mentorship cards, exam stage papers, etc.) */
+  .section-blueprint .course-tab-pane .grid,
+  .section-blueprint .course-tab-pane .grid-2,
+  .section-blueprint .course-tab-pane .grid-3 {
+    grid-template-columns: minmax(0, 1fr) !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    gap: 1rem !important;
+  }
+
+  .section-blueprint .course-tab-pane .grid > *,
+  .section-blueprint .course-tab-pane .grid-2 > *,
+  .section-blueprint .course-tab-pane .grid-3 > * {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Headings & typography in course pages */
+  .section-blueprint h1,
+  .section-blueprint h2,
+  .section-blueprint h3,
+  .section-blueprint h4,
+  .section-blueprint p,
+  .section-blueprint span,
+  .section-blueprint li,
+  .section-blueprint strong {
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    max-width: 100% !important;
+  }
+
+  .section-blueprint h3,
+  .section-blueprint .h3 {
+    font-size: clamp(1.25rem, 5vw, 1.65rem) !important;
+    line-height: 1.25 !important;
+  }
+
+  .section-blueprint h4,
+  .section-blueprint .h4 {
+    font-size: clamp(1.1rem, 4vw, 1.35rem) !important;
+    line-height: 1.3 !important;
+  }
+
+  .section-blueprint ol,
+  .section-blueprint ul {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Unstick the admission aside; stack it below main content */
   .section-blueprint aside {
     position: static !important;
     top: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .section-blueprint aside > div {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .section-blueprint aside .btn {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 0.75rem 1rem !important;
+    font-size: 0.88rem !important;
+  }
+
+  .section-blueprint aside .btn__txt,
+  .section-blueprint aside .btn__txt-inner {
+    max-width: 100% !important;
+    white-space: normal !important;
+    text-align: center !important;
+  }
+
+  /* Space-between flex rows */
+  .section-blueprint [style*="justify-content: space-between"] {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    align-items: baseline !important;
+    gap: 0.35rem !important;
+  }
+
+  .section-blueprint [style*="justify-content: space-between"] > strong {
+    flex-shrink: 0;
+  }
+
+  .section-blueprint [style*="justify-content: space-between"] > span[style*="max-width: 60%"],
+  .section-blueprint [style*="justify-content: space-between"] > span[style*="text-align: right"] {
+    max-width: 100% !important;
+    text-align: left !important;
+  }
+
+  /* Prevent section-blueprint from creating horizontal overflow */
+  .section-blueprint {
     width: 100%;
     max-width: 100%;
-  }
-
-  /* 3. Wrap inline space-between flex rows so labels/values stack instead
-        of squeezing side-by-side on narrow screens (eligibility, exam
-        stage headers, admission panel info rows). */
-  .section-blueprint [style*="justify-content: space-between"] {
-    flex-wrap: wrap !important;
-    gap: 0.4rem !important;
-  }
-
-  /* 4. Prevent any overflow caused by residual inline widths. */
-  .section-blueprint {
+    box-sizing: border-box;
     overflow-x: hidden;
   }
 }
@@ -6433,4 +6599,468 @@ body {
 
 .main-menu__subitems.is-collapsed {
   display: none !important;
+}
+
+/* ==========================================================================
+   GLOBAL SITE-WIDE MOBILE RESPONSIVE SUPPLEMENT
+   Covers all pages. !important is required to override inline style=""
+   attributes that cannot be controlled by normal specificity rules.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. HEADER: prevent overflow on phones / small tablets.
+      The CTA button and lang selector are duplicated inside the mobile drawer,
+      so hiding them from the sticky header frees space for the logo + hamburger.
+   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   MOBILE HEADER NAVBAR — VISIBLE ACTIONS (≤ 768px)
+   Keeps Logo, Language Selector, Get Admission Guidance button,
+   and Hamburger menu fully visible, accessible, and aligned without overflow.
+   ========================================================================== */
+@media (max-width: 768px) {
+  .header__main-inner {
+    padding: 0.45rem clamp(0.4rem, 2.5vw, 1rem) !important;
+    min-height: 56px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    gap: 0.35rem !important;
+  }
+
+  .header__logo {
+    flex-shrink: 1 !important;
+    min-width: 0 !important;
+  }
+
+  .header__logo .logo__img {
+    height: clamp(30px, 8vw, 42px) !important;
+    max-width: clamp(80px, 26vw, 130px) !important;
+    width: auto !important;
+    object-fit: contain !important;
+  }
+
+  .header__actions {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    gap: clamp(0.2rem, 1.2vw, 0.45rem) !important;
+    flex-shrink: 0 !important;
+    max-width: calc(100% - 85px) !important;
+  }
+
+  /* 1. Language switcher pill: visible & compact */
+  .header__actions .lang-selector {
+    display: inline-flex !important;
+    align-items: center !important;
+    padding: 2px !important;
+    border-radius: 16px !important;
+    flex-shrink: 0 !important;
+    background: rgba(255, 255, 255, 0.95) !important;
+    border: 1px solid rgba(139, 30, 30, 0.25) !important;
+  }
+
+  .header__actions .lang-pill {
+    font-size: clamp(0.6rem, 1.8vw, 0.72rem) !important;
+    padding: 0.16rem clamp(0.32rem, 1vw, 0.5rem) !important;
+    line-height: 1.15 !important;
+    border-radius: 12px !important;
+  }
+
+  /* 2. "Get Admission Guidance" button: visible, compact rounded pill matching design */
+  .header__actions .btn,
+  .header__actions .btn--tiny {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0.22rem clamp(0.35rem, 1.2vw, 0.55rem) !important;
+    font-size: clamp(0.58rem, 1.7vw, 0.68rem) !important;
+    font-weight: 700 !important;
+    line-height: 1.08 !important;
+    text-align: center !important;
+    border-radius: 14px !important;
+    background-color: var(--color-burgundy, #8B1E1E) !important;
+    border-color: var(--color-burgundy, #8B1E1E) !important;
+    color: #FFFFFF !important;
+    max-width: clamp(66px, 19vw, 84px) !important;
+    flex-shrink: 0 !important;
+    text-decoration: none !important;
+  }
+
+  .header__actions .btn .btn__txt {
+    display: block !important;
+    overflow: visible !important;
+    line-height: 1.08 !important;
+  }
+
+  .header__actions .btn .btn__txt-inner {
+    display: block !important;
+    white-space: normal !important;
+    line-height: 1.08 !important;
+    transform: none !important;
+  }
+
+  .header__actions .btn .btn__txt-inner::after {
+    display: none !important;
+  }
+
+  /* 3. Hamburger menu trigger: properly sized & aligned */
+  .header__actions .menu-trigger {
+    width: clamp(32px, 8vw, 38px) !important;
+    height: clamp(32px, 8vw, 38px) !important;
+    min-width: clamp(32px, 8vw, 38px) !important;
+    flex-shrink: 0 !important;
+    margin-left: 0 !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 1px solid var(--color-border-subtle) !important;
+  }
+
+  .header__actions .menu-trigger__line {
+    width: 14px !important;
+    height: 1.5px !important;
+  }
+}
+
+/* Extra small screens (≤ 340px) micro-spacing */
+@media (max-width: 340px) {
+  .header__main-inner {
+    padding-left: 0.3rem !important;
+    padding-right: 0.3rem !important;
+    gap: 0.2rem !important;
+  }
+  .header__logo .logo__img {
+    height: 28px !important;
+    max-width: 74px !important;
+  }
+  .header__actions {
+    gap: 0.2rem !important;
+  }
+  .header__actions .lang-pill {
+    padding: 0.12rem 0.26rem !important;
+    font-size: 0.56rem !important;
+  }
+  .header__actions .btn {
+    padding: 0.16rem 0.28rem !important;
+    font-size: 0.54rem !important;
+    max-width: 60px !important;
+  }
+  .header__actions .menu-trigger {
+    width: 28px !important;
+    height: 28px !important;
+    min-width: 28px !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   2. GLOBAL FLEX-WRAP DEFENSIVE RULE
+      Extends the existing .section-blueprint fix to ALL pages.
+      Elements with inline style="…justify-content: space-between…" wrap
+      on narrow screens so labels & buttons never squeeze off-screen.
+   -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  [style*="justify-content: space-between"] {
+    flex-wrap: wrap !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   3. SMALL-PHONE (≤ 360px) MICRO-ADJUSTMENTS
+      Fine-tune padding and font sizes for the narrowest devices.
+   -------------------------------------------------------------------------- */
+@media (max-width: 360px) {
+  /* Tighten section horizontal padding so cards don't bleed to the edge */
+  .section {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* Prevent cards with large inline padding from overflowing */
+  .card-bespoke {
+    padding: 1.25rem !important;
+  }
+
+  /* Popover inner padding reduction on very small screens */
+  .popover__inner {
+    padding: 1.25rem !important;
+  }
+
+  /* Reduce heading sizes slightly to prevent horizontal overflow */
+  .flagship-banner__title {
+    font-size: clamp(1.6rem, 10vw, 2.5rem) !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. COURSE TABS: ensure horizontal scroll on all phones
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .course-tabs-nav {
+    overflow-x: auto !important;
+    flex-wrap: nowrap !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+
+  .course-tabs-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .course-tab-btn {
+    flex-shrink: 0 !important;
+    white-space: nowrap !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   5. PREVENT WIDE INLINE-STYLE ELEMENTS FROM CREATING HORIZONTAL SCROLL
+      on pages that don't use .section-blueprint (contact, about, etc.)
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .section-contact-details,
+  .section-stories-grid,
+  .section-testimonials-grid,
+  .section-text-content {
+    overflow-x: hidden;
+  }
+}
+
+/* ==========================================================================
+   GLOBAL MOBILE RESPONSIVE — OVERFLOW & LAYOUT FIXES
+   Applies site-wide at phone breakpoints. Added to complement existing
+   component-level breakpoints already in this file.
+   ========================================================================== */
+
+/* 1. Header: hide the "Get Admission Guidance" CTA on phones.
+      It lives in the mobile drawer at the bottom, so this is safe. */
+/* .header__actions .btn--tiny visible on all mobile */
+
+/* 2. Hero banner bottom text: stack the two info columns on phones instead of
+      squeezing them side-by-side at justify-content: space-between. */
+@media (max-width: 640px) {
+  .flagship-banner__txt {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .flagship-banner__txt-col {
+    font-size: clamp(1rem, 3.5vw, 1.25rem);
+  }
+}
+
+/* 3. About page Vision/Mission card headers: wrap label + badge pill on very
+      small phones so "Institutional Purpose" doesn't overflow at 360px. */
+@media (max-width: 480px) {
+  .aim-box [style*="justify-content: space-between"] {
+    flex-wrap: wrap !important;
+    gap: 0.4rem !important;
+  }
+}
+
+/* 4. Prevent any inline-styled flex row in contact/info cards from overflowing.
+      Targets cards with emoji + content layout. */
+@media (max-width: 480px) {
+  .card-bespoke [style*="display: flex"][style*="justify-content: space-between"] {
+    flex-wrap: wrap !important;
+    gap: 0.5rem !important;
+  }
+  .card-bespoke [style*="display: flex"][style*="gap: 1rem"][style*="align-items: flex-start"] {
+    gap: 0.75rem !important;
+  }
+}
+
+/* ==========================================================================
+   COURSE DETAIL PAGES — ADDITIONAL MOBILE FIXES
+   Targets all 7 course pages (.section-blueprint) for phone widths.
+   ========================================================================== */
+
+/* 5. Reduce heavy inline padding on tab-pane cards at mobile widths.
+      Cards use style="padding: 2.5rem" — at 320px that leaves only ~200px for
+      content. Pull it down to breathable values. */
+@media (max-width: 480px) {
+  .section-blueprint .card-bespoke {
+    padding: 1.25rem !important;
+  }
+  .section-blueprint aside .card-bespoke {
+    padding: 1.25rem !important;
+  }
+}
+@media (max-width: 360px) {
+  .section-blueprint .card-bespoke {
+    padding: 1rem !important;
+  }
+}
+
+/* 6. Flagship CTA action buttons: each button should be full-width on phones
+      so none of the 3 items clips or overflows. The container already wraps;
+      we just pin width to 100% so each sits on its own row. */
+@media (max-width: 480px) {
+  .flagship-cta__actions .btn {
+    width: 100% !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .flagship-cta__actions {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+  }
+}
+
+/* 7. Course page section padding: shrink horizontal gutter on very small phones
+      so more width is available for card content. */
+@media (max-width: 360px) {
+  .section-blueprint .section {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+/* ==========================================================================
+   TESTIMONIALS MOBILE CAROUSEL — Success Stories page
+   Desktop: standard 3-column grid (unchanged).
+   Mobile (≤768px): hide the grid, show an auto-scrolling carousel.
+   ========================================================================== */
+
+/* Desktop: carousel wrapper is hidden */
+.testimonials-mobile-carousel {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* Hide the static grid on mobile */
+  .section-testimonials-grid .grid.grid-3 {
+    display: none !important;
+  }
+
+  /* Show the carousel */
+  .testimonials-mobile-carousel {
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Track: a flex row of cards that animates infinitely */
+  .testimonials-track {
+    display: flex;
+    gap: 1rem;
+    width: max-content;
+    animation: testimonials-scroll 20s linear infinite;
+  }
+
+  /* Each card: 82vw wide so the next card is partially visible */
+  .testimonials-track .card-bespoke {
+    width: 82vw !important;
+    max-width: 340px !important;
+    flex-shrink: 0 !important;
+    padding: 1.5rem !important;
+    box-sizing: border-box;
+  }
+
+  /* Pause on hover (desktop fallback) or .is-paused class (JS touch) */
+  .testimonials-mobile-carousel:hover .testimonials-track,
+  .testimonials-mobile-carousel.is-paused .testimonials-track {
+    animation-play-state: paused;
+  }
+}
+
+/* Infinite scroll animation: moves by exactly 50% (half = 3 original cards,
+   other half = 3 duplicate cards), then jumps back seamlessly. */
+@keyframes testimonials-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Respect reduced-motion: fall back to a static horizontal scroll snap */
+@media (prefers-reduced-motion: reduce) {
+  .testimonials-track {
+    animation: none !important;
+  }
+  .testimonials-mobile-carousel {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .testimonials-mobile-carousel::-webkit-scrollbar {
+    display: none;
+  }
+  .testimonials-track .card-bespoke {
+    scroll-snap-align: start;
+  }
+}
+
+/* ==========================================================================
+   COURSE DETAIL PAGES — TAB PANE PANEL PADDING FIX
+   The eligibility / prelims / mains / interview / posts pane cards are plain
+   <div> elements with inline padding — not .card-bespoke — so they need their
+   own selectors. At 320px, padding:2.5rem leaves only ~200px for content.
+   ========================================================================== */
+/* ==========================================================================
+   COURSE DETAIL PAGES — TAB PANE & CARD PADDING ADJUSTMENTS
+   ========================================================================== */
+@media (max-width: 480px) {
+  .section-blueprint .course-tab-pane div[style*="padding: 2.5rem"],
+  .section-blueprint .course-tab-pane div[style*="padding: 2rem"],
+  .section-blueprint .course-tab-pane div[style*="padding: 1.75rem"] {
+    padding: 1.25rem !important;
+  }
+  /* Sidebar admission card */
+  .section-blueprint aside > div[style*="padding: 2rem"] {
+    padding: 1.25rem !important;
+  }
+  .section-blueprint aside div[style*="padding: 1.25rem"] {
+    padding: 1rem !important;
+  }
+
+  /* Consultation form */
+  .section-form [style*="minmax(240px, 1fr)"],
+  .form-alt [style*="minmax(240px, 1fr)"] {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+  .form-alt__body {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+  .form-alt__header {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .section-blueprint .section {
+    padding-left: 0.85rem !important;
+    padding-right: 0.85rem !important;
+  }
+
+  .section-blueprint .course-tab-pane div[style*="padding: 2.5rem"],
+  .section-blueprint .course-tab-pane div[style*="padding: 2rem"],
+  .section-blueprint .course-tab-pane div[style*="padding: 1.75rem"],
+  .section-blueprint .course-tab-pane div[style*="padding: 1.5rem"] {
+    padding: 1rem !important;
+  }
+
+  .section-blueprint aside > div[style*="padding: 2rem"] {
+    padding: 1rem !important;
+  }
+  .section-blueprint aside div[style*="padding: 1.25rem"] {
+    padding: 0.85rem !important;
+  }
+  .section-blueprint aside .btn {
+    padding: 0.65rem 0.75rem !important;
+    font-size: 0.82rem !important;
+  }
+
+  .form-alt__body {
+    padding-left: 0.85rem !important;
+    padding-right: 0.85rem !important;
+  }
+  .form-alt__header {
+    padding-left: 0.85rem !important;
+    padding-right: 0.85rem !important;
+  }
 }
